@@ -1,0 +1,78 @@
+{
+  "generatedAt": "2026-06-13T12:54:01.016Z",
+  "dateLabel": "2026年6月13日 · 星期六",
+  "issue": 165,
+  "githubRepos": [
+    {
+      "rank": "01",
+      "name": "XiaomiMiMo / MiMo-Code",
+      "summary": "本周快速增长的开源项目。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "7.7K",
+      "growth": "+7663",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code"
+    },
+    {
+      "rank": "02",
+      "name": "shadcn / improve",
+      "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "2.6K",
+      "growth": "+2575",
+      "url": "https://github.com/shadcn/improve"
+    },
+    {
+      "rank": "03",
+      "name": "NoopApp / noop",
+      "summary": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
+      "language": "Swift",
+      "color": "#707873",
+      "stars": "1.6K",
+      "growth": "+1568",
+      "url": "https://github.com/NoopApp/noop"
+    },
+    {
+      "rank": "04",
+      "name": "MSNightmare / RoguePlanet",
+      "summary": "RoguePlanet Windows Defender Vulnerability",
+      "language": "C++",
+      "color": "#707873",
+      "stars": "1.2K",
+      "growth": "+1238",
+      "url": "https://github.com/MSNightmare/RoguePlanet"
+    },
+    {
+      "rank": "05",
+      "name": "DietrichGebert / ponytail",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1.1K",
+      "growth": "+1115",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    }
+  ],
+  "globalNews": [],
+  "word": {
+    "term": "Agentic Workflow",
+    "phonetic": "/ eɪˈdʒentɪk ˈwɜːrkfloʊ /",
+    "definition": "由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。",
+    "example": "不是“帮我写一封邮件”，而是“跟进客户，直到确认会议时间”。"
+  },
+  "interview": {
+    "question": "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？",
+    "points": [
+      "检索结果质量与排序",
+      "上下文组织与长度",
+      "模型指令与答案评估"
+    ],
+    "answer": [
+      "建立可复现测试集，拆分检索命中率、重排质量和生成正确率。",
+      "检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。",
+      "对比无上下文、理想上下文和真实上下文三组生成结果，定位瓶颈。",
+      "再针对瓶颈调整 chunk、reranker、上下文结构或模型指令。"
+    ]
+  }
+}

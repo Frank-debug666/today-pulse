@@ -1,0 +1,42 @@
+name: Daily technology briefing
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-technology-briefing
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Generate daily briefing
+        env:
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+          ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          ARK_MODEL_ID: ${{ secrets.ARK_MODEL_ID }}
+        run: npm run update:daily
+
+      - name: Commit updated briefing
+        run: |
+          git config user.name "today-pulse-bot"
+          git config user.email "today-pulse-bot@users.noreply.github.com"
+          git add public/daily.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update daily technology briefing"
+          git push

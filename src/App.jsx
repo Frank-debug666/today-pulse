@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import {
   ArrowRight,
   Bookmark,
@@ -183,9 +183,14 @@ function GitHubRow({ repo, saved, onSave }) {
 }
 
 function NewsItem({ item, read, saved, onRead, onSave }) {
+  const openNews = () => {
+    onRead();
+    if (item.url) window.open(item.url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <article className={`news-row ${read ? "is-read" : ""}`}>
-      <button className="news-main" type="button" onClick={onRead}>
+      <button className="news-main" type="button" onClick={openNews}>
         <span className={`news-accent ${item.accent}`} />
         <div>
           <div className="news-kicker">
@@ -193,7 +198,7 @@ function NewsItem({ item, read, saved, onRead, onSave }) {
             <time>{item.time}</time>
             {read ? <em>已读</em> : null}
           </div>
-          <h3>{item.title}</h3>
+          <h3>{item.title}{item.url ? <ExternalLink size={13} /> : null}</h3>
           <p>{item.summary}</p>
         </div>
       </button>
@@ -222,6 +227,7 @@ function TrendRadar() {
 }
 
 function App() {
+  const [dailyData, setDailyData] = useState(null);
   const [activeNav, setActiveNav] = useState("brief");
   const [activeFilter, setActiveFilter] = useState("全部");
   const [query, setQuery] = useState("");
@@ -230,17 +236,28 @@ function App() {
   const [read, setRead] = useState(() => new Set());
   const [refreshing, setRefreshing] = useState(false);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const currentGithubRepos = dailyData?.githubRepos?.length ? dailyData.githubRepos : githubRepos;
+  const currentGlobalNews = dailyData?.globalNews?.length ? dailyData.globalNews : globalNews;
+  const currentWord = dailyData?.word;
+  const currentInterview = dailyData?.interview;
+
+  useEffect(() => {
+    fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" })
+      .then((response) => response.json())
+      .then(setDailyData)
+      .catch(() => {});
+  }, []);
 
   const filteredNews = useMemo(() => {
     const normalized = query.trim().toLowerCase();
-    return globalNews.filter((item) => {
+    return currentGlobalNews.filter((item) => {
       const inFilter = activeFilter === "全部" || item.category === activeFilter;
       const inSearch =
         !normalized ||
         `${item.title}${item.summary}${item.category}`.toLowerCase().includes(normalized);
       return inFilter && inSearch;
     });
-  }, [activeFilter, query]);
+  }, [activeFilter, currentGlobalNews, query]);
 
   const toggleSetItem = (setter, id) => {
     setter((previous) => {
@@ -305,7 +322,7 @@ function App() {
             </IconButton>
             <div>
               <h1>今日脉冲</h1>
-              <p>2026年6月13日 · 星期六</p>
+              <p>{dailyData?.dateLabel || "2026年6月13日 · 星期六"}</p>
             </div>
           </div>
           <label className="search-box">
@@ -321,7 +338,7 @@ function App() {
 
         <section className="daily-intro" id="today">
           <div className="intro-copy">
-            <span className="issue-label">DAILY BRIEF · NO.164</span>
+            <span className="issue-label">DAILY BRIEF · NO.{dailyData?.issue || 164}</span>
             <h2>今天，技术继续从<br /><strong>“能回答”</strong>走向<strong>“能完成”</strong></h2>
             <p>大模型的下一阶段不只是更聪明，而是更可靠地进入真实工作流。今天值得关注的信号，都在这里。</p>
             <div className="intro-actions">
@@ -382,7 +399,7 @@ function App() {
             <section className="editorial-section github-section" id="github">
               <SectionHeading icon={Flame} title="GitHub 每日热点" meta="Trending today" />
               <div className="repo-list">
-                {githubRepos.map((repo) => (
+                {currentGithubRepos.map((repo) => (
                   <GitHubRow
                     key={repo.name}
                     repo={repo}
@@ -413,24 +430,22 @@ function App() {
           <aside className="utility-column">
             <section className="utility-panel word-panel">
               <SectionHeading icon={Lightbulb} title="每日一词" />
-              <span className="word-index">WORD / 164</span>
-              <h2>Agentic<br />Workflow</h2>
-              <p className="phonetic">/ eɪˈdʒentɪk ˈwɜːrkfloʊ /</p>
-              <p>由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。</p>
+              <span className="word-index">WORD / {dailyData?.issue || 164}</span>
+              <h2>{currentWord?.term || "Agentic Workflow"}</h2>
+              <p className="phonetic">{currentWord?.phonetic || "/ eɪˈdʒentɪk ˈwɜːrkfloʊ /"}</p>
+              <p>{currentWord?.definition || "由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。"}</p>
               <div className="word-example">
                 <span>一句话理解</span>
-                <p>不是“帮我写一封邮件”，而是“跟进客户，直到确认会议时间”。</p>
+                <p>{currentWord?.example || "不是“帮我写一封邮件”，而是“跟进客户，直到确认会议时间”。"}</p>
               </div>
             </section>
 
             <section className="utility-panel interview-panel" id="interview">
               <SectionHeading icon={Bot} title="每日面试一题" />
               <span className="difficulty"><i /> AI 应用工程 · 中等</span>
-              <h3>RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？</h3>
+              <h3>{currentInterview?.question || "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？"}</h3>
               <ul>
-                <li>检索结果质量与排序</li>
-                <li>上下文组织与长度</li>
-                <li>模型指令与答案评估</li>
+                {(currentInterview?.points || ["检索结果质量与排序", "上下文组织与长度", "模型指令与答案评估"]).map((point) => <li key={point}>{point}</li>)}
               </ul>
               <button className="answer-toggle" type="button" onClick={() => setAnswerOpen((value) => !value)}>
                 {answerOpen ? "收起参考答案" : "查看参考答案"}
@@ -439,12 +454,12 @@ function App() {
               {answerOpen ? (
                 <div className="answer-box">
                   <p>先分层评估，而不是直接改 Prompt：</p>
-                  <ol>
-                    <li>建立可复现测试集，拆分检索命中率、重排质量和生成正确率。</li>
-                    <li>检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。</li>
-                    <li>对比无上下文、理想上下文和真实上下文三组生成结果，定位瓶颈。</li>
-                    <li>再针对瓶颈调整 chunk、reranker、上下文结构或模型指令。</li>
-                  </ol>
+                  <ol>{(currentInterview?.answer || [
+                    "建立可复现测试集，拆分检索命中率、重排质量和生成正确率。",
+                    "检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。",
+                    "对比无上下文、理想上下文和真实上下文三组生成结果，定位瓶颈。",
+                    "再针对瓶颈调整 chunk、reranker、上下文结构或模型指令。",
+                  ]).map((step) => <li key={step}>{step}</li>)}</ol>
                 </div>
               ) : null}
             </section>
@@ -470,7 +485,7 @@ function App() {
         <footer>
           <span><Zap size={14} fill="currentColor" /> 今日脉冲</span>
           <p>保持好奇，保持判断。</p>
-          <span>更新于 09:00</span>
+          <span>更新于 {dailyData?.generatedAt ? new Date(dailyData.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "09:00"}</span>
         </footer>
       </main>
     </div>
