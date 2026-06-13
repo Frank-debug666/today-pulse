@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T12:54:01.016Z",
+  "generatedAt": "2026-06-13T13:43:32.740Z",
   "dateLabel": "2026年6月13日 · 星期六",
-  "issue": 165,
+  "issue": 166,
   "githubRepos": [
     {
       "rank": "01",
@@ -10,7 +10,7 @@
       "language": "TypeScript",
       "color": "#3178c6",
       "stars": "7.7K",
-      "growth": "+7663",
+      "growth": "+7692",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
     {
@@ -20,7 +20,7 @@
       "language": "Other",
       "color": "#707873",
       "stars": "2.6K",
-      "growth": "+2575",
+      "growth": "+2587",
       "url": "https://github.com/shadcn/improve"
     },
     {
@@ -30,7 +30,7 @@
       "language": "Swift",
       "color": "#707873",
       "stars": "1.6K",
-      "growth": "+1568",
+      "growth": "+1574",
       "url": "https://github.com/NoopApp/noop"
     },
     {
@@ -50,7 +50,7 @@
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.1K",
-      "growth": "+1115",
+      "growth": "+1128",
       "url": "https://github.com/DietrichGebert/ponytail"
     }
   ],
