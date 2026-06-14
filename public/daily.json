@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T01:35:37.519Z",
+  "generatedAt": "2026-06-14T01:42:39.645Z",
   "dateLabel": "2026年6月14日 · 星期日",
-  "issue": 171,
+  "issue": 172,
   "githubRepos": [
     {
       "rank": "01",
@@ -10,7 +10,7 @@
       "language": "TypeScript",
       "color": "#3178c6",
       "stars": "7.9K",
-      "growth": "+7942",
+      "growth": "+7945",
       "growthLabel": "近7日",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
@@ -21,7 +21,7 @@
       "language": "Other",
       "color": "#707873",
       "stars": "3.4K",
-      "growth": "+3418",
+      "growth": "+3420",
       "growthLabel": "近7日",
       "url": "https://github.com/shadcn/improve"
     },
@@ -32,7 +32,7 @@
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.5K",
-      "growth": "+1535",
+      "growth": "+1539",
       "growthLabel": "近7日",
       "url": "https://github.com/DietrichGebert/ponytail"
     },
@@ -53,8 +53,8 @@
       "summary": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
       "language": "Shell",
       "color": "#707873",
-      "stars": "994",
-      "growth": "+994",
+      "stars": "995",
+      "growth": "+995",
       "growthLabel": "近7日",
       "url": "https://github.com/SkyBlue997/enableMacosAI"
     }
@@ -157,6 +157,7 @@
     "learningSource": "fallback",
     "learningError": "Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID",
     "githubSource": "github-search",
-    "newsSource": "hacker-news"
+    "newsSource": "hacker-news",
+    "newsError": "Missing GNEWS_API_KEY"
   }
 }

@@ -41,6 +41,9 @@ const languageColors = {
   Java: "#b07219",
 };
 
+let newsSource = "hacker-news";
+let newsError = null;
+
 const learningFallbacks = [
   {
     word: {
@@ -202,11 +205,19 @@ async function fetchNews() {
     try {
       const query = encodeURIComponent("artificial intelligence OR technology OR semiconductor OR open source");
       const data = await fetchJson(`https://gnews.io/api/v4/search?q=${query}&lang=en&max=8&sortby=publishedAt&apikey=${apiKey}`);
-      if (data.articles?.length) return formatGnewsArticles(data.articles);
-      console.warn("GNews returned no articles; using Hacker News fallback.");
+      if (data.articles?.length) {
+        newsSource = "gnews";
+        return formatGnewsArticles(data.articles);
+      }
+      newsError = "GNews returned no articles";
+      console.warn(`${newsError}; using Hacker News fallback.`);
     } catch (error) {
-      console.warn(`GNews unavailable; using Hacker News fallback: ${error.message}`);
+      newsError = error.message;
+      console.warn(`GNews unavailable; using Hacker News fallback: ${newsError}`);
     }
+  } else {
+    newsError = "Missing GNEWS_API_KEY";
+    console.warn(`${newsError}; using Hacker News fallback.`);
   }
 
   return fetchHackerNews();
@@ -319,7 +330,8 @@ const daily = {
     learningSource,
     learningError,
     githubSource: "github-search",
-    newsSource: globalNews.some((item) => item.id?.startsWith("hn-")) ? "hacker-news" : "gnews",
+    newsSource,
+    newsError,
   },
 };
 

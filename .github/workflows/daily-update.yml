@@ -39,7 +39,7 @@ jobs:
 
       - name: Summarize generated content
         run: |
-          node -e "const d=require('./public/daily.json'); const g=d.generation||{}; require('fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY, '## Daily briefing result\n\n- Date: '+d.dateLabel+'\n- News: '+d.globalNews.length+'\n- GitHub repos: '+d.githubRepos.length+'\n- Learning source: '+(g.learningSource||'unknown')+'\n- Learning note: '+(g.learningError||'none')+'\n')"
+          node -e "const d=require('./public/daily.json'); const g=d.generation||{}; require('fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY, '## Daily briefing result\n\n- Date: '+d.dateLabel+'\n- News: '+d.globalNews.length+'\n- GitHub repos: '+d.githubRepos.length+'\n- News source: '+(g.newsSource||'unknown')+'\n- News note: '+(g.newsError||'none')+'\n- Learning source: '+(g.learningSource||'unknown')+'\n- Learning note: '+(g.learningError||'none')+'\n')"
 
       - name: Commit updated briefing
         run: |
