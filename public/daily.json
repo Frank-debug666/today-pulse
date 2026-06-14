@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T01:42:39.645Z",
+  "generatedAt": "2026-06-14T02:44:22.705Z",
   "dateLabel": "2026年6月14日 · 星期日",
-  "issue": 172,
+  "issue": 173,
   "githubRepos": [
     {
       "rank": "01",
@@ -9,8 +9,8 @@
       "summary": "本周快速增长的开源项目。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "7.9K",
-      "growth": "+7945",
+      "stars": "8K",
+      "growth": "+7974",
       "growthLabel": "近7日",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
@@ -20,8 +20,8 @@
       "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
       "language": "Other",
       "color": "#707873",
-      "stars": "3.4K",
-      "growth": "+3420",
+      "stars": "3.5K",
+      "growth": "+3460",
       "growthLabel": "近7日",
       "url": "https://github.com/shadcn/improve"
     },
@@ -31,8 +31,8 @@
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.5K",
-      "growth": "+1539",
+      "stars": "1.6K",
+      "growth": "+1574",
       "growthLabel": "近7日",
       "url": "https://github.com/DietrichGebert/ponytail"
     },
@@ -43,7 +43,7 @@
       "language": "C++",
       "color": "#707873",
       "stars": "1.3K",
-      "growth": "+1252",
+      "growth": "+1254",
       "growthLabel": "近7日",
       "url": "https://github.com/MSNightmare/RoguePlanet"
     },
@@ -53,111 +53,111 @@
       "summary": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
       "language": "Shell",
       "color": "#707873",
-      "stars": "995",
-      "growth": "+995",
+      "stars": "1K",
+      "growth": "+1006",
       "growthLabel": "近7日",
       "url": "https://github.com/SkyBlue997/enableMacosAI"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48517377",
-      "category": "产品观察",
-      "time": "21:54",
-      "title": "Noise infusion banned from statistical products published by Census Bureau",
-      "summary": "Hacker News 热门讨论 · 721 points · 453 条评论",
-      "url": "https://desfontain.es/blog/banning-noise.html",
+      "id": "news-2026-06-14-0",
+      "category": "人工智能",
+      "time": "13:00",
+      "title": "KPMG the latest firm to be caught out using AI",
+      "summary": "Top consultancy apparently used artificial intelligence to source parts of a report extolling virtues of AI",
+      "url": "https://www.irishtimes.com/business/2026/06/13/kpmg-the-latest-firm-to-be-caught-out-using-ai/",
       "accent": "lime"
     },
     {
-      "id": "hn-48518684",
-      "category": "全球科技",
-      "time": "00:18",
-      "title": "GLM 5.2 Is Out",
-      "summary": "Hacker News 热门讨论 · 337 points · 189 条评论",
-      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "id": "news-2026-06-14-1",
+      "category": "人工智能",
+      "time": "03:40",
+      "title": "Open-source AI may aid climate and development but deepen inequality, experts warn",
+      "summary": "Open-source artificial intelligence is advancing faster than the world can govern it, and the consequences could reshape the future of sustainability, democracy and global development. In a new comment published in Nature Communications, an international team of researchers warns that without coordinated action, open-source AI could also increase environmental pressures, deepen technological inequalities and facilitate the spread of misinformation.",
+      "url": "https://phys.org/news/2026-06-source-ai-aid-climate-deepen.html",
       "accent": "coral"
     },
     {
-      "id": "hn-48516251",
-      "category": "全球科技",
-      "time": "19:40",
-      "title": "Every Frame Perfect",
-      "summary": "Hacker News 热门讨论 · 548 points · 179 条评论",
-      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "id": "news-2026-06-14-2",
+      "category": "人工智能",
+      "time": "00:26",
+      "title": "The midterms are approaching. What they could mean for the stock market - and the AI trade",
+      "summary": "The artificial intelligence trade that has powered U.S. stocks to record highs this year could face some headwinds from an unusual source: the midterm elections.",
+      "url": "https://www.cnbc.com/2026/06/05/the-midterms-are-approaching-what-they-could-mean-for-the-stock-market-and-the-ai-trade.html",
       "accent": "mint"
     },
     {
-      "id": "hn-48462759",
-      "category": "全球科技",
-      "time": "23:54",
-      "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
-      "summary": "Hacker News 热门讨论 · 73 points · 15 条评论",
-      "url": "https://blog.pyodide.org/posts/314-release/",
+      "id": "news-2026-06-14-3",
+      "category": "人工智能",
+      "time": "00:03",
+      "title": "SK Hynix tells investors its US listing plan wins their strong backing",
+      "summary": "SEOUL ― SK Hynix told investors this week it received “tremendously positive” feedback on its proposed US listing as the chipmaker benefits from strong demand for advanced memory semiconductors needed to run artificial intelligence (AI) data centers, a source familiar with the matter said on Thursday.",
+      "url": "https://www.manilatimes.net/2026/06/05/business/foreign-business/sk-hynix-tells-investors-its-us-listing-plan-wins-their-strong-backing/2359060",
       "accent": "ink"
     },
     {
-      "id": "hn-48517199",
-      "category": "全球科技",
-      "time": "21:34",
-      "title": "Treating pancreatic tumours may have revealed cancer's master switch",
-      "summary": "Hacker News 热门讨论 · 296 points · 105 条评论",
-      "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
+      "id": "news-2026-06-14-4",
+      "category": "人工智能",
+      "time": "14:00",
+      "title": "The Battle for Your Mind",
+      "summary": "The Battle for Your Mind The future of human freedom hinges on who controls artificial intelligence. I believe we are at a crossroads: either we embrace decentralized, locally-run AI models that empower individuals, or we surrender to a centralized system where governments and Big Tech collude to ban open-source AI and concentrate cognitive power in […]",
+      "url": "https://www.naturalnews.com/2026-06-03-local-uncensored-ai-only-path-lasting-freedom.html",
       "accent": "lime"
     },
     {
-      "id": "hn-48490927",
-      "category": "全球科技",
-      "time": "22:34",
-      "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
-      "summary": "Hacker News 热门讨论 · 16 points · 2 条评论",
-      "url": "https://github.com/kekcleader/FreeOberon",
+      "id": "news-2026-06-14-5",
+      "category": "人工智能",
+      "time": "13:45",
+      "title": "EXCLUSIVE-SpaceX plans to set IPO price at $135 per share, targeting record $75 billion raise, source says",
+      "summary": "It is aiming for a valuation of $1.75 trillion, two other people said. The listing leads a wave of high-profile private companies preparing to test public markets after years of muted large-cap IPO activity, with SpaceX expected to be followed by artificial intelligence giants OpenAI and Anthropic.",
+      "url": "https://www.devdiscourse.com/article/business/3929316-exclusive-spacex-plans-to-set-ipo-price-at-135-per-share-targeting-record-75-billion-raise-source-says",
       "accent": "coral"
     },
     {
-      "id": "hn-48522486",
-      "category": "全球科技",
-      "time": "07:22",
-      "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
-      "summary": "Hacker News 热门讨论 · 74 points · 8 条评论",
-      "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+      "id": "news-2026-06-14-6",
+      "category": "人工智能",
+      "time": "11:43",
+      "title": "EXCLUSIVE-SpaceX plans to set IPO price at $135 per share, targeting $75 billion raise, source says",
+      "summary": "It is aiming for a valuation of $1.75 trillion, two other people said. The listing leads a wave of high-profile private companies preparing to test public markets after years of muted large-cap IPO activity, with SpaceX expected to be followed by artificial intelligence giants ‌OpenAI and Anthropic.",
+      "url": "https://www.devdiscourse.com/article/business/3929276-exclusive-spacex-plans-to-set-ipo-price-at-135-per-share-targeting-75-billion-raise-source-says",
       "accent": "mint"
     },
     {
-      "id": "hn-48520080",
-      "category": "全球科技",
-      "time": "02:32",
-      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
-      "summary": "Hacker News 热门讨论 · 77 points · 17 条评论",
-      "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
+      "id": "news-2026-06-14-7",
+      "category": "人工智能",
+      "time": "09:32",
+      "title": "EXCLUSIVE-SpaceX plans to price record-setting IPO at $135 per share, source says",
+      "summary": "Reuters reported earlier on Tuesday that the rocket and satellite communications company hoped to raise at least $75 billion, at a valuation of $1.75 trillion. The listing leads a wave of high-profile private companies preparing to test public markets after years of muted large-cap IPO activity, with SpaceX widely viewed as ‌one of the most consequential offerings in recent history alongside artificial intelligence giants OpenAI and Anthropic.",
+      "url": "https://www.devdiscourse.com/article/business/3929249-exclusive-spacex-plans-to-price-record-setting-ipo-at-135-per-share-source-says",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Structured Output",
-    "phonetic": "/ structured output /",
-    "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。",
-    "example": "让模型返回合法 JSON，而不是一段需要再次解析的自然语言。"
+    "term": "AI Misuse",
+    "phonetic": "/ˌeɪ aɪ ˌmɪsˈjuːs/",
+    "definition": "指主体未合规管控使用AI，引发运营失误、合规风险的行为",
+    "example": "近期毕马威等多家知名企业因不当使用AI出现纰漏被曝光"
   },
   "interview": {
-    "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
+    "question": "某机构要搭建AI交易场景的实时风险预警系统，核心工程设计要点有哪些？",
     "points": [
-      "Schema 约束",
-      "校验重试",
-      "容错设计"
+      "AI金融落地场景的需求拆解能力",
+      "低延迟实时系统的架构设计能力",
+      "端侧AI推理的性能优化能力"
     ],
     "answer": [
-      "使用模型提供的结构化输出或 JSON Schema 能力。",
-      "服务端执行严格校验，并将校验错误反馈给模型重试。",
-      "限制字段范围、长度和枚举值，减少自由输出空间。",
-      "为持续失败设置降级逻辑，避免阻塞主流程。"
+      "先明确交易场景的延迟阈值、风险判定规则、合规可解释性硬性要求",
+      "采用流计算引擎+预计算特征库架构，将数据处理链路延迟压至毫秒级",
+      "对预警模型做量化、剪枝压缩，部署在近数据源推理节点降低耗时",
+      "配套AI决策溯源模块+人工兜底校验，避免误判引发交易损失"
     ]
   },
   "generation": {
-    "learningSource": "fallback",
-    "learningError": "Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID",
+    "learningSource": "ark",
+    "learningError": null,
     "githubSource": "github-search",
-    "newsSource": "hacker-news",
-    "newsError": "Missing GNEWS_API_KEY"
+    "newsSource": "gnews",
+    "newsError": null
   }
 }
