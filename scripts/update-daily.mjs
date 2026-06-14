@@ -265,8 +265,8 @@ function classifyNews(text) {
 }
 
 async function generateLearning(news) {
-  const apiKey = process.env.ARK_API_KEY || process.env.AI_API_KEY || process.env.VOLCENGINE_API_KEY;
-  const model = process.env.ARK_MODEL_ID || process.env.ARK_MODEL;
+  const apiKey = process.env.ARK_API_KEY || process.env.AI_API_KEY || process.env.AI_API || process.env.VOLCENGINE_API_KEY;
+  const model = process.env.ARK_MODEL_ID || process.env.ARK_ENDPOINT_ID || process.env.ARK_MODEL;
   if (!apiKey || !model) throw new Error("Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID");
 
   const prompt = `你是中文科技晨报编辑。根据这些今日科技新闻标题，生成每日科技一词和一道 AI 应用工程面试题。
@@ -274,7 +274,8 @@ async function generateLearning(news) {
 只返回严格 JSON，不要 Markdown：
 {"word":{"term":"英文术语","phonetic":"音标或英文读音提示","definition":"中文定义，不超过50字","example":"一句话理解，不超过50字"},"interview":{"question":"问题","points":["考察点1","考察点2","考察点3"],"answer":["答案步骤1","答案步骤2","答案步骤3","答案步骤4"]}}`;
 
-  const data = await fetchJson("https://ark.cn-beijing.volces.com/api/v3/chat/completions", {
+  const baseUrl = process.env.ARK_BASE_URL || "https://ark.cn-beijing.volces.com/api/v3";
+  const data = await fetchJson(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
     method: "POST",
     headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
     body: JSON.stringify({

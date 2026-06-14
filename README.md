@@ -24,6 +24,8 @@ GitHub Actions 每天北京时间 `08:00` 运行：
 | `ARK_API_KEY` | 推荐 | 火山方舟 API Key，也兼容 `AI_API_KEY` |
 | `ARK_MODEL_ID` | 推荐 | 火山方舟推理接入点 ID 或模型 ID |
 
+火山方舟配置也兼容 `AI_API`、`ARK_ENDPOINT_ID` 和自定义 `ARK_BASE_URL`。
+
 缺少新闻或 AI 配置时，更新任务会使用备用新闻源和按日期轮换的学习题库，不会导致网站无法部署或内容长期不变。
 
 ## 本地开发
