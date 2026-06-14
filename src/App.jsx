@@ -42,20 +42,20 @@ const fallbackRepos = [
 ];
 
 const topics = [
-  ["AI 大模型", "98 条更新", "topic-ai"],
-  ["芯片与硬件", "64 条更新", "topic-chip"],
-  ["云计算", "45 条更新", "topic-cloud"],
-  ["开发者工具", "72 条更新", "topic-dev"],
-  ["网络安全", "38 条更新", "topic-security"],
-  ["产品与设计", "26 条更新", "topic-design"],
+  ["AI 大模型", "98 条更新", "topic-ai", "artificial intelligence"],
+  ["芯片与硬件", "64 条更新", "topic-chip", "semiconductor chips"],
+  ["云计算", "45 条更新", "topic-cloud", "cloud computing"],
+  ["开发者工具", "72 条更新", "topic-dev", "developer tools"],
+  ["网络安全", "38 条更新", "topic-security", "cybersecurity"],
+  ["产品与设计", "26 条更新", "topic-design", "product design technology"],
 ];
 
 const quickTools = [
-  ["Hugging Face", "Trending", "+12", "blue"],
-  ["ArXiv CS", "计算机科学最新论文", "+86", "red"],
-  ["NPM Trending", "今日热门 npm 包", "+24", "orange"],
-  ["Vercel", "Deployments", "正常", "green"],
-  ["OpenAI", "Status", "正常", "green"],
+  ["Hugging Face", "Trending", "+12", "blue", "https://huggingface.co/models?sort=trending"],
+  ["ArXiv CS", "计算机科学最新论文", "+86", "red", "https://arxiv.org/list/cs/new"],
+  ["NPM Trending", "今日热门 npm 包", "+24", "orange", "https://www.npmjs.com/"],
+  ["Vercel", "Deployments", "正常", "green", "https://vercel.com/dashboard"],
+  ["OpenAI", "Status", "正常", "green", "https://status.openai.com/"],
 ];
 
 function clean(value, fallback = "") {
@@ -67,11 +67,12 @@ function IconButton({ label, children, active, onClick }) {
   return <button className={`icon-btn ${active ? "active" : ""}`} aria-label={label} title={label} onClick={onClick}>{children}</button>;
 }
 
-function SectionTitle({ icon, children, action }) {
+function SectionTitle({ icon, children, action, onAction, actionHref }) {
   return (
     <div className="section-title">
       <span>{icon}{children}</span>
-      {action ? <button type="button">{action}<ArrowRight size={14} /></button> : null}
+      {action && actionHref ? <a href={actionHref} target="_blank" rel="noreferrer">{action}<ArrowRight size={14} /></a> : null}
+      {action && !actionHref ? <button type="button" onClick={onAction}>{action}<ArrowRight size={14} /></button> : null}
     </div>
   );
 }
@@ -85,6 +86,11 @@ export default function App() {
   const [dark, setDark] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
+  const [heroIndex, setHeroIndex] = useState(0);
+  const [newsExpanded, setNewsExpanded] = useState(false);
+  const [wordHistoryOpen, setWordHistoryOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
+  const [notificationOpen, setNotificationOpen] = useState(false);
   const searchRef = useRef(null);
 
   const loadDaily = async () => {
@@ -113,7 +119,15 @@ export default function App() {
   const repos = data?.githubRepos?.length ? data.githubRepos : fallbackRepos;
   const filteredNews = useMemo(() => news.filter((item) => {
     const text = `${item.title} ${item.summary} ${item.category}`.toLowerCase();
-    const matchesFilter = filter === "全部" || clean(item.category, "AI") === filter;
+    const aliases = {
+      AI: ["ai", "人工智能"],
+      开发者: ["开发者", "编程", "开源"],
+      云计算: ["云计算", "cloud"],
+      芯片: ["芯片", "半导体", "chip"],
+      产品: ["产品", "product"],
+      安全: ["安全", "security"],
+    };
+    const matchesFilter = filter === "全部" || (aliases[filter] || [filter]).some((keyword) => text.includes(keyword.toLowerCase()));
     return matchesFilter && text.includes(query.toLowerCase());
   }), [news, query, filter]);
 
@@ -123,7 +137,9 @@ export default function App() {
     return next;
   });
 
-  const hero = filteredNews[0] || fallbackNews[0];
+  const visibleNews = filteredNews.length ? filteredNews : filter === "全部" && !query ? fallbackNews : [];
+  const heroItems = visibleNews.length ? visibleNews : fallbackNews;
+  const hero = heroItems[heroIndex % heroItems.length];
   const word = data?.word || {};
   const interview = data?.interview || {};
   const dateLabel = clean(data?.dateLabel, "2026年6月14日 · 星期日");
@@ -142,16 +158,22 @@ export default function App() {
           {["全部", "AI", "开发者", "云计算", "芯片", "产品", "安全"].map((item) => (
             <button key={item} className={filter === item ? "active" : ""} onClick={() => { setFilter(item); setMenuOpen(false); }}>{item}</button>
           ))}
-          <button>更多<ChevronDown size={13} /></button>
+          <button onClick={() => setMoreOpen(!moreOpen)}>更多<ChevronDown size={13} /></button>
         </nav>
+        {moreOpen ? <div className="more-menu">
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+          <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noreferrer">AI 最新论文</a>
+          <a href="https://news.ycombinator.com/" target="_blank" rel="noreferrer">Hacker News</a>
+        </div> : null}
         <div className="date-status">
           <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />自动更新 · {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"}</span>
         </div>
         <div className="top-actions">
           <IconButton label="刷新" onClick={loadDaily}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
           <IconButton label="切换主题" onClick={() => setDark(!dark)}>{dark ? <Sun /> : <Moon />}</IconButton>
-          <IconButton label="通知"><Bell /></IconButton>
+          <IconButton label="通知" active={notificationOpen} onClick={() => setNotificationOpen(!notificationOpen)}><Bell /></IconButton>
         </div>
+        {notificationOpen ? <div className="notification-panel"><strong>更新通知</strong><p>今日简报已于 {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"} 更新完成。</p><button onClick={() => setNotificationOpen(false)}>知道了</button></div> : null}
       </header>
 
       <main id="top">
@@ -162,29 +184,31 @@ export default function App() {
               <span>今日焦点</span>
               <h1>{clean(hero.title, "SpaceX 星舰完成关键试飞：下一代航天商业化迎来新节点")}</h1>
               <p>{clean(hero.summary, "从重复使用到更低发射成本，商业航天正在进入新的竞争周期。")}</p>
-              <div><small>{clean(hero.category, "全球科技")} · {clean(hero.time, "2 小时前")}</small><b>01 / 05 <ChevronLeft size={15} /><ChevronRight size={15} /></b></div>
+              <div><small>{clean(hero.category, "全球科技")} · {clean(hero.time, "2 小时前")}</small><b>{String((heroIndex % heroItems.length) + 1).padStart(2, "0")} / {String(heroItems.length).padStart(2, "0")} <button aria-label="上一条头条" onClick={() => setHeroIndex((heroIndex - 1 + heroItems.length) % heroItems.length)}><ChevronLeft size={15} /></button><button aria-label="下一条头条" onClick={() => setHeroIndex((heroIndex + 1) % heroItems.length)}><ChevronRight size={15} /></button></b></div>
             </div>
           </article>
 
           <section className="hot-list">
-            <SectionTitle action="查看全部">全球科技热点</SectionTitle>
-            {(filteredNews.length ? filteredNews : fallbackNews).slice(0, 8).map((item, index) => (
-              <a key={item.id || index} href={item.url || "#"} target={item.url ? "_blank" : undefined} rel="noreferrer">
+            <SectionTitle action={newsExpanded ? "收起" : "查看全部"} onAction={() => setNewsExpanded(!newsExpanded)}>全球科技热点</SectionTitle>
+            {visibleNews.slice(0, newsExpanded ? visibleNews.length : 5).map((item, index) => (
+              <a key={item.id || index} href={item.url || `https://news.google.com/search?q=${encodeURIComponent(item.title)}`} target="_blank" rel="noreferrer">
                 <b className={`rank rank-${index}`}>{index + 1}</b>
                 <span><strong>{clean(item.title, fallbackNews[index % fallbackNews.length].title)}</strong><small>{clean(item.category, "科技资讯")} · {clean(item.time, `${index + 2} 小时前`)}</small></span>
                 <em><TrendingUp size={12} />{128 - index * 13}</em>
               </a>
             ))}
+            {!visibleNews.length ? <div className="no-results">当前分类暂无新闻，请切换分类或清空搜索。</div> : null}
           </section>
 
           <aside className="learning-stack">
             <section className="word-card">
-              <SectionTitle icon={<Sparkles size={16} />} action="查看历史">每日一词（科技）</SectionTitle>
+              <SectionTitle icon={<Sparkles size={16} />} action={wordHistoryOpen ? "关闭历史" : "查看历史"} onAction={() => setWordHistoryOpen(!wordHistoryOpen)}>每日一词（科技）</SectionTitle>
               <h2>{clean(word.term, "Tokenization")}<Volume2 size={17} /></h2>
               <p className="phonetic">{clean(word.phonetic, "/ ˌtəʊkənaɪˈzeɪʃn /")} <span>名词</span></p>
               <strong>定义</strong><p>{clean(word.definition, "将文本、数据或序列拆分为更小单位（token）的过程，以便模型或系统能够处理。")}</p>
               <strong>例句</strong><p>{clean(word.example, "大语言模型在处理文本前，需要先进行 tokenization。")}</p>
               <a href="https://huggingface.co/docs/tokenizers" target="_blank" rel="noreferrer">延伸阅读：Hugging Face Tokenizers <ExternalLink size={12} /></a>
+              {wordHistoryOpen ? <div className="word-history"><strong>往期词汇</strong><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank" rel="noreferrer">RAG</a><a href="https://en.wikipedia.org/wiki/AI_agent" target="_blank" rel="noreferrer">AI Agent</a><a href="https://en.wikipedia.org/wiki/Inference" target="_blank" rel="noreferrer">Inference</a></div> : null}
             </section>
 
             <section className="interview-card">
@@ -198,7 +222,7 @@ export default function App() {
         </section>
 
         <section className="github-section">
-          <SectionTitle icon={<Github size={20} />} action="查看全部">GitHub 每日热点</SectionTitle>
+          <SectionTitle icon={<Github size={20} />} action="查看 GitHub Trending" actionHref="https://github.com/trending">GitHub 每日热点</SectionTitle>
           <div className="repo-table">
             {repos.slice(0, 5).map((repo, index) => (
               <article key={repo.name}>
@@ -214,11 +238,11 @@ export default function App() {
         <section className="bottom-grid">
           <div className="topic-section">
             <SectionTitle>今日精选速览</SectionTitle>
-            <div className="topic-grid">{topics.map(([title, count, className]) => <button className={className} key={title}><strong>{title}</strong><span>{count}</span><ArrowRight /></button>)}</div>
+            <div className="topic-grid">{topics.map(([title, count, className, term]) => <a className={className} key={title} href={`https://news.google.com/search?q=${encodeURIComponent(term)}`} target="_blank" rel="noreferrer"><strong>{title}</strong><span>{count}</span><ArrowRight /></a>)}</div>
           </div>
           <aside className="tools-panel">
-            <SectionTitle icon={<TrendingUp size={17} />} action="查看更多">趋势 / 工具速览</SectionTitle>
-            <div>{quickTools.map(([title, sub, status, color]) => <article key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></article>)}</div>
+            <SectionTitle icon={<TrendingUp size={17} />} action="查看更多" actionHref="https://www.producthunt.com/">趋势 / 工具速览</SectionTitle>
+            <div>{quickTools.map(([title, sub, status, color, url]) => <a href={url} target="_blank" rel="noreferrer" key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></a>)}</div>
           </aside>
         </section>
       </main>
