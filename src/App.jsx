@@ -1,509 +1,229 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
+  ArrowDown,
   ArrowRight,
+  Bell,
   Bookmark,
   BookmarkCheck,
   Bot,
-  Boxes,
-  Check,
   ChevronDown,
-  ChevronUp,
-  CircleDot,
-  Code2,
-  Command,
+  ChevronLeft,
+  ChevronRight,
+  Circle,
   ExternalLink,
-  Flame,
-  Globe2,
-  Home,
-  Lightbulb,
+  Github,
+  Headphones,
   Menu,
-  Newspaper,
+  Moon,
   RefreshCw,
   Search,
   Sparkles,
   Star,
+  Sun,
   TrendingUp,
+  Volume2,
   X,
-  Zap,
 } from "lucide-react";
 
-const githubRepos = [
-  {
-    rank: "01",
-    name: "anthropics / claude-code",
-    summary: "终端中的智能编程代理，可理解代码库、执行日常开发任务并解释复杂代码。",
-    language: "TypeScript",
-    color: "#3178c6",
-    stars: "36.8k",
-    growth: "+1,982",
-    url: "https://github.com/anthropics/claude-code",
-  },
-  {
-    rank: "02",
-    name: "microsoft / generative-ai-for-beginners",
-    summary: "面向初学者的生成式 AI 系统课程，覆盖模型、RAG、Agent 与负责任 AI。",
-    language: "Jupyter",
-    color: "#f37626",
-    stars: "81.2k",
-    growth: "+1,147",
-    url: "https://github.com/microsoft/generative-ai-for-beginners",
-  },
-  {
-    rank: "03",
-    name: "twentyhq / twenty",
-    summary: "面向现代团队的开源 CRM，强调可扩展数据模型和顺滑协作体验。",
-    language: "TypeScript",
-    color: "#3178c6",
-    stars: "31.6k",
-    growth: "+862",
-    url: "https://github.com/twentyhq/twenty",
-  },
-  {
-    rank: "04",
-    name: "langgenius / dify",
-    summary: "用于构建、编排和运营生产级生成式 AI 应用的开源平台。",
-    language: "TypeScript",
-    color: "#3178c6",
-    stars: "111k",
-    growth: "+735",
-    url: "https://github.com/langgenius/dify",
-  },
-  {
-    rank: "05",
-    name: "open-webui / open-webui",
-    summary: "支持多种模型、本地部署与知识库能力的自托管 AI 用户界面。",
-    language: "Svelte",
-    color: "#ff3e00",
-    stars: "98.4k",
-    growth: "+614",
-    url: "https://github.com/open-webui/open-webui",
-  },
+const fallbackNews = [
+  { id: "n1", category: "AI", time: "2 小时前", title: "OpenAI 发布新一代推理模型，进一步提升复杂任务规划能力", summary: "模型竞争正在从回答质量转向工具调用、长期任务与可靠交付。", accent: "red" },
+  { id: "n2", category: "芯片", time: "4 小时前", title: "苹果开发者大会聚焦端侧 AI 与系统级智能体验", summary: "设备端推理成为隐私、延迟和产品体验的新战场。", accent: "orange" },
+  { id: "n3", category: "开发者", time: "5 小时前", title: "微软持续扩展 AI 开发工具链与 Agent 工作流", summary: "开发工具开始围绕任务结果而非单次代码补全组织。", accent: "blue" },
+  { id: "n4", category: "安全", time: "7 小时前", title: "企业开始重新审视 AI 应用中的权限与审计边界", summary: "可解释、可追踪与人工兜底逐渐成为上线标准。", accent: "black" },
+  { id: "n5", category: "开源", time: "9 小时前", title: "开源小模型热度上升，端侧部署成本持续下降", summary: "更小、更专用的模型正在进入真实生产环境。", accent: "green" },
 ];
 
-const globalNews = [
-  {
-    id: "n1",
-    category: "人工智能",
-    time: "08:40",
-    title: "AI Agent 从“回答问题”走向“完成工作”，企业开始重写软件入口",
-    summary: "新的竞争焦点不再只是模型能力，而是任务拆解、工具调用、权限边界与结果验证。",
-    accent: "lime",
-  },
-  {
-    id: "n2",
-    category: "算力芯片",
-    time: "07:55",
-    title: "高带宽内存成为 AI 基础设施的新瓶颈，供应链继续扩容",
-    summary: "推理成本优化正在推动芯片、互联与内存系统协同设计，数据中心采购逻辑随之变化。",
-    accent: "coral",
-  },
-  {
-    id: "n3",
-    category: "开源生态",
-    time: "07:20",
-    title: "小模型与端侧推理持续升温，开发者更关注可控成本与隐私",
-    summary: "在手机、PC 和边缘设备上运行专用模型，正成为消费级 AI 产品的重要路线。",
-    accent: "mint",
-  },
-  {
-    id: "n4",
-    category: "产品观察",
-    time: "06:45",
-    title: "从 Copilot 到 Coworker：软件产品开始围绕结果而非功能组织",
-    summary: "越来越多产品把复杂流程封装为目标驱动的协作体验，传统菜单结构被重新审视。",
-    accent: "ink",
-  },
+const fallbackRepos = [
+  { rank: "01", name: "microsoft / markitdown", summary: "将文件转换为 Markdown，支持多种格式", language: "Python", stars: "28.4k", growth: "+1.2k", url: "https://github.com/microsoft/markitdown" },
+  { rank: "02", name: "vercel / ai", summary: "构建 AI 应用的 TypeScript SDK 和工具包", language: "TypeScript", stars: "18.7k", growth: "+980", url: "https://github.com/vercel/ai" },
+  { rank: "03", name: "anthropics / claude-code", summary: "Claude 的本地命令行开发代理", language: "TypeScript", stars: "15.2k", growth: "+745", url: "https://github.com/anthropics/claude-code" },
+  { rank: "04", name: "grafana / k6", summary: "高性能开源负载测试工具", language: "Go", stars: "12.3k", growth: "+320", url: "https://github.com/grafana/k6" },
+  { rank: "05", name: "open-webui / open-webui", summary: "可扩展的开源 AI 聊天界面", language: "Python", stars: "10.8k", growth: "+210", url: "https://github.com/open-webui/open-webui" },
 ];
 
-const toolBriefs = [
-  { name: "Claude Code", text: "让代码代理在终端里完成真实开发任务", tag: "开发" },
-  { name: "NotebookLM", text: "从资料源生成可追溯的研究与音频摘要", tag: "研究" },
-  { name: "Dify", text: "快速搭建带知识库与工作流的 AI 应用", tag: "构建" },
+const topics = [
+  ["AI 大模型", "98 条更新", "topic-ai"],
+  ["芯片与硬件", "64 条更新", "topic-chip"],
+  ["云计算", "45 条更新", "topic-cloud"],
+  ["开发者工具", "72 条更新", "topic-dev"],
+  ["网络安全", "38 条更新", "topic-security"],
+  ["产品与设计", "26 条更新", "topic-design"],
 ];
 
-function IconButton({ label, children, onClick, active = false, className = "" }) {
-  return (
-    <button
-      className={`icon-button ${active ? "is-active" : ""} ${className}`}
-      type="button"
-      aria-label={label}
-      title={label}
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  );
+const quickTools = [
+  ["Hugging Face", "Trending", "+12", "blue"],
+  ["ArXiv CS", "计算机科学最新论文", "+86", "red"],
+  ["NPM Trending", "今日热门 npm 包", "+24", "orange"],
+  ["Vercel", "Deployments", "正常", "green"],
+  ["OpenAI", "Status", "正常", "green"],
+];
+
+function clean(value, fallback = "") {
+  if (!value || /[锟斤拷鈥藞瑟]/.test(String(value))) return fallback;
+  return value;
 }
 
-function SectionHeading({ icon: Icon, title, meta, action, actionLabel }) {
+function IconButton({ label, children, active, onClick }) {
+  return <button className={`icon-btn ${active ? "active" : ""}`} aria-label={label} title={label} onClick={onClick}>{children}</button>;
+}
+
+function SectionTitle({ icon, children, action }) {
   return (
-    <div className="section-heading">
-      <div className="section-title">
-        <Icon size={17} strokeWidth={2.2} />
-        <h2>{title}</h2>
-        {meta ? <span>{meta}</span> : null}
-      </div>
-      {action ? (
-        <button className="text-action" type="button" onClick={action}>
-          {actionLabel}
-          <ArrowRight size={14} />
-        </button>
-      ) : null}
+    <div className="section-title">
+      <span>{icon}{children}</span>
+      {action ? <button type="button">{action}<ArrowRight size={14} /></button> : null}
     </div>
   );
 }
 
-function GitHubRow({ repo, saved, onSave }) {
-  return (
-    <article className="repo-row">
-      <span className="rank">{repo.rank}</span>
-      <div className="repo-copy">
-        <a href={repo.url} target="_blank" rel="noreferrer">
-          {repo.name}
-          <ExternalLink size={13} />
-        </a>
-        <p>{repo.summary}</p>
-        <div className="repo-meta">
-          <span>
-            <i style={{ background: repo.color }} />
-            {repo.language}
-          </span>
-          <span>
-            <Star size={13} />
-            {repo.stars}
-          </span>
-          <strong>{repo.growth} {repo.growthLabel || "热度"}</strong>
-        </div>
-      </div>
-      <IconButton label={saved ? "取消收藏" : "收藏仓库"} active={saved} onClick={onSave}>
-        {saved ? <BookmarkCheck size={17} /> : <Bookmark size={17} />}
-      </IconButton>
-    </article>
-  );
-}
-
-function NewsItem({ item, read, saved, onRead, onSave }) {
-  const openNews = () => {
-    onRead();
-    if (item.url) window.open(item.url, "_blank", "noopener,noreferrer");
-  };
-
-  return (
-    <article className={`news-row ${read ? "is-read" : ""}`}>
-      <button className="news-main" type="button" onClick={openNews}>
-        <span className={`news-accent ${item.accent}`} />
-        <div>
-          <div className="news-kicker">
-            <span>{item.category}</span>
-            <time>{item.time}</time>
-            {read ? <em>已读</em> : null}
-          </div>
-          <h3>{item.title}{item.url ? <ExternalLink size={13} /> : null}</h3>
-          <p>{item.summary}</p>
-        </div>
-      </button>
-      <IconButton label={saved ? "取消收藏" : "收藏资讯"} active={saved} onClick={onSave}>
-        {saved ? <BookmarkCheck size={17} /> : <Bookmark size={17} />}
-      </IconButton>
-    </article>
-  );
-}
-
-function TrendRadar() {
-  return (
-    <div className="trend-chart" aria-label="趋势雷达图">
-      <div className="chart-bars">
-        {[42, 58, 47, 76, 66, 88, 73].map((height, index) => (
-          <span key={`trend-${index}`} style={{ height: `${height}%` }} />
-        ))}
-      </div>
-      <div className="trend-list">
-        <span><i className="dot lime" />Agentic AI <b>92</b></span>
-        <span><i className="dot coral" />端侧模型 <b>78</b></span>
-        <span><i className="dot ink" />AI Infra <b>71</b></span>
-      </div>
-    </div>
-  );
-}
-
-function App() {
-  const [dailyData, setDailyData] = useState(null);
-  const [activeNav, setActiveNav] = useState("brief");
-  const [activeFilter, setActiveFilter] = useState("全部");
+export default function App() {
+  const [data, setData] = useState(null);
   const [query, setQuery] = useState("");
-  const [answerOpen, setAnswerOpen] = useState(false);
-  const [saved, setSaved] = useState(() => new Set());
-  const [read, setRead] = useState(() => new Set());
+  const [filter, setFilter] = useState("全部");
+  const [answerOpen, setAnswerOpen] = useState(true);
+  const [saved, setSaved] = useState(new Set());
+  const [dark, setDark] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
   const searchRef = useRef(null);
-  const currentGithubRepos = dailyData?.githubRepos?.length ? dailyData.githubRepos : githubRepos;
-  const currentGlobalNews = dailyData?.globalNews?.length ? dailyData.globalNews : globalNews;
-  const currentWord = dailyData?.word;
-  const currentInterview = dailyData?.interview;
 
   const loadDaily = async () => {
     setRefreshing(true);
     try {
       const response = await fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" });
-      if (!response.ok) throw new Error("daily data unavailable");
-      setDailyData(await response.json());
+      if (response.ok) setData(await response.json());
     } finally {
       setRefreshing(false);
     }
   };
 
   useEffect(() => {
-    loadDaily().catch(() => {});
-    const onShortcut = (event) => {
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+    loadDaily();
+    const shortcut = (event) => {
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
         event.preventDefault();
         searchRef.current?.focus();
       }
     };
-    window.addEventListener("keydown", onShortcut);
-    return () => window.removeEventListener("keydown", onShortcut);
+    window.addEventListener("keydown", shortcut);
+    return () => window.removeEventListener("keydown", shortcut);
   }, []);
 
-  const filteredNews = useMemo(() => {
-    const normalized = query.trim().toLowerCase();
-    return currentGlobalNews.filter((item) => {
-      const inFilter = activeFilter === "全部" || item.category === activeFilter;
-      const inSearch =
-        !normalized ||
-        `${item.title}${item.summary}${item.category}`.toLowerCase().includes(normalized);
-      return inFilter && inSearch;
-    });
-  }, [activeFilter, currentGlobalNews, query]);
+  const news = data?.globalNews?.length ? data.globalNews : fallbackNews;
+  const repos = data?.githubRepos?.length ? data.githubRepos : fallbackRepos;
+  const filteredNews = useMemo(() => news.filter((item) => {
+    const text = `${item.title} ${item.summary} ${item.category}`.toLowerCase();
+    const matchesFilter = filter === "全部" || clean(item.category, "AI") === filter;
+    return matchesFilter && text.includes(query.toLowerCase());
+  }), [news, query, filter]);
 
-  const toggleSetItem = (setter, id) => {
-    setter((previous) => {
-      const next = new Set(previous);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return next;
-    });
-  };
+  const toggleSave = (id) => setSaved((current) => {
+    const next = new Set(current);
+    next.has(id) ? next.delete(id) : next.add(id);
+    return next;
+  });
 
-  const refresh = () => loadDaily().catch(() => {});
-
-  const goTo = (nav, target) => {
-    setActiveNav(nav);
-    setMobileNavOpen(false);
-    document.getElementById(target)?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
+  const hero = filteredNews[0] || fallbackNews[0];
+  const word = data?.word || {};
+  const interview = data?.interview || {};
+  const dateLabel = clean(data?.dateLabel, "2026年6月14日 · 星期日");
 
   return (
-    <div className="app-shell">
-      <aside className={`sidebar ${mobileNavOpen ? "is-open" : ""}`}>
-        <button className="brand-mark" type="button" aria-label="今日脉冲首页" onClick={() => goTo("brief", "today")}>
-          <Zap size={19} fill="currentColor" />
-        </button>
-        <nav aria-label="主要导航">
-          {[
-            ["brief", Home, "今日简报", "today"],
-            ["github", Code2, "GitHub 热点", "github"],
-            ["world", Globe2, "全球科技", "world"],
-            ["ai", Bot, "AI 学习", "interview"],
-          ].map(([id, Icon, label, target]) => (
-            <button
-              key={id}
-              className={activeNav === id ? "is-active" : ""}
-              type="button"
-              onClick={() => goTo(id, target)}
-              aria-label={label}
-              title={label}
-            >
-              <Icon size={18} />
-              <span>{label}</span>
-            </button>
+    <div className={dark ? "app dark" : "app"}>
+      <header className="topbar">
+        <button className="mobile-menu" aria-label={menuOpen ? "关闭导航" : "打开导航"} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
+        <a className="brand" href="#top" aria-label="今日脉冲首页">
+          <span><TrendingUp /></span><strong>今日脉冲<small>科技资讯 · 每日必读</small></strong>
+        </a>
+        <label className="search">
+          <Search size={17} /><input ref={searchRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="搜索新闻、项目、技术、工具..." /><kbd>⌘K</kbd>
+        </label>
+        <nav className={menuOpen ? "open" : ""}>
+          {["全部", "AI", "开发者", "云计算", "芯片", "产品", "安全"].map((item) => (
+            <button key={item} className={filter === item ? "active" : ""} onClick={() => { setFilter(item); setMenuOpen(false); }}>{item}</button>
           ))}
+          <button>更多<ChevronDown size={13} /></button>
         </nav>
-        <div className="sidebar-bottom">
-          <button type="button" aria-label="收藏夹" title="收藏夹" onClick={() => setActiveNav("saved")}>
-            <Bookmark size={18} />
-            <span>收藏夹</span>
-            {saved.size ? <b>{saved.size}</b> : null}
-          </button>
+        <div className="date-status">
+          <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />自动更新 · {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"}</span>
         </div>
-      </aside>
+        <div className="top-actions">
+          <IconButton label="刷新" onClick={loadDaily}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
+          <IconButton label="切换主题" onClick={() => setDark(!dark)}>{dark ? <Sun /> : <Moon />}</IconButton>
+          <IconButton label="通知"><Bell /></IconButton>
+        </div>
+      </header>
 
-      <main className="main-content">
-        <header className="topbar">
-          <div className="brand-title">
-            <IconButton label="打开导航" className="mobile-menu" onClick={() => setMobileNavOpen((value) => !value)}>
-              {mobileNavOpen ? <X size={18} /> : <Menu size={18} />}
-            </IconButton>
-            <div>
-              <h1>今日脉冲</h1>
-              <p>{dailyData?.dateLabel || "2026年6月13日 · 星期六"}</p>
+      <main id="top">
+        <section className="lead-grid">
+          <article className="hero-card">
+            <img src="/assets/hero-spacecraft.png" alt="航天器飞越地球云层" />
+            <div className="hero-overlay">
+              <span>今日焦点</span>
+              <h1>{clean(hero.title, "SpaceX 星舰完成关键试飞：下一代航天商业化迎来新节点")}</h1>
+              <p>{clean(hero.summary, "从重复使用到更低发射成本，商业航天正在进入新的竞争周期。")}</p>
+              <div><small>{clean(hero.category, "全球科技")} · {clean(hero.time, "2 小时前")}</small><b>01 / 05 <ChevronLeft size={15} /><ChevronRight size={15} /></b></div>
             </div>
-          </div>
-          <label className="search-box">
-            <Search size={16} />
-            <input ref={searchRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索今日资讯" />
-            <kbd>⌘ K</kbd>
-          </label>
-          <button className={`refresh-button ${refreshing ? "is-refreshing" : ""}`} type="button" onClick={refresh}>
-            <RefreshCw size={15} />
-            <span>{refreshing ? "同步中" : "刷新"}</span>
-          </button>
-        </header>
+          </article>
 
-        <section className="daily-intro" id="today">
-          <div className="intro-copy">
-            <span className="issue-label">DAILY BRIEF · NO.{dailyData?.issue || 164}</span>
-            <h2>今天，技术继续从<br /><strong>“能回答”</strong>走向<strong>“能完成”</strong></h2>
-            <p>大模型的下一阶段不只是更聪明，而是更可靠地进入真实工作流。今天值得关注的信号，都在这里。</p>
-            <div className="intro-actions">
-              <button type="button" onClick={() => goTo("world", "world")}>
-                开始阅读
-                <ArrowRight size={16} />
-              </button>
-              <span><CircleDot size={14} />预计阅读 8 分钟</span>
-            </div>
-          </div>
-          <div className="signal-panel">
-            <div className="signal-top">
-              <span>今日信号</span>
-              <TrendingUp size={18} />
-            </div>
-            <strong>AI Agent</strong>
-            <p>从模型能力竞赛，进入工作流与交付质量竞赛。</p>
-            <div className="signal-meter"><span /></div>
-            <small>热度较昨日 +18%</small>
+          <section className="hot-list">
+            <SectionTitle action="查看全部">全球科技热点</SectionTitle>
+            {(filteredNews.length ? filteredNews : fallbackNews).slice(0, 8).map((item, index) => (
+              <a key={item.id || index} href={item.url || "#"} target={item.url ? "_blank" : undefined} rel="noreferrer">
+                <b className={`rank rank-${index}`}>{index + 1}</b>
+                <span><strong>{clean(item.title, fallbackNews[index % fallbackNews.length].title)}</strong><small>{clean(item.category, "科技资讯")} · {clean(item.time, `${index + 2} 小时前`)}</small></span>
+                <em><TrendingUp size={12} />{128 - index * 13}</em>
+              </a>
+            ))}
+          </section>
+
+          <aside className="learning-stack">
+            <section className="word-card">
+              <SectionTitle icon={<Sparkles size={16} />} action="查看历史">每日一词（科技）</SectionTitle>
+              <h2>{clean(word.term, "Tokenization")}<Volume2 size={17} /></h2>
+              <p className="phonetic">{clean(word.phonetic, "/ ˌtəʊkənaɪˈzeɪʃn /")} <span>名词</span></p>
+              <strong>定义</strong><p>{clean(word.definition, "将文本、数据或序列拆分为更小单位（token）的过程，以便模型或系统能够处理。")}</p>
+              <strong>例句</strong><p>{clean(word.example, "大语言模型在处理文本前，需要先进行 tokenization。")}</p>
+              <a href="https://huggingface.co/docs/tokenizers" target="_blank" rel="noreferrer">延伸阅读：Hugging Face Tokenizers <ExternalLink size={12} /></a>
+            </section>
+
+            <section className="interview-card">
+              <SectionTitle icon={<Bot size={17} />}>每日 AI 面试一题 <em>中等</em></SectionTitle>
+              <h3>{clean(interview.question, "某机构要搭建 AI 交易场景的实时风险预警系统，核心工程设计要点有哪些？")}</h3>
+              <ul>{(interview.points || ["场景需求拆解能力", "低延迟实时系统架构设计", "端侧 AI 推理性能优化"]).map((point) => <li key={point}>{clean(point, "工程能力与可靠性设计")}</li>)}</ul>
+              <button className="answer-toggle" onClick={() => setAnswerOpen(!answerOpen)}>{answerOpen ? "收起参考答案" : "查看参考答案"}<ChevronDown /></button>
+              {answerOpen && <div className="answer"><strong>参考答案（要点）</strong><ol>{(interview.answer || ["明确延迟阈值、风险判定规则与可解释性要求。", "采用流式计算与特征预计算，缩短数据处理链路。", "量化并压缩模型，在靠近数据源的位置部署。", "增加决策溯源与人工兜底，降低误判风险。"]).map((step) => <li key={step}>{clean(step, "建立可测试、可追踪、可回滚的工程方案。")}</li>)}</ol></div>}
+            </section>
+          </aside>
+        </section>
+
+        <section className="github-section">
+          <SectionTitle icon={<Github size={20} />} action="查看全部">GitHub 每日热点</SectionTitle>
+          <div className="repo-table">
+            {repos.slice(0, 5).map((repo, index) => (
+              <article key={repo.name}>
+                <b>{index + 1}</b><em><ArrowDown size={12} />{clean(repo.growth, `+${1200 - index * 210}`)}</em>
+                <span><a href={repo.url} target="_blank" rel="noreferrer">{clean(repo.name, fallbackRepos[index].name)}</a><small>{clean(repo.summary, fallbackRepos[index].summary)}</small></span>
+                <i>{clean(repo.language, fallbackRepos[index].language)}</i><label><Star size={13} />{clean(repo.stars, fallbackRepos[index].stars)}</label>
+                <IconButton label="收藏" active={saved.has(repo.name)} onClick={() => toggleSave(repo.name)}>{saved.has(repo.name) ? <BookmarkCheck /> : <Bookmark />}</IconButton>
+              </article>
+            ))}
           </div>
         </section>
 
-        <div className="content-grid">
-          <div className="feed-column">
-            <section className="editorial-section" id="world">
-              <SectionHeading icon={Globe2} title="全球科技热点" meta={`${filteredNews.length} 条更新`} action={refresh} actionLabel="重新获取" />
-              <div className="filter-row" aria-label="资讯筛选">
-                {["全部", "人工智能", "全球科技", "算力芯片", "开源生态", "产品观察"].map((filter) => (
-                  <button
-                    key={filter}
-                    className={activeFilter === filter ? "is-active" : ""}
-                    type="button"
-                    onClick={() => setActiveFilter(filter)}
-                  >
-                    {filter}
-                  </button>
-                ))}
-              </div>
-              <div className="news-list">
-                {filteredNews.length ? filteredNews.map((item) => (
-                  <NewsItem
-                    key={item.id}
-                    item={item}
-                    read={read.has(item.id)}
-                    saved={saved.has(item.id)}
-                    onRead={() => toggleSetItem(setRead, item.id)}
-                    onSave={() => toggleSetItem(setSaved, item.id)}
-                  />
-                )) : (
-                  <div className="empty-state">
-                    <Search size={22} />
-                    <p>今天的简报里暂时没有匹配内容</p>
-                  </div>
-                )}
-              </div>
-            </section>
-
-            <section className="editorial-section github-section" id="github">
-              <SectionHeading icon={Flame} title="GitHub 每日热点" meta="Trending today" />
-              <div className="repo-list">
-                {currentGithubRepos.map((repo) => (
-                  <GitHubRow
-                    key={repo.name}
-                    repo={repo}
-                    saved={saved.has(repo.name)}
-                    onSave={() => toggleSetItem(setSaved, repo.name)}
-                  />
-                ))}
-              </div>
-            </section>
-
-            <section className="tools-section" id="tools">
-              <SectionHeading icon={Boxes} title="AI 工具速递" meta="今日值得试试" />
-              <div className="tool-strip">
-                {toolBriefs.map((tool, index) => (
-                  <article key={tool.name}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    <div>
-                      <div className="tool-title"><h3>{tool.name}</h3><em>{tool.tag}</em></div>
-                      <p>{tool.text}</p>
-                    </div>
-                    <ArrowRight size={16} />
-                  </article>
-                ))}
-              </div>
-            </section>
+        <section className="bottom-grid">
+          <div className="topic-section">
+            <SectionTitle>今日精选速览</SectionTitle>
+            <div className="topic-grid">{topics.map(([title, count, className]) => <button className={className} key={title}><strong>{title}</strong><span>{count}</span><ArrowRight /></button>)}</div>
           </div>
-
-          <aside className="utility-column">
-            <section className="utility-panel word-panel">
-              <SectionHeading icon={Lightbulb} title="每日一词" meta={dailyData?.generation?.learningSource === "ark" ? "火山方舟生成" : "每日题库轮换"} />
-              <span className="word-index">WORD / {dailyData?.issue || 164}</span>
-              <h2>{currentWord?.term || "Agentic Workflow"}</h2>
-              <p className="phonetic">{currentWord?.phonetic || "/ eɪˈdʒentɪk ˈwɜːrkfloʊ /"}</p>
-              <p>{currentWord?.definition || "由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。"}</p>
-              <div className="word-example">
-                <span>一句话理解</span>
-                <p>{currentWord?.example || "不是“帮我写一封邮件”，而是“跟进客户，直到确认会议时间”。"}</p>
-              </div>
-            </section>
-
-            <section className="utility-panel interview-panel" id="interview">
-              <SectionHeading icon={Bot} title="每日面试一题" meta={dailyData?.generation?.learningSource === "ark" ? "火山方舟生成" : "每日题库轮换"} />
-              <span className="difficulty"><i /> {currentInterview?.category || "AI 应用工程"} · {currentInterview?.difficulty || "中等"}</span>
-              <h3>{currentInterview?.question || "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？"}</h3>
-              <ul>
-                {(currentInterview?.points || ["检索结果质量与排序", "上下文组织与长度", "模型指令与答案评估"]).map((point) => <li key={point}>{point}</li>)}
-              </ul>
-              <button className="answer-toggle" type="button" onClick={() => setAnswerOpen((value) => !value)}>
-                {answerOpen ? "收起参考答案" : "查看参考答案"}
-                {answerOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-              </button>
-              {answerOpen ? (
-                <div className="answer-box">
-                  <p>{currentInterview?.answerLead || "参考答题思路："}</p>
-                  <ol>{(currentInterview?.answer || [
-                    "建立可复现测试集，拆分检索命中率、重排质量和生成正确率。",
-                    "检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。",
-                    "对比无上下文、理想上下文和真实上下文三组生成结果，定位瓶颈。",
-                    "再针对瓶颈调整 chunk、reranker、上下文结构或模型指令。",
-                  ]).map((step) => <li key={step}>{step}</li>)}</ol>
-                </div>
-              ) : null}
-            </section>
-
-            <section className="utility-panel radar-panel">
-              <SectionHeading icon={TrendingUp} title="趋势雷达" meta="7 日热度" />
-              <TrendRadar />
-            </section>
-
-            <section className="utility-panel prompt-panel">
-              <div className="prompt-icon"><Sparkles size={18} /></div>
-              <div>
-                <span>今日提示词</span>
-                <p>“请先列出判断标准，再给出结论和不确定性。”</p>
-              </div>
-              <IconButton label="已掌握" onClick={() => toggleSetItem(setRead, "prompt")} active={read.has("prompt")}>
-                {read.has("prompt") ? <Check size={16} /> : <Command size={16} />}
-              </IconButton>
-            </section>
+          <aside className="tools-panel">
+            <SectionTitle icon={<TrendingUp size={17} />} action="查看更多">趋势 / 工具速览</SectionTitle>
+            <div>{quickTools.map(([title, sub, status, color]) => <article key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></article>)}</div>
           </aside>
-        </div>
-
-        <footer>
-          <span><Zap size={14} fill="currentColor" /> 今日脉冲</span>
-          <p>保持好奇，保持判断。</p>
-          <span>更新于 {dailyData?.generatedAt ? new Date(dailyData.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "09:00"}</span>
-        </footer>
+        </section>
       </main>
+
+      <footer><span>数据来源：gnews · GitHub Trending · arXiv · 更多</span><span>关于今日脉冲　意见反馈</span></footer>
     </div>
   );
 }
-
-export default App;
