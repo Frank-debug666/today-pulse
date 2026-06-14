@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowRight,
   Bookmark,
@@ -172,7 +172,7 @@ function GitHubRow({ repo, saved, onSave }) {
             <Star size={13} />
             {repo.stars}
           </span>
-          <strong>{repo.growth} 今日</strong>
+          <strong>{repo.growth} {repo.growthLabel || "热度"}</strong>
         </div>
       </div>
       <IconButton label={saved ? "取消收藏" : "收藏仓库"} active={saved} onClick={onSave}>
@@ -236,16 +236,33 @@ function App() {
   const [read, setRead] = useState(() => new Set());
   const [refreshing, setRefreshing] = useState(false);
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  const searchRef = useRef(null);
   const currentGithubRepos = dailyData?.githubRepos?.length ? dailyData.githubRepos : githubRepos;
   const currentGlobalNews = dailyData?.globalNews?.length ? dailyData.globalNews : globalNews;
   const currentWord = dailyData?.word;
   const currentInterview = dailyData?.interview;
 
+  const loadDaily = async () => {
+    setRefreshing(true);
+    try {
+      const response = await fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error("daily data unavailable");
+      setDailyData(await response.json());
+    } finally {
+      setRefreshing(false);
+    }
+  };
+
   useEffect(() => {
-    fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" })
-      .then((response) => response.json())
-      .then(setDailyData)
-      .catch(() => {});
+    loadDaily().catch(() => {});
+    const onShortcut = (event) => {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        searchRef.current?.focus();
+      }
+    };
+    window.addEventListener("keydown", onShortcut);
+    return () => window.removeEventListener("keydown", onShortcut);
   }, []);
 
   const filteredNews = useMemo(() => {
@@ -268,10 +285,7 @@ function App() {
     });
   };
 
-  const refresh = () => {
-    setRefreshing(true);
-    window.setTimeout(() => setRefreshing(false), 850);
-  };
+  const refresh = () => loadDaily().catch(() => {});
 
   const goTo = (nav, target) => {
     setActiveNav(nav);
@@ -327,7 +341,7 @@ function App() {
           </div>
           <label className="search-box">
             <Search size={16} />
-            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索今日资讯" />
+            <input ref={searchRef} value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索今日资讯" />
             <kbd>⌘ K</kbd>
           </label>
           <button className={`refresh-button ${refreshing ? "is-refreshing" : ""}`} type="button" onClick={refresh}>
@@ -366,7 +380,7 @@ function App() {
             <section className="editorial-section" id="world">
               <SectionHeading icon={Globe2} title="全球科技热点" meta={`${filteredNews.length} 条更新`} action={refresh} actionLabel="重新获取" />
               <div className="filter-row" aria-label="资讯筛选">
-                {["全部", "人工智能", "算力芯片", "开源生态", "产品观察"].map((filter) => (
+                {["全部", "人工智能", "全球科技", "算力芯片", "开源生态", "产品观察"].map((filter) => (
                   <button
                     key={filter}
                     className={activeFilter === filter ? "is-active" : ""}
@@ -429,7 +443,7 @@ function App() {
 
           <aside className="utility-column">
             <section className="utility-panel word-panel">
-              <SectionHeading icon={Lightbulb} title="每日一词" />
+              <SectionHeading icon={Lightbulb} title="每日一词" meta={dailyData?.generation?.learningSource === "ark" ? "火山方舟生成" : "每日题库轮换"} />
               <span className="word-index">WORD / {dailyData?.issue || 164}</span>
               <h2>{currentWord?.term || "Agentic Workflow"}</h2>
               <p className="phonetic">{currentWord?.phonetic || "/ eɪˈdʒentɪk ˈwɜːrkfloʊ /"}</p>
@@ -441,7 +455,7 @@ function App() {
             </section>
 
             <section className="utility-panel interview-panel" id="interview">
-              <SectionHeading icon={Bot} title="每日面试一题" />
+              <SectionHeading icon={Bot} title="每日面试一题" meta={dailyData?.generation?.learningSource === "ark" ? "火山方舟生成" : "每日题库轮换"} />
               <span className="difficulty"><i /> AI 应用工程 · 中等</span>
               <h3>{currentInterview?.question || "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？"}</h3>
               <ul>

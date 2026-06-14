@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T01:18:50.661Z",
+  "generatedAt": "2026-06-14T01:35:37.519Z",
   "dateLabel": "2026年6月14日 · 星期日",
-  "issue": 168,
+  "issue": 171,
   "githubRepos": [
     {
       "rank": "01",
@@ -10,7 +10,8 @@
       "language": "TypeScript",
       "color": "#3178c6",
       "stars": "7.9K",
-      "growth": "+7938",
+      "growth": "+7942",
+      "growthLabel": "近7日",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
     {
@@ -20,7 +21,8 @@
       "language": "Other",
       "color": "#707873",
       "stars": "3.4K",
-      "growth": "+3401",
+      "growth": "+3418",
+      "growthLabel": "近7日",
       "url": "https://github.com/shadcn/improve"
     },
     {
@@ -30,7 +32,8 @@
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.5K",
-      "growth": "+1528",
+      "growth": "+1535",
+      "growthLabel": "近7日",
       "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
@@ -41,6 +44,7 @@
       "color": "#707873",
       "stars": "1.3K",
       "growth": "+1252",
+      "growthLabel": "近7日",
       "url": "https://github.com/MSNightmare/RoguePlanet"
     },
     {
@@ -49,18 +53,19 @@
       "summary": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
       "language": "Shell",
       "color": "#707873",
-      "stars": "992",
-      "growth": "+992",
+      "stars": "994",
+      "growth": "+994",
+      "growthLabel": "近7日",
       "url": "https://github.com/SkyBlue997/enableMacosAI"
     }
   ],
   "globalNews": [
     {
       "id": "hn-48517377",
-      "category": "全球科技",
+      "category": "产品观察",
       "time": "21:54",
       "title": "Noise infusion banned from statistical products published by Census Bureau",
-      "summary": "Hacker News 热门讨论 · 715 points · 440 条评论",
+      "summary": "Hacker News 热门讨论 · 721 points · 453 条评论",
       "url": "https://desfontain.es/blog/banning-noise.html",
       "accent": "lime"
     },
@@ -69,7 +74,7 @@
       "category": "全球科技",
       "time": "00:18",
       "title": "GLM 5.2 Is Out",
-      "summary": "Hacker News 热门讨论 · 325 points · 181 条评论",
+      "summary": "Hacker News 热门讨论 · 337 points · 189 条评论",
       "url": "https://twitter.com/jietang/status/2065784751345287314",
       "accent": "coral"
     },
@@ -78,7 +83,7 @@
       "category": "全球科技",
       "time": "19:40",
       "title": "Every Frame Perfect",
-      "summary": "Hacker News 热门讨论 · 544 points · 179 条评论",
+      "summary": "Hacker News 热门讨论 · 548 points · 179 条评论",
       "url": "https://tonsky.me/blog/every-frame-perfect/",
       "accent": "mint"
     },
@@ -87,7 +92,7 @@
       "category": "全球科技",
       "time": "23:54",
       "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
-      "summary": "Hacker News 热门讨论 · 69 points · 15 条评论",
+      "summary": "Hacker News 热门讨论 · 73 points · 15 条评论",
       "url": "https://blog.pyodide.org/posts/314-release/",
       "accent": "ink"
     },
@@ -96,26 +101,26 @@
       "category": "全球科技",
       "time": "21:34",
       "title": "Treating pancreatic tumours may have revealed cancer's master switch",
-      "summary": "Hacker News 热门讨论 · 292 points · 103 条评论",
+      "summary": "Hacker News 热门讨论 · 296 points · 105 条评论",
       "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
       "accent": "lime"
-    },
-    {
-      "id": "hn-48522486",
-      "category": "全球科技",
-      "time": "07:22",
-      "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
-      "summary": "Hacker News 热门讨论 · 65 points · 4 条评论",
-      "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
-      "accent": "coral"
     },
     {
       "id": "hn-48490927",
       "category": "全球科技",
       "time": "22:34",
       "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
-      "summary": "Hacker News 热门讨论 · 10 points · 2 条评论",
+      "summary": "Hacker News 热门讨论 · 16 points · 2 条评论",
       "url": "https://github.com/kekcleader/FreeOberon",
+      "accent": "coral"
+    },
+    {
+      "id": "hn-48522486",
+      "category": "全球科技",
+      "time": "07:22",
+      "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
+      "summary": "Hacker News 热门讨论 · 74 points · 8 条评论",
+      "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
       "accent": "mint"
     },
     {
@@ -123,29 +128,35 @@
       "category": "全球科技",
       "time": "02:32",
       "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
-      "summary": "Hacker News 热门讨论 · 73 points · 16 条评论",
+      "summary": "Hacker News 热门讨论 · 77 points · 17 条评论",
       "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Agentic Workflow",
-    "phonetic": "/ eɪˈdʒentɪk ˈwɜːrkfloʊ /",
-    "definition": "由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。",
-    "example": "不是“帮我写一封邮件”，而是“跟进客户，直到确认会议时间”。"
+    "term": "Structured Output",
+    "phonetic": "/ structured output /",
+    "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。",
+    "example": "让模型返回合法 JSON，而不是一段需要再次解析的自然语言。"
   },
   "interview": {
-    "question": "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？",
+    "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
     "points": [
-      "检索结果质量与排序",
-      "上下文组织与长度",
-      "模型指令与答案评估"
+      "Schema 约束",
+      "校验重试",
+      "容错设计"
     ],
     "answer": [
-      "建立可复现测试集，拆分检索命中率、重排质量和生成正确率。",
-      "检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。",
-      "对比无上下文、理想上下文和真实上下文三组生成结果，定位瓶颈。",
-      "再针对瓶颈调整 chunk、reranker、上下文结构或模型指令。"
+      "使用模型提供的结构化输出或 JSON Schema 能力。",
+      "服务端执行严格校验，并将校验错误反馈给模型重试。",
+      "限制字段范围、长度和枚举值，减少自由输出空间。",
+      "为持续失败设置降级逻辑，避免阻塞主流程。"
     ]
+  },
+  "generation": {
+    "learningSource": "fallback",
+    "learningError": "Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID",
+    "githubSource": "github-search",
+    "newsSource": "hacker-news"
   }
 }
