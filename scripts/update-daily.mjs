@@ -4,6 +4,26 @@ import { dirname, resolve } from "node:path";
 const outputPath = resolve("public/daily.json");
 const previous = JSON.parse(await readFile(outputPath, "utf8"));
 const now = new Date();
+const chinaDateKey = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Shanghai",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+}).format(now);
+const previousChinaDateKey = previous.generatedAt
+  ? new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Shanghai",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).format(new Date(previous.generatedAt))
+  : "";
+
+if (process.env.GITHUB_EVENT_NAME === "schedule" && previousChinaDateKey === chinaDateKey) {
+  console.log(`Daily briefing already updated for ${chinaDateKey}; skipping backup run.`);
+  process.exit(0);
+}
+
 const chinaDate = new Intl.DateTimeFormat("zh-CN", {
   timeZone: "Asia/Shanghai",
   year: "numeric",
@@ -48,14 +68,25 @@ async function fetchGithub() {
 
 async function fetchNews() {
   const apiKey = process.env.GNEWS_API_KEY;
-  if (!apiKey) return previous.globalNews || [];
+  if (apiKey) {
+    try {
+      const query = encodeURIComponent("artificial intelligence OR technology OR semiconductor OR open source");
+      const data = await fetchJson(`https://gnews.io/api/v4/search?q=${query}&lang=en&max=8&sortby=publishedAt&apikey=${apiKey}`);
+      if (data.articles?.length) return formatGnewsArticles(data.articles);
+      console.warn("GNews returned no articles; using Hacker News fallback.");
+    } catch (error) {
+      console.warn(`GNews unavailable; using Hacker News fallback: ${error.message}`);
+    }
+  }
 
-  const query = encodeURIComponent("人工智能 OR 科技 OR 芯片 OR 开源");
-  const data = await fetchJson(`https://gnews.io/api/v4/search?q=${query}&lang=zh&max=8&sortby=publishedAt&apikey=${apiKey}`);
+  return fetchHackerNews();
+}
+
+function formatGnewsArticles(articles) {
   const accents = ["lime", "coral", "mint", "ink"];
   const categories = ["人工智能", "全球科技", "算力芯片", "开源生态"];
 
-  return data.articles.slice(0, 8).map((article, index) => ({
+  return articles.slice(0, 8).map((article, index) => ({
     id: `news-${now.toISOString().slice(0, 10)}-${index}`,
     category: categories[index % categories.length],
     time: new Intl.DateTimeFormat("zh-CN", {
@@ -69,6 +100,30 @@ async function fetchNews() {
     url: article.url,
     accent: accents[index % accents.length],
   }));
+}
+
+async function fetchHackerNews() {
+  const ids = await fetchJson("https://hacker-news.firebaseio.com/v0/topstories.json");
+  const items = await Promise.all(ids.slice(0, 16).map((id) => fetchJson(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)));
+  const accents = ["lime", "coral", "mint", "ink"];
+
+  return items
+    .filter((item) => item?.title && item?.url)
+    .slice(0, 8)
+    .map((item, index) => ({
+      id: `hn-${item.id}`,
+      category: "全球科技",
+      time: new Intl.DateTimeFormat("zh-CN", {
+        timeZone: "Asia/Shanghai",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+      }).format(new Date(item.time * 1000)),
+      title: item.title,
+      summary: `Hacker News 热门讨论 · ${item.score || 0} points · ${item.descendants || 0} 条评论`,
+      url: item.url,
+      accent: accents[index % accents.length],
+    }));
 }
 
 async function generateLearning(news) {

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T13:43:32.740Z",
-  "dateLabel": "2026年6月13日 · 星期六",
-  "issue": 166,
+  "generatedAt": "2026-06-14T01:18:50.661Z",
+  "dateLabel": "2026年6月14日 · 星期日",
+  "issue": 168,
   "githubRepos": [
     {
       "rank": "01",
@@ -9,8 +9,8 @@
       "summary": "本周快速增长的开源项目。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "7.7K",
-      "growth": "+7692",
+      "stars": "7.9K",
+      "growth": "+7938",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
     {
@@ -19,19 +19,19 @@
       "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
       "language": "Other",
       "color": "#707873",
-      "stars": "2.6K",
-      "growth": "+2587",
+      "stars": "3.4K",
+      "growth": "+3401",
       "url": "https://github.com/shadcn/improve"
     },
     {
       "rank": "03",
-      "name": "NoopApp / noop",
-      "summary": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
-      "language": "Swift",
-      "color": "#707873",
-      "stars": "1.6K",
-      "growth": "+1574",
-      "url": "https://github.com/NoopApp/noop"
+      "name": "DietrichGebert / ponytail",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1.5K",
+      "growth": "+1528",
+      "url": "https://github.com/DietrichGebert/ponytail"
     },
     {
       "rank": "04",
@@ -39,22 +39,95 @@
       "summary": "RoguePlanet Windows Defender Vulnerability",
       "language": "C++",
       "color": "#707873",
-      "stars": "1.2K",
-      "growth": "+1238",
+      "stars": "1.3K",
+      "growth": "+1252",
       "url": "https://github.com/MSNightmare/RoguePlanet"
     },
     {
       "rank": "05",
-      "name": "DietrichGebert / ponytail",
-      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.1K",
-      "growth": "+1128",
-      "url": "https://github.com/DietrichGebert/ponytail"
+      "name": "SkyBlue997 / enableMacosAI",
+      "summary": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
+      "language": "Shell",
+      "color": "#707873",
+      "stars": "992",
+      "growth": "+992",
+      "url": "https://github.com/SkyBlue997/enableMacosAI"
     }
   ],
-  "globalNews": [],
+  "globalNews": [
+    {
+      "id": "hn-48517377",
+      "category": "全球科技",
+      "time": "21:54",
+      "title": "Noise infusion banned from statistical products published by Census Bureau",
+      "summary": "Hacker News 热门讨论 · 715 points · 440 条评论",
+      "url": "https://desfontain.es/blog/banning-noise.html",
+      "accent": "lime"
+    },
+    {
+      "id": "hn-48518684",
+      "category": "全球科技",
+      "time": "00:18",
+      "title": "GLM 5.2 Is Out",
+      "summary": "Hacker News 热门讨论 · 325 points · 181 条评论",
+      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "accent": "coral"
+    },
+    {
+      "id": "hn-48516251",
+      "category": "全球科技",
+      "time": "19:40",
+      "title": "Every Frame Perfect",
+      "summary": "Hacker News 热门讨论 · 544 points · 179 条评论",
+      "url": "https://tonsky.me/blog/every-frame-perfect/",
+      "accent": "mint"
+    },
+    {
+      "id": "hn-48462759",
+      "category": "全球科技",
+      "time": "23:54",
+      "title": "Pyodide 314.0: Python packages can now publish WebAssembly wheels to PyPI",
+      "summary": "Hacker News 热门讨论 · 69 points · 15 条评论",
+      "url": "https://blog.pyodide.org/posts/314-release/",
+      "accent": "ink"
+    },
+    {
+      "id": "hn-48517199",
+      "category": "全球科技",
+      "time": "21:34",
+      "title": "Treating pancreatic tumours may have revealed cancer's master switch",
+      "summary": "Hacker News 热门讨论 · 292 points · 103 条评论",
+      "url": "https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch",
+      "accent": "lime"
+    },
+    {
+      "id": "hn-48522486",
+      "category": "全球科技",
+      "time": "07:22",
+      "title": "ReactOS (FOSS \"Windows\") achieves 3D-accelerated Half-Life on real hardware",
+      "summary": "Hacker News 热门讨论 · 65 points · 4 条评论",
+      "url": "https://www.phoronix.com/news/ReactOS-Running-Half-Life",
+      "accent": "coral"
+    },
+    {
+      "id": "hn-48490927",
+      "category": "全球科技",
+      "time": "22:34",
+      "title": "FreeOberon – Open-Source, Cross-Platform, Free Pascal/Turbo Pascal-Like Language",
+      "summary": "Hacker News 热门讨论 · 10 points · 2 条评论",
+      "url": "https://github.com/kekcleader/FreeOberon",
+      "accent": "mint"
+    },
+    {
+      "id": "hn-48520080",
+      "category": "全球科技",
+      "time": "02:32",
+      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
+      "summary": "Hacker News 热门讨论 · 73 points · 16 条评论",
+      "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
+      "accent": "ink"
+    }
+  ],
   "word": {
     "term": "Agentic Workflow",
     "phonetic": "/ eɪˈdʒentɪk ˈwɜːrkfloʊ /",

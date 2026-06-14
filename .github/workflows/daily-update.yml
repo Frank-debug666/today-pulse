@@ -2,7 +2,8 @@ name: Daily technology briefing
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # 08:17 and 09:17 Asia/Shanghai. Avoid GitHub Actions' busy top-of-hour window.
+    - cron: "17 0,1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -26,6 +27,7 @@ jobs:
 
       - name: Generate daily briefing
         env:
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
           GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
           ARK_API_KEY: ${{ secrets.ARK_API_KEY }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
