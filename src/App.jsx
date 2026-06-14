@@ -456,7 +456,7 @@ function App() {
 
             <section className="utility-panel interview-panel" id="interview">
               <SectionHeading icon={Bot} title="每日面试一题" meta={dailyData?.generation?.learningSource === "ark" ? "火山方舟生成" : "每日题库轮换"} />
-              <span className="difficulty"><i /> AI 应用工程 · 中等</span>
+              <span className="difficulty"><i /> {currentInterview?.category || "AI 应用工程"} · {currentInterview?.difficulty || "中等"}</span>
               <h3>{currentInterview?.question || "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？"}</h3>
               <ul>
                 {(currentInterview?.points || ["检索结果质量与排序", "上下文组织与长度", "模型指令与答案评估"]).map((point) => <li key={point}>{point}</li>)}
@@ -467,7 +467,7 @@ function App() {
               </button>
               {answerOpen ? (
                 <div className="answer-box">
-                  <p>先分层评估，而不是直接改 Prompt：</p>
+                  <p>{currentInterview?.answerLead || "参考答题思路："}</p>
                   <ol>{(currentInterview?.answer || [
                     "建立可复现测试集，拆分检索命中率、重排质量和生成正确率。",
                     "检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。",

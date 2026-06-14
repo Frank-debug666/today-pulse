@@ -275,15 +275,41 @@ function classifyNews(text) {
   return "全球科技";
 }
 
+function enrichInterview(interview) {
+  const question = interview.question || "";
+  let category = interview.category;
+  if (!category) {
+    if (/RAG|向量|检索|Reranker/i.test(question)) category = "RAG 与搜索";
+    else if (/Agent|工具调用/i.test(question)) category = "Agent 系统";
+    else if (/安全|注入|风险/i.test(question)) category = "安全治理";
+    else if (/评测|测试集/i.test(question)) category = "模型评测";
+    else if (/性能|延迟|成本|模型选择/i.test(question)) category = "推理性能";
+    else if (/JSON|结构化|Schema/i.test(question)) category = "AI 产品架构";
+    else category = "AI 应用工程";
+  }
+  return {
+    ...interview,
+    category,
+    difficulty: interview.difficulty || "中等",
+    answerLead: interview.answerLead || "参考答题思路：",
+  };
+}
+
 async function generateLearning(news) {
   const apiKey = process.env.ARK_API_KEY || process.env.AI_API_KEY || process.env.AI_API || process.env.VOLCENGINE_API_KEY;
   const model = process.env.ARK_MODEL_ID || process.env.ARK_ENDPOINT_ID || process.env.ARK_MODEL;
   if (!apiKey || !model) throw new Error("Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID");
 
-  const prompt = `你是中文科技晨报编辑。根据这些今日科技新闻标题，生成每日科技一词和一道 AI 应用工程面试题。
+  const recentTopic = previous.interview?.category || previous.interview?.question || "无";
+  const prompt = `你是中文科技晨报编辑。根据这些今日科技新闻标题，生成每日科技一词和一道 AI 工程面试题。
 新闻：${news.map((item) => item.title).join("；")}
+题目要求：
+- 从这些方向中选择一个：RAG与搜索、Agent系统、安全治理、模型评测、推理性能、数据工程、多模态、AI产品架构、成本与可观测性。
+- 不要选择与上一期相同的方向。上一期方向或题目：${recentTopic}
+- 提示词工程类题目最多每周一次，除非当天新闻强相关。
+- 必须是需要系统分析或架构权衡的开放题，不要只问概念定义。
 只返回严格 JSON，不要 Markdown：
-{"word":{"term":"英文术语","phonetic":"音标或英文读音提示","definition":"中文定义，不超过50字","example":"一句话理解，不超过50字"},"interview":{"question":"问题","points":["考察点1","考察点2","考察点3"],"answer":["答案步骤1","答案步骤2","答案步骤3","答案步骤4"]}}`;
+{"word":{"term":"英文术语","phonetic":"音标或英文读音提示","definition":"中文定义，不超过50字","example":"一句话理解，不超过50字"},"interview":{"category":"方向","difficulty":"初级/中等/高级","question":"问题","points":["考察点1","考察点2","考察点3"],"answerLead":"与该题匹配的一句答题策略，不要固定提到Prompt","answer":["答案步骤1","答案步骤2","答案步骤3","答案步骤4"]}}`;
 
   const baseUrl = process.env.ARK_BASE_URL || "https://ark.cn-beijing.volces.com/api/v3";
   const data = await fetchJson(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
@@ -325,7 +351,7 @@ const daily = {
   githubRepos,
   globalNews,
   word: learning.word,
-  interview: learning.interview,
+  interview: enrichInterview(learning.interview),
   generation: {
     learningSource,
     learningError,
