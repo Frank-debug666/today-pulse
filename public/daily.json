@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T02:44:22.705Z",
-  "dateLabel": "2026年6月14日 · 星期日",
-  "issue": 173,
+  "generatedAt": "2026-06-15T01:48:04.219Z",
+  "dateLabel": "2026年6月15日 · 星期一",
+  "issue": 174,
   "githubRepos": [
     {
       "rank": "01",
@@ -9,32 +9,32 @@
       "summary": "本周快速增长的开源项目。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "8K",
-      "growth": "+7974",
+      "stars": "8.5K",
+      "growth": "+8467",
       "growthLabel": "近7日",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
     {
       "rank": "02",
-      "name": "shadcn / improve",
-      "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
-      "language": "Other",
-      "color": "#707873",
-      "stars": "3.5K",
-      "growth": "+3460",
-      "growthLabel": "近7日",
-      "url": "https://github.com/shadcn/improve"
-    },
-    {
-      "rank": "03",
       "name": "DietrichGebert / ponytail",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.6K",
-      "growth": "+1574",
+      "stars": "8.3K",
+      "growth": "+8270",
       "growthLabel": "近7日",
       "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "rank": "03",
+      "name": "shadcn / improve",
+      "summary": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "4.4K",
+      "growth": "+4351",
+      "growthLabel": "近7日",
+      "url": "https://github.com/shadcn/improve"
     },
     {
       "rank": "04",
@@ -43,25 +43,25 @@
       "language": "C++",
       "color": "#707873",
       "stars": "1.3K",
-      "growth": "+1254",
+      "growth": "+1275",
       "growthLabel": "近7日",
       "url": "https://github.com/MSNightmare/RoguePlanet"
     },
     {
       "rank": "05",
-      "name": "SkyBlue997 / enableMacosAI",
-      "summary": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
-      "language": "Shell",
-      "color": "#707873",
-      "stars": "1K",
-      "growth": "+1006",
+      "name": "omnigent-ai / omnigent",
+      "summary": "A meta-harness for all your AI agents.  Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting, keep them in check with policies and sandboxing, and collaborate in real time on the same live session, from any device.",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "1.2K",
+      "growth": "+1219",
       "growthLabel": "近7日",
-      "url": "https://github.com/SkyBlue997/enableMacosAI"
+      "url": "https://github.com/omnigent-ai/omnigent"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-06-14-0",
+      "id": "news-2026-06-15-0",
       "category": "人工智能",
       "time": "13:00",
       "title": "KPMG the latest firm to be caught out using AI",
@@ -70,7 +70,7 @@
       "accent": "lime"
     },
     {
-      "id": "news-2026-06-14-1",
+      "id": "news-2026-06-15-1",
       "category": "人工智能",
       "time": "03:40",
       "title": "Open-source AI may aid climate and development but deepen inequality, experts warn",
@@ -79,7 +79,7 @@
       "accent": "coral"
     },
     {
-      "id": "news-2026-06-14-2",
+      "id": "news-2026-06-15-2",
       "category": "人工智能",
       "time": "00:26",
       "title": "The midterms are approaching. What they could mean for the stock market - and the AI trade",
@@ -88,7 +88,7 @@
       "accent": "mint"
     },
     {
-      "id": "news-2026-06-14-3",
+      "id": "news-2026-06-15-3",
       "category": "人工智能",
       "time": "00:03",
       "title": "SK Hynix tells investors its US listing plan wins their strong backing",
@@ -97,7 +97,7 @@
       "accent": "ink"
     },
     {
-      "id": "news-2026-06-14-4",
+      "id": "news-2026-06-15-4",
       "category": "人工智能",
       "time": "14:00",
       "title": "The Battle for Your Mind",
@@ -106,7 +106,7 @@
       "accent": "lime"
     },
     {
-      "id": "news-2026-06-14-5",
+      "id": "news-2026-06-15-5",
       "category": "人工智能",
       "time": "13:45",
       "title": "EXCLUSIVE-SpaceX plans to set IPO price at $135 per share, targeting record $75 billion raise, source says",
@@ -115,7 +115,7 @@
       "accent": "coral"
     },
     {
-      "id": "news-2026-06-14-6",
+      "id": "news-2026-06-15-6",
       "category": "人工智能",
       "time": "11:43",
       "title": "EXCLUSIVE-SpaceX plans to set IPO price at $135 per share, targeting $75 billion raise, source says",
@@ -124,7 +124,7 @@
       "accent": "mint"
     },
     {
-      "id": "news-2026-06-14-7",
+      "id": "news-2026-06-15-7",
       "category": "人工智能",
       "time": "09:32",
       "title": "EXCLUSIVE-SpaceX plans to price record-setting IPO at $135 per share, source says",
@@ -134,23 +134,26 @@
     }
   ],
   "word": {
-    "term": "AI Misuse",
-    "phonetic": "/ˌeɪ aɪ ˌmɪsˈjuːs/",
-    "definition": "指主体未合规管控使用AI，引发运营失误、合规风险的行为",
-    "example": "近期毕马威等多家知名企业因不当使用AI出现纰漏被曝光"
+    "term": "AI Compliance",
+    "phonetic": "/ˌeɪ aɪ kəmˈplaɪəns/",
+    "definition": "AI应用全生命周期需满足监管、行业规范及内部规则的合规管理体系",
+    "example": "毕马威等企业因未落实AI合规要求，误用AI引发业务合规风险"
   },
   "interview": {
-    "question": "某机构要搭建AI交易场景的实时风险预警系统，核心工程设计要点有哪些？",
+    "category": "安全治理",
+    "difficulty": "中等",
+    "question": "某跨国专业服务机构要搭建覆盖全业务线的生成式AI安全治理体系，需完成哪些核心架构权衡与落地设计？",
     "points": [
-      "AI金融落地场景的需求拆解能力",
-      "低延迟实时系统的架构设计能力",
-      "端侧AI推理的性能优化能力"
+      "AI全生命周期风险识别能力",
+      "合规要求与业务效率的权衡思路",
+      "多场景分级管控的落地设计能力"
     ],
+    "answerLead": "答题需围绕风险分层、流程嵌入、技术管控、动态迭代四个维度拆解，平衡安全与业务可用性",
     "answer": [
-      "先明确交易场景的延迟阈值、风险判定规则、合规可解释性硬性要求",
-      "采用流计算引擎+预计算特征库架构，将数据处理链路延迟压至毫秒级",
-      "对预警模型做量化、剪枝压缩，部署在近数据源推理节点降低耗时",
-      "配套AI决策溯源模块+人工兜底校验，避免误判引发交易损失"
+      "梳理全业务线AI使用场景，按数据敏感级、输出影响度划分风险层级，匹配差异化管控规则",
+      "在AI应用需求准入、开发测试、上线运行、下线归档全流程嵌入合规校验节点，前置风险拦截",
+      "部署内容审核、数据防泄露、输出溯源三类技术组件，配套低风险场景白名单降低效率损耗",
+      "建立动态迭代机制，定期同步最新监管规则与行业风险案例，持续更新治理策略"
     ]
   },
   "generation": {
