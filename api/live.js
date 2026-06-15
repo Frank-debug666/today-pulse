@@ -2,10 +2,10 @@ const accents = ["lime", "coral", "mint", "ink"];
 
 function classifyNews(text) {
   const lower = text.toLowerCase();
-  if (/(ai|artificial intelligence|model|llm|agent|openai|anthropic)/.test(lower)) return "人工智能";
-  if (/(chip|semiconductor|gpu|cpu|nvidia|amd|intel)/.test(lower)) return "芯片";
-  if (/(open source|github|linux|repository|developer)/.test(lower)) return "开发者";
-  if (/(security|cyber|privacy|attack|vulnerability)/.test(lower)) return "安全";
+  if (/(ai|人工智能|大模型|artificial intelligence|model|llm|agent|openai|anthropic)/.test(lower)) return "人工智能";
+  if (/(芯片|半导体|chip|semiconductor|gpu|cpu|nvidia|amd|intel)/.test(lower)) return "芯片";
+  if (/(开源|开发者|open source|github|linux|repository|developer)/.test(lower)) return "开发者";
+  if (/(安全|隐私|攻击|security|cyber|privacy|attack|vulnerability)/.test(lower)) return "安全";
   return "全球科技";
 }
 
@@ -42,7 +42,7 @@ async function fetchGithub() {
   return data.items.map((repo, index) => ({
     rank: String(index + 1).padStart(2, "0"),
     name: repo.full_name.replace("/", " / "),
-    summary: repo.description || "近期快速增长的开源项目。",
+    summary: `近期快速增长的 ${repo.language || "技术"} 开源项目，当前获得 ${repo.stargazers_count} 个关注。`,
     language: repo.language || "Other",
     stars: Intl.NumberFormat("en", { notation: "compact", maximumFractionDigits: 1 }).format(repo.stargazers_count),
     growth: `+${repo.stargazers_count}`,
@@ -59,14 +59,14 @@ async function fetchHackerNews() {
     category: classifyNews(item.title),
     time: formatTime(new Date(item.time * 1000)),
     title: item.title,
-    summary: `Hacker News 热门讨论 · ${item.score || 0} points · ${item.descendants || 0} 条评论`,
+    summary: `${classifyNews(item.title)}领域热门讨论，当前热度 ${item.score || 0}，共有 ${item.descendants || 0} 条评论。`,
     url: item.url,
     accent: accents[index % accents.length],
   }));
 }
 
 export default async function handler(request, response) {
-  if (request.method !== "GET") return response.status(405).json({ error: "Method not allowed" });
+  if (request.method !== "GET") return response.status(405).json({ error: "仅支持 GET 请求" });
 
   try {
     const [githubResult, newsResult] = await Promise.allSettled([fetchGithub(), fetchHackerNews()]);

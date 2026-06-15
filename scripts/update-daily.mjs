@@ -203,8 +203,8 @@ async function fetchNews() {
   const apiKey = process.env.GNEWS_API_KEY;
   if (apiKey) {
     try {
-      const query = encodeURIComponent("artificial intelligence OR technology OR semiconductor OR open source");
-      const data = await fetchJson(`https://gnews.io/api/v4/search?q=${query}&lang=en&max=8&sortby=publishedAt&apikey=${apiKey}`);
+      const query = encodeURIComponent("人工智能 OR 科技 OR 半导体 OR 开源");
+      const data = await fetchJson(`https://gnews.io/api/v4/search?q=${query}&lang=zh&max=8&sortby=publishedAt&apikey=${apiKey}`);
       if (data.articles?.length) {
         newsSource = "gnews";
         return formatGnewsArticles(data.articles);
@@ -260,7 +260,7 @@ async function fetchHackerNews() {
         hour12: false,
       }).format(new Date(item.time * 1000)),
       title: item.title,
-      summary: `Hacker News 热门讨论 · ${item.score || 0} points · ${item.descendants || 0} 条评论`,
+      summary: `${classifyNews(item.title)}领域热门讨论，当前热度 ${item.score || 0}，共有 ${item.descendants || 0} 条评论。`,
       url: item.url,
       accent: accents[index % accents.length],
     }));
@@ -295,21 +295,37 @@ function enrichInterview(interview) {
   };
 }
 
-async function generateLearning(news) {
+async function generateEditorial(news, repos) {
   const apiKey = process.env.ARK_API_KEY || process.env.AI_API_KEY || process.env.AI_API || process.env.VOLCENGINE_API_KEY;
   const model = process.env.ARK_MODEL_ID || process.env.ARK_ENDPOINT_ID || process.env.ARK_MODEL;
   if (!apiKey || !model) throw new Error("Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID");
 
   const recentTopic = previous.interview?.category || previous.interview?.question || "无";
-  const prompt = `你是中文科技晨报编辑。根据这些今日科技新闻标题，生成每日科技一词和一道 AI 工程面试题。
-新闻：${news.map((item) => item.title).join("；")}
+  const newsBrief = news.map((item, index) => ({
+    index,
+    title: item.title,
+    summary: String(item.summary || "").slice(0, 220),
+  }));
+  const repoBrief = repos.map((repo, index) => ({
+    index,
+    name: repo.name,
+    language: repo.language,
+    summary: String(repo.summary || "").slice(0, 180),
+  }));
+  const prompt = `你是面向中文开发者的科技晨报编辑。完成内容本地化，并生成每日学习内容。
+新闻：${JSON.stringify(newsBrief)}
+GitHub 项目：${JSON.stringify(repoBrief)}
+本地化要求：
+- 新闻标题和摘要必须改写成自然、准确、简洁的中文，保留公司名、产品名和专有名词。
+- GitHub 项目简介必须用一句自然中文说明项目用途，不要只写“热门项目”。
+- 不要虚构原文没有的信息，不要翻译项目名称。
 题目要求：
 - 从这些方向中选择一个：RAG与搜索、Agent系统、安全治理、模型评测、推理性能、数据工程、多模态、AI产品架构、成本与可观测性。
 - 不要选择与上一期相同的方向。上一期方向或题目：${recentTopic}
 - 提示词工程类题目最多每周一次，除非当天新闻强相关。
 - 必须是需要系统分析或架构权衡的开放题，不要只问概念定义。
 只返回严格 JSON，不要 Markdown：
-{"word":{"term":"英文术语","phonetic":"音标或英文读音提示","definition":"中文定义，不超过50字","example":"一句话理解，不超过50字"},"interview":{"category":"方向","difficulty":"初级/中等/高级","question":"问题","points":["考察点1","考察点2","考察点3"],"answerLead":"与该题匹配的一句答题策略，不要固定提到Prompt","answer":["答案步骤1","答案步骤2","答案步骤3","答案步骤4"]}}`;
+{"news":[{"index":0,"title":"中文标题","summary":"中文摘要"}],"repos":[{"index":0,"summary":"中文项目简介"}],"word":{"term":"英文术语","phonetic":"音标或英文读音提示","definition":"中文定义，不超过50字","example":"一句话理解，不超过50字"},"interview":{"category":"方向","difficulty":"初级/中等/高级","question":"问题","points":["考察点1","考察点2","考察点3"],"answerLead":"与该题匹配的一句答题策略，不要固定提到Prompt","answer":["答案步骤1","答案步骤2","答案步骤3","答案步骤4"]}}`;
 
   const baseUrl = process.env.ARK_BASE_URL || "https://ark.cn-beijing.volces.com/api/v3";
   const data = await fetchJson(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
@@ -337,19 +353,28 @@ let learning = learningFallbacks[fallbackIndex];
 let learningSource = "fallback";
 let learningError = null;
 try {
-  learning = await generateLearning(globalNews);
+  learning = await generateEditorial(globalNews, githubRepos);
   learningSource = "ark";
 } catch (error) {
   learningError = error.message;
   console.warn(`AI generation failed; using rotating fallback: ${error.message}`);
 }
 
+const localizedNews = globalNews.map((item, index) => {
+  const localized = learning.news?.find((entry) => Number(entry.index) === index);
+  return localized ? { ...item, title: localized.title || item.title, summary: localized.summary || item.summary } : item;
+});
+const localizedRepos = githubRepos.map((repo, index) => {
+  const localized = learning.repos?.find((entry) => Number(entry.index) === index);
+  return localized ? { ...repo, summary: localized.summary || repo.summary } : repo;
+});
+
 const daily = {
   generatedAt: now.toISOString(),
   dateLabel: chinaDate.replace("星期", " · 星期"),
   issue: Number(previous.issue || 164) + 1,
-  githubRepos,
-  globalNews,
+  githubRepos: localizedRepos,
+  globalNews: localizedNews,
   word: learning.word,
   interview: enrichInterview(learning.interview),
   generation: {

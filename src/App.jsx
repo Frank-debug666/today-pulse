@@ -51,16 +51,29 @@ const topics = [
 ];
 
 const quickTools = [
-  ["Hugging Face", "Trending", "+12", "blue", "https://huggingface.co/models?sort=trending"],
+  ["Hugging Face", "热门模型榜", "+12", "blue", "https://huggingface.co/models?sort=trending"],
   ["ArXiv CS", "计算机科学最新论文", "+86", "red", "https://arxiv.org/list/cs/new"],
-  ["NPM Trending", "今日热门 npm 包", "+24", "orange", "https://www.npmjs.com/"],
-  ["Vercel", "Deployments", "正常", "green", "https://vercel.com/dashboard"],
-  ["OpenAI", "Status", "正常", "green", "https://status.openai.com/"],
+  ["NPM 热门榜", "今日热门软件包", "+24", "orange", "https://www.npmjs.com/"],
+  ["Vercel", "部署管理", "正常", "green", "https://vercel.com/dashboard"],
+  ["OpenAI", "服务状态", "正常", "green", "https://status.openai.com/"],
 ];
 
 function clean(value, fallback = "") {
   if (!value || /[锟斤拷鈥藞瑟]/.test(String(value))) return fallback;
   return value;
+}
+
+function localizeLanguage(language) {
+  return language === "Other" ? "其他" : language;
+}
+
+function formatUpdateTime(value) {
+  if (!value) return "等待首次更新";
+  const date = new Date(value);
+  const today = new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", dateStyle: "short" }).format(new Date());
+  const target = new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", dateStyle: "short" }).format(date);
+  const time = date.toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" });
+  return `${today === target ? "今天" : target} ${time}`;
 }
 
 function IconButton({ label, children, active, onClick }) {
@@ -138,7 +151,7 @@ export default function App() {
   const filteredNews = useMemo(() => news.filter((item) => {
     const text = `${item.title} ${item.summary} ${item.category}`.toLowerCase();
     const aliases = {
-      AI: ["ai", "人工智能"],
+      人工智能: ["ai", "人工智能"],
       开发者: ["开发者", "编程", "开源"],
       云计算: ["云计算", "cloud"],
       芯片: ["芯片", "半导体", "chip"],
@@ -173,25 +186,25 @@ export default function App() {
           <Search size={17} /><input ref={searchRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="搜索新闻、项目、技术、工具..." /><kbd>⌘K</kbd>
         </label>
         <nav className={menuOpen ? "open" : ""}>
-          {["全部", "AI", "开发者", "云计算", "芯片", "产品", "安全"].map((item) => (
+          {["全部", "人工智能", "开发者", "云计算", "芯片", "产品", "安全"].map((item) => (
             <button key={item} className={filter === item ? "active" : ""} onClick={() => { setFilter(item); setMenuOpen(false); }}>{item}</button>
           ))}
           <button onClick={() => setMoreOpen(!moreOpen)}>更多<ChevronDown size={13} /></button>
         </nav>
         {moreOpen ? <div className="more-menu">
-          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub Trending</a>
+          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub 热门项目</a>
           <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noreferrer">AI 最新论文</a>
-          <a href="https://news.ycombinator.com/" target="_blank" rel="noreferrer">Hacker News</a>
+          <a href="https://news.ycombinator.com/" target="_blank" rel="noreferrer">Hacker News 技术社区</a>
         </div> : null}
         <div className="date-status">
-          <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />自动更新 · {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"}</span>
+          <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />每日简报 · {formatUpdateTime(data?.generatedAt)}更新</span>
         </div>
         <div className="top-actions">
           <IconButton label="实时刷新" onClick={() => loadDaily(true)}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
           <IconButton label="切换主题" onClick={() => setDark(!dark)}>{dark ? <Sun /> : <Moon />}</IconButton>
           <IconButton label="通知" active={notificationOpen} onClick={() => setNotificationOpen(!notificationOpen)}><Bell /></IconButton>
         </div>
-        {notificationOpen ? <div className="notification-panel"><strong>更新通知</strong><p>今日简报已于 {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"} 更新完成。</p><button onClick={() => setNotificationOpen(false)}>知道了</button></div> : null}
+        {notificationOpen ? <div className="notification-panel"><strong>更新通知</strong><p>今日简报已于 {formatUpdateTime(data?.generatedAt)} 更新完成。右上角刷新按钮可单独更新新闻与 GitHub 热点。</p><button onClick={() => setNotificationOpen(false)}>知道了</button></div> : null}
         {refreshNotice ? <button className="refresh-notice" type="button" onClick={() => setRefreshNotice("")}>{refreshNotice}<X size={13} /></button> : null}
       </header>
 
@@ -221,17 +234,17 @@ export default function App() {
 
           <aside className="learning-stack">
             <section className="word-card">
-              <SectionTitle icon={<Sparkles size={16} />} action={wordHistoryOpen ? "关闭历史" : "查看历史"} onAction={() => setWordHistoryOpen(!wordHistoryOpen)}>每日一词（科技）</SectionTitle>
+              <SectionTitle icon={<Sparkles size={16} />} action={wordHistoryOpen ? "收起往期" : "查看往期"} onAction={() => setWordHistoryOpen(!wordHistoryOpen)}>每日科技词汇</SectionTitle>
               <h2>{clean(word.term, "Tokenization")}<Volume2 size={17} /></h2>
               <p className="phonetic">{clean(word.phonetic, "/ ˌtəʊkənaɪˈzeɪʃn /")} <span>名词</span></p>
-              <strong>定义</strong><p>{clean(word.definition, "将文本、数据或序列拆分为更小单位（token）的过程，以便模型或系统能够处理。")}</p>
-              <strong>例句</strong><p>{clean(word.example, "大语言模型在处理文本前，需要先进行 tokenization。")}</p>
-              <a href="https://huggingface.co/docs/tokenizers" target="_blank" rel="noreferrer">延伸阅读：Hugging Face Tokenizers <ExternalLink size={12} /></a>
+              <strong>中文释义</strong><p>{clean(word.definition, "将文本、数据或序列拆分为更小单位（token）的过程，以便模型或系统能够处理。")}</p>
+              <strong>通俗理解</strong><p>{clean(word.example, "大语言模型在处理文本前，需要先进行 tokenization。")}</p>
+              <a href="https://huggingface.co/docs/tokenizers" target="_blank" rel="noreferrer">查看相关术语资料 <ExternalLink size={12} /></a>
               {wordHistoryOpen ? <div className="word-history"><strong>往期词汇</strong><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank" rel="noreferrer">RAG</a><a href="https://en.wikipedia.org/wiki/AI_agent" target="_blank" rel="noreferrer">AI Agent</a><a href="https://en.wikipedia.org/wiki/Inference" target="_blank" rel="noreferrer">Inference</a></div> : null}
             </section>
 
             <section className="interview-card">
-              <SectionTitle icon={<Bot size={17} />}>每日 AI 面试一题 <em>中等</em></SectionTitle>
+              <SectionTitle icon={<Bot size={17} />}>每日 AI 面试题 <em>{clean(interview.category, "AI 应用工程")} · {clean(interview.difficulty, "中等")}</em></SectionTitle>
               <h3>{clean(interview.question, "某机构要搭建 AI 交易场景的实时风险预警系统，核心工程设计要点有哪些？")}</h3>
               <ul>{(interview.points || ["场景需求拆解能力", "低延迟实时系统架构设计", "端侧 AI 推理性能优化"]).map((point) => <li key={point}>{clean(point, "工程能力与可靠性设计")}</li>)}</ul>
               <button className="answer-toggle" onClick={() => setAnswerOpen(!answerOpen)}>{answerOpen ? "收起参考答案" : "查看参考答案"}<ChevronDown /></button>
@@ -241,13 +254,13 @@ export default function App() {
         </section>
 
         <section className="github-section">
-          <SectionTitle icon={<Github size={20} />} action="查看 GitHub Trending" actionHref="https://github.com/trending">GitHub 每日热点</SectionTitle>
+          <SectionTitle icon={<Github size={20} />} action="前往 GitHub 热门榜" actionHref="https://github.com/trending">GitHub 每日热点</SectionTitle>
           <div className="repo-table">
             {repos.slice(0, 5).map((repo, index) => (
               <article key={repo.name}>
-                <b>{index + 1}</b><em><ArrowDown size={12} />{clean(repo.growth, `+${1200 - index * 210}`)}</em>
+                <b>{index + 1}</b><em title="近 7 日新增关注数"><ArrowDown size={12} />{clean(repo.growth, `+${1200 - index * 210}`)}</em>
                 <span><a href={repo.url} target="_blank" rel="noreferrer">{clean(repo.name, fallbackRepos[index].name)}</a><small>{clean(repo.summary, fallbackRepos[index].summary)}</small></span>
-                <i>{clean(repo.language, fallbackRepos[index].language)}</i><label><Star size={13} />{clean(repo.stars, fallbackRepos[index].stars)}</label>
+                <i>{localizeLanguage(clean(repo.language, fallbackRepos[index].language))}</i><label title="累计关注数"><Star size={13} />{clean(repo.stars, fallbackRepos[index].stars)}</label>
                 <IconButton label="收藏" active={saved.has(repo.name)} onClick={() => toggleSave(repo.name)}>{saved.has(repo.name) ? <BookmarkCheck /> : <Bookmark />}</IconButton>
               </article>
             ))}
@@ -260,13 +273,13 @@ export default function App() {
             <div className="topic-grid">{topics.map(([title, count, className, term]) => <a className={className} key={title} href={`https://news.google.com/search?q=${encodeURIComponent(term)}`} target="_blank" rel="noreferrer"><strong>{title}</strong><span>{count}</span><ArrowRight /></a>)}</div>
           </div>
           <aside className="tools-panel">
-            <SectionTitle icon={<TrendingUp size={17} />} action="查看更多" actionHref="https://www.producthunt.com/">趋势 / 工具速览</SectionTitle>
+            <SectionTitle icon={<TrendingUp size={17} />} action="查看更多工具" actionHref="https://www.producthunt.com/">趋势与工具速览</SectionTitle>
             <div>{quickTools.map(([title, sub, status, color, url]) => <a href={url} target="_blank" rel="noreferrer" key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></a>)}</div>
           </aside>
         </section>
       </main>
 
-      <footer><span>数据来源：gnews · GitHub Trending · arXiv · 更多</span><span>关于今日脉冲　意见反馈</span></footer>
+      <footer><span>数据来源：GNews · GitHub 热门榜 · arXiv · Hacker News</span><span>每日自动整理，仅供学习与资讯参考</span></footer>
     </div>
   );
 }
