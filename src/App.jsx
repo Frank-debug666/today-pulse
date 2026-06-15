@@ -115,13 +115,17 @@ export default function App() {
         const liveResponse = await fetch(`/api/live?ts=${Date.now()}`, { cache: "no-store" });
         if (!liveResponse.ok) throw new Error((await liveResponse.json()).error || "实时更新失败");
         const liveData = await liveResponse.json();
+        const chineseNews = liveData.globalNews?.filter((item) => /[\u4e00-\u9fff]/.test(item.title || "")) || [];
+        const shouldReplaceNews = chineseNews.length >= Math.ceil((liveData.globalNews?.length || 0) / 2);
         setData((current) => ({
           ...current,
           generatedAt: liveData.generatedAt,
-          ...(liveData.globalNews?.length ? { globalNews: liveData.globalNews } : {}),
+          ...(shouldReplaceNews ? { globalNews: liveData.globalNews } : {}),
           ...(liveData.githubRepos?.length ? { githubRepos: liveData.githubRepos } : {}),
         }));
-        setRefreshNotice(liveData.warnings?.length ? `部分更新成功：${liveData.warnings.join("；")}` : "实时新闻与 GitHub 热点已更新");
+        setRefreshNotice(liveData.warnings?.length
+          ? `部分更新成功：${liveData.warnings.join("；")}`
+          : shouldReplaceNews ? "实时新闻与 GitHub 热点已更新" : "GitHub 热点已刷新；中文新闻按每日简报更新");
       } else {
         const response = await fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" });
         if (!response.ok) throw new Error("每日数据读取失败");
