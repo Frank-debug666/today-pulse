@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-15T01:48:04.219Z",
+  "generatedAt": "2026-06-15T01:55:02.021Z",
   "dateLabel": "2026年6月15日 · 星期一",
-  "issue": 174,
+  "issue": 175,
   "githubRepos": [
     {
       "rank": "01",
@@ -10,7 +10,7 @@
       "language": "TypeScript",
       "color": "#3178c6",
       "stars": "8.5K",
-      "growth": "+8467",
+      "growth": "+8472",
       "growthLabel": "近7日",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code"
     },
@@ -21,7 +21,7 @@
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "8.3K",
-      "growth": "+8270",
+      "growth": "+8297",
       "growthLabel": "近7日",
       "url": "https://github.com/DietrichGebert/ponytail"
     },
@@ -32,7 +32,7 @@
       "language": "Other",
       "color": "#707873",
       "stars": "4.4K",
-      "growth": "+4351",
+      "growth": "+4357",
       "growthLabel": "近7日",
       "url": "https://github.com/shadcn/improve"
     },
@@ -54,7 +54,7 @@
       "language": "Python",
       "color": "#3572a5",
       "stars": "1.2K",
-      "growth": "+1219",
+      "growth": "+1223",
       "growthLabel": "近7日",
       "url": "https://github.com/omnigent-ai/omnigent"
     }
@@ -134,26 +134,26 @@
     }
   ],
   "word": {
-    "term": "AI Compliance",
-    "phonetic": "/ˌeɪ aɪ kəmˈplaɪəns/",
-    "definition": "AI应用全生命周期需满足监管、行业规范及内部规则的合规管理体系",
-    "example": "毕马威等企业因未落实AI合规要求，误用AI引发业务合规风险"
+    "term": "Hallucination Rate",
+    "phonetic": "/həˌluːsɪˈneɪʃn reɪt/",
+    "definition": "大模型生成的不符合事实的错误内容占比，是大模型核心评测指标之一",
+    "example": "毕马威等企业误用AI踩坑，大多是未将幻觉率纳入上线必测环节"
   },
   "interview": {
-    "category": "安全治理",
+    "category": "模型评测",
     "difficulty": "中等",
-    "question": "某跨国专业服务机构要搭建覆盖全业务线的生成式AI安全治理体系，需完成哪些核心架构权衡与落地设计？",
+    "question": "某气候公益团队计划用开源大模型搭建全球灾害预警科普问答系统，需兼顾不同收入水平地区用户的使用公平性，你会如何设计整套落地评测方案？",
     "points": [
-      "AI全生命周期风险识别能力",
-      "合规要求与业务效率的权衡思路",
-      "多场景分级管控的落地设计能力"
+      "垂直领域大模型基础评测维度的设计能力",
+      "AI公平性在公益类场景下的落地评测方法",
+      "低资源受限环境下的轻量化评测落地思路"
     ],
-    "answerLead": "答题需围绕风险分层、流程嵌入、技术管控、动态迭代四个维度拆解，平衡安全与业务可用性",
+    "answerLead": "锚定业务核心目标分层设计基础能力、公平性、场景适配三类评测链路",
     "answer": [
-      "梳理全业务线AI使用场景，按数据敏感级、输出影响度划分风险层级，匹配差异化管控规则",
-      "在AI应用需求准入、开发测试、上线运行、下线归档全流程嵌入合规校验节点，前置风险拦截",
-      "部署内容审核、数据防泄露、输出溯源三类技术组件，配套低风险场景白名单降低效率损耗",
-      "建立动态迭代机制，定期同步最新监管规则与行业风险案例，持续更新治理策略"
+      "先搭建气候领域专业评测数据集，测试幻觉率、事实准确率、响应时延核心指标，筛选合格开源模型",
+      "构建覆盖多语种、不同认知水平用户的提问测试集，统计不同分组的回答准确率差异，排查歧视性输出",
+      "模拟低配硬件的低资源使用场景，测试模型内存占用、运行速度，保障欠发达地区可正常访问",
+      "上线后持续采集用户反馈做动态迭代评测，定期更新测试集补全新气候事件相关样本"
     ]
   },
   "generation": {
