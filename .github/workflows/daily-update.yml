@@ -28,6 +28,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Generate daily briefing
         env:
@@ -40,6 +44,12 @@ jobs:
           ARK_ENDPOINT_ID: ${{ secrets.ARK_ENDPOINT_ID }}
           ARK_BASE_URL: ${{ secrets.ARK_BASE_URL }}
         run: npm run update:daily
+
+      - name: Validate and build
+        run: |
+          npm run validate:daily
+          npm run build
+
 
       - name: Summarize generated content
         run: |
