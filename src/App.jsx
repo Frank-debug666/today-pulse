@@ -184,7 +184,7 @@ export default function App() {
       <header className="topbar">
         <button className="mobile-menu" aria-label={menuOpen ? "关闭导航" : "打开导航"} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
         <a className="brand" href="#top" aria-label="今日脉冲首页">
-          <span><TrendingUp /></span><strong>今日脉冲<small>科技资讯 · 每日必读</small></strong>
+          <span><img src="/favicon.png" alt="" /></span><strong>今日脉冲<small>科技资讯 · 每日必读</small></strong>
         </a>
         <label className="search">
           <Search size={17} /><input ref={searchRef} value={query} onChange={(e) => setQuery(e.target.value)} placeholder="搜索新闻、项目、技术、工具..." /><kbd>⌘K</kbd>
@@ -229,7 +229,7 @@ export default function App() {
             {visibleNews.slice(0, newsExpanded ? visibleNews.length : 5).map((item, index) => (
               <a key={item.id || index} href={item.url || `https://news.google.com/search?q=${encodeURIComponent(item.title)}`} target="_blank" rel="noreferrer">
                 <b className={`rank rank-${index}`}>{index + 1}</b>
-                <span><strong>{clean(item.title, fallbackNews[index % fallbackNews.length].title)}</strong><small>{clean(item.category, "科技资讯")} · {clean(item.time, `${index + 2} 小时前`)}</small></span>
+                <span><strong>{clean(item.title, fallbackNews[index % fallbackNews.length].title)}</strong><p>{clean(item.summary, fallbackNews[index % fallbackNews.length].summary)}</p><small>{clean(item.category, "科技资讯")} · {clean(item.time, `${index + 2} 小时前`)}</small></span>
                 <em><TrendingUp size={12} />{128 - index * 13}</em>
               </a>
             ))}
