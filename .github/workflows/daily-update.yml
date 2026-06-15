@@ -2,12 +2,16 @@ name: Daily technology briefing
 
 on:
   schedule:
-    # 08:17 and 09:17 Asia/Shanghai. Avoid GitHub Actions' busy top-of-hour window.
-    - cron: "17 0,1 * * *"
+    # Check once per hour. The generator exits early after today's briefing exists.
+    # Using an off-hour minute reduces GitHub Actions schedule congestion.
+    - cron: "23 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 concurrency:
   group: daily-technology-briefing

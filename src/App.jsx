@@ -91,13 +91,31 @@ export default function App() {
   const [wordHistoryOpen, setWordHistoryOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const [notificationOpen, setNotificationOpen] = useState(false);
+  const [refreshNotice, setRefreshNotice] = useState("");
   const searchRef = useRef(null);
 
-  const loadDaily = async () => {
+  const loadDaily = async (live = false) => {
     setRefreshing(true);
+    setRefreshNotice("");
     try {
-      const response = await fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" });
-      if (response.ok) setData(await response.json());
+      if (live) {
+        const liveResponse = await fetch(`/api/live?ts=${Date.now()}`, { cache: "no-store" });
+        if (!liveResponse.ok) throw new Error((await liveResponse.json()).error || "实时更新失败");
+        const liveData = await liveResponse.json();
+        setData((current) => ({
+          ...current,
+          generatedAt: liveData.generatedAt,
+          ...(liveData.globalNews?.length ? { globalNews: liveData.globalNews } : {}),
+          ...(liveData.githubRepos?.length ? { githubRepos: liveData.githubRepos } : {}),
+        }));
+        setRefreshNotice(liveData.warnings?.length ? `部分更新成功：${liveData.warnings.join("；")}` : "实时新闻与 GitHub 热点已更新");
+      } else {
+        const response = await fetch(`/daily.json?ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error("每日数据读取失败");
+        setData(await response.json());
+      }
+    } catch (error) {
+      setRefreshNotice(error.message || "更新失败，请稍后重试");
     } finally {
       setRefreshing(false);
     }
@@ -169,11 +187,12 @@ export default function App() {
           <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />自动更新 · {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"}</span>
         </div>
         <div className="top-actions">
-          <IconButton label="刷新" onClick={loadDaily}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
+          <IconButton label="实时刷新" onClick={() => loadDaily(true)}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
           <IconButton label="切换主题" onClick={() => setDark(!dark)}>{dark ? <Sun /> : <Moon />}</IconButton>
           <IconButton label="通知" active={notificationOpen} onClick={() => setNotificationOpen(!notificationOpen)}><Bell /></IconButton>
         </div>
         {notificationOpen ? <div className="notification-panel"><strong>更新通知</strong><p>今日简报已于 {data?.generatedAt ? new Date(data.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit", timeZone: "Asia/Shanghai" }) : "08:32"} 更新完成。</p><button onClick={() => setNotificationOpen(false)}>知道了</button></div> : null}
+        {refreshNotice ? <button className="refresh-notice" type="button" onClick={() => setRefreshNotice("")}>{refreshNotice}<X size={13} /></button> : null}
       </header>
 
       <main id="top">
