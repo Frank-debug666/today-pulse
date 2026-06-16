@@ -11,8 +11,6 @@ import {
   ChevronRight,
   Circle,
   ExternalLink,
-  Github,
-  Headphones,
   Menu,
   Moon,
   RefreshCw,
@@ -87,6 +85,14 @@ function SectionTitle({ icon, children, action, onAction, actionHref }) {
       {action && actionHref ? <a href={actionHref} target="_blank" rel="noreferrer">{action}<ArrowRight size={14} /></a> : null}
       {action && !actionHref ? <button type="button" onClick={onAction}>{action}<ArrowRight size={14} /></button> : null}
     </div>
+  );
+}
+
+function GitHubMark({ size = 20 }) {
+  return (
+    <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58v-2.17c-3.34.73-4.04-1.42-4.04-1.42-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.08 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.93.43.37.82 1.1.82 2.22v3.3c0 .32.22.69.83.57A12 12 0 0 0 12 .5Z" />
+    </svg>
   );
 }
 
@@ -258,7 +264,7 @@ export default function App() {
         </section>
 
         <section className="github-section">
-          <SectionTitle icon={<Github size={20} />} action="前往 GitHub 热门榜" actionHref="https://github.com/trending">GitHub 每日热点</SectionTitle>
+          <SectionTitle icon={<GitHubMark size={20} />} action="前往 GitHub 热门榜" actionHref="https://github.com/trending">GitHub 每日热点</SectionTitle>
           <div className="repo-table">
             {repos.slice(0, 5).map((repo, index) => (
               <article key={repo.name}>
