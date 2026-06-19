@@ -22,6 +22,7 @@ import {
   Volume2,
   X,
 } from "lucide-react";
+import "./author-card.css";
 
 const fallbackNews = [
   { id: "n1", category: "AI", time: "2 小时前", title: "OpenAI 发布新一代推理模型，进一步提升复杂任务规划能力", summary: "模型竞争正在从回答质量转向工具调用、长期任务与可靠交付。", accent: "red" },
@@ -286,6 +287,19 @@ export default function App() {
             <SectionTitle icon={<TrendingUp size={17} />} action="查看更多工具" actionHref="https://www.producthunt.com/">趋势与工具速览</SectionTitle>
             <div>{quickTools.map(([title, sub, status, color, url]) => <a href={url} target="_blank" rel="noreferrer" key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></a>)}</div>
           </aside>
+        </section>
+        <section className="author-card" aria-labelledby="author-name">
+          <div className="author-avatar" aria-hidden="true">史</div>
+          <div className="author-copy">
+            <span>网站作者</span>
+            <h2 id="author-name">史迪仔</h2>
+            <p>关注人工智能、开发工具与全球科技动态，持续维护今日脉冲。</p>
+          </div>
+          <a href="https://github.com/Frank-debug666" target="_blank" rel="noreferrer" aria-label="访问史迪仔的 GitHub 主页">
+            <GitHubMark size={18} />
+            <span>访问 GitHub</span>
+            <ExternalLink size={14} />
+          </a>
         </section>
       </main>
 
