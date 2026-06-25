@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-06-24T18:15:03.109Z",
-  "dateLabel": "2026年6月25日 · 星期四",
-  "issue": 186,
+  "generatedAt": "2026-06-25T17:29:22.699Z",
+  "dateLabel": "2026年6月26日 · 星期五",
+  "issue": 187,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "baidu / Unlimited-OCR",
-      "summary": "百度开源的Python实现的Unlimited-OCR工具，支持超长文档一次性完成全量识别解析",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "6.1K",
-      "growth": "+6056",
-      "growthLabel": "近7日",
-      "url": "https://github.com/baidu/Unlimited-OCR"
-    },
-    {
-      "rank": "02",
-      "name": "zhongerxin / Cowart",
-      "summary": "基于JavaScript开发的近期热度快速攀升的开源实用项目",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "2.6K",
-      "growth": "+2633",
-      "growthLabel": "近7日",
-      "url": "https://github.com/zhongerxin/Cowart"
-    },
-    {
-      "rank": "03",
       "name": "bozhouDev / codex-orange-book",
-      "summary": "非官方开源的Codex橙皮书指南，覆盖从环境安装到实战案例的全链路Codex使用方法，附带可下载PDF版本",
+      "summary": "Codex 橙皮书：覆盖从安装到实战案例的全链路Codex开源使用指南，附带可下载PDF资源",
       "language": "HTML",
       "color": "#707873",
-      "stars": "1.3K",
-      "growth": "+1277",
+      "stars": "1.9K",
+      "growth": "+1895",
       "growthLabel": "近7日",
       "url": "https://github.com/bozhouDev/codex-orange-book"
     },
     {
-      "rank": "04",
+      "rank": "02",
       "name": "lyra81604 / zhengxi-views",
-      "summary": "基于Python开发的投研辅助Agent工具，依托基金经理郑希全部公开观点实现可溯源问答、基金打分功能，仅作研究使用不构成投资建议",
+      "summary": "基于基金经理郑希全部公开观点打造的可溯源投研辅助Agent技能，支持基金打分与观点溯源",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "987",
-      "growth": "+987",
+      "stars": "1K",
+      "growth": "+1030",
       "growthLabel": "近7日",
       "url": "https://github.com/lyra81604/zhengxi-views"
     },
     {
-      "rank": "05",
+      "rank": "03",
       "name": "Forsy-AI / agent-apprenticeship",
-      "summary": "面向AI Agent的生态系统项目，支持智能体通过迭代工作流复用经验、交换训练信号，从真实业务中学习能力",
+      "summary": "AI代理学徒生态系统，支持智能体通过迭代工作流从真实业务场景中沉淀可复用经验",
       "language": "Other",
       "color": "#707873",
-      "stars": "899",
-      "growth": "+899",
+      "stars": "928",
+      "growth": "+928",
       "growthLabel": "近7日",
       "url": "https://github.com/Forsy-AI/agent-apprenticeship"
+    },
+    {
+      "rank": "04",
+      "name": "aidenybai / cnfast",
+      "summary": "TypeScript实现的轻量替代库，可直接替换原有`cn`工具获得更高的运行速度",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "922",
+      "growth": "+922",
+      "growthLabel": "近7日",
+      "url": "https://github.com/aidenybai/cnfast"
+    },
+    {
+      "rank": "05",
+      "name": "kanavtwtgg / birds.cafe",
+      "summary": "本周快速增长的开源JavaScript项目，主打轻量社交场景功能实现",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "787",
+      "growth": "+787",
+      "growthLabel": "近7日",
+      "url": "https://github.com/kanavtwtgg/birds.cafe"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48663324",
-      "category": "人工智能",
-      "time": "01:47",
-      "title": "OpenAI推出首款定制芯片，由博通代工",
-      "summary": "AI领域热门讨论，当前热度48，共有72条相关评论",
-      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "id": "hn-48673825",
+      "category": "全球科技",
+      "time": "22:19",
+      "title": "Zig 全新 bitCast 语义及 LLVM 后端优化上线",
+      "summary": "全球开发者社区热门讨论，当前热度107，共28条评论",
+      "url": "https://ziglang.org/devlog/2026/#2026-06-25",
       "accent": "lime"
     },
     {
-      "id": "hn-48660711",
-      "category": "人工智能",
-      "time": "22:41",
-      "title": "RubyLLM：适配所有主流AI服务商的Ruby开发框架",
-      "summary": "AI领域热门讨论，当前热度225，共有28条相关评论",
-      "url": "https://rubyllm.com/",
+      "id": "hn-48674967",
+      "category": "算力芯片",
+      "time": "23:33",
+      "title": "IBM 推出小于1纳米的全新芯片技术",
+      "summary": "算力芯片领域热门讨论，当前热度25，共11条评论",
+      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
       "accent": "coral"
     },
     {
-      "id": "hn-48661825",
+      "id": "hn-48675179",
       "category": "全球科技",
-      "time": "23:56",
-      "title": "我复盘了创业早期犯下的几个关键错误",
-      "summary": "全球科技领域热门讨论，当前热度328，共有155条相关评论",
-      "url": "https://twitter.com/ID_AA_Carmack/status/2069799283369345247",
+      "time": "23:48",
+      "title": "失传千年的赫库兰尼姆古卷轴首次被成功破译",
+      "summary": "全球科技领域热门讨论，当前热度40，共6条评论",
+      "url": "https://scrollprize.org/firstscroll",
       "accent": "mint"
     },
     {
-      "id": "hn-48657030",
+      "id": "hn-48657049",
       "category": "全球科技",
-      "time": "16:50",
-      "title": "Bunny DNS宣布全面免费开放",
-      "summary": "全球科技领域热门讨论，当前热度681，共有219条相关评论",
-      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+      "time": "16:54",
+      "title": "产品体验/设计审美无法通过单元测试覆盖验证",
+      "summary": "全球开发者社区热门讨论，当前热度176，共67条评论",
+      "url": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/",
       "accent": "ink"
     },
     {
-      "id": "hn-48662381",
+      "id": "hn-48673671",
       "category": "全球科技",
-      "time": "00:35",
-      "title": "Xteink X4 电子墨水阅读器正式发布",
-      "summary": "全球科技领域热门讨论，当前热度42，共有23条相关评论",
-      "url": "https://blog.omgmog.net/post/xteink-x4-e-ink-reader/",
+      "time": "22:08",
+      "title": "Show HN：我索引18年评论数据打造黑客新闻版谷歌趋势",
+      "summary": "全球科技领域热门讨论，当前热度395，共113条评论",
+      "url": "https://hackernewstrends.com",
       "accent": "lime"
     },
     {
-      "id": "hn-48660579",
+      "id": "hn-48672732",
       "category": "人工智能",
-      "time": "22:32",
-      "title": "当下的PR垃圾邮件形态酷似2000年代初的电子邮件垃圾邮件",
-      "summary": "AI领域热门讨论，当前热度58，共有46条相关评论",
-      "url": "https://www.greptile.com/blog/prs-on-openclaw",
+      "time": "21:02",
+      "title": "苹果正式上调MacBook、iPad系列产品售价",
+      "summary": "消费电子领域热门讨论，当前热度249，共452条评论",
+      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
       "accent": "coral"
     },
     {
-      "id": "hn-48661938",
-      "category": "全球科技",
-      "time": "00:04",
-      "title": "我做了个能听懂Git指令的趣味水桶装置",
-      "summary": "全球科技领域热门讨论，当前热度38，共有4条相关评论",
-      "url": "https://www.tigrisdata.com/blog/objgit/",
+      "id": "hn-48676256",
+      "category": "人工智能",
+      "time": "01:00",
+      "title": "YC 25届AI初创公司Besimple AI开放招聘",
+      "summary": "AI领域招聘相关信息，当前热度1，共0条评论",
+      "url": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
       "accent": "mint"
     },
     {
-      "id": "hn-48658300",
-      "category": "人工智能",
-      "time": "19:45",
-      "title": "因与Anthropic产生纠纷，NSA失去对Mythos大模型的访问权限",
-      "summary": "AI领域热门讨论，当前热度35，共有7条相关评论",
-      "url": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
+      "id": "hn-48669534",
+      "category": "产品观察",
+      "time": "14:00",
+      "title": "经典游戏《半条命2》现已可直接在浏览器中运行",
+      "summary": "产品观察领域热门讨论，当前热度543，共222条评论",
+      "url": "https://hl2.slqnt.dev/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Agent Orchestration",
-    "phonetic": "/ˈeɪdʒənt ˌɔːkɪˈstreɪʃn/",
-    "definition": "多智能体系统中调度协调不同Agent协作完成任务的核心机制",
-    "example": "通过Agent Orchestration可让多类Agent配合完成复杂报告撰写任务"
+    "term": "Continuous Batching",
+    "phonetic": "/kənˈtɪnjuəs ˈbætʃɪŋ/",
+    "definition": "大模型推理阶段动态合并用户请求的批处理调度技术",
+    "example": "可在不抬升首字延迟的前提下，大幅提升单卡推理吞吐量"
   },
   "interview": {
-    "category": "Agent系统",
+    "category": "推理性能",
     "difficulty": "中等",
-    "question": "设计面向企业内部场景的多Agent协作系统时，你会从哪些维度做架构权衡，平衡系统可用性、响应速度与落地成本？",
+    "question": "团队要上线面向C端的开源大模型对话服务，不升级硬件的前提下要把单卡并发承载能力提升3倍，你会做哪些核心架构权衡？",
     "points": [
-      "考察对多Agent系统核心架构组件的熟悉程度",
-      "考察业务场景下的资源分配与优先级判断能力",
-      "考察工程落地中的成本与体验平衡意识"
+      "考察对大模型推理核心瓶颈的拆解能力",
+      "考察推理调度策略的落地选型能力",
+      "考察体验与成本的平衡设计能力"
     ],
-    "answerLead": "答题时可以从场景核心约束出发，逐层拆解不同维度的取舍逻辑",
+    "answerLead": "先对现有推理链路做全量性能 profiling，从资源占用最高的环节切入逐层优化",
     "answer": [
-      "先梳理企业内部场景的核心基线约束，明确数据合规要求、最大允许响应时延、月度算力预算阈值",
-      "在Agent调度层做权衡：简单任务用轻量本地Agent直连，复杂任务才触发多Agent协作链路，减少不必要资源消耗",
-      "在状态管理层做权衡：高频交互临时状态存内存缓存降时延，仅需持久化的业务状态落库存储，平衡可用性与存储成本",
-      "在可观测层做权衡：仅对核心业务链路的Agent调用做全链路埋点审计，非核心链路仅做异常告警，降低额外开销"
+      "首先对现有推理服务做全链路性能打点，定位KV显存占用、算子调度开销、无效算力占比等核心瓶颈",
+      "用连续批处理策略替代原有静态批处理，动态接纳新请求填充空闲算力，避免队列阻塞浪费资源",
+      "针对业务场景做KV缓存的适配量化压缩，在可接受的效果损失阈值内降低单请求显存占用上限",
+      "叠加高频公共前缀KV复用策略，同时设置请求优先级管控，保证高优先级请求首包延迟符合体验要求"
     ]
   },
   "generation": {
@@ -164,6 +164,28 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年6月26日 · 星期五",
+      "word": {
+        "term": "Continuous Batching",
+        "definition": "大模型推理阶段动态合并用户请求的批处理调度技术"
+      },
+      "interview": {
+        "category": "推理性能",
+        "question": "团队要上线面向C端的开源大模型对话服务，不升级硬件的前提下要把单卡并发承载能力提升3倍，你会做哪些核心架构权衡？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月25日 · 星期四",
+      "word": {
+        "term": "Agent Orchestration",
+        "definition": "多智能体系统中调度协调不同Agent协作完成任务的核心机制"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "question": "设计面向企业内部场景的多Agent协作系统时，你会从哪些维度做架构权衡，平衡系统可用性、响应速度与落地成本？"
+      }
+    },
     {
       "dateLabel": "2026年6月19日 · 星期五",
       "word": {
