@@ -185,6 +185,9 @@ export default function App() {
   const word = data?.word || {};
   const interview = data?.interview || {};
   const dateLabel = clean(data?.dateLabel, "2026年6月14日 · 星期日");
+  const wordHistory = (data?.learningHistory || [])
+    .filter((entry) => entry?.word?.term && entry.word.term !== word.term)
+    .slice(0, 6);
 
   return (
     <div className={dark ? "app dark" : "app"}>
@@ -251,7 +254,7 @@ export default function App() {
               <strong>中文释义</strong><p>{clean(word.definition, "将文本、数据或序列拆分为更小单位（token）的过程，以便模型或系统能够处理。")}</p>
               <strong>通俗理解</strong><p>{clean(word.example, "大语言模型在处理文本前，需要先进行 tokenization。")}</p>
               <a href="https://huggingface.co/docs/tokenizers" target="_blank" rel="noreferrer">查看相关术语资料 <ExternalLink size={12} /></a>
-              {wordHistoryOpen ? <div className="word-history"><strong>往期词汇</strong><a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation" target="_blank" rel="noreferrer">RAG</a><a href="https://en.wikipedia.org/wiki/AI_agent" target="_blank" rel="noreferrer">AI Agent</a><a href="https://en.wikipedia.org/wiki/Inference" target="_blank" rel="noreferrer">Inference</a></div> : null}
+              {wordHistoryOpen ? <div className="word-history"><strong>往期词汇</strong>{wordHistory.length ? wordHistory.map((entry) => <span key={`${entry.dateLabel}-${entry.word.term}`} title={entry.word.definition}>{entry.word.term}</span>) : <span>暂无历史</span>}</div> : null}
             </section>
 
             <section className="interview-card">

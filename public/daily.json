@@ -162,5 +162,117 @@
     "githubSource": "github-search",
     "newsSource": "hacker-news",
     "newsError": "GNews returned no articles"
-  }
+  },
+  "learningHistory": [
+    {
+      "dateLabel": "2026年6月19日 · 星期五",
+      "word": {
+        "term": "Agent Orchestration",
+        "definition": "多智能体的任务调度、资源分配与流程协同的核心管控机制"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "question": "如果要搭建面向App自动化测试的多Agent集群，你会从哪些维度做架构权衡，避免测试用例冗余、结果冲突的问题？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月18日 · 星期四",
+      "word": {
+        "term": "Supply Chain Attack",
+        "definition": "侵入软件上游开发分发环节，污染资源进而危害下游使用者的恶意攻击行为。"
+      },
+      "interview": {
+        "category": "模型评测",
+        "question": "当前开源大模型榜单众多，如果你要搭建面向中文开发者的中立开源权重模型评测体系，需要完成哪些核心架构权衡？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月17日 · 星期三",
+      "word": {
+        "term": "Yak Shaving",
+        "definition": "开发中为解决核心问题，不得不先处理大量无关细碎前置任务的行为。"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "question": "团队要搭建可灵活对接不同大模型后端、支持多代理组合调度的通用Agent编排层，你会从哪些维度做架构权衡？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月16日 · 星期二",
+      "word": {
+        "term": "Spaced Repetition",
+        "definition": "间隔重复，按遗忘曲线安排复习节奏的高效记忆强化方法。"
+      },
+      "interview": {
+        "category": "成本与可观测性",
+        "question": "AI编码工具落地时，如何通过大小模型分层调度的架构设计，在不降低产出质量的前提下显著降低推理成本？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月15日 · 星期一",
+      "word": {
+        "term": "Agent Harness",
+        "definition": "AI代理通用调度层，可统一对接多源代理服务实现能力组合复用"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "question": "搭建多Agent协同系统时，引入统一元调度层需要做哪些核心架构权衡？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月15日 · 星期一",
+      "word": {
+        "term": "Hallucination Rate",
+        "definition": "大模型生成的不符合事实的错误内容占比，是大模型核心评测指标之一"
+      },
+      "interview": {
+        "category": "模型评测",
+        "question": "某气候公益团队计划用开源大模型搭建全球灾害预警科普问答系统，需兼顾不同收入水平地区用户的使用公平性，你会如何设计整套落地评测方案？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月15日 · 星期一",
+      "word": {
+        "term": "AI Compliance",
+        "definition": "AI应用全生命周期需满足监管、行业规范及内部规则的合规管理体系"
+      },
+      "interview": {
+        "category": "安全治理",
+        "question": "某跨国专业服务机构要搭建覆盖全业务线的生成式AI安全治理体系，需完成哪些核心架构权衡与落地设计？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月14日 · 星期日",
+      "word": {
+        "term": "AI Misuse",
+        "definition": "指主体未合规管控使用AI，引发运营失误、合规风险的行为"
+      },
+      "interview": {
+        "category": "",
+        "question": "某机构要搭建AI交易场景的实时风险预警系统，核心工程设计要点有哪些？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月14日 · 星期日",
+      "word": {
+        "term": "Structured Output",
+        "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。"
+      },
+      "interview": {
+        "category": "",
+        "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？"
+      }
+    },
+    {
+      "dateLabel": "2026年6月14日 · 星期日",
+      "word": {
+        "term": "Agentic Workflow",
+        "definition": "由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。"
+      },
+      "interview": {
+        "category": "",
+        "question": "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？"
+      }
+    }
+  ]
 }

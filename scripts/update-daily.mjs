@@ -4,6 +4,50 @@ import { dirname, resolve } from "node:path";
 const outputPath = resolve("public/daily.json");
 const previous = JSON.parse(await readFile(outputPath, "utf8"));
 const now = new Date();
+const learningHistoryLimit = 30;
+const categoryCooldown = 4;
+
+function normalizeForDedupe(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[\s\-_/·：:，,。.!！?？、"'“”‘’()[\]{}]/g, "");
+}
+
+function compactLearningEntry(entry) {
+  if (!entry) return null;
+  const word = entry.word || {};
+  const interview = entry.interview || {};
+  if (!word.term && !interview.question) return null;
+  return {
+    dateLabel: entry.dateLabel || "",
+    word: {
+      term: word.term || "",
+      definition: word.definition || "",
+    },
+    interview: {
+      category: interview.category || "",
+      question: interview.question || "",
+    },
+  };
+}
+
+function getPreviousLearningHistory() {
+  const existing = Array.isArray(previous.learningHistory) ? previous.learningHistory.map(compactLearningEntry).filter(Boolean) : [];
+  const current = compactLearningEntry(previous);
+  const merged = current ? [current, ...existing] : existing;
+  const seen = new Set();
+  return merged.filter((entry) => {
+    const key = [
+      normalizeForDedupe(entry.word?.term),
+      normalizeForDedupe(entry.interview?.question),
+    ].join("|");
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).slice(0, learningHistoryLimit);
+}
+
+const previousLearningHistory = getPreviousLearningHistory();
 const chinaDateKey = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Shanghai",
   year: "numeric",
@@ -295,12 +339,57 @@ function enrichInterview(interview) {
   };
 }
 
+function isLearningRepeated(learning, history = previousLearningHistory) {
+  const interview = enrichInterview(learning?.interview || {});
+  const term = normalizeForDedupe(learning?.word?.term);
+  const question = normalizeForDedupe(interview.question);
+  const category = normalizeForDedupe(interview.category);
+  const recentTerms = new Set(history.map((entry) => normalizeForDedupe(entry.word?.term)).filter(Boolean));
+  const recentQuestions = new Set(history.map((entry) => normalizeForDedupe(entry.interview?.question)).filter(Boolean));
+  const recentCategories = new Set(history.slice(0, categoryCooldown).map((entry) => normalizeForDedupe(entry.interview?.category)).filter(Boolean));
+
+  if (term && recentTerms.has(term)) return `repeated word: ${learning.word.term}`;
+  if (question && recentQuestions.has(question)) return "repeated interview question";
+  if (category && recentCategories.has(category)) return `recent repeated category: ${interview.category}`;
+  return "";
+}
+
+function pickFallbackLearning() {
+  const start = Number(chinaDateKey.replaceAll("-", "")) % learningFallbacks.length;
+  for (let offset = 0; offset < learningFallbacks.length; offset += 1) {
+    const candidate = learningFallbacks[(start + offset) % learningFallbacks.length];
+    if (!isLearningRepeated(candidate)) return candidate;
+  }
+  return learningFallbacks[start];
+}
+
+function appendLearningHistory(daily) {
+  const current = compactLearningEntry(daily);
+  if (!current) return previousLearningHistory;
+  const seen = new Set();
+  return [current, ...previousLearningHistory].filter((entry) => {
+    const key = [
+      normalizeForDedupe(entry.word?.term),
+      normalizeForDedupe(entry.interview?.question),
+    ].join("|");
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).slice(0, learningHistoryLimit);
+}
+
 async function generateEditorial(news, repos) {
   const apiKey = process.env.ARK_API_KEY || process.env.AI_API_KEY || process.env.AI_API || process.env.VOLCENGINE_API_KEY;
   const model = process.env.ARK_MODEL_ID || process.env.ARK_ENDPOINT_ID || process.env.ARK_MODEL;
   if (!apiKey || !model) throw new Error("Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID");
 
   const recentTopic = previous.interview?.category || previous.interview?.question || "无";
+  const recentLearningBrief = previousLearningHistory.slice(0, 12).map((entry) => ({
+    date: entry.dateLabel,
+    word: entry.word?.term,
+    category: entry.interview?.category,
+    question: entry.interview?.question,
+  }));
   const newsBrief = news.map((item, index) => ({
     index,
     title: item.title,
@@ -322,6 +411,8 @@ GitHub 项目：${JSON.stringify(repoBrief)}
 题目要求：
 - 从这些方向中选择一个：RAG与搜索、Agent系统、安全治理、模型评测、推理性能、数据工程、多模态、AI产品架构、成本与可观测性。
 - 不要选择与上一期相同的方向。上一期方向或题目：${recentTopic}
+- 必须避开最近出现过的术语、题目和相近题型。最近学习内容：${JSON.stringify(recentLearningBrief)}
+- 最近 4 期出现过的方向不要再选；术语不要与最近 30 期重复。
 - 提示词工程类题目最多每周一次，除非当天新闻强相关。
 - 必须是需要系统分析或架构权衡的开放题，不要只问概念定义。
 只返回严格 JSON，不要 Markdown：
@@ -334,22 +425,24 @@ GitHub 项目：${JSON.stringify(repoBrief)}
     body: JSON.stringify({
       model,
       messages: [{ role: "user", content: prompt }],
-      temperature: 0.6,
+      temperature: 0.85,
     }),
   });
   const content = data.choices?.[0]?.message?.content;
   if (!content) throw new Error("Ark returned an empty response");
   const jsonText = content.match(/\{[\s\S]*\}/)?.[0];
   if (!jsonText) throw new Error("Ark response did not contain JSON");
-  return JSON.parse(jsonText);
+  const learning = JSON.parse(jsonText);
+  const repeatedReason = isLearningRepeated(learning);
+  if (repeatedReason) throw new Error(`Ark generated repeated learning content: ${repeatedReason}`);
+  return learning;
 }
 
 const settled = await Promise.allSettled([fetchGithub(), fetchNews()]);
 const githubRepos = settled[0].status === "fulfilled" ? settled[0].value : previous.githubRepos || [];
 const globalNews = settled[1].status === "fulfilled" ? settled[1].value : previous.globalNews || [];
 
-const fallbackIndex = Number(chinaDateKey.replaceAll("-", "")) % learningFallbacks.length;
-let learning = learningFallbacks[fallbackIndex];
+let learning = pickFallbackLearning();
 let learningSource = "fallback";
 let learningError = null;
 try {
@@ -385,6 +478,7 @@ const daily = {
     newsError,
   },
 };
+daily.learningHistory = appendLearningHistory(daily);
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(daily, null, 2)}\n`, "utf8");
