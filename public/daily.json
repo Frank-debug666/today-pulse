@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-06-25T17:29:22.699Z",
-  "dateLabel": "2026年6月26日 · 星期五",
-  "issue": 187,
+  "generatedAt": "2026-06-26T16:30:44.453Z",
+  "dateLabel": "2026年6月27日 · 星期六",
+  "issue": 188,
   "githubRepos": [
     {
       "rank": "01",
       "name": "bozhouDev / codex-orange-book",
-      "summary": "Codex 橙皮书：覆盖从安装到实战案例的全链路Codex开源使用指南，附带可下载PDF资源",
+      "summary": "Codex非官方全链路使用指南，覆盖从安装到实战的全流程，还提供可下载PDF。",
       "language": "HTML",
       "color": "#707873",
-      "stars": "1.9K",
-      "growth": "+1895",
+      "stars": "2.1K",
+      "growth": "+2113",
       "growthLabel": "近7日",
       "url": "https://github.com/bozhouDev/codex-orange-book"
     },
     {
       "rank": "02",
       "name": "lyra81604 / zhengxi-views",
-      "summary": "基于基金经理郑希全部公开观点打造的可溯源投研辅助Agent技能，支持基金打分与观点溯源",
+      "summary": "基于基金经理郑希全部公开观点打造的可溯源投研Agent技能库，支持溯源问答、基金打分，仅作学习使用。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1K",
-      "growth": "+1030",
+      "stars": "1.1K",
+      "growth": "+1056",
       "growthLabel": "近7日",
       "url": "https://github.com/lyra81604/zhengxi-views"
     },
     {
       "rank": "03",
-      "name": "Forsy-AI / agent-apprenticeship",
-      "summary": "AI代理学徒生态系统，支持智能体通过迭代工作流从真实业务场景中沉淀可复用经验",
-      "language": "Other",
-      "color": "#707873",
-      "stars": "928",
-      "growth": "+928",
+      "name": "kanavtwtgg / birds.cafe",
+      "summary": "本周热度快速增长的开源轻量社交平台项目birds.cafe。",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "783",
+      "growth": "+783",
       "growthLabel": "近7日",
-      "url": "https://github.com/Forsy-AI/agent-apprenticeship"
+      "url": "https://github.com/kanavtwtgg/birds.cafe"
     },
     {
       "rank": "04",
-      "name": "aidenybai / cnfast",
-      "summary": "TypeScript实现的轻量替代库，可直接替换原有`cn`工具获得更高的运行速度",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "922",
-      "growth": "+922",
+      "name": "BohemiaInteractive / CWR",
+      "summary": "《Arma: Cold War Assault Remastered》的官方开源源代码仓库。",
+      "language": "C++",
+      "color": "#707873",
+      "stars": "571",
+      "growth": "+571",
       "growthLabel": "近7日",
-      "url": "https://github.com/aidenybai/cnfast"
+      "url": "https://github.com/BohemiaInteractive/CWR"
     },
     {
       "rank": "05",
-      "name": "kanavtwtgg / birds.cafe",
-      "summary": "本周快速增长的开源JavaScript项目，主打轻量社交场景功能实现",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "787",
-      "growth": "+787",
+      "name": "QwenLM / Qwen-AgentWorld",
+      "summary": "通义千问团队推出的面向通用智能体的语言世界模型开源项目Qwen-AgentWorld。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "552",
+      "growth": "+552",
       "growthLabel": "近7日",
-      "url": "https://github.com/kanavtwtgg/birds.cafe"
+      "url": "https://github.com/QwenLM/Qwen-AgentWorld"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48673825",
+      "id": "hn-48686834",
       "category": "全球科技",
-      "time": "22:19",
-      "title": "Zig 全新 bitCast 语义及 LLVM 后端优化上线",
-      "summary": "全球开发者社区热门讨论，当前热度107，共28条评论",
-      "url": "https://ziglang.org/devlog/2026/#2026-06-25",
+      "time": "22:10",
+      "title": "史上最著名物理学家之一的多篇论文为何被撤稿？",
+      "summary": "全球科技领域热门讨论，当前热度198，共有77条评论。",
+      "url": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
       "accent": "lime"
     },
     {
-      "id": "hn-48674967",
-      "category": "算力芯片",
-      "time": "23:33",
-      "title": "IBM 推出小于1纳米的全新芯片技术",
-      "summary": "算力芯片领域热门讨论，当前热度25，共11条评论",
-      "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "id": "hn-48686093",
+      "category": "全球科技",
+      "time": "20:58",
+      "title": "安全事件CVE-2026-LGTM",
+      "summary": "全球科技领域热门讨论，当前热度306，共有52条评论。",
+      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
       "accent": "coral"
     },
     {
-      "id": "hn-48675179",
+      "id": "hn-48687903",
       "category": "全球科技",
-      "time": "23:48",
-      "title": "失传千年的赫库兰尼姆古卷轴首次被成功破译",
-      "summary": "全球科技领域热门讨论，当前热度40，共6条评论",
-      "url": "https://scrollprize.org/firstscroll",
+      "time": "23:35",
+      "title": "和AI工具对话的倦怠感",
+      "summary": "全球科技领域热门讨论，当前热度28，共有13条评论。",
+      "url": "https://ohadravid.github.io/posts/2026-06-tool-talking/",
       "accent": "mint"
     },
     {
-      "id": "hn-48657049",
+      "id": "hn-48642510",
       "category": "全球科技",
-      "time": "16:54",
-      "title": "产品体验/设计审美无法通过单元测试覆盖验证",
-      "summary": "全球开发者社区热门讨论，当前热度176，共67条评论",
-      "url": "https://dev.karltryggvason.com/you-cant-unit-test-for-taste/",
+      "time": "17:39",
+      "title": "支持全生命周期控制的隔离沙箱：AWS推出MicroVMs",
+      "summary": "全球科技领域热门讨论，当前热度21，共有1条评论。",
+      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
       "accent": "ink"
     },
     {
-      "id": "hn-48673671",
-      "category": "全球科技",
-      "time": "22:08",
-      "title": "Show HN：我索引18年评论数据打造黑客新闻版谷歌趋势",
-      "summary": "全球科技领域热门讨论，当前热度395，共113条评论",
-      "url": "https://hackernewstrends.com",
+      "id": "hn-48687272",
+      "category": "产品观察",
+      "time": "22:46",
+      "title": "Jolla Phone 销量突破13500台",
+      "summary": "产品观察领域热门讨论，当前热度118，共有75条评论。",
+      "url": "https://commerce.jolla.com/products/jolla-phone-october-2026",
       "accent": "lime"
     },
     {
-      "id": "hn-48672732",
+      "id": "hn-48685558",
       "category": "人工智能",
-      "time": "21:02",
-      "title": "苹果正式上调MacBook、iPad系列产品售价",
-      "summary": "消费电子领域热门讨论，当前热度249，共452条评论",
-      "url": "https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/",
+      "time": "19:51",
+      "title": "脑部超声成像技术",
+      "summary": "人工智能领域热门讨论，当前热度86，共有23条评论。",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
       "accent": "coral"
     },
     {
-      "id": "hn-48676256",
-      "category": "人工智能",
-      "time": "01:00",
-      "title": "YC 25届AI初创公司Besimple AI开放招聘",
-      "summary": "AI领域招聘相关信息，当前热度1，共0条评论",
-      "url": "https://www.ycombinator.com/companies/besimple-ai/jobs/yWfhhOR-strategic-projects-lead-audio-data",
+      "id": "hn-48648850",
+      "category": "全球科技",
+      "time": "02:04",
+      "title": "卫星研发周期从数年缩短至数周、数天甚至数小时",
+      "summary": "全球科技领域热门讨论，当前热度30，共有1条评论。",
+      "url": "https://arstechnica.com/space/2026/06/a-us-military-exercise-in-space-got-underway-with-barely-anyone-noticing/",
       "accent": "mint"
     },
     {
-      "id": "hn-48669534",
-      "category": "产品观察",
-      "time": "14:00",
-      "title": "经典游戏《半条命2》现已可直接在浏览器中运行",
-      "summary": "产品观察领域热门讨论，当前热度543，共222条评论",
-      "url": "https://hl2.slqnt.dev/",
+      "id": "hn-48678852",
+      "category": "全球科技",
+      "time": "04:33",
+      "title": "知名科技博主Om Malik离世",
+      "summary": "全球科技领域热门讨论，当前热度1155，共有133条评论。",
+      "url": "https://om.co/2026/06/24/1966-2026/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Continuous Batching",
-    "phonetic": "/kənˈtɪnjuəs ˈbætʃɪŋ/",
-    "definition": "大模型推理阶段动态合并用户请求的批处理调度技术",
-    "example": "可在不抬升首字延迟的前提下，大幅提升单卡推理吞吐量"
+    "term": "Multimodal Clinical Alignment",
+    "phonetic": "/ˌmʌltiˈməʊdl ˈklɪnɪkl əˈlaɪnmənt/",
+    "definition": "将医学影像、病历等多模态医疗数据做特征空间统一对齐的技术。",
+    "example": "脑部超声场景下对齐影像与临床病历，提升AI诊断准确率。"
   },
   "interview": {
-    "category": "推理性能",
+    "category": "多模态",
     "difficulty": "中等",
-    "question": "团队要上线面向C端的开源大模型对话服务，不升级硬件的前提下要把单卡并发承载能力提升3倍，你会做哪些核心架构权衡？",
+    "question": "要搭建面向脑部超声成像场景的多模态医疗AI辅助诊断系统，需要完成哪些核心架构权衡来平衡诊断准确率、部署合规性和推理响应速度？",
     "points": [
-      "考察对大模型推理核心瓶颈的拆解能力",
-      "考察推理调度策略的落地选型能力",
-      "考察体验与成本的平衡设计能力"
+      "考察多模态系统跨模态特征融合的架构选型能力",
+      "考察医疗AI场景下合规要求的落地设计意识",
+      "考察边缘侧部署时性能与精度的权衡能力"
     ],
-    "answerLead": "先对现有推理链路做全量性能 profiling，从资源占用最高的环节切入逐层优化",
+    "answerLead": "答题时可以从数据对齐、模型选型、合规嵌入三方面逐层拆解核心权衡点。",
     "answer": [
-      "首先对现有推理服务做全链路性能打点，定位KV显存占用、算子调度开销、无效算力占比等核心瓶颈",
-      "用连续批处理策略替代原有静态批处理，动态接纳新请求填充空闲算力，避免队列阻塞浪费资源",
-      "针对业务场景做KV缓存的适配量化压缩，在可接受的效果损失阈值内降低单请求显存占用上限",
-      "叠加高频公共前缀KV复用策略，同时设置请求优先级管控，保证高优先级请求首包延迟符合体验要求"
+      "特征层权衡：选择轻量跨模态对齐头替代大参数全融合结构，在保留95%以上特征匹配度的前提下减少30%算力开销",
+      "合规层权衡：把医疗数据脱敏、可溯源解释模块嵌入推理主链路，不额外增加超过100ms的响应延迟",
+      "精度层权衡：针对脑部超声小样本场景做模态专属微调，避免通用多模态模型的医疗领域幻觉问题",
+      "部署层权衡：做端侧模型量化裁剪，在满足常规诊断精度要求下，把单帧推理耗时压缩到200ms以内"
     ]
   },
   "generation": {
@@ -164,6 +164,17 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年6月27日 · 星期六",
+      "word": {
+        "term": "Multimodal Clinical Alignment",
+        "definition": "将医学影像、病历等多模态医疗数据做特征空间统一对齐的技术。"
+      },
+      "interview": {
+        "category": "多模态",
+        "question": "要搭建面向脑部超声成像场景的多模态医疗AI辅助诊断系统，需要完成哪些核心架构权衡来平衡诊断准确率、部署合规性和推理响应速度？"
+      }
+    },
     {
       "dateLabel": "2026年6月26日 · 星期五",
       "word": {
