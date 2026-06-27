@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-06-26T16:30:44.453Z",
-  "dateLabel": "2026年6月27日 · 星期六",
-  "issue": 188,
+  "generatedAt": "2026-06-27T16:36:00.702Z",
+  "dateLabel": "2026年6月28日 · 星期日",
+  "issue": 189,
   "githubRepos": [
     {
       "rank": "01",
       "name": "bozhouDev / codex-orange-book",
-      "summary": "Codex非官方全链路使用指南，覆盖从安装到实战的全流程，还提供可下载PDF。",
+      "summary": "Codex 橙皮书是从安装到实战案例的全链路Codex非官方开源使用指南，附带可下载PDF资源。",
       "language": "HTML",
       "color": "#707873",
-      "stars": "2.1K",
-      "growth": "+2113",
+      "stars": "2.2K",
+      "growth": "+2198",
       "growthLabel": "近7日",
       "url": "https://github.com/bozhouDev/codex-orange-book"
     },
     {
       "rank": "02",
-      "name": "lyra81604 / zhengxi-views",
-      "summary": "基于基金经理郑希全部公开观点打造的可溯源投研Agent技能库，支持溯源问答、基金打分，仅作学习使用。",
+      "name": "deepseek-ai / DeepSpec",
+      "summary": "DeepSpec是用于训练和评测投机解码算法的全栈开源代码库。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.1K",
-      "growth": "+1056",
+      "stars": "986",
+      "growth": "+986",
       "growthLabel": "近7日",
-      "url": "https://github.com/lyra81604/zhengxi-views"
+      "url": "https://github.com/deepseek-ai/DeepSpec"
     },
     {
       "rank": "03",
       "name": "kanavtwtgg / birds.cafe",
-      "summary": "本周热度快速增长的开源轻量社交平台项目birds.cafe。",
+      "summary": "birds.cafe是本周热度快速攀升的创新开源项目。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "783",
-      "growth": "+783",
+      "stars": "736",
+      "growth": "+736",
       "growthLabel": "近7日",
       "url": "https://github.com/kanavtwtgg/birds.cafe"
     },
     {
       "rank": "04",
-      "name": "BohemiaInteractive / CWR",
-      "summary": "《Arma: Cold War Assault Remastered》的官方开源源代码仓库。",
-      "language": "C++",
-      "color": "#707873",
-      "stars": "571",
-      "growth": "+571",
+      "name": "bikini / exploitarium",
+      "summary": "exploitarium是公开漏洞PoC和漏洞研究文稿的统一归档仓库。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "658",
+      "growth": "+658",
       "growthLabel": "近7日",
-      "url": "https://github.com/BohemiaInteractive/CWR"
+      "url": "https://github.com/bikini/exploitarium"
     },
     {
       "rank": "05",
-      "name": "QwenLM / Qwen-AgentWorld",
-      "summary": "通义千问团队推出的面向通用智能体的语言世界模型开源项目Qwen-AgentWorld。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "552",
-      "growth": "+552",
+      "name": "BohemiaInteractive / CWR",
+      "summary": "CWR是《Arma：冷战突击 重制版》的官方开源代码仓库。",
+      "language": "C++",
+      "color": "#707873",
+      "stars": "653",
+      "growth": "+653",
       "growthLabel": "近7日",
-      "url": "https://github.com/QwenLM/Qwen-AgentWorld"
+      "url": "https://github.com/BohemiaInteractive/CWR"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48686834",
+      "id": "hn-48697560",
       "category": "全球科技",
-      "time": "22:10",
-      "title": "史上最著名物理学家之一的多篇论文为何被撤稿？",
-      "summary": "全球科技领域热门讨论，当前热度198，共有77条评论。",
-      "url": "https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted",
+      "time": "20:10",
+      "title": "OpenRA",
+      "summary": "全球科技领域热门讨论，当前热度275，共有61条评论。",
+      "url": "https://www.openra.net/",
       "accent": "lime"
     },
     {
-      "id": "hn-48686093",
-      "category": "全球科技",
-      "time": "20:58",
-      "title": "安全事件CVE-2026-LGTM",
-      "summary": "全球科技领域热门讨论，当前热度306，共有52条评论。",
-      "url": "https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html",
+      "id": "hn-48698617",
+      "category": "开源生态",
+      "time": "22:31",
+      "title": "匿名GitHub账号批量泄露未公开0日漏洞",
+      "summary": "开源生态领域热门讨论，当前热度102，共有36条评论。",
+      "url": "https://github.com/bikini/exploitarium",
       "accent": "coral"
     },
     {
-      "id": "hn-48687903",
-      "category": "全球科技",
-      "time": "23:35",
-      "title": "和AI工具对话的倦怠感",
-      "summary": "全球科技领域热门讨论，当前热度28，共有13条评论。",
-      "url": "https://ohadravid.github.io/posts/2026-06-tool-talking/",
+      "id": "hn-48696585",
+      "category": "人工智能",
+      "time": "17:18",
+      "title": "DSpark：基于投机解码加速大语言模型推理（PDF论文）",
+      "summary": "人工智能领域热门讨论，当前热度622，共有235条评论。",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
       "accent": "mint"
     },
     {
-      "id": "hn-48642510",
+      "id": "hn-48696982",
       "category": "全球科技",
-      "time": "17:39",
-      "title": "支持全生命周期控制的隔离沙箱：AWS推出MicroVMs",
-      "summary": "全球科技领域热门讨论，当前热度21，共有1条评论。",
-      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+      "time": "18:28",
+      "title": "金融科技工程手册",
+      "summary": "全球科技领域热门讨论，当前热度293，共有101条评论。",
+      "url": "https://w.pitula.me/fintech-engineering-handbook/",
       "accent": "ink"
     },
     {
-      "id": "hn-48687272",
-      "category": "产品观察",
-      "time": "22:46",
-      "title": "Jolla Phone 销量突破13500台",
-      "summary": "产品观察领域热门讨论，当前热度118，共有75条评论。",
-      "url": "https://commerce.jolla.com/products/jolla-phone-october-2026",
+      "id": "hn-48698559",
+      "category": "全球科技",
+      "time": "22:23",
+      "title": "后神话时代网络安全：保持冷静稳步推进",
+      "summary": "全球科技领域热门讨论，当前热度44，共有13条评论。",
+      "url": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
       "accent": "lime"
     },
     {
-      "id": "hn-48685558",
-      "category": "人工智能",
-      "time": "19:51",
-      "title": "脑部超声成像技术",
-      "summary": "人工智能领域热门讨论，当前热度86，共有23条评论。",
-      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "id": "hn-48698151",
+      "category": "全球科技",
+      "time": "21:32",
+      "title": "可疑不连续点",
+      "summary": "全球科技领域热门讨论，当前热度76，共有11条评论。",
+      "url": "https://danluu.com/discontinuities/",
       "accent": "coral"
     },
     {
-      "id": "hn-48648850",
+      "id": "hn-48650794",
       "category": "全球科技",
-      "time": "02:04",
-      "title": "卫星研发周期从数年缩短至数周、数天甚至数小时",
-      "summary": "全球科技领域热门讨论，当前热度30，共有1条评论。",
-      "url": "https://arstechnica.com/space/2026/06/a-us-military-exercise-in-space-got-underway-with-barely-anyone-noticing/",
+      "time": "04:21",
+      "title": "1981年板球下沟投球事件",
+      "summary": "全球科技领域热门讨论，当前热度81，共有51条评论。",
+      "url": "https://en.wikipedia.org/wiki/Underarm_bowling_incident_of_1981",
       "accent": "mint"
     },
     {
-      "id": "hn-48678852",
+      "id": "hn-48697335",
       "category": "全球科技",
-      "time": "04:33",
-      "title": "知名科技博主Om Malik离世",
-      "summary": "全球科技领域热门讨论，当前热度1155，共有133条评论。",
-      "url": "https://om.co/2026/06/24/1966-2026/",
+      "time": "19:32",
+      "title": "无法实际掌控的资产就不属于你",
+      "summary": "全球科技领域热门讨论，当前热度167，共有109条评论。",
+      "url": "https://dervis.de/physical/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Multimodal Clinical Alignment",
-    "phonetic": "/ˌmʌltiˈməʊdl ˈklɪnɪkl əˈlaɪnmənt/",
-    "definition": "将医学影像、病历等多模态医疗数据做特征空间统一对齐的技术。",
-    "example": "脑部超声场景下对齐影像与临床病历，提升AI诊断准确率。"
+    "term": "Reciprocal Rank Fusion",
+    "phonetic": "/rɪˈsɪprəkəl ræŋk ˈfjuːʒn/",
+    "definition": "将多检索结果按倒数排名规则合并，提升检索准确率的融合算法。",
+    "example": "RAG系统用该算法合并关键词+向量检索结果，可大幅降低漏召回率。"
   },
   "interview": {
-    "category": "多模态",
+    "category": "RAG与搜索",
     "difficulty": "中等",
-    "question": "要搭建面向脑部超声成像场景的多模态医疗AI辅助诊断系统，需要完成哪些核心架构权衡来平衡诊断准确率、部署合规性和推理响应速度？",
+    "question": "团队要搭建面向企业内部百万级文档知识库的RAG问答系统，需要同时兼顾检索准确率、查询响应速度和知识库增量更新效率，要完成哪些核心架构权衡？",
     "points": [
-      "考察多模态系统跨模态特征融合的架构选型能力",
-      "考察医疗AI场景下合规要求的落地设计意识",
-      "考察边缘侧部署时性能与精度的权衡能力"
+      "考察对RAG检索全链路核心优化点的理解深度",
+      "考察大规模知识库场景下的工程落地权衡思维",
+      "考察不同检索策略优缺点的场景适配能力"
     ],
-    "answerLead": "答题时可以从数据对齐、模型选型、合规嵌入三方面逐层拆解核心权衡点。",
+    "answerLead": "可从检索路径设计、分片策略、更新机制、缓存规则四个维度逐层拆解权衡方案。",
     "answer": [
-      "特征层权衡：选择轻量跨模态对齐头替代大参数全融合结构，在保留95%以上特征匹配度的前提下减少30%算力开销",
-      "合规层权衡：把医疗数据脱敏、可溯源解释模块嵌入推理主链路，不额外增加超过100ms的响应延迟",
-      "精度层权衡：针对脑部超声小样本场景做模态专属微调，避免通用多模态模型的医疗领域幻觉问题",
-      "部署层权衡：做端侧模型量化裁剪，在满足常规诊断精度要求下，把单帧推理耗时压缩到200ms以内"
+      "检索层架构权衡：放弃单一向量检索方案，采用关键词+向量双路检索+倒数排名融合的混合策略，用可接受的时延小幅上涨换召回率大幅提升。",
+      "分片策略权衡：放弃固定长度分片，采用语义分片+父子分片二级存储模式，兼顾召回细粒度和片段上下文完整性。",
+      "索引更新机制权衡：冷热数据分离构建索引，增量更新仅处理新增/修改文档对应分片，大幅降低全量索引构建开销。",
+      "缓存层规则权衡：对高频热点查询的召回结果做短时缓存，在不影响核心数据新鲜度的前提下降低平均查询时延。"
     ]
   },
   "generation": {
@@ -164,6 +164,17 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年6月28日 · 星期日",
+      "word": {
+        "term": "Reciprocal Rank Fusion",
+        "definition": "将多检索结果按倒数排名规则合并，提升检索准确率的融合算法。"
+      },
+      "interview": {
+        "category": "RAG与搜索",
+        "question": "团队要搭建面向企业内部百万级文档知识库的RAG问答系统，需要同时兼顾检索准确率、查询响应速度和知识库增量更新效率，要完成哪些核心架构权衡？"
+      }
+    },
     {
       "dateLabel": "2026年6月27日 · 星期六",
       "word": {
