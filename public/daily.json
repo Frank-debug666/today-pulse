@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-06-27T16:36:00.702Z",
-  "dateLabel": "2026年6月28日 · 星期日",
-  "issue": 189,
+  "generatedAt": "2026-06-28T17:40:52.412Z",
+  "dateLabel": "2026年6月29日 · 星期一",
+  "issue": 190,
   "githubRepos": [
     {
       "rank": "01",
       "name": "bozhouDev / codex-orange-book",
-      "summary": "Codex 橙皮书是从安装到实战案例的全链路Codex非官方开源使用指南，附带可下载PDF资源。",
+      "summary": "非官方开源的Codex全链路使用指南，覆盖从安装到实战案例，附带可下载PDF资源。",
       "language": "HTML",
       "color": "#707873",
-      "stars": "2.2K",
-      "growth": "+2198",
+      "stars": "2.3K",
+      "growth": "+2267",
       "growthLabel": "近7日",
       "url": "https://github.com/bozhouDev/codex-orange-book"
     },
     {
       "rank": "02",
       "name": "deepseek-ai / DeepSpec",
-      "summary": "DeepSpec是用于训练和评测投机解码算法的全栈开源代码库。",
+      "summary": "基于Python实现的全栈代码库，专门用于训练和评估投机解码算法。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "986",
-      "growth": "+986",
+      "stars": "2K",
+      "growth": "+1979",
       "growthLabel": "近7日",
       "url": "https://github.com/deepseek-ai/DeepSpec"
     },
     {
       "rank": "03",
-      "name": "kanavtwtgg / birds.cafe",
-      "summary": "birds.cafe是本周热度快速攀升的创新开源项目。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "736",
-      "growth": "+736",
-      "growthLabel": "近7日",
-      "url": "https://github.com/kanavtwtgg/birds.cafe"
-    },
-    {
-      "rank": "04",
       "name": "bikini / exploitarium",
-      "summary": "exploitarium是公开漏洞PoC和漏洞研究文稿的统一归档仓库。",
+      "summary": "公开漏洞利用PoC和漏洞研究报告的归档合集，所有内容均未提前上报给厂商。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "658",
-      "growth": "+658",
+      "stars": "1.9K",
+      "growth": "+1906",
       "growthLabel": "近7日",
       "url": "https://github.com/bikini/exploitarium"
     },
     {
-      "rank": "05",
-      "name": "BohemiaInteractive / CWR",
-      "summary": "CWR是《Arma：冷战突击 重制版》的官方开源代码仓库。",
-      "language": "C++",
-      "color": "#707873",
-      "stars": "653",
-      "growth": "+653",
+      "rank": "04",
+      "name": "Yu9191 / wloc",
+      "summary": "可修改Apple网络定位gs-loc返回坐标，支持Surge等多平台，快捷指令一键切换设置。",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1K",
+      "growth": "+1029",
       "growthLabel": "近7日",
-      "url": "https://github.com/BohemiaInteractive/CWR"
+      "url": "https://github.com/Yu9191/wloc"
+    },
+    {
+      "rank": "05",
+      "name": "winsznx / theeleven",
+      "summary": "11个自主AI代理在X Layer上开启实时足球投注市场，基于自定义Uniswap v4钩子实现免Gas USDT0质押。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "686",
+      "growth": "+686",
+      "growthLabel": "近7日",
+      "url": "https://github.com/winsznx/theeleven"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48697560",
+      "id": "hn-48707763",
       "category": "全球科技",
-      "time": "20:10",
-      "title": "OpenRA",
-      "summary": "全球科技领域热门讨论，当前热度275，共有61条评论。",
-      "url": "https://www.openra.net/",
+      "time": "22:44",
+      "title": "公开5000份1880-1920年的历史餐厅菜单",
+      "summary": "全球科技领域热门讨论，当前热度172，共有39条评论。",
+      "url": "https://pudding.cool/2026/06/menu-collection/",
       "accent": "lime"
     },
     {
-      "id": "hn-48698617",
-      "category": "开源生态",
-      "time": "22:31",
-      "title": "匿名GitHub账号批量泄露未公开0日漏洞",
-      "summary": "开源生态领域热门讨论，当前热度102，共有36条评论。",
-      "url": "https://github.com/bikini/exploitarium",
+      "id": "hn-48708941",
+      "category": "全球科技",
+      "time": "00:35",
+      "title": "我使用Claude Code对自己的MRI影像做了二次诊断",
+      "summary": "全球科技领域热门讨论，当前热度44，共有61条评论。",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
       "accent": "coral"
     },
     {
-      "id": "hn-48696585",
-      "category": "人工智能",
-      "time": "17:18",
-      "title": "DSpark：基于投机解码加速大语言模型推理（PDF论文）",
-      "summary": "人工智能领域热门讨论，当前热度622，共有235条评论。",
-      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "id": "hn-48709187",
+      "category": "全球科技",
+      "time": "00:58",
+      "title": "Lemote YeeLoong龙梦笔记本与OpenBSD的老旧硬件兼容实践",
+      "summary": "全球科技领域热门讨论，当前热度21，共有2条评论。",
+      "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
       "accent": "mint"
     },
     {
-      "id": "hn-48696982",
-      "category": "全球科技",
-      "time": "18:28",
-      "title": "金融科技工程手册",
-      "summary": "全球科技领域热门讨论，当前热度293，共有101条评论。",
-      "url": "https://w.pitula.me/fintech-engineering-handbook/",
+      "id": "hn-48708859",
+      "category": "人工智能",
+      "time": "00:28",
+      "title": "日本传统林业技术Daisugi：无需伐树就能产出笔直可用木材",
+      "summary": "人工智能领域热门讨论，当前热度42，共有15条评论。",
+      "url": "https://www.openculture.com/2020/10/daisugi.html",
       "accent": "ink"
     },
     {
-      "id": "hn-48698559",
+      "id": "hn-48708700",
       "category": "全球科技",
-      "time": "22:23",
-      "title": "后神话时代网络安全：保持冷静稳步推进",
-      "summary": "全球科技领域热门讨论，当前热度44，共有13条评论。",
-      "url": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
+      "time": "00:16",
+      "title": "拆解航天飞机I/O处理器的电路板细节",
+      "summary": "全球科技领域热门讨论，当前热度37，共有7条评论。",
+      "url": "https://www.righto.com/2026/06/space-shuttle-io-processor-boards.html",
       "accent": "lime"
     },
     {
-      "id": "hn-48698151",
-      "category": "全球科技",
-      "time": "21:32",
-      "title": "可疑不连续点",
-      "summary": "全球科技领域热门讨论，当前热度76，共有11条评论。",
-      "url": "https://danluu.com/discontinuities/",
+      "id": "hn-48706814",
+      "category": "产品观察",
+      "time": "20:44",
+      "title": "消失的波兰字母S的趣味溯源",
+      "summary": "产品观察领域热门讨论，当前热度169，共有36条评论。",
+      "url": "https://aresluna.org/the-curious-case-of-the-disappearing-polish-s/",
       "accent": "coral"
     },
     {
-      "id": "hn-48650794",
-      "category": "全球科技",
-      "time": "04:21",
-      "title": "1981年板球下沟投球事件",
-      "summary": "全球科技领域热门讨论，当前热度81，共有51条评论。",
-      "url": "https://en.wikipedia.org/wiki/Underarm_bowling_incident_of_1981",
+      "id": "hn-48706714",
+      "category": "人工智能",
+      "time": "20:27",
+      "title": "OpenAI Codex排除敏感文件的功能问题至今仍未修复",
+      "summary": "人工智能领域热门讨论，当前热度130，共有90条评论。",
+      "url": "https://github.com/openai/codex/issues/2847",
       "accent": "mint"
     },
     {
-      "id": "hn-48697335",
+      "id": "hn-48707673",
       "category": "全球科技",
-      "time": "19:32",
-      "title": "无法实际掌控的资产就不属于你",
-      "summary": "全球科技领域热门讨论，当前热度167，共有109条评论。",
-      "url": "https://dervis.de/physical/",
+      "time": "22:35",
+      "title": "Flock监控摄像头不止能识别车牌，正在快速大范围普及",
+      "summary": "全球科技领域热门讨论，当前热度238，共有148条评论。",
+      "url": "https://www.engadget.com/2203000/flock-cameras-recording-license-plate/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Reciprocal Rank Fusion",
-    "phonetic": "/rɪˈsɪprəkəl ræŋk ˈfjuːʒn/",
-    "definition": "将多检索结果按倒数排名规则合并，提升检索准确率的融合算法。",
-    "example": "RAG系统用该算法合并关键词+向量检索结果，可大幅降低漏召回率。"
+    "term": "Sensitive Data Redaction",
+    "phonetic": "/ˈsensətɪv ˈdeɪtə rɪˈdækʃn/",
+    "definition": "识别并移除数据集中隐私、涉密内容的自动化数据处理流程",
+    "example": "训练代码大模型前通过该流程过滤代码库的敏感密钥文件"
   },
   "interview": {
-    "category": "RAG与搜索",
+    "category": "数据工程",
     "difficulty": "中等",
-    "question": "团队要搭建面向企业内部百万级文档知识库的RAG问答系统，需要同时兼顾检索准确率、查询响应速度和知识库增量更新效率，要完成哪些核心架构权衡？",
+    "question": "团队要给本地私有代码库搭建接入大模型编码助手的前置敏感文件过滤系统，需要兼顾代码补全准确率、敏感文件零泄露、扫描处理性能，要完成哪些核心架构权衡？",
     "points": [
-      "考察对RAG检索全链路核心优化点的理解深度",
-      "考察大规模知识库场景下的工程落地权衡思维",
-      "考察不同检索策略优缺点的场景适配能力"
+      "敏感特征匹配精度与扫描耗时的权衡设计",
+      "排除敏感文件后对代码上下文补全效果的影响评估",
+      "增量代码更新场景下的过滤系统效率优化"
     ],
-    "answerLead": "可从检索路径设计、分片策略、更新机制、缓存规则四个维度逐层拆解权衡方案。",
+    "answerLead": "可以从特征分层匹配、上下文补全校验、增量索引更新三个维度逐步推导",
     "answer": [
-      "检索层架构权衡：放弃单一向量检索方案，采用关键词+向量双路检索+倒数排名融合的混合策略，用可接受的时延小幅上涨换召回率大幅提升。",
-      "分片策略权衡：放弃固定长度分片，采用语义分片+父子分片二级存储模式，兼顾召回细粒度和片段上下文完整性。",
-      "索引更新机制权衡：冷热数据分离构建索引，增量更新仅处理新增/修改文档对应分片，大幅降低全量索引构建开销。",
-      "缓存层规则权衡：对高频热点查询的召回结果做短时缓存，在不影响核心数据新鲜度的前提下降低平均查询时延。"
+      "分层设计匹配规则：先用轻量级哈希、正则规则快速初筛，再用特征模型二次校验，平衡精度和性能",
+      "设计开源公开代码白名单兜底机制，避免误删正常代码片段影响大模型补全准确率",
+      "对接代码仓库Webhook事件，仅对新增/修改文件做增量扫描，避免全库重复计算损耗性能",
+      "新增全流程日志审计链路，所有过滤操作留痕，既满足合规要求也能快速定位误判漏判问题"
     ]
   },
   "generation": {
@@ -164,6 +164,17 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年6月29日 · 星期一",
+      "word": {
+        "term": "Sensitive Data Redaction",
+        "definition": "识别并移除数据集中隐私、涉密内容的自动化数据处理流程"
+      },
+      "interview": {
+        "category": "数据工程",
+        "question": "团队要给本地私有代码库搭建接入大模型编码助手的前置敏感文件过滤系统，需要兼顾代码补全准确率、敏感文件零泄露、扫描处理性能，要完成哪些核心架构权衡？"
+      }
+    },
     {
       "dateLabel": "2026年6月28日 · 星期日",
       "word": {
