@@ -11,6 +11,7 @@ import {
   ChevronRight,
   Circle,
   ExternalLink,
+  Eye,
   Menu,
   Moon,
   RefreshCw,
@@ -112,6 +113,7 @@ export default function App() {
   const [moreOpen, setMoreOpen] = useState(false);
   const [notificationOpen, setNotificationOpen] = useState(false);
   const [refreshNotice, setRefreshNotice] = useState("");
+  const [visitStats, setVisitStats] = useState(null);
   const searchRef = useRef(null);
 
   const loadDaily = async (live = false) => {
@@ -145,8 +147,22 @@ export default function App() {
     }
   };
 
+  const loadVisits = async () => {
+    try {
+      const response = await fetch(`/api/visits?ts=${Date.now()}`, {
+        method: "POST",
+        cache: "no-store",
+      });
+      if (!response.ok) throw new Error("访问统计读取失败");
+      setVisitStats(await response.json());
+    } catch {
+      setVisitStats({ enabled: false, total: 0, today: 0 });
+    }
+  };
+
   useEffect(() => {
     loadDaily();
+    loadVisits();
     const shortcut = (event) => {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
         event.preventDefault();
@@ -185,6 +201,9 @@ export default function App() {
   const word = data?.word || {};
   const interview = data?.interview || {};
   const dateLabel = clean(data?.dateLabel, "2026年6月14日 · 星期日");
+  const visitorText = visitStats?.enabled
+    ? `累计 ${Intl.NumberFormat("zh-CN").format(visitStats.total)} 次访问 · 今日 ${Intl.NumberFormat("zh-CN").format(visitStats.today)}`
+    : "访问统计待启用";
   const wordHistory = (data?.learningHistory || [])
     .filter((entry) => entry?.word?.term && entry.word.term !== word.term)
     .slice(0, 6);
@@ -212,6 +231,7 @@ export default function App() {
         </div> : null}
         <div className="date-status">
           <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />每日简报 · {formatUpdateTime(data?.generatedAt)}更新</span>
+          <span><Eye size={11} />{visitorText}</span>
         </div>
         <div className="top-actions">
           <IconButton label="实时刷新" onClick={() => loadDaily(true)}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
@@ -306,7 +326,7 @@ export default function App() {
         </section>
       </main>
 
-      <footer><span>数据来源：GNews · GitHub 热门榜 · arXiv · Hacker News</span><span>每日自动整理，仅供学习与资讯参考</span></footer>
+      <footer><span>数据来源：GNews · GitHub 热门榜 · arXiv · Hacker News</span><span>{visitorText}</span><span>每日自动整理，仅供学习与资讯参考</span></footer>
     </div>
   );
 }

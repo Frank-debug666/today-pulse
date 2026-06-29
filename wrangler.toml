@@ -1,0 +1,7 @@
+name = "today-pulse"
+compatibility_date = "2026-06-29"
+pages_build_output_dir = "dist"
+
+[[kv_namespaces]]
+binding = "VISIT_COUNTER"
+id = "114bc94547a94a89bb2897bc46650a47"
