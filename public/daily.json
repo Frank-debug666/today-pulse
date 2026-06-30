@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-06-29T17:56:58.097Z",
-  "dateLabel": "2026年6月30日 · 星期二",
-  "issue": 191,
+  "generatedAt": "2026-06-30T17:20:15.923Z",
+  "dateLabel": "2026年7月1日 · 星期三",
+  "issue": 192,
   "githubRepos": [
     {
       "rank": "01",
       "name": "deepseek-ai / DeepSpec",
-      "summary": "DeepSpec是一套用于训练、评估投机解码算法的全栈Python代码库",
+      "summary": "DeepSeek开源的全栈代码库，可用于训练和评估投机解码算法。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "3.5K",
-      "growth": "+3495",
+      "stars": "5K",
+      "growth": "+5044",
       "growthLabel": "近7日",
       "url": "https://github.com/deepseek-ai/DeepSpec"
     },
     {
       "rank": "02",
-      "name": "bozhouDev / codex-orange-book",
-      "summary": "Codex橙皮书是非官方开源的全链路Codex使用指南，覆盖从安装到实战全流程，附带可下载PDF",
-      "language": "HTML",
-      "color": "#707873",
-      "stars": "2.3K",
-      "growth": "+2343",
-      "growthLabel": "近7日",
-      "url": "https://github.com/bozhouDev/codex-orange-book"
-    },
-    {
-      "rank": "03",
       "name": "Yu9191 / wloc",
-      "summary": "可修改Apple网络定位gs-loc返回坐标，兼容多款主流代理工具，支持快捷指令一键设置/恢复定位",
+      "summary": "可修改Apple网络定位gs-loc返回坐标，支持多款主流代理工具，支持快捷设置/恢复定位。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.4K",
-      "growth": "+1433",
+      "stars": "1.9K",
+      "growth": "+1872",
       "growthLabel": "近7日",
       "url": "https://github.com/Yu9191/wloc"
     },
     {
+      "rank": "03",
+      "name": "baairon / torlink",
+      "summary": "零配置开箱即用的终端端简洁BT资源查找与下载工具。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "1.4K",
+      "growth": "+1355",
+      "growthLabel": "近7日",
+      "url": "https://github.com/baairon/torlink"
+    },
+    {
       "rank": "04",
       "name": "Krishnagangwal / CS-Fundamentals",
-      "summary": "面向求职整理的计算机基础资源合集，覆盖DSA、计网、数据库、操作系统等全部核心知识点",
+      "summary": "面向校招准备的计算机基础内容合集，覆盖DSA、计网、数据库等全部核心知识点。",
       "language": "Other",
       "color": "#707873",
-      "stars": "900",
-      "growth": "+900",
+      "stars": "1.2K",
+      "growth": "+1163",
       "growthLabel": "近7日",
       "url": "https://github.com/Krishnagangwal/CS-Fundamentals"
     },
     {
       "rank": "05",
-      "name": "winsznx / theeleven",
-      "summary": "11个自主AI代理在X Layer上推出实时足球投注市场，内置自定义Uniswap v4钩子，支持零Gas费USDT0质押",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "714",
-      "growth": "+714",
+      "name": "yynxxxxx / Codex-5.5-codex-instruct-5.5",
+      "summary": "本周热度快速攀升的开源大模型项目。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "745",
+      "growth": "+745",
       "growthLabel": "近7日",
-      "url": "https://github.com/winsznx/theeleven"
+      "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48721903",
+      "id": "hn-48734373",
       "category": "全球科技",
-      "time": "01:05",
-      "title": "Qwen 3.6 27B：本地开发部署的最优选择",
-      "summary": "全球科技领域热门讨论，当前热度106，共61条评论",
-      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+      "time": "23:44",
+      "title": "Claude Code 正在以隐写方式标记请求",
+      "summary": "全球科技领域热门讨论，当前热度413，共有138条评论。",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
       "accent": "lime"
     },
     {
-      "id": "hn-48719485",
+      "id": "hn-48735444",
       "category": "全球科技",
-      "time": "22:09",
-      "title": "航天企业Rocketlab收购铱星Iridium",
-      "summary": "全球科技领域热门讨论，当前热度194，共110条评论",
-      "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully",
+      "time": "00:48",
+      "title": "Nano Banana 2 Lite",
+      "summary": "全球科技领域热门讨论，当前热度34，共有6条评论。",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
       "accent": "coral"
     },
     {
-      "id": "hn-48720758",
+      "id": "hn-48734234",
       "category": "全球科技",
-      "time": "23:42",
-      "title": "一款面向SSH的原生图形化Shell工具发布",
-      "summary": "全球科技领域热门讨论，当前热度80，共37条评论",
-      "url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+      "time": "23:35",
+      "title": "美国劳动收入占比处于战后最低水平",
+      "summary": "全球科技领域热门讨论，当前热度331，共有288条评论。",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/",
       "accent": "mint"
     },
     {
-      "id": "hn-48720190",
+      "id": "hn-48735770",
       "category": "全球科技",
-      "time": "23:02",
-      "title": "WATaBoy：将Game Boy指令JIT编译为WASM 性能反超原生解释器",
-      "summary": "全球科技领域热门讨论，当前热度95，共10条评论",
-      "url": "https://humphri.es/blog/WATaBoy/",
+      "time": "01:07",
+      "title": "Claude Science",
+      "summary": "全球科技领域热门讨论，当前热度19，共有4条评论。",
+      "url": "https://claude.com/product/claude-science",
       "accent": "ink"
     },
     {
-      "id": "hn-48720924",
+      "id": "hn-48733937",
       "category": "全球科技",
-      "time": "23:54",
-      "title": "美国最高法院裁定地理围栏搜查令需满足宪法保护要求",
-      "summary": "全球科技领域热门讨论，当前热度144，共53条评论",
-      "url": "https://www.theguardian.com/us-news/2026/jun/29/supreme-court-geofence-warrants-case-decision",
+      "time": "23:17",
+      "title": "我们将Bluesky数据迁移到了Eurosky",
+      "summary": "全球科技领域热门讨论，当前热度74，共有54条评论。",
+      "url": "https://waag.org/en/article/why-we-moved-our-bluesky-data-eurosky/",
       "accent": "lime"
     },
     {
-      "id": "hn-48718863",
-      "category": "产品观察",
-      "time": "21:11",
-      "title": "深度解析：运行一个CUDA内核时底层发生了什么",
-      "summary": "产品观察领域热门讨论，当前热度127，共10条评论",
-      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+      "id": "hn-48731989",
+      "category": "全球科技",
+      "time": "20:47",
+      "title": "《非同寻常的大众幻想与群众性癫狂》1852年版",
+      "summary": "全球科技领域热门讨论，当前热度113，共有30条评论。",
+      "url": "https://www.gutenberg.org/ebooks/24518",
       "accent": "coral"
     },
     {
-      "id": "hn-48721072",
+      "id": "hn-48733031",
       "category": "全球科技",
-      "time": "00:07",
-      "title": "欧洲ISP呼吁版权方为内容过度屏蔽造成的损失担责",
-      "summary": "全球科技领域热门讨论，当前热度124，共15条评论",
-      "url": "https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/",
+      "time": "22:14",
+      "title": "前瞻Postgres 19新特性",
+      "summary": "全球科技领域热门讨论，当前热度130，共有88条评论。",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/",
       "accent": "mint"
     },
     {
-      "id": "hn-48713832",
-      "category": "人工智能",
-      "time": "09:44",
-      "title": "HackerRank开源其招聘ATS系统 实测简历评分在74-90分区间波动",
-      "summary": "人工智能领域热门讨论，当前热度855，共368条评论",
-      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "id": "hn-48734699",
+      "category": "全球科技",
+      "time": "00:05",
+      "title": "坐拥37个数据中心的县要求学校节约用电",
+      "summary": "全球科技领域热门讨论，当前热度107，共有45条评论。",
+      "url": "https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Applicant Tracking System",
-    "phonetic": "/ˌæplɪkənt ˈtrækɪŋ ˈsɪstəm/",
-    "definition": "企业自动化招聘流程的申请人跟踪系统，覆盖简历筛选到面试全环节",
-    "example": "开源ATS可自动完成简历初筛，大幅降低HR人工审核工作量"
+    "term": "Steganographic Watermarking",
+    "phonetic": "/ˌsteɡənəˈɡræfɪk ˈwɔːtəmɑːkɪŋ/",
+    "definition": "隐写水印，将标识信息隐藏在载体中、不影响原始使用效果的标记技术。",
+    "example": "大厂商用该技术标记Claude Code输出，可溯源违规生成内容的来源。"
   },
   "interview": {
-    "category": "AI产品架构",
+    "category": "安全治理",
     "difficulty": "中等",
-    "question": "团队要基于HackerRank开源ATS二次开发，接入大模型简历评分能力，需要兼顾评分公平性、数据隐私合规、系统集成兼容性，要完成哪些核心架构权衡？",
+    "question": "团队要给内部大模型编码输出添加隐写式溯源标记，需要兼顾生成质量零损失、标记不可擦除、溯源准确率100%，要完成哪些核心架构权衡？",
     "points": [
-      "考察开源招聘系统二次开发的架构设计能力",
-      "考察大模型接入现有业务系统的利弊权衡能力",
-      "考察B端招聘场景下的合规性设计意识"
+      "对隐写水印技术选型的场景适配能力",
+      "大模型生成性能与安全要求的平衡设计能力",
+      "企业级内容溯源场景的全链路落地经验"
     ],
-    "answerLead": "答题时可以从系统分层解耦、能力模块化的思路出发，梳理不同需求的优先级边界",
+    "answerLead": "你可以从隐写标记的嵌入位置、强度校验、旁路部署三个维度展开分层权衡。",
     "answer": [
-      "将大模型评分模块做微服务化隔离，不修改原有ATS核心逻辑，方便后续快速替换不同大模型后端",
-      "数据层做敏感字段脱敏处理，简历身份证、手机号等隐私信息不传入大模型，仅保留岗位匹配所需特征字段",
-      "评分逻辑层加入人工干预校验阈值，对临界区间的简历自动推送HR复核，避免大模型偏见导致的评分不公",
-      "接口层兼容主流HR系统标准API，保留原有ATS原生同步回调逻辑，降低对接现有招聘流程的改造成本"
+      "优先选择在生成代码的注释空白位、非功能性字符位嵌入隐写标记，完全不影响代码编译运行逻辑，避免侵入业务内容。",
+      "分级设置标记冗余度，普通场景用低冗余轻量标记降低性能开销，高敏感场景添加校验位避免常规格式化操作擦除标记。",
+      "旁路部署标记校验溯源服务，不占用大模型推理计算资源，同时对接内部代码提交网关实现全链路自动溯源。",
+      "配套标记灰度验证机制，对比嵌入标记前后大模型的生成准确率、响应延迟差异，确保无业务侧感知的负面影响。"
     ]
   },
   "generation": {
@@ -164,6 +164,17 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月1日 · 星期三",
+      "word": {
+        "term": "Steganographic Watermarking",
+        "definition": "隐写水印，将标识信息隐藏在载体中、不影响原始使用效果的标记技术。"
+      },
+      "interview": {
+        "category": "安全治理",
+        "question": "团队要给内部大模型编码输出添加隐写式溯源标记，需要兼顾生成质量零损失、标记不可擦除、溯源准确率100%，要完成哪些核心架构权衡？"
+      }
+    },
     {
       "dateLabel": "2026年6月30日 · 星期二",
       "word": {
