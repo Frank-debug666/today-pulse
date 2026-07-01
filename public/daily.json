@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-06-30T17:20:15.923Z",
-  "dateLabel": "2026年7月1日 · 星期三",
-  "issue": 192,
+  "generatedAt": "2026-07-01T16:42:16.372Z",
+  "dateLabel": "2026年7月2日 · 星期四",
+  "issue": 193,
   "githubRepos": [
     {
       "rank": "01",
       "name": "deepseek-ai / DeepSpec",
-      "summary": "DeepSeek开源的全栈代码库，可用于训练和评估投机解码算法。",
+      "summary": "这是一套用于训练、评估推测解码算法的全栈Python开发代码库。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "5K",
-      "growth": "+5044",
+      "stars": "5.7K",
+      "growth": "+5716",
       "growthLabel": "近7日",
       "url": "https://github.com/deepseek-ai/DeepSpec"
     },
     {
       "rank": "02",
-      "name": "Yu9191 / wloc",
-      "summary": "可修改Apple网络定位gs-loc返回坐标，支持多款主流代理工具，支持快捷设置/恢复定位。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.9K",
-      "growth": "+1872",
-      "growthLabel": "近7日",
-      "url": "https://github.com/Yu9191/wloc"
-    },
-    {
-      "rank": "03",
       "name": "baairon / torlink",
-      "summary": "零配置开箱即用的终端端简洁BT资源查找与下载工具。",
+      "summary": "一款轻量化零配置、直接运行在终端内的种子搜索下载工具。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "1.4K",
-      "growth": "+1355",
+      "stars": "2.2K",
+      "growth": "+2168",
       "growthLabel": "近7日",
       "url": "https://github.com/baairon/torlink"
     },
     {
-      "rank": "04",
+      "rank": "03",
       "name": "Krishnagangwal / CS-Fundamentals",
-      "summary": "面向校招准备的计算机基础内容合集，覆盖DSA、计网、数据库等全部核心知识点。",
+      "summary": "面向校招求职整理的计算机基础学习资料，覆盖DSA、计网、DBMS等核心考点。",
       "language": "Other",
       "color": "#707873",
-      "stars": "1.2K",
-      "growth": "+1163",
+      "stars": "1.3K",
+      "growth": "+1310",
       "growthLabel": "近7日",
       "url": "https://github.com/Krishnagangwal/CS-Fundamentals"
     },
     {
-      "rank": "05",
+      "rank": "04",
       "name": "yynxxxxx / Codex-5.5-codex-instruct-5.5",
-      "summary": "本周热度快速攀升的开源大模型项目。",
+      "summary": "本周热度快速上升的开源代码大模型微调项目。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "745",
-      "growth": "+745",
+      "stars": "989",
+      "growth": "+989",
       "growthLabel": "近7日",
       "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
+    },
+    {
+      "rank": "05",
+      "name": "TianhangZhuzth / Fundamental-Ava",
+      "summary": "用于构建自主协作、具备社会智能的数字人Agent的Python开发框架。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "700",
+      "growth": "+700",
+      "growthLabel": "近7日",
+      "url": "https://github.com/TianhangZhuzth/Fundamental-Ava"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48734373",
+      "id": "hn-48747304",
       "category": "全球科技",
-      "time": "23:44",
-      "title": "Claude Code 正在以隐写方式标记请求",
-      "summary": "全球科技领域热门讨论，当前热度413，共有138条评论。",
-      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "time": "22:20",
+      "title": "全球首次实现由完全人工合成的细胞自主生长分裂",
+      "summary": "全球科技领域热门讨论，当前热度222，共有59条评论。",
+      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
       "accent": "lime"
     },
     {
-      "id": "hn-48735444",
-      "category": "全球科技",
-      "time": "00:48",
-      "title": "Nano Banana 2 Lite",
-      "summary": "全球科技领域热门讨论，当前热度34，共有6条评论。",
-      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "id": "hn-48745456",
+      "category": "产品观察",
+      "time": "20:13",
+      "title": "PlayStation宣布2028年1月起停止生产新游戏实体光盘",
+      "summary": "产品观察领域热门讨论，当前热度186，共有229条评论。",
+      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
       "accent": "coral"
     },
     {
-      "id": "hn-48734234",
-      "category": "全球科技",
-      "time": "23:35",
-      "title": "美国劳动收入占比处于战后最低水平",
-      "summary": "全球科技领域热门讨论，当前热度331，共有288条评论。",
-      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/",
+      "id": "hn-48745445",
+      "category": "开源生态",
+      "time": "20:12",
+      "title": "开源3D物理引擎Box3D正式发布",
+      "summary": "开源生态领域热门讨论，当前热度177，共有34条评论。",
+      "url": "https://box2d.org/posts/2026/06/announcing-box3d/",
       "accent": "mint"
     },
     {
-      "id": "hn-48735770",
+      "id": "hn-48748518",
       "category": "全球科技",
-      "time": "01:07",
-      "title": "Claude Science",
-      "summary": "全球科技领域热门讨论，当前热度19，共有4条评论。",
-      "url": "https://claude.com/product/claude-science",
+      "time": "23:30",
+      "title": "我们如何将IPFS内容发布速度提升10倍",
+      "summary": "全球科技领域热门讨论，当前热度22，共有1条评论。",
+      "url": "https://probelab.io/blog/optimistic-provide/",
       "accent": "ink"
     },
     {
-      "id": "hn-48733937",
-      "category": "全球科技",
-      "time": "23:17",
-      "title": "我们将Bluesky数据迁移到了Eurosky",
-      "summary": "全球科技领域热门讨论，当前热度74，共有54条评论。",
-      "url": "https://waag.org/en/article/why-we-moved-our-bluesky-data-eurosky/",
+      "id": "hn-48749313",
+      "category": "算力芯片",
+      "time": "00:19",
+      "title": "通过GPU快照技术优化GVisor冷启动耗时",
+      "summary": "算力芯片领域热门讨论，当前热度14，共有2条评论。",
+      "url": "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second",
       "accent": "lime"
     },
     {
-      "id": "hn-48731989",
+      "id": "hn-48746076",
       "category": "全球科技",
-      "time": "20:47",
-      "title": "《非同寻常的大众幻想与群众性癫狂》1852年版",
-      "summary": "全球科技领域热门讨论，当前热度113，共有30条评论。",
-      "url": "https://www.gutenberg.org/ebooks/24518",
+      "time": "21:04",
+      "title": "内燃机技术前沿动态讨论",
+      "summary": "全球科技领域热门讨论，当前热度75，共有3条评论。",
+      "url": "https://ciechanow.ski/internal-combustion-engine/",
       "accent": "coral"
     },
     {
-      "id": "hn-48733031",
+      "id": "hn-48746914",
       "category": "全球科技",
-      "time": "22:14",
-      "title": "前瞻Postgres 19新特性",
-      "summary": "全球科技领域热门讨论，当前热度130，共有88条评论。",
-      "url": "https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/",
+      "time": "21:59",
+      "title": "Monetization Gateway变现网关技术方案新进展",
+      "summary": "全球科技领域热门讨论，当前热度80，共有18条评论。",
+      "url": "https://blog.cloudflare.com/monetization-gateway/",
       "accent": "mint"
     },
     {
-      "id": "hn-48734699",
+      "id": "hn-48740771",
       "category": "全球科技",
-      "time": "00:05",
-      "title": "坐拥37个数据中心的县要求学校节约用电",
-      "summary": "全球科技领域热门讨论，当前热度107，共有45条评论。",
-      "url": "https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/",
+      "time": "07:55",
+      "title": "美国商务部解除对Claude Fable 5和Mythos 5的出口管制",
+      "summary": "全球科技领域热门讨论，当前热度848，共有559条评论。",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Steganographic Watermarking",
-    "phonetic": "/ˌsteɡənəˈɡræfɪk ˈwɔːtəmɑːkɪŋ/",
-    "definition": "隐写水印，将标识信息隐藏在载体中、不影响原始使用效果的标记技术。",
-    "example": "大厂商用该技术标记Claude Code输出，可溯源违规生成内容的来源。"
+    "term": "Speculative Decoding Benchmark",
+    "phonetic": "/ˈspekjələtɪv dɪˈkəʊdɪŋ ˈbentʃmɑːk/",
+    "definition": "用于量化评估大模型不同推测解码方案性能的基准测试套件。",
+    "example": "开发者可通过它对比不同推测解码算法的加速比与精度损失。"
   },
   "interview": {
-    "category": "安全治理",
+    "category": "模型评测",
     "difficulty": "中等",
-    "question": "团队要给内部大模型编码输出添加隐写式溯源标记，需要兼顾生成质量零损失、标记不可擦除、溯源准确率100%，要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向不同开源推测解码方案的统一评测体系，需要兼顾评测指标全面性、结果可复现性、评测运行效率，要完成哪些核心架构权衡？",
     "points": [
-      "对隐写水印技术选型的场景适配能力",
-      "大模型生成性能与安全要求的平衡设计能力",
-      "企业级内容溯源场景的全链路落地经验"
+      "对推测解码核心技术指标的理解程度",
+      "大模型评测框架的核心设计思路",
+      "工程化落地时的效率与结果可靠性的权衡能力"
     ],
-    "answerLead": "你可以从隐写标记的嵌入位置、强度校验、旁路部署三个维度展开分层权衡。",
+    "answerLead": "你可以从指标设计、环境隔离、样本复用三个核心维度拆解架构取舍逻辑。",
     "answer": [
-      "优先选择在生成代码的注释空白位、非功能性字符位嵌入隐写标记，完全不影响代码编译运行逻辑，避免侵入业务内容。",
-      "分级设置标记冗余度，普通场景用低冗余轻量标记降低性能开销，高敏感场景添加校验位避免常规格式化操作擦除标记。",
-      "旁路部署标记校验溯源服务，不占用大模型推理计算资源，同时对接内部代码提交网关实现全链路自动溯源。",
-      "配套标记灰度验证机制，对比嵌入标记前后大模型的生成准确率、响应延迟差异，确保无业务侧感知的负面影响。"
+      "指标层权衡：不单一统计推理加速比，同时覆盖生成准确率、显存占用、长尾请求延迟三类核心指标，避免单指标优化带来的体验劣化。",
+      "运行层权衡：通过统一容器镜像固化所有依赖环境，牺牲部分单机运行速度换取不同硬件、不同推理后端下的结果100%可复现。",
+      "样本层权衡：提前缓存所有候选prompt与基准大模型的标准输出，避免重复生成基础对照结果，可将整体评测耗时降低60%以上。",
+      "扩展层权衡：预留标准插件化接口兼容不同开源推测解码算法的快速接入，后续新增待测方案无需修改核心评测流程。"
     ]
   },
   "generation": {
@@ -164,6 +164,17 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月2日 · 星期四",
+      "word": {
+        "term": "Speculative Decoding Benchmark",
+        "definition": "用于量化评估大模型不同推测解码方案性能的基准测试套件。"
+      },
+      "interview": {
+        "category": "模型评测",
+        "question": "团队要搭建面向不同开源推测解码方案的统一评测体系，需要兼顾评测指标全面性、结果可复现性、评测运行效率，要完成哪些核心架构权衡？"
+      }
+    },
     {
       "dateLabel": "2026年7月1日 · 星期三",
       "word": {
