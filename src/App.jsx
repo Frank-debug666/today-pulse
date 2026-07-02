@@ -110,6 +110,7 @@ export default function App() {
   const [heroIndex, setHeroIndex] = useState(0);
   const [newsExpanded, setNewsExpanded] = useState(false);
   const [wordHistoryOpen, setWordHistoryOpen] = useState(false);
+  const [interviewHistoryOpen, setInterviewHistoryOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const [notificationOpen, setNotificationOpen] = useState(false);
   const [refreshNotice, setRefreshNotice] = useState("");
@@ -207,6 +208,9 @@ export default function App() {
   const wordHistory = (data?.learningHistory || [])
     .filter((entry) => entry?.word?.term && entry.word.term !== word.term)
     .slice(0, 6);
+  const interviewHistory = (data?.learningHistory || [])
+    .filter((entry) => entry?.interview?.question && entry.interview.question !== interview.question)
+    .slice(0, 5);
 
   return (
     <div className={dark ? "app dark" : "app"}>
@@ -278,11 +282,12 @@ export default function App() {
             </section>
 
             <section className="interview-card">
-              <SectionTitle icon={<Bot size={17} />}>每日 AI 面试题 <em>{clean(interview.category, "AI 应用工程")} · {clean(interview.difficulty, "中等")}</em></SectionTitle>
+              <SectionTitle icon={<Bot size={17} />} action={interviewHistoryOpen ? "收起往期" : "查看往期"} onAction={() => setInterviewHistoryOpen(!interviewHistoryOpen)}>每日 AI 面试题 <em>{clean(interview.category, "AI 应用工程")} · {clean(interview.difficulty, "中等")}</em></SectionTitle>
               <h3>{clean(interview.question, "某机构要搭建 AI 交易场景的实时风险预警系统，核心工程设计要点有哪些？")}</h3>
               <ul>{(interview.points || ["场景需求拆解能力", "低延迟实时系统架构设计", "端侧 AI 推理性能优化"]).map((point) => <li key={point}>{clean(point, "工程能力与可靠性设计")}</li>)}</ul>
               <button className="answer-toggle" onClick={() => setAnswerOpen(!answerOpen)}>{answerOpen ? "收起参考答案" : "查看参考答案"}<ChevronDown /></button>
               {answerOpen && <div className="answer"><strong>参考答案（要点）</strong><ol>{(interview.answer || ["明确延迟阈值、风险判定规则与可解释性要求。", "采用流式计算与特征预计算，缩短数据处理链路。", "量化并压缩模型，在靠近数据源的位置部署。", "增加决策溯源与人工兜底，降低误判风险。"]).map((step) => <li key={step}>{clean(step, "建立可测试、可追踪、可回滚的工程方案。")}</li>)}</ol></div>}
+              {interviewHistoryOpen ? <div className="interview-history"><strong>往期面试题</strong>{interviewHistory.length ? interviewHistory.map((entry) => <article key={`${entry.dateLabel}-${entry.interview.question}`}><span>{clean(entry.dateLabel, "往期")} · {clean(entry.interview.category, "AI 应用工程")}</span><p>{entry.interview.question}</p></article>) : <p>暂无历史题目</p>}</div> : null}
             </section>
           </aside>
         </section>
