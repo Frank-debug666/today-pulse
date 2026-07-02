@@ -1,169 +1,194 @@
 {
-  "generatedAt": "2026-07-01T16:42:16.372Z",
-  "dateLabel": "2026年7月2日 · 星期四",
-  "issue": 193,
+  "generatedAt": "2026-07-02T18:09:09.418Z",
+  "dateLabel": "2026年7月3日 · 星期五",
+  "issue": 194,
   "githubRepos": [
     {
       "rank": "01",
       "name": "deepseek-ai / DeepSpec",
-      "summary": "这是一套用于训练、评估推测解码算法的全栈Python开发代码库。",
+      "summary": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "5.7K",
-      "growth": "+5716",
+      "stars": "5.9K",
+      "growth": "+5857",
       "growthLabel": "近7日",
       "url": "https://github.com/deepseek-ai/DeepSpec"
     },
     {
       "rank": "02",
-      "name": "baairon / torlink",
-      "summary": "一款轻量化零配置、直接运行在终端内的种子搜索下载工具。",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "2.2K",
-      "growth": "+2168",
-      "growthLabel": "近7日",
-      "url": "https://github.com/baairon/torlink"
-    },
-    {
-      "rank": "03",
       "name": "Krishnagangwal / CS-Fundamentals",
-      "summary": "面向校招求职整理的计算机基础学习资料，覆盖DSA、计网、DBMS等核心考点。",
+      "summary": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
       "language": "Other",
       "color": "#707873",
-      "stars": "1.3K",
-      "growth": "+1310",
+      "stars": "1.4K",
+      "growth": "+1416",
       "growthLabel": "近7日",
       "url": "https://github.com/Krishnagangwal/CS-Fundamentals"
     },
     {
-      "rank": "04",
+      "rank": "03",
       "name": "yynxxxxx / Codex-5.5-codex-instruct-5.5",
-      "summary": "本周热度快速上升的开源代码大模型微调项目。",
+      "summary": "本周快速增长的开源项目。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "989",
-      "growth": "+989",
+      "stars": "1.1K",
+      "growth": "+1101",
       "growthLabel": "近7日",
       "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
     },
     {
-      "rank": "05",
-      "name": "TianhangZhuzth / Fundamental-Ava",
-      "summary": "用于构建自主协作、具备社会智能的数字人Agent的Python开发框架。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "700",
-      "growth": "+700",
+      "rank": "04",
+      "name": "mekos2772 / ios-location-spoofer",
+      "summary": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1.1K",
+      "growth": "+1055",
       "growthLabel": "近7日",
-      "url": "https://github.com/TianhangZhuzth/Fundamental-Ava"
+      "url": "https://github.com/mekos2772/ios-location-spoofer"
+    },
+    {
+      "rank": "05",
+      "name": "Kulaxyz / self-learning-skills",
+      "summary": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "878",
+      "growth": "+878",
+      "growthLabel": "近7日",
+      "url": "https://github.com/Kulaxyz/self-learning-skills"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48747304",
-      "category": "全球科技",
-      "time": "22:20",
-      "title": "全球首次实现由完全人工合成的细胞自主生长分裂",
-      "summary": "全球科技领域热门讨论，当前热度222，共有59条评论。",
-      "url": "https://www.quantamagazine.org/for-the-first-time-a-cell-built-from-scratch-grows-and-divides-20260701/",
+      "id": "hn-48763035",
+      "category": "开源生态",
+      "time": "23:25",
+      "title": "Since Linux 6.9, LUKS suspend stopped wiping disk-encryption keys from memory",
+      "summary": "开源生态领域热门讨论，当前热度 215，共有 105 条评论。",
+      "url": "https://mathstodon.xyz/@iblech/116769502749142438",
       "accent": "lime"
     },
     {
-      "id": "hn-48745456",
+      "id": "hn-48762862",
       "category": "产品观察",
-      "time": "20:13",
-      "title": "PlayStation宣布2028年1月起停止生产新游戏实体光盘",
-      "summary": "产品观察领域热门讨论，当前热度186，共有229条评论。",
-      "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/",
+      "time": "23:11",
+      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
+      "summary": "产品观察领域热门讨论，当前热度 67，共有 43 条评论。",
+      "url": "https://manufact.com",
       "accent": "coral"
     },
     {
-      "id": "hn-48745445",
+      "id": "hn-48755965",
       "category": "开源生态",
-      "time": "20:12",
-      "title": "开源3D物理引擎Box3D正式发布",
-      "summary": "开源生态领域热门讨论，当前热度177，共有34条评论。",
-      "url": "https://box2d.org/posts/2026/06/announcing-box3d/",
+      "time": "11:00",
+      "title": "Android Developer Verification: Threat masquerading as protection",
+      "summary": "开源生态领域热门讨论，当前热度 1392，共有 578 条评论。",
+      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
       "accent": "mint"
     },
     {
-      "id": "hn-48748518",
+      "id": "hn-48759634",
       "category": "全球科技",
-      "time": "23:30",
-      "title": "我们如何将IPFS内容发布速度提升10倍",
-      "summary": "全球科技领域热门讨论，当前热度22，共有1条评论。",
-      "url": "https://probelab.io/blog/optimistic-provide/",
+      "time": "19:17",
+      "title": "PeerTube is a free, decentralized and federated video platform",
+      "summary": "全球科技领域热门讨论，当前热度 212，共有 49 条评论。",
+      "url": "https://github.com/Chocobozzz/PeerTube",
       "accent": "ink"
     },
     {
-      "id": "hn-48749313",
-      "category": "算力芯片",
-      "time": "00:19",
-      "title": "通过GPU快照技术优化GVisor冷启动耗时",
-      "summary": "算力芯片领域热门讨论，当前热度14，共有2条评论。",
-      "url": "https://cerebrium.ai/blog/reducing-gpu-cold-starts-with-memory-snapshots-restoring-cuda-workloads-in-second",
+      "id": "hn-48761118",
+      "category": "全球科技",
+      "time": "21:19",
+      "title": "How to ask for help from people who don't know you",
+      "summary": "全球科技领域热门讨论，当前热度 159，共有 24 条评论。",
+      "url": "https://pradyuprasad.com/writings/how-to-ask-for-help/",
       "accent": "lime"
     },
     {
-      "id": "hn-48746076",
-      "category": "全球科技",
-      "time": "21:04",
-      "title": "内燃机技术前沿动态讨论",
-      "summary": "全球科技领域热门讨论，当前热度75，共有3条评论。",
-      "url": "https://ciechanow.ski/internal-combustion-engine/",
+      "id": "hn-48761536",
+      "category": "人工智能",
+      "time": "21:43",
+      "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
+      "summary": "人工智能领域热门讨论，当前热度 242，共有 117 条评论。",
+      "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
       "accent": "coral"
     },
     {
-      "id": "hn-48746914",
+      "id": "hn-48702006",
       "category": "全球科技",
-      "time": "21:59",
-      "title": "Monetization Gateway变现网关技术方案新进展",
-      "summary": "全球科技领域热门讨论，当前热度80，共有18条评论。",
-      "url": "https://blog.cloudflare.com/monetization-gateway/",
+      "time": "05:38",
+      "title": "German button maker searched rivers of American Midwest for valuable shells",
+      "summary": "全球科技领域热门讨论，当前热度 85，共有 30 条评论。",
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/how-one-german-button-maker-searched-the-rivers-of-the-american-midwest-for-the-shells-that-could-make-him-a-fortune-180989012/",
       "accent": "mint"
     },
     {
-      "id": "hn-48740771",
-      "category": "全球科技",
-      "time": "07:55",
-      "title": "美国商务部解除对Claude Fable 5和Mythos 5的出口管制",
-      "summary": "全球科技领域热门讨论，当前热度848，共有559条评论。",
-      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "id": "hn-48762725",
+      "category": "人工智能",
+      "time": "23:02",
+      "title": "Spain Orders Blacklist of Palantir from Public and Private Companies",
+      "summary": "人工智能领域热门讨论，当前热度 147，共有 12 条评论。",
+      "url": "https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Speculative Decoding Benchmark",
-    "phonetic": "/ˈspekjələtɪv dɪˈkəʊdɪŋ ˈbentʃmɑːk/",
-    "definition": "用于量化评估大模型不同推测解码方案性能的基准测试套件。",
-    "example": "开发者可通过它对比不同推测解码算法的加速比与精度损失。"
+    "term": "Inference-Time Compute",
+    "phonetic": "/ inference time compute /",
+    "definition": "模型在回答问题时投入更多计算，通过搜索、验证或反思提升结果质量。",
+    "example": "不是只让模型变大，而是让模型在难题上多想一会儿。"
   },
   "interview": {
-    "category": "模型评测",
-    "difficulty": "中等",
-    "question": "团队要搭建面向不同开源推测解码方案的统一评测体系，需要兼顾评测指标全面性、结果可复现性、评测运行效率，要完成哪些核心架构权衡？",
+    "question": "如何判断一个 AI 应用应该使用大模型还是小模型？",
     "points": [
-      "对推测解码核心技术指标的理解程度",
-      "大模型评测框架的核心设计思路",
-      "工程化落地时的效率与结果可靠性的权衡能力"
+      "任务复杂度",
+      "成本与延迟",
+      "评测与路由"
     ],
-    "answerLead": "你可以从指标设计、环境隔离、样本复用三个核心维度拆解架构取舍逻辑。",
     "answer": [
-      "指标层权衡：不单一统计推理加速比，同时覆盖生成准确率、显存占用、长尾请求延迟三类核心指标，避免单指标优化带来的体验劣化。",
-      "运行层权衡：通过统一容器镜像固化所有依赖环境，牺牲部分单机运行速度换取不同硬件、不同推理后端下的结果100%可复现。",
-      "样本层权衡：提前缓存所有候选prompt与基准大模型的标准输出，避免重复生成基础对照结果，可将整体评测耗时降低60%以上。",
-      "扩展层权衡：预留标准插件化接口兼容不同开源推测解码算法的快速接入，后续新增待测方案无需修改核心评测流程。"
-    ]
+      "先用业务评测集明确质量底线，而不是只比较通用榜单。",
+      "测量不同模型的准确率、延迟、吞吐量和单次调用成本。",
+      "简单任务优先使用小模型，复杂任务通过路由升级到大模型。",
+      "持续监控线上失败样本并调整路由规则。"
+    ],
+    "category": "AI 应用工程",
+    "difficulty": "中等",
+    "answerLead": "参考答题思路："
   },
   "generation": {
-    "learningSource": "ark",
-    "learningError": null,
+    "learningSource": "fallback",
+    "learningError": "Unexpected token '/', ...\"honetic\": /ˈɛl ɛl ɛm\"... is not valid JSON",
     "githubSource": "github-search",
     "newsSource": "hacker-news",
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月3日 · 星期五",
+      "word": {
+        "term": "Inference-Time Compute",
+        "definition": "模型在回答问题时投入更多计算，通过搜索、验证或反思提升结果质量。",
+        "example": "不是只让模型变大，而是让模型在难题上多想一会儿。"
+      },
+      "interview": {
+        "category": "AI 应用工程",
+        "difficulty": "中等",
+        "question": "如何判断一个 AI 应用应该使用大模型还是小模型？",
+        "points": [
+          "任务复杂度",
+          "成本与延迟",
+          "评测与路由"
+        ],
+        "answerLead": "参考答题思路：",
+        "answer": [
+          "先用业务评测集明确质量底线，而不是只比较通用榜单。",
+          "测量不同模型的准确率、延迟、吞吐量和单次调用成本。",
+          "简单任务优先使用小模型，复杂任务通过路由升级到大模型。",
+          "持续监控线上失败样本并调整路由规则。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月2日 · 星期四",
       "word": {
@@ -173,8 +198,8 @@
       },
       "interview": {
         "category": "模型评测",
-        "question": "团队要搭建面向不同开源推测解码方案的统一评测体系，需要兼顾评测指标全面性、结果可复现性、评测运行效率，要完成哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "团队要搭建面向不同开源推测解码方案的统一评测体系，需要兼顾评测指标全面性、结果可复现性、评测运行效率，要完成哪些核心架构权衡？",
         "points": [
           "对推测解码核心技术指标的理解程度",
           "大模型评测框架的核心设计思路",
@@ -198,8 +223,8 @@
       },
       "interview": {
         "category": "安全治理",
-        "question": "团队要给内部大模型编码输出添加隐写式溯源标记，需要兼顾生成质量零损失、标记不可擦除、溯源准确率100%，要完成哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "团队要给内部大模型编码输出添加隐写式溯源标记，需要兼顾生成质量零损失、标记不可擦除、溯源准确率100%，要完成哪些核心架构权衡？",
         "points": [
           "对隐写水印技术选型的场景适配能力",
           "大模型生成性能与安全要求的平衡设计能力",
@@ -223,8 +248,8 @@
       },
       "interview": {
         "category": "AI产品架构",
-        "question": "团队要基于HackerRank开源ATS二次开发，接入大模型简历评分能力，需要兼顾评分公平性、数据隐私合规、系统集成兼容性，要完成哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "团队要基于HackerRank开源ATS二次开发，接入大模型简历评分能力，需要兼顾评分公平性、数据隐私合规、系统集成兼容性，要完成哪些核心架构权衡？",
         "points": [
           "考察开源招聘系统二次开发的架构设计能力",
           "考察大模型接入现有业务系统的利弊权衡能力",
@@ -248,8 +273,8 @@
       },
       "interview": {
         "category": "数据工程",
-        "question": "团队要给本地私有代码库搭建接入大模型编码助手的前置敏感文件过滤系统，需要兼顾代码补全准确率、敏感文件零泄露、扫描处理性能，要完成哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "团队要给本地私有代码库搭建接入大模型编码助手的前置敏感文件过滤系统，需要兼顾代码补全准确率、敏感文件零泄露、扫描处理性能，要完成哪些核心架构权衡？",
         "points": [
           "敏感特征匹配精度与扫描耗时的权衡设计",
           "排除敏感文件后对代码上下文补全效果的影响评估",
@@ -273,8 +298,8 @@
       },
       "interview": {
         "category": "RAG与搜索",
-        "question": "团队要搭建面向企业内部百万级文档知识库的RAG问答系统，需要同时兼顾检索准确率、查询响应速度和知识库增量更新效率，要完成哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "团队要搭建面向企业内部百万级文档知识库的RAG问答系统，需要同时兼顾检索准确率、查询响应速度和知识库增量更新效率，要完成哪些核心架构权衡？",
         "points": [
           "考察对RAG检索全链路核心优化点的理解深度",
           "考察大规模知识库场景下的工程落地权衡思维",
@@ -298,8 +323,8 @@
       },
       "interview": {
         "category": "多模态",
-        "question": "要搭建面向脑部超声成像场景的多模态医疗AI辅助诊断系统，需要完成哪些核心架构权衡来平衡诊断准确率、部署合规性和推理响应速度？",
         "difficulty": "中等",
+        "question": "要搭建面向脑部超声成像场景的多模态医疗AI辅助诊断系统，需要完成哪些核心架构权衡来平衡诊断准确率、部署合规性和推理响应速度？",
         "points": [
           "考察多模态系统跨模态特征融合的架构选型能力",
           "考察医疗AI场景下合规要求的落地设计意识",
@@ -323,8 +348,8 @@
       },
       "interview": {
         "category": "推理性能",
-        "question": "团队要上线面向C端的开源大模型对话服务，不升级硬件的前提下要把单卡并发承载能力提升3倍，你会做哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "团队要上线面向C端的开源大模型对话服务，不升级硬件的前提下要把单卡并发承载能力提升3倍，你会做哪些核心架构权衡？",
         "points": [
           "考察对大模型推理核心瓶颈的拆解能力",
           "考察推理调度策略的落地选型能力",
@@ -348,8 +373,8 @@
       },
       "interview": {
         "category": "Agent系统",
-        "question": "设计面向企业内部场景的多Agent协作系统时，你会从哪些维度做架构权衡，平衡系统可用性、响应速度与落地成本？",
         "difficulty": "中等",
+        "question": "设计面向企业内部场景的多Agent协作系统时，你会从哪些维度做架构权衡，平衡系统可用性、响应速度与落地成本？",
         "points": [
           "考察对多Agent系统核心架构组件的熟悉程度",
           "考察业务场景下的资源分配与优先级判断能力",
@@ -373,8 +398,8 @@
       },
       "interview": {
         "category": "Agent系统",
-        "question": "如果要搭建面向App自动化测试的多Agent集群，你会从哪些维度做架构权衡，避免测试用例冗余、结果冲突的问题？",
         "difficulty": "中等",
+        "question": "如果要搭建面向App自动化测试的多Agent集群，你会从哪些维度做架构权衡，避免测试用例冗余、结果冲突的问题？",
         "points": [
           "多Agent任务分片的边界划分能力",
           "测试结果的去重与冲突校验机制设计",
@@ -398,8 +423,8 @@
       },
       "interview": {
         "category": "模型评测",
-        "question": "当前开源大模型榜单众多，如果你要搭建面向中文开发者的中立开源权重模型评测体系，需要完成哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "当前开源大模型榜单众多，如果你要搭建面向中文开发者的中立开源权重模型评测体系，需要完成哪些核心架构权衡？",
         "points": [
           "评测维度的中文场景化适配能力设计",
           "评测结果的抗作弊、防过拟合刷分机制设计",
@@ -423,8 +448,8 @@
       },
       "interview": {
         "category": "Agent系统",
-        "question": "团队要搭建可灵活对接不同大模型后端、支持多代理组合调度的通用Agent编排层，你会从哪些维度做架构权衡？",
         "difficulty": "中等",
+        "question": "团队要搭建可灵活对接不同大模型后端、支持多代理组合调度的通用Agent编排层，你会从哪些维度做架构权衡？",
         "points": [
           "对Agent编排核心抽象层设计的理解能力",
           "多模型/多代理适配的兼容性设计思路",
@@ -448,8 +473,8 @@
       },
       "interview": {
         "category": "成本与可观测性",
-        "question": "AI编码工具落地时，如何通过大小模型分层调度的架构设计，在不降低产出质量的前提下显著降低推理成本？",
         "difficulty": "中等",
+        "question": "AI编码工具落地时，如何通过大小模型分层调度的架构设计，在不降低产出质量的前提下显著降低推理成本？",
         "points": [
           "大模型与小模型的能力边界划分思路",
           "分层调度架构的主流设计模式",
@@ -473,8 +498,8 @@
       },
       "interview": {
         "category": "Agent系统",
-        "question": "搭建多Agent协同系统时，引入统一元调度层需要做哪些核心架构权衡？",
         "difficulty": "中等",
+        "question": "搭建多Agent协同系统时，引入统一元调度层需要做哪些核心架构权衡？",
         "points": [
           "考察对多Agent系统常见集成痛点的理解程度",
           "考察对元调度层核心能力边界的设计思路",
@@ -498,8 +523,8 @@
       },
       "interview": {
         "category": "模型评测",
-        "question": "某气候公益团队计划用开源大模型搭建全球灾害预警科普问答系统，需兼顾不同收入水平地区用户的使用公平性，你会如何设计整套落地评测方案？",
         "difficulty": "中等",
+        "question": "某气候公益团队计划用开源大模型搭建全球灾害预警科普问答系统，需兼顾不同收入水平地区用户的使用公平性，你会如何设计整套落地评测方案？",
         "points": [
           "垂直领域大模型基础评测维度的设计能力",
           "AI公平性在公益类场景下的落地评测方法",
@@ -523,8 +548,8 @@
       },
       "interview": {
         "category": "安全治理",
-        "question": "某跨国专业服务机构要搭建覆盖全业务线的生成式AI安全治理体系，需完成哪些核心架构权衡与落地设计？",
         "difficulty": "中等",
+        "question": "某跨国专业服务机构要搭建覆盖全业务线的生成式AI安全治理体系，需完成哪些核心架构权衡与落地设计？",
         "points": [
           "AI全生命周期风险识别能力",
           "合规要求与业务效率的权衡思路",
@@ -548,8 +573,8 @@
       },
       "interview": {
         "category": "",
-        "question": "某机构要搭建AI交易场景的实时风险预警系统，核心工程设计要点有哪些？",
         "difficulty": "",
+        "question": "某机构要搭建AI交易场景的实时风险预警系统，核心工程设计要点有哪些？",
         "points": [
           "AI金融落地场景的需求拆解能力",
           "低延迟实时系统的架构设计能力",
@@ -573,8 +598,8 @@
       },
       "interview": {
         "category": "",
-        "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
         "difficulty": "",
+        "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
         "points": [
           "Schema 约束",
           "校验重试",
@@ -598,8 +623,8 @@
       },
       "interview": {
         "category": "",
-        "question": "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？",
         "difficulty": "",
+        "question": "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？",
         "points": [
           "检索结果质量与排序",
           "上下文组织与长度",
