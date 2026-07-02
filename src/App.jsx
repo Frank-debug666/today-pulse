@@ -103,6 +103,11 @@ function formatPercent(value) {
   return `${number > 0 ? "+" : ""}${number.toFixed(2)}%`;
 }
 
+function repoFullName(repo) {
+  const fromUrl = String(repo?.url || "").match(/github\.com\/([^/#?]+\/[^/#?]+)/)?.[1];
+  return (fromUrl || String(repo?.name || "")).replace(/\s+/g, "").replace(/^https:\/\/github\.com\//, "");
+}
+
 function Sparkline({ values = [], positive = true }) {
   const cleanValues = values.map(Number).filter(Number.isFinite);
   const width = 132;
@@ -146,6 +151,9 @@ export default function App() {
   const [notificationOpen, setNotificationOpen] = useState(false);
   const [refreshNotice, setRefreshNotice] = useState("");
   const [visitStats, setVisitStats] = useState(null);
+  const [authUser, setAuthUser] = useState(null);
+  const [authConfigured, setAuthConfigured] = useState(true);
+  const [starLoading, setStarLoading] = useState(new Set());
   const searchRef = useRef(null);
 
   const loadDaily = async (live = false) => {
@@ -202,10 +210,34 @@ export default function App() {
     }
   };
 
+  const loadAuth = async () => {
+    try {
+      const response = await fetch(`/api/auth/me?ts=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error("auth failed");
+      const result = await response.json();
+      setAuthConfigured(result.configured !== false);
+      setAuthUser(result.authenticated ? result.user : null);
+      if (result.favorites?.length) {
+        setSaved(new Set(result.favorites.map((item) => item.repo_full_name)));
+      }
+    } catch {
+      setAuthConfigured(false);
+      setAuthUser(null);
+    }
+  };
+
+  const logoutGitHub = async () => {
+    await fetch("/api/auth/logout", { method: "POST", cache: "no-store" }).catch(() => null);
+    setAuthUser(null);
+    setSaved(new Set());
+    setRefreshNotice("已退出 GitHub 登录");
+  };
+
   useEffect(() => {
     loadDaily();
     loadVisits();
     loadMarket();
+    loadAuth();
     const shortcut = (event) => {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
         event.preventDefault();
@@ -232,11 +264,44 @@ export default function App() {
     return matchesFilter && text.includes(query.toLowerCase());
   }), [news, query, filter]);
 
-  const toggleSave = (id) => setSaved((current) => {
-    const next = new Set(current);
-    next.has(id) ? next.delete(id) : next.add(id);
-    return next;
-  });
+  const toggleSave = async (repo) => {
+    const fullName = repoFullName(repo);
+    if (!fullName) return;
+    if (!authConfigured) {
+      setRefreshNotice("GitHub 登录尚未配置：请先在 Cloudflare 设置 OAuth 环境变量");
+      return;
+    }
+    if (!authUser) {
+      window.location.href = "/api/auth/github/login";
+      return;
+    }
+
+    const nextStar = !saved.has(fullName);
+    setStarLoading((current) => new Set(current).add(fullName));
+    try {
+      const response = await fetch("/api/github/star", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        cache: "no-store",
+        body: JSON.stringify({ repo: fullName, star: nextStar }),
+      });
+      if (!response.ok) throw new Error((await response.json()).error || "GitHub Star 操作失败");
+      setSaved((current) => {
+        const next = new Set(current);
+        nextStar ? next.add(fullName) : next.delete(fullName);
+        return next;
+      });
+      setRefreshNotice(nextStar ? `已 Star ${fullName}` : `已取消 Star ${fullName}`);
+    } catch (error) {
+      setRefreshNotice(error.message || "GitHub Star 操作失败");
+    } finally {
+      setStarLoading((current) => {
+        const next = new Set(current);
+        next.delete(fullName);
+        return next;
+      });
+    }
+  };
 
   const visibleNews = filteredNews.length ? filteredNews : filter === "全部" && !query ? fallbackNews : [];
   const heroItems = visibleNews.length ? visibleNews : fallbackNews;
@@ -286,6 +351,13 @@ export default function App() {
           <span><Eye size={11} />{visitorText}</span>
         </div>
         <div className="top-actions">
+          {authUser ? <button className="auth-chip" type="button" title={`GitHub: ${authUser.login}`}>
+            {authUser.avatar_url ? <img src={authUser.avatar_url} alt="" /> : <GitHubMark size={15} />}
+            <span>{authUser.login}</span>
+          </button> : <button className="github-login" type="button" onClick={() => authConfigured ? window.location.href = "/api/auth/github/login" : setRefreshNotice("GitHub 登录尚未配置：请先设置 OAuth 环境变量")}>
+            <GitHubMark size={15} /><span>GitHub 登录</span>
+          </button>}
+          {authUser ? <button className="logout-link" type="button" onClick={logoutGitHub}>退出</button> : null}
           <IconButton label="实时刷新" onClick={() => loadDaily(true)}><RefreshCw className={refreshing ? "spin" : ""} /></IconButton>
           <IconButton label="切换主题" onClick={() => setDark(!dark)}>{dark ? <Sun /> : <Moon />}</IconButton>
           <IconButton label="通知" active={notificationOpen} onClick={() => setNotificationOpen(!notificationOpen)}><Bell /></IconButton>
@@ -386,14 +458,17 @@ export default function App() {
         <section className="github-section">
           <SectionTitle icon={<GitHubMark size={20} />} action="前往 GitHub 热门榜" actionHref="https://github.com/trending">GitHub 每日热点</SectionTitle>
           <div className="repo-table">
-            {repos.slice(0, 5).map((repo, index) => (
-              <article key={repo.name}>
+            {repos.slice(0, 5).map((repo, index) => {
+              const fullName = repoFullName(repo);
+              const starred = saved.has(fullName);
+              const loading = starLoading.has(fullName);
+              return <article key={repo.name}>
                 <b>{index + 1}</b><em title="近 7 日新增关注数"><ArrowDown size={12} />{clean(repo.growth, `+${1200 - index * 210}`)}</em>
                 <span><a href={repo.url} target="_blank" rel="noreferrer">{clean(repo.name, fallbackRepos[index].name)}</a><small>{clean(repo.summary, fallbackRepos[index].summary)}</small></span>
                 <i>{localizeLanguage(clean(repo.language, fallbackRepos[index].language))}</i><label title="累计关注数"><Star size={13} />{clean(repo.stars, fallbackRepos[index].stars)}</label>
-                <IconButton label="收藏" active={saved.has(repo.name)} onClick={() => toggleSave(repo.name)}>{saved.has(repo.name) ? <BookmarkCheck /> : <Bookmark />}</IconButton>
-              </article>
-            ))}
+                <IconButton label={authUser ? (starred ? "取消 GitHub Star" : "Star 到 GitHub") : "登录 GitHub 后 Star"} active={starred || loading} onClick={() => toggleSave(repo)}>{starred ? <BookmarkCheck /> : <Bookmark />}</IconButton>
+              </article>;
+            })}
           </div>
         </section>
 

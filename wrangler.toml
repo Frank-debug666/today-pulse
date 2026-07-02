@@ -2,6 +2,18 @@ name = "today-pulse"
 compatibility_date = "2026-06-29"
 pages_build_output_dir = "dist"
 
+[vars]
+SITE_URL = "https://today-pulse.pages.dev"
+
 [[kv_namespaces]]
 binding = "VISIT_COUNTER"
 id = "114bc94547a94a89bb2897bc46650a47"
+
+[[kv_namespaces]]
+binding = "AUTH_SESSIONS"
+id = "dc4c68ea4ac8472f9d1b5625149954cd"
+
+[[d1_databases]]
+binding = "USER_DB"
+database_name = "today-pulse-users"
+database_id = "28e400a0-83aa-4c2c-ba1d-fc3eecdf29ae"
