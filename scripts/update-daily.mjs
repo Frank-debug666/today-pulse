@@ -23,10 +23,15 @@ function compactLearningEntry(entry) {
     word: {
       term: word.term || "",
       definition: word.definition || "",
+      example: word.example || "",
     },
     interview: {
       category: interview.category || "",
+      difficulty: interview.difficulty || "",
       question: interview.question || "",
+      points: Array.isArray(interview.points) ? interview.points : [],
+      answerLead: interview.answerLead || "",
+      answer: Array.isArray(interview.answer) ? interview.answer : [],
     },
   };
 }

@@ -278,7 +278,7 @@ export default function App() {
               <strong>中文释义</strong><p>{clean(word.definition, "将文本、数据或序列拆分为更小单位（token）的过程，以便模型或系统能够处理。")}</p>
               <strong>通俗理解</strong><p>{clean(word.example, "大语言模型在处理文本前，需要先进行 tokenization。")}</p>
               <a href="https://huggingface.co/docs/tokenizers" target="_blank" rel="noreferrer">查看相关术语资料 <ExternalLink size={12} /></a>
-              {wordHistoryOpen ? <div className="word-history"><strong>往期词汇</strong>{wordHistory.length ? wordHistory.map((entry) => <span key={`${entry.dateLabel}-${entry.word.term}`} title={entry.word.definition}>{entry.word.term}</span>) : <span>暂无历史</span>}</div> : null}
+              {wordHistoryOpen ? <div className="word-history"><strong>往期词汇</strong>{wordHistory.length ? wordHistory.map((entry) => <article key={`${entry.dateLabel}-${entry.word.term}`}><span>{clean(entry.dateLabel, "往期")}</span><h4>{entry.word.term}</h4><p>{clean(entry.word.definition, "暂无中文释义")}</p>{entry.word.example ? <small>{entry.word.example}</small> : null}</article>) : <p>暂无历史</p>}</div> : null}
             </section>
 
             <section className="interview-card">
@@ -287,7 +287,7 @@ export default function App() {
               <ul>{(interview.points || ["场景需求拆解能力", "低延迟实时系统架构设计", "端侧 AI 推理性能优化"]).map((point) => <li key={point}>{clean(point, "工程能力与可靠性设计")}</li>)}</ul>
               <button className="answer-toggle" onClick={() => setAnswerOpen(!answerOpen)}>{answerOpen ? "收起参考答案" : "查看参考答案"}<ChevronDown /></button>
               {answerOpen && <div className="answer"><strong>参考答案（要点）</strong><ol>{(interview.answer || ["明确延迟阈值、风险判定规则与可解释性要求。", "采用流式计算与特征预计算，缩短数据处理链路。", "量化并压缩模型，在靠近数据源的位置部署。", "增加决策溯源与人工兜底，降低误判风险。"]).map((step) => <li key={step}>{clean(step, "建立可测试、可追踪、可回滚的工程方案。")}</li>)}</ol></div>}
-              {interviewHistoryOpen ? <div className="interview-history"><strong>往期面试题</strong>{interviewHistory.length ? interviewHistory.map((entry) => <article key={`${entry.dateLabel}-${entry.interview.question}`}><span>{clean(entry.dateLabel, "往期")} · {clean(entry.interview.category, "AI 应用工程")}</span><p>{entry.interview.question}</p></article>) : <p>暂无历史题目</p>}</div> : null}
+              {interviewHistoryOpen ? <div className="interview-history"><strong>往期面试题</strong>{interviewHistory.length ? interviewHistory.map((entry) => <article key={`${entry.dateLabel}-${entry.interview.question}`}><span>{clean(entry.dateLabel, "往期")} · {clean(entry.interview.category, "AI 应用工程")}</span><p>{entry.interview.question}</p>{entry.interview.answer?.length ? <ol>{entry.interview.answer.slice(0, 4).map((step) => <li key={step}>{step}</li>)}</ol> : <small>暂无答案记录，后续生成会自动保存。</small>}</article>) : <p>暂无历史题目</p>}</div> : null}
             </section>
           </aside>
         </section>
