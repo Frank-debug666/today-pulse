@@ -9,6 +9,7 @@
     "deploy:cloudflare": "npm run build && npx wrangler pages deploy dist --project-name today-pulse",
     "validate:daily": "node scripts/validate-daily.mjs",
     "update:daily": "node scripts/update-daily.mjs",
+    "update:market": "node scripts/update-market.mjs",
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {

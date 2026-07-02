@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowDown,
   ArrowRight,
+  Activity,
   Bell,
   Bookmark,
   BookmarkCheck,
@@ -90,6 +91,35 @@ function SectionTitle({ icon, children, action, onAction, actionHref }) {
   );
 }
 
+function formatNumber(value, digits = 2) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return "--";
+  return Intl.NumberFormat("zh-CN", { maximumFractionDigits: digits }).format(number);
+}
+
+function formatPercent(value) {
+  const number = Number(value);
+  if (!Number.isFinite(number)) return "--";
+  return `${number > 0 ? "+" : ""}${number.toFixed(2)}%`;
+}
+
+function Sparkline({ values = [], positive = true }) {
+  const cleanValues = values.map(Number).filter(Number.isFinite);
+  const width = 132;
+  const height = 42;
+  if (cleanValues.length < 2) return <svg viewBox={`0 0 ${width} ${height}`} aria-hidden="true" />;
+  const min = Math.min(...cleanValues);
+  const max = Math.max(...cleanValues);
+  const range = max - min || 1;
+  const step = width / (cleanValues.length - 1);
+  const path = cleanValues.map((value, index) => {
+    const x = index * step;
+    const y = height - ((value - min) / range) * (height - 8) - 4;
+    return `${index ? "L" : "M"}${x.toFixed(1)} ${y.toFixed(1)}`;
+  }).join(" ");
+  return <svg className={positive ? "sparkline up" : "sparkline down"} viewBox={`0 0 ${width} ${height}`} aria-hidden="true"><path d={path} /></svg>;
+}
+
 function GitHubMark({ size = 20 }) {
   return (
     <svg aria-hidden="true" width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
@@ -100,6 +130,7 @@ function GitHubMark({ size = 20 }) {
 
 export default function App() {
   const [data, setData] = useState(null);
+  const [market, setMarket] = useState(null);
   const [query, setQuery] = useState("");
   const [filter, setFilter] = useState("全部");
   const [answerOpen, setAnswerOpen] = useState(true);
@@ -161,9 +192,20 @@ export default function App() {
     }
   };
 
+  const loadMarket = async () => {
+    try {
+      const response = await fetch(`/market.json?ts=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error("市场数据读取失败");
+      setMarket(await response.json());
+    } catch {
+      setMarket(null);
+    }
+  };
+
   useEffect(() => {
     loadDaily();
     loadVisits();
+    loadMarket();
     const shortcut = (event) => {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
         event.preventDefault();
@@ -211,9 +253,15 @@ export default function App() {
   const interviewHistory = (data?.learningHistory || [])
     .filter((entry) => entry?.interview?.question && entry.interview.question !== interview.question)
     .slice(0, 5);
+  const marketData = market || {};
+  const marketTemp = marketData.marketTemperature || {};
+  const marketIndices = marketData.indices || [];
+  const marketSectors = marketData.sectors || [];
+  const gold = marketData.gold || {};
+  const goldPositive = Number(gold.changePct) >= 0;
 
   return (
-    <div className={dark ? "app dark" : "app"}>
+    <div className={`${dark ? "app dark" : "app"} layout-terminal`}>
       <header className="topbar">
         <button className="mobile-menu" aria-label={menuOpen ? "关闭导航" : "打开导航"} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
         <a className="brand" href="#top" aria-label="今日脉冲首页">
@@ -290,6 +338,49 @@ export default function App() {
               {interviewHistoryOpen ? <div className="interview-history"><strong>往期面试题</strong>{interviewHistory.length ? interviewHistory.map((entry) => <article key={`${entry.dateLabel}-${entry.interview.question}`}><span>{clean(entry.dateLabel, "往期")} · {clean(entry.interview.category, "AI 应用工程")}</span><p>{entry.interview.question}</p>{entry.interview.answer?.length ? <ol>{entry.interview.answer.slice(0, 4).map((step) => <li key={step}>{step}</li>)}</ol> : <small>暂无答案记录，后续生成会自动保存。</small>}</article>) : <p>暂无历史题目</p>}</div> : null}
             </section>
           </aside>
+        </section>
+
+        <section className="market-section">
+          <SectionTitle icon={<Activity size={18} />}>市场脉冲 <em>{marketData.sourceLabel || "免费行情"}</em></SectionTitle>
+          <div className="market-grid">
+            <div className="market-curves">
+              {marketIndices.slice(0, 4).map((item) => {
+                const positive = Number(item.changePct) >= 0;
+                return <article key={item.id || item.name}>
+                  <span>{item.name}</span>
+                  <strong>{formatNumber(item.price)}</strong>
+                  <em className={positive ? "up" : "down"}>{formatPercent(item.changePct)}</em>
+                  <Sparkline values={item.trend} positive={positive} />
+                </article>;
+              })}
+            </div>
+            <article className="gold-card">
+              <span>{"\u6bcf\u65e5\u91d1\u4ef7"} <small>{gold.sourceLabel || "\u514d\u8d39\u91d1\u4ef7"}</small></span>
+              <strong>{"$"}{formatNumber(gold.priceUsdOz, 2)}<small>{"/\u76ce\u53f8"}</small></strong>
+              <em className={goldPositive ? "up" : "down"}>{formatPercent(gold.changePct)}</em>
+              <Sparkline values={gold.trend} positive={goldPositive} />
+              <p>{"\u7ea6 \u00a5"}{formatNumber(gold.priceCnyGram, 2)}{"/\u514b"}</p>
+              <small>{gold.note || "\u6309\u514d\u8d39\u884c\u60c5\u4f30\u7b97\uff0c\u4ec5\u4f9b\u53c2\u8003"}</small>
+            </article>
+            <aside className="market-temp">
+              <span>市场温度</span>
+              <strong>{formatNumber(marketTemp.score, 0)}<small>/100</small></strong>
+              <div><i style={{ width: `${Math.max(4, Number(marketTemp.score || 0))}%` }} /></div>
+              <b>{marketTemp.label || "等待数据"}</b>
+              <p>{marketTemp.summary || "正在等待免费行情源生成市场温度。"}</p>
+            </aside>
+          </div>
+          <div className="sector-head">
+            <strong>热门板块</strong>
+            <span>{marketData.generatedAt ? `更新于 ${new Date(marketData.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" })}` : ""}</span>
+          </div>
+          <div className="sector-strip">
+            {marketSectors.slice(0, 8).map((sector) => <article key={sector.code || sector.name}>
+              <b>{sector.rank}</b>
+              <span>{sector.name}<small>{sector.capitalFlow}</small></span>
+              <em className={Number(sector.changePct) >= 0 ? "up" : "down"}>{formatPercent(sector.changePct)}</em>
+            </article>)}
+          </div>
         </section>
 
         <section className="github-section">
