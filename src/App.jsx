@@ -85,8 +85,8 @@ function SectionTitle({ icon, children, action, onAction, actionHref }) {
   return (
     <div className="section-title">
       <span>{icon}{children}</span>
-      {action && actionHref ? <a href={actionHref} target="_blank" rel="noreferrer">{action}<ArrowRight size={14} /></a> : null}
-      {action && !actionHref ? <button type="button" onClick={onAction}>{action}<ArrowRight size={14} /></button> : null}
+      {action && actionHref ? <a href={actionHref} target="_blank" rel="noreferrer"><span>{action}</span><ArrowRight size={14} /></a> : null}
+      {action && !actionHref ? <button type="button" onClick={onAction}><span>{action}</span><ArrowRight size={14} /></button> : null}
     </div>
   );
 }
@@ -479,7 +479,7 @@ export default function App() {
           </div>
           <aside className="tools-panel">
             <SectionTitle icon={<TrendingUp size={17} />} action="查看更多工具" actionHref="https://www.producthunt.com/">趋势与工具速览</SectionTitle>
-            <div>{quickTools.map(([title, sub, status, color, url]) => <a href={url} target="_blank" rel="noreferrer" key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></a>)}</div>
+            <div className="tools-list">{quickTools.map(([title, sub, status, color, url]) => <a href={url} target="_blank" rel="noreferrer" key={title}><span className={color}>{title.slice(0, 1)}</span><strong>{title}<small>{sub}</small></strong><em>{status}</em></a>)}</div>
           </aside>
         </section>
         <section className="author-card" aria-labelledby="author-name">
