@@ -45,6 +45,19 @@ jobs:
           ARK_BASE_URL: ${{ secrets.ARK_BASE_URL }}
         run: npm run update:daily
 
+      - name: Check daily changes
+        id: daily_changes
+        run: |
+          if git diff --quiet -- public/daily.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate market pulse
+        if: github.event_name == 'workflow_dispatch' || steps.daily_changes.outputs.changed == 'true'
+        run: npm run update:market
+
       - name: Validate and build
         run: |
           npm run validate:daily
@@ -54,12 +67,13 @@ jobs:
       - name: Summarize generated content
         run: |
           node -e "const d=require('./public/daily.json'); const g=d.generation||{}; require('fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY, '## Daily briefing result\n\n- Date: '+d.dateLabel+'\n- News: '+d.globalNews.length+'\n- GitHub repos: '+d.githubRepos.length+'\n- News source: '+(g.newsSource||'unknown')+'\n- News note: '+(g.newsError||'none')+'\n- Learning source: '+(g.learningSource||'unknown')+'\n- Learning note: '+(g.learningError||'none')+'\n')"
+          node -e "const m=require('./public/market.json'); require('fs').appendFileSync(process.env.GITHUB_STEP_SUMMARY, '- Market updated: '+(m.generatedAt||'unknown')+'\n- Market source: '+(m.source||'unknown')+'\n')"
 
       - name: Commit updated briefing
         run: |
           git config user.name "today-pulse-bot"
           git config user.email "today-pulse-bot@users.noreply.github.com"
-          git add public/daily.json
+          git add public/daily.json public/market.json
           git diff --cached --quiet && exit 0
           git commit -m "Update daily technology briefing"
           git pull --rebase origin main

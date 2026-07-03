@@ -324,6 +324,7 @@ export default function App() {
   const marketSectors = marketData.sectors || [];
   const gold = marketData.gold || {};
   const goldPositive = Number(gold.changePct) >= 0;
+  const pageUpdatedAt = data?.generatedAt || marketData.generatedAt;
 
   return (
     <div className={`${dark ? "app dark" : "app"} layout-terminal`}>
@@ -339,13 +340,15 @@ export default function App() {
           {["全部", "人工智能", "开发者", "云计算", "芯片", "产品", "安全"].map((item) => (
             <button key={item} className={filter === item ? "active" : ""} onClick={() => { setFilter(item); setMenuOpen(false); }}>{item}</button>
           ))}
-          <button onClick={() => setMoreOpen(!moreOpen)}>更多<ChevronDown size={13} /></button>
+          <span className="more-wrap">
+            <button className="more-trigger" onClick={() => setMoreOpen(!moreOpen)} aria-expanded={moreOpen} aria-haspopup="true">更多<ChevronDown size={13} /></button>
+            {moreOpen ? <div className="more-menu">
+              <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub 热门项目</a>
+              <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noreferrer">AI 最新论文</a>
+              <a href="https://news.ycombinator.com/" target="_blank" rel="noreferrer">Hacker News 技术社区</a>
+            </div> : null}
+          </span>
         </nav>
-        {moreOpen ? <div className="more-menu">
-          <a href="https://github.com/trending" target="_blank" rel="noreferrer">GitHub 热门项目</a>
-          <a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noreferrer">AI 最新论文</a>
-          <a href="https://news.ycombinator.com/" target="_blank" rel="noreferrer">Hacker News 技术社区</a>
-        </div> : null}
         <div className="date-status">
           <strong>{dateLabel}</strong><span><Circle fill="currentColor" size={8} />每日简报 · {formatUpdateTime(data?.generatedAt)}更新</span>
           <span><Eye size={11} />{visitorText}</span>
@@ -444,7 +447,7 @@ export default function App() {
           </div>
           <div className="sector-head">
             <strong>热门板块</strong>
-            <span>{marketData.generatedAt ? `更新于 ${new Date(marketData.generatedAt).toLocaleTimeString("zh-CN", { hour: "2-digit", minute: "2-digit" })}` : ""}</span>
+            <span>{pageUpdatedAt ? `同步于 ${formatUpdateTime(pageUpdatedAt)}` : ""}</span>
           </div>
           <div className="sector-strip">
             {marketSectors.slice(0, 8).map((sector) => <article key={sector.code || sector.name}>
