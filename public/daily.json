@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-03T17:53:58.560Z",
-  "dateLabel": "2026年7月4日 · 星期六",
-  "issue": 195,
+  "generatedAt": "2026-07-04T17:32:14.552Z",
+  "dateLabel": "2026年7月5日 · 星期日",
+  "issue": 196,
   "githubRepos": [
     {
       "rank": "01",
       "name": "Krishnagangwal / CS-Fundamentals",
-      "summary": "汇总了求职面试所需的计算机核心基础内容，涵盖DSA、计算机网络、DBMS&SQL等多个核心模块。",
+      "summary": "CS-Fundamentals 整理了面向校招的计算机基础内容，覆盖DSA、计算机网络、DBMS、操作系统等全方向",
       "language": "Other",
       "color": "#707873",
-      "stars": "1.5K",
-      "growth": "+1498",
+      "stars": "1.6K",
+      "growth": "+1562",
       "growthLabel": "近7日",
       "url": "https://github.com/Krishnagangwal/CS-Fundamentals"
     },
     {
       "rank": "02",
       "name": "yynxxxxx / Codex-5.5-codex-instruct-5.5",
-      "summary": "本周快速增长的开源大模型相关项目。",
+      "summary": "Codex-5.5-codex-instruct-5.5 是本周快速增长的Python开源大模型项目",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.3K",
-      "growth": "+1278",
+      "stars": "1.4K",
+      "growth": "+1360",
       "growthLabel": "近7日",
       "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
     },
     {
       "rank": "03",
       "name": "mekos2772 / ios-location-spoofer",
-      "summary": "无需越狱即可修改iOS设备GPS位置的独立应用，支持搭配Shadowrocket等多款代理工具模块使用。",
+      "summary": "ios-location-spoofer 是无需越狱即可修改iOS设备GPS位置的独立App，兼容多款主流代理工具模块",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.2K",
-      "growth": "+1238",
+      "stars": "1.3K",
+      "growth": "+1283",
       "growthLabel": "近7日",
       "url": "https://github.com/mekos2772/ios-location-spoofer"
     },
     {
       "rank": "04",
       "name": "Kulaxyz / self-learning-skills",
-      "summary": "面向AI编码代理的自提升技能框架，可从过往会话中提取可复用的技能规则用于后续任务。",
+      "summary": "self-learning-skills 是面向AI编码代理的自提升插件，可自动沉淀会话最优实践为可复用规则",
       "language": "Other",
       "color": "#707873",
-      "stars": "775",
-      "growth": "+775",
+      "stars": "823",
+      "growth": "+823",
       "growthLabel": "近7日",
       "url": "https://github.com/Kulaxyz/self-learning-skills"
     },
     {
       "rank": "05",
-      "name": "aquace / CVE-2026-41940-PoC",
-      "summary": "CVE-2026-41940身份绕过漏洞的概念验证利用代码。",
+      "name": "HUANGCHIHHUNGLeo / claude-real-video",
+      "summary": "claude-real-video 是支持大模型直接解析本地或在线视频的Python工具，可生成场景感知帧摘要，支持本地运行",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "574",
-      "growth": "+574",
+      "stars": "698",
+      "growth": "+698",
       "growthLabel": "近7日",
-      "url": "https://github.com/aquace/CVE-2026-41940-PoC"
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48776232",
+      "id": "hn-48786781",
       "category": "全球科技",
-      "time": "23:32",
-      "title": "Claude，请停止尝试记忆无意义的冗余内容",
-      "summary": "全球科技领域热门讨论，当前热度79，共有56条评论。",
-      "url": "https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts",
+      "time": "00:45",
+      "title": "YouTube创作者私人视频泄露事件",
+      "summary": "全球科技领域热门讨论，当前热度73，共有16条评论。",
+      "url": "https://javoriuski.com/post/youtube",
       "accent": "lime"
     },
     {
-      "id": "hn-48772388",
-      "category": "产品观察",
-      "time": "16:23",
-      "title": "半成品产品",
-      "summary": "产品观察领域热门讨论，当前热度994，共有292条评论。",
-      "url": "https://weli.dev/blog/half-baked-product/",
+      "id": "hn-48785485",
+      "category": "全球科技",
+      "time": "22:03",
+      "title": "工作区实例或用户账号之间存在会话/缓存泄露风险",
+      "summary": "全球科技领域热门讨论，当前热度199，共有87条评论。",
+      "url": "https://github.com/anthropics/claude-code/issues/74066",
       "accent": "coral"
     },
     {
-      "id": "hn-48776525",
-      "category": "全球科技",
-      "time": "23:56",
-      "title": "Maxis工作室兴衰往事 第一部分：模拟万物系列",
-      "summary": "全球科技领域热门讨论，当前热度45，共有0条评论。",
-      "url": "https://www.filfre.net/2026/07/the-life-and-times-of-maxis-part-1-simeverything/",
+      "id": "hn-48784777",
+      "category": "开源生态",
+      "time": "20:00",
+      "title": "Linux系统htop/top命令所有输出字段详细解析",
+      "summary": "开源生态领域热门讨论，当前热度236，共有30条评论。",
+      "url": "https://peteris.rocks/blog/htop/",
       "accent": "mint"
     },
     {
-      "id": "hn-48775921",
-      "category": "人工智能",
-      "time": "23:03",
-      "title": "Jamesob 本地运行SOTA大模型指南",
-      "summary": "人工智能领域热门讨论，当前热度77，共有29条评论。",
-      "url": "https://github.com/jamesob/local-llm",
+      "id": "hn-48786495",
+      "category": "全球科技",
+      "time": "00:15",
+      "title": "Curveball漏洞事件",
+      "summary": "全球科技领域热门讨论，当前热度17，共有0条评论。",
+      "url": "https://mightyburger.net/projects/curveball/",
       "accent": "ink"
     },
     {
-      "id": "hn-48777266",
+      "id": "hn-48786838",
       "category": "全球科技",
-      "time": "01:04",
-      "title": "国际棋联对克拉姆尼克作出处罚",
-      "summary": "全球科技领域热门讨论，当前热度17，共有4条评论。",
-      "url": "https://www.fide.com/fide-ethics-disciplinary-commission-issues-a-decision-in-case-involving-gm-vladimir-kramnik/",
+      "time": "00:51",
+      "title": "悬赏20万美元求获取谷歌图书全量扫描资源",
+      "summary": "全球科技领域热门讨论，当前热度7，共有0条评论。",
+      "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
       "accent": "lime"
     },
     {
-      "id": "hn-48776035",
+      "id": "hn-48785840",
       "category": "全球科技",
-      "time": "23:13",
-      "title": "工厂本质上就是房间",
-      "summary": "全球科技领域热门讨论，当前热度61，共有22条评论。",
-      "url": "https://interconnected.org/home/2026/07/03/factories",
+      "time": "22:52",
+      "title": "Windows CE Dreamcast 社区版（wince-dc）发布",
+      "summary": "全球科技领域热门讨论，当前热度30，共有2条评论。",
+      "url": "https://github.com/maximqaxd/wince-dc",
       "accent": "coral"
     },
     {
-      "id": "hn-48730953",
+      "id": "hn-48783948",
       "category": "全球科技",
-      "time": "19:07",
-      "title": "用TLA+排查一个存在16年的SQLite WAL Bug",
-      "summary": "全球科技领域热门讨论，当前热度72，共有2条评论。",
-      "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected",
+      "time": "17:08",
+      "title": "天体物理学家对韦布望远镜新宇宙观测结果存疑",
+      "summary": "全球科技领域热门讨论，当前热度143，共有81条评论。",
+      "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
       "accent": "mint"
     },
     {
-      "id": "hn-48774509",
+      "id": "hn-48782435",
       "category": "全球科技",
-      "time": "21:00",
-      "title": "PostgreSQL与OOM杀手：我们为何采用严格内存过量提交策略",
-      "summary": "全球科技领域热门讨论，当前热度100，共有32条评论。",
-      "url": "https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit",
+      "time": "11:36",
+      "title": "你或许该主动学习新技术",
+      "summary": "全球科技领域热门讨论，当前热度332，共有161条评论。",
+      "url": "https://www.marginalia.nu/log/a_135_learn/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Memory Overcommitment",
-    "phonetic": "/ˈmeməri ˌəʊvəkəˈmɪtmənt/",
-    "definition": "操作系统向进程分配超出物理内存总量的内存资源的管理机制，常用于数据库等服务场景。",
-    "example": "PostgreSQL通过严格配置该策略避免OOM Killer误杀核心业务进程。"
+    "term": "Frame Sampling Optimization",
+    "phonetic": "/freɪm ˈsɑːmplɪŋ ˌɑːptɪmaɪˈzeɪʃn/",
+    "definition": "多模态大模型处理视频时优化采样帧数量与质量的技术方案",
+    "example": "处理长视频时通过该技术平衡视频理解精度与推理开销"
   },
   "interview": {
-    "category": "成本与可观测性",
+    "category": "多模态",
     "difficulty": "中等",
-    "question": "团队要给部署了数十个开源大模型实例的私有推理集群搭建统一内存超额提交管控体系，需要兼顾内存利用率最大化、核心业务进程零OOM误杀、服务异常可快速溯源，要完成哪些核心架构权衡？",
+    "question": "团队要开发可让大模型直接解析本地/在线长视频的多模态工具，需要兼顾视频理解准确率、本地运行低资源占用、全主流格式兼容，要完成哪些核心架构权衡？",
     "points": [
-      "考察对内存超额提交机制的底层原理理解",
-      "考察大模型推理场景下的内存资源特征认知",
-      "考察可观测体系与资源管控的结合设计能力"
+      "视频帧采样策略的收益成本权衡",
+      "多模态上下文窗口的资源分配权衡",
+      "视频格式适配的开发运维成本权衡"
     ],
-    "answerLead": "答题时可从管控规则分层、指标链路建设等维度逐层拆解权衡优先级。",
+    "answerLead": "优先从视频处理全链路的冗余裁剪维度出发做分层架构权衡",
     "answer": [
-      "首先权衡内存超额提交阈值的分层配置策略：核心推理实例采用极低超额率配置，非核心离线任务放开超额率，平衡资源利用率与稳定性。",
-      "权衡OOM事件的前置预警与后置溯源链路设计：在cgroup层埋点内存申请全链路指标，而非仅靠系统日志，提升异常定位效率。",
-      "权衡不同优先级进程的内存回收调度逻辑：优先回收空闲大模型KV缓存占用内存，不直接杀用户态进程，避免业务中断。",
-      "权衡管控规则的动态更新机制：基于历史运行数据自动调优不同业务线的内存配额，避免人工配置的滞后性。"
+      "帧采样层面：放弃全量帧提取方案，采用场景突变检测结合关键帧去重逻辑，仅保留高信息密度帧，降低无效算力消耗",
+      "上下文调度层面：采用滑动窗口+帧摘要蒸馏的分层上下文机制，避免一次性加载全量视频帧占用过高显存",
+      "格式适配层面：基于开源FFmpeg做轻量二次封装，放弃小众编码格式原生适配，统一转码为通用H.264格式后再处理",
+      "用户兼容层面：提供高低精度双模式切换，允许用户根据本地硬件配置自主选择采样密度，灵活平衡效果和运行速度"
     ]
   },
   "generation": {
@@ -164,6 +164,31 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月5日 · 星期日",
+      "word": {
+        "term": "Frame Sampling Optimization",
+        "definition": "多模态大模型处理视频时优化采样帧数量与质量的技术方案",
+        "example": "处理长视频时通过该技术平衡视频理解精度与推理开销"
+      },
+      "interview": {
+        "category": "多模态",
+        "difficulty": "中等",
+        "question": "团队要开发可让大模型直接解析本地/在线长视频的多模态工具，需要兼顾视频理解准确率、本地运行低资源占用、全主流格式兼容，要完成哪些核心架构权衡？",
+        "points": [
+          "视频帧采样策略的收益成本权衡",
+          "多模态上下文窗口的资源分配权衡",
+          "视频格式适配的开发运维成本权衡"
+        ],
+        "answerLead": "优先从视频处理全链路的冗余裁剪维度出发做分层架构权衡",
+        "answer": [
+          "帧采样层面：放弃全量帧提取方案，采用场景突变检测结合关键帧去重逻辑，仅保留高信息密度帧，降低无效算力消耗",
+          "上下文调度层面：采用滑动窗口+帧摘要蒸馏的分层上下文机制，避免一次性加载全量视频帧占用过高显存",
+          "格式适配层面：基于开源FFmpeg做轻量二次封装，放弃小众编码格式原生适配，统一转码为通用H.264格式后再处理",
+          "用户兼容层面：提供高低精度双模式切换，允许用户根据本地硬件配置自主选择采样密度，灵活平衡效果和运行速度"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月4日 · 星期六",
       "word": {
