@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-04T17:32:14.552Z",
-  "dateLabel": "2026年7月5日 · 星期日",
-  "issue": 196,
+  "generatedAt": "2026-07-05T16:31:24.328Z",
+  "dateLabel": "2026年7月6日 · 星期一",
+  "issue": 197,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "Krishnagangwal / CS-Fundamentals",
-      "summary": "CS-Fundamentals 整理了面向校招的计算机基础内容，覆盖DSA、计算机网络、DBMS、操作系统等全方向",
-      "language": "Other",
-      "color": "#707873",
-      "stars": "1.6K",
-      "growth": "+1562",
-      "growthLabel": "近7日",
-      "url": "https://github.com/Krishnagangwal/CS-Fundamentals"
-    },
-    {
-      "rank": "02",
-      "name": "yynxxxxx / Codex-5.5-codex-instruct-5.5",
-      "summary": "Codex-5.5-codex-instruct-5.5 是本周快速增长的Python开源大模型项目",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "1.4K",
-      "growth": "+1360",
-      "growthLabel": "近7日",
-      "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5"
-    },
-    {
-      "rank": "03",
       "name": "mekos2772 / ios-location-spoofer",
-      "summary": "ios-location-spoofer 是无需越狱即可修改iOS设备GPS位置的独立App，兼容多款主流代理工具模块",
+      "summary": "无需越狱即可修改iOS设备GPS位置的独立应用，同时支持Shadowrocket/Surge/Loon/QX/Stash等工具的模块配置。",
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.3K",
-      "growth": "+1283",
+      "growth": "+1320",
       "growthLabel": "近7日",
       "url": "https://github.com/mekos2772/ios-location-spoofer"
     },
     {
-      "rank": "04",
-      "name": "Kulaxyz / self-learning-skills",
-      "summary": "self-learning-skills 是面向AI编码代理的自提升插件，可自动沉淀会话最优实践为可复用规则",
-      "language": "Other",
-      "color": "#707873",
-      "stars": "823",
-      "growth": "+823",
+      "rank": "02",
+      "name": "elder-plinius / T3MP3ST",
+      "summary": "自主化红队测试平台，作为多Agent攻防安全元框架提供完整的自动化红队攻防能力支撑。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "1.2K",
+      "growth": "+1213",
       "growthLabel": "近7日",
-      "url": "https://github.com/Kulaxyz/self-learning-skills"
+      "url": "https://github.com/elder-plinius/T3MP3ST"
+    },
+    {
+      "rank": "03",
+      "name": "HUANGCHIHHUNGLeo / claude-real-video",
+      "summary": "支持Claude或任意大模型直接解析视频内容，实现场景感知、帧去重加字幕生成，可处理本地文件或在线URL，完全本地运行。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "895",
+      "growth": "+895",
+      "growthLabel": "近7日",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
+    },
+    {
+      "rank": "04",
+      "name": "jamesob / local-llm",
+      "summary": "汇总了作者所有本地部署运行大语言模型的相关实践经验与完整操作指南。",
+      "language": "Shell",
+      "color": "#707873",
+      "stars": "868",
+      "growth": "+868",
+      "growthLabel": "近7日",
+      "url": "https://github.com/jamesob/local-llm"
     },
     {
       "rank": "05",
-      "name": "HUANGCHIHHUNGLeo / claude-real-video",
-      "summary": "claude-real-video 是支持大模型直接解析本地或在线视频的Python工具，可生成场景感知帧摘要，支持本地运行",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "698",
-      "growth": "+698",
+      "name": "xuchonglang / investing-for-beginners",
+      "summary": "小隐寺投资百科官方公开索引，完整覆盖美股、期权与加密货币相关的知识框架体系。",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "694",
+      "growth": "+694",
       "growthLabel": "近7日",
-      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
+      "url": "https://github.com/xuchonglang/investing-for-beginners"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48786781",
+      "id": "hn-48794446",
       "category": "全球科技",
-      "time": "00:45",
-      "title": "YouTube创作者私人视频泄露事件",
-      "summary": "全球科技领域热门讨论，当前热度73，共有16条评论。",
-      "url": "https://javoriuski.com/post/youtube",
+      "time": "22:14",
+      "title": "Organic Maps",
+      "summary": "全球科技领域热门讨论，当前热度250，共有60条相关评论。",
+      "url": "https://organicmaps.app/",
       "accent": "lime"
     },
     {
-      "id": "hn-48785485",
+      "id": "hn-48793454",
       "category": "全球科技",
-      "time": "22:03",
-      "title": "工作区实例或用户账号之间存在会话/缓存泄露风险",
-      "summary": "全球科技领域热门讨论，当前热度199，共有87条评论。",
-      "url": "https://github.com/anthropics/claude-code/issues/74066",
+      "time": "19:54",
+      "title": "Introduction to Compilers and Language Design",
+      "summary": "全球科技领域热门讨论，当前热度143，共有17条相关评论。",
+      "url": "https://dthain.github.io/books/compiler/",
       "accent": "coral"
     },
     {
-      "id": "hn-48784777",
-      "category": "开源生态",
-      "time": "20:00",
-      "title": "Linux系统htop/top命令所有输出字段详细解析",
-      "summary": "开源生态领域热门讨论，当前热度236，共有30条评论。",
-      "url": "https://peteris.rocks/blog/htop/",
+      "id": "hn-48794302",
+      "category": "全球科技",
+      "time": "21:47",
+      "title": "基于新款es40分支在DEC Alpha设备上运行Windows 2000",
+      "summary": "全球科技领域热门讨论，当前热度30，共有7条相关评论。",
+      "url": "https://raymii.org/s/blog/Run_Windows_2000_for_Dec_Alpha_on_a_new_es40_fork.html",
       "accent": "mint"
     },
     {
-      "id": "hn-48786495",
+      "id": "hn-48795303",
       "category": "全球科技",
-      "time": "00:15",
-      "title": "Curveball漏洞事件",
-      "summary": "全球科技领域热门讨论，当前热度17，共有0条评论。",
-      "url": "https://mightyburger.net/projects/curveball/",
+      "time": "00:04",
+      "title": "火星农民的困境",
+      "summary": "全球科技领域热门讨论，当前热度6，暂无相关评论。",
+      "url": "https://mceglowski.substack.com/p/the-plight-of-the-martian-farmer",
       "accent": "ink"
     },
     {
-      "id": "hn-48786838",
-      "category": "全球科技",
-      "time": "00:51",
-      "title": "悬赏20万美元求获取谷歌图书全量扫描资源",
-      "summary": "全球科技领域热门讨论，当前热度7，共有0条评论。",
-      "url": "https://software.annas-archive.gl/AnnaArchivist/annas-archive/-/work_items/234",
+      "id": "hn-48786284",
+      "category": "人工智能",
+      "time": "23:53",
+      "title": "飞机坟场清单与地图",
+      "summary": "人工智能领域热门讨论，当前热度34，共有3条相关评论。",
+      "url": "https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm",
       "accent": "lime"
     },
     {
-      "id": "hn-48785840",
+      "id": "hn-48746771",
       "category": "全球科技",
-      "time": "22:52",
-      "title": "Windows CE Dreamcast 社区版（wince-dc）发布",
-      "summary": "全球科技领域热门讨论，当前热度30，共有2条评论。",
-      "url": "https://github.com/maximqaxd/wince-dc",
+      "time": "21:49",
+      "title": "萨赫勒地区重新出现中世纪风格防御工事",
+      "summary": "全球科技领域热门讨论，当前热度42，共有28条相关评论。",
+      "url": "https://www.economist.com/middle-east-and-africa/2026/06/25/medieval-style-fortifications-are-back-in-the-sahel",
       "accent": "coral"
     },
     {
-      "id": "hn-48783948",
+      "id": "hn-48790689",
       "category": "全球科技",
-      "time": "17:08",
-      "title": "天体物理学家对韦布望远镜新宇宙观测结果存疑",
-      "summary": "全球科技领域热门讨论，当前热度143，共有81条评论。",
-      "url": "https://www.quantamagazine.org/astrophysicists-puzzle-over-webbs-new-universe-20260702/",
+      "time": "10:01",
+      "title": "如果你是一枚按钮，你就只有一项任务",
+      "summary": "全球科技领域热门讨论，当前热度432，共有220条相关评论。",
+      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
       "accent": "mint"
     },
     {
-      "id": "hn-48782435",
+      "id": "hn-48791328",
       "category": "全球科技",
-      "time": "11:36",
-      "title": "你或许该主动学习新技术",
-      "summary": "全球科技领域热门讨论，当前热度332，共有161条评论。",
-      "url": "https://www.marginalia.nu/log/a_135_learn/",
+      "time": "12:46",
+      "title": "Shadcn/UI 现已默认使用 Base UI 替代 Radix",
+      "summary": "全球科技领域热门讨论，当前热度229，共有121条相关评论。",
+      "url": "https://ui.shadcn.com/docs/changelog",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Frame Sampling Optimization",
-    "phonetic": "/freɪm ˈsɑːmplɪŋ ˌɑːptɪmaɪˈzeɪʃn/",
-    "definition": "多模态大模型处理视频时优化采样帧数量与质量的技术方案",
-    "example": "处理长视频时通过该技术平衡视频理解精度与推理开销"
+    "term": "Autonomous Red Teaming",
+    "phonetic": "/ɔːˈtɒnəməs red ˈtiːmɪŋ/",
+    "definition": "无需人工介入即可自动完成攻防测试全流程的自动化红队技术体系。",
+    "example": "企业可使用它定期自动扫描全量业务系统的潜在安全漏洞。"
   },
   "interview": {
-    "category": "多模态",
+    "category": "安全治理",
     "difficulty": "中等",
-    "question": "团队要开发可让大模型直接解析本地/在线长视频的多模态工具，需要兼顾视频理解准确率、本地运行低资源占用、全主流格式兼容，要完成哪些核心架构权衡？",
+    "question": "团队要落地面向内部全业务线的自主红队自动化测试平台，需要兼顾漏洞检出率最大化、业务系统零运行中断、测试行为全程可审计，要完成哪些核心架构权衡？",
     "points": [
-      "视频帧采样策略的收益成本权衡",
-      "多模态上下文窗口的资源分配权衡",
-      "视频格式适配的开发运维成本权衡"
+      "自主红队平台的流量管控机制设计能力",
+      "攻防测试与业务稳定性的平衡思路",
+      "安全合规下的全流程审计体系搭建经验"
     ],
-    "answerLead": "优先从视频处理全链路的冗余裁剪维度出发做分层架构权衡",
+    "answerLead": "答题时可以从测试边界定义、资源隔离、行为留痕三个核心维度逐层拆解权衡逻辑。",
     "answer": [
-      "帧采样层面：放弃全量帧提取方案，采用场景突变检测结合关键帧去重逻辑，仅保留高信息密度帧，降低无效算力消耗",
-      "上下文调度层面：采用滑动窗口+帧摘要蒸馏的分层上下文机制，避免一次性加载全量视频帧占用过高显存",
-      "格式适配层面：基于开源FFmpeg做轻量二次封装，放弃小众编码格式原生适配，统一转码为通用H.264格式后再处理",
-      "用户兼容层面：提供高低精度双模式切换，允许用户根据本地硬件配置自主选择采样密度，灵活平衡效果和运行速度"
+      "首先做测试边界分层权衡，给不同优先级业务配置不同的攻击载荷权限，核心业务仅运行非破坏性扫描用例，非核心业务可开放完整红队能力，平衡漏洞覆盖率和业务稳定性。",
+      "其次做资源调度架构权衡，采用流量镜像旁路仿真优先、实机测试后置的调度策略，仅在仿真环境验证无风险后才将测试流量导入真实业务集群，避免误操作导致业务中断。",
+      "第三做权限管控体系权衡，所有自主红队Agent的动作全程落盘留痕，操作日志关联对应业务负责人审批标识，满足等保合规要求的全流程审计标准。",
+      "最后做告警降噪权衡，将红队发现的漏洞与内部现有漏洞管理系统打通，自动去重误报内容，提升安全团队的漏洞修复响应效率。"
     ]
   },
   "generation": {
@@ -164,6 +164,31 @@
     "newsError": "GNews returned no articles"
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月6日 · 星期一",
+      "word": {
+        "term": "Autonomous Red Teaming",
+        "definition": "无需人工介入即可自动完成攻防测试全流程的自动化红队技术体系。",
+        "example": "企业可使用它定期自动扫描全量业务系统的潜在安全漏洞。"
+      },
+      "interview": {
+        "category": "安全治理",
+        "difficulty": "中等",
+        "question": "团队要落地面向内部全业务线的自主红队自动化测试平台，需要兼顾漏洞检出率最大化、业务系统零运行中断、测试行为全程可审计，要完成哪些核心架构权衡？",
+        "points": [
+          "自主红队平台的流量管控机制设计能力",
+          "攻防测试与业务稳定性的平衡思路",
+          "安全合规下的全流程审计体系搭建经验"
+        ],
+        "answerLead": "答题时可以从测试边界定义、资源隔离、行为留痕三个核心维度逐层拆解权衡逻辑。",
+        "answer": [
+          "首先做测试边界分层权衡，给不同优先级业务配置不同的攻击载荷权限，核心业务仅运行非破坏性扫描用例，非核心业务可开放完整红队能力，平衡漏洞覆盖率和业务稳定性。",
+          "其次做资源调度架构权衡，采用流量镜像旁路仿真优先、实机测试后置的调度策略，仅在仿真环境验证无风险后才将测试流量导入真实业务集群，避免误操作导致业务中断。",
+          "第三做权限管控体系权衡，所有自主红队Agent的动作全程落盘留痕，操作日志关联对应业务负责人审批标识，满足等保合规要求的全流程审计标准。",
+          "最后做告警降噪权衡，将红队发现的漏洞与内部现有漏洞管理系统打通，自动去重误报内容，提升安全团队的漏洞修复响应效率。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月5日 · 星期日",
       "word": {
