@@ -333,6 +333,13 @@ function localizeEnglishTitle(item) {
   const category = item.category || classifyNews(title);
 
   if (hasChineseText(title)) return title;
+  if (/organic maps/.test(lower)) return "开源地图应用 Organic Maps 获社区关注";
+  if (/openprinter/.test(lower)) return "OpenPrinter 开源打印项目引发开发者关注";
+  if (/compiler|language design/.test(lower)) return "编译器与编程语言设计教程受到开发者关注";
+  if (/windows 2000|dec alpha/.test(lower)) return "复古硬件社区在 DEC Alpha 设备上运行 Windows 2000";
+  if (/shadcn|base ui|radix/.test(lower)) return "Shadcn/UI 默认底层组件从 Radix 转向 Base UI";
+  if (/flipper zero/.test(lower)) return "Flipper Zero 后续开发方向引发硬件社区讨论";
+  if (/show hn/.test(lower)) return `${extractLaunchName(title.replace(/^Show HN:\s*/i, "")) || "新项目"}亮相：开发者社区出现新作品`;
   if (/linux|luks|encryption|disk-encryption|key/.test(lower)) return "Linux 磁盘加密密钥处理变化引发安全讨论";
   if (/launch hn/.test(lower)) return `${extractLaunchName(title) || "新产品"}发布：开发者工具方向出现新项目`;
   if (/android|developer verification|malware/.test(lower)) return "Android 开发者验证机制引发安全与生态争议";
@@ -571,10 +578,14 @@ try {
 const localizedNews = globalNews.map((item, index) => {
   const localized = localization?.news?.find((entry) => Number(entry.index) === index)
     || localizeNewsFallback([item])[0];
+  const title = localized.title || localizeEnglishTitle(item);
+  const summary = localized.summary || item.summary;
   return {
     ...item,
-    title: localized.title || localizeEnglishTitle(item),
-    summary: localized.summary || item.summary,
+    title: hasChineseText(title) ? title : localizeEnglishTitle(item),
+    summary: hasChineseText(summary)
+      ? summary
+      : `${item.category || classifyNews(item.title)}方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。`,
   };
 });
 const localizedRepos = githubRepos.map((repo, index) => {
