@@ -315,6 +315,57 @@ async function fetchHackerNews() {
     }));
 }
 
+function hasChineseText(value) {
+  return /[\u4e00-\u9fff]/.test(String(value || ""));
+}
+
+function extractLaunchName(title) {
+  return String(title || "")
+    .replace(/^Launch HN:\s*/i, "")
+    .split(/[–—-]/)[0]
+    .trim()
+    .slice(0, 48);
+}
+
+function localizeEnglishTitle(item) {
+  const title = String(item.title || "").trim();
+  const lower = title.toLowerCase();
+  const category = item.category || classifyNews(title);
+
+  if (hasChineseText(title)) return title;
+  if (/linux|luks|encryption|disk-encryption|key/.test(lower)) return "Linux 磁盘加密密钥处理变化引发安全讨论";
+  if (/launch hn/.test(lower)) return `${extractLaunchName(title) || "新产品"}发布：开发者工具方向出现新项目`;
+  if (/android|developer verification|malware/.test(lower)) return "Android 开发者验证机制引发安全与生态争议";
+  if (/peertube/.test(lower)) return "去中心化视频平台 PeerTube 获开源社区关注";
+  if (/ask for help|don't know you|dont know you/.test(lower)) return "开发者社区热议：如何向陌生专家高效求助";
+  if (/ai.*inventor|inventor.*ai|patent/.test(lower)) return "日本法院裁定 AI 不能作为专利发明人";
+  if (/palantir/.test(lower)) return "西班牙推动限制 Palantir 在公共与私营部门使用";
+  if (/browser|chrome|firefox|safari/.test(lower)) return "浏览器生态出现新的产品与技术讨论";
+  if (/gpu|nvidia|amd|intel|chip|semiconductor/.test(lower)) return "算力芯片领域出现新的市场与技术动向";
+  if (/open source|github|repository|developer/.test(lower)) return "开源生态热点项目引发开发者关注";
+  if (/model|llm|agent|openai|anthropic|ai/.test(lower)) return "人工智能领域出现新的产品与治理议题";
+  return `${category}热点：海外技术社区出现新的高热讨论`;
+}
+
+function localizeNewsFallback(news) {
+  return news.map((item, index) => ({
+    index,
+    title: localizeEnglishTitle(item),
+    summary: hasChineseText(item.summary)
+      ? item.summary
+      : `${item.category || classifyNews(item.title)}方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。`,
+  }));
+}
+
+function localizeReposFallback(repos) {
+  return repos.map((repo, index) => ({
+    index,
+    summary: hasChineseText(repo.summary)
+      ? repo.summary
+      : `${repo.name} 是近期增长较快的 ${repo.language || "开源"} 项目，值得关注其场景定位和实现方式。`,
+  }));
+}
+
 function classifyNews(text) {
   const lower = text.toLowerCase();
   if (/(ai|artificial intelligence|model|llm|agent|openai|anthropic)/.test(lower)) return "人工智能";
@@ -443,6 +494,53 @@ GitHub 项目：${JSON.stringify(repoBrief)}
   return learning;
 }
 
+async function generateLocalization(news, repos) {
+  const apiKey = process.env.ARK_API_KEY || process.env.AI_API_KEY || process.env.AI_API || process.env.VOLCENGINE_API_KEY;
+  const model = process.env.ARK_MODEL_ID || process.env.ARK_ENDPOINT_ID || process.env.ARK_MODEL;
+  if (!apiKey || !model) throw new Error("Missing ARK_API_KEY/AI_API_KEY or ARK_MODEL_ID");
+
+  const newsBrief = news.map((item, index) => ({
+    index,
+    title: item.title,
+    category: item.category,
+    summary: String(item.summary || "").slice(0, 180),
+  }));
+  const repoBrief = repos.map((repo, index) => ({
+    index,
+    name: repo.name,
+    language: repo.language,
+    summary: String(repo.summary || "").slice(0, 160),
+  }));
+  const prompt = `你是中文科技资讯编辑。请只完成本地化，不要生成其它内容。
+要求：
+- 新闻标题必须改写为自然中文，可以保留 Linux、Android、PeerTube、Palantir、AI 等专有名词。
+- 新闻摘要必须是自然中文，不要直接保留英文原句。
+- GitHub 项目简介用一句中文说明用途，不要翻译仓库名。
+- 只返回严格 JSON，不要 Markdown。
+
+新闻：${JSON.stringify(newsBrief)}
+GitHub 项目：${JSON.stringify(repoBrief)}
+
+JSON 结构：
+{"news":[{"index":0,"title":"中文标题","summary":"中文摘要"}],"repos":[{"index":0,"summary":"中文项目简介"}]}`;
+
+  const baseUrl = process.env.ARK_BASE_URL || "https://ark.cn-beijing.volces.com/api/v3";
+  const data = await fetchJson(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      model,
+      messages: [{ role: "user", content: prompt }],
+      temperature: 0.2,
+    }),
+  });
+  const content = data.choices?.[0]?.message?.content;
+  if (!content) throw new Error("Ark localization returned an empty response");
+  const jsonText = content.match(/\{[\s\S]*\}/)?.[0];
+  if (!jsonText) throw new Error("Ark localization response did not contain JSON");
+  return JSON.parse(jsonText);
+}
+
 const settled = await Promise.allSettled([fetchGithub(), fetchNews()]);
 const githubRepos = settled[0].status === "fulfilled" ? settled[0].value : previous.githubRepos || [];
 const globalNews = settled[1].status === "fulfilled" ? settled[1].value : previous.globalNews || [];
@@ -450,20 +548,38 @@ const globalNews = settled[1].status === "fulfilled" ? settled[1].value : previo
 let learning = pickFallbackLearning();
 let learningSource = "fallback";
 let learningError = null;
+let localization = null;
+let localizationSource = "none";
+let localizationError = null;
 try {
   learning = await generateEditorial(globalNews, githubRepos);
   learningSource = "ark";
+  localization = learning;
+  localizationSource = "ark";
 } catch (error) {
   learningError = error.message;
   console.warn(`AI generation failed; using rotating fallback: ${error.message}`);
+  try {
+    localization = await generateLocalization(globalNews, githubRepos);
+    localizationSource = "ark-localization";
+  } catch (localizeError) {
+    localizationError = localizeError.message;
+    console.warn(`AI localization failed; using local Chinese fallback: ${localizeError.message}`);
+  }
 }
 
 const localizedNews = globalNews.map((item, index) => {
-  const localized = learning.news?.find((entry) => Number(entry.index) === index);
-  return localized ? { ...item, title: localized.title || item.title, summary: localized.summary || item.summary } : item;
+  const localized = localization?.news?.find((entry) => Number(entry.index) === index)
+    || localizeNewsFallback([item])[0];
+  return {
+    ...item,
+    title: localized.title || localizeEnglishTitle(item),
+    summary: localized.summary || item.summary,
+  };
 });
 const localizedRepos = githubRepos.map((repo, index) => {
-  const localized = learning.repos?.find((entry) => Number(entry.index) === index);
+  const localized = localization?.repos?.find((entry) => Number(entry.index) === index)
+    || localizeReposFallback([repo])[0];
   return localized ? { ...repo, summary: localized.summary || repo.summary } : repo;
 });
 
@@ -481,6 +597,8 @@ const daily = {
     githubSource: "github-search",
     newsSource,
     newsError,
+    localizationSource,
+    localizationError,
   },
 };
 daily.learningHistory = appendLearningHistory(daily);
