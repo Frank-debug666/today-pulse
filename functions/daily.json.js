@@ -5,6 +5,10 @@ const jsonHeaders = {
   "Cache-Control": "public, max-age=60",
 };
 
+function redactSecrets(text) {
+  return String(text || "").replace(/([?&]apikey=)[^&\s|"]+/gi, "$1[redacted]");
+}
+
 async function fetchGithubDaily() {
   const response = await fetch(`${githubDailyUrl}?ts=${Date.now()}`, {
     headers: {
@@ -14,7 +18,7 @@ async function fetchGithubDaily() {
     cf: { cacheTtl: 60, cacheEverything: false },
   });
   if (!response.ok) throw new Error(`GitHub daily.json returned ${response.status}`);
-  return response.text();
+  return redactSecrets(await response.text());
 }
 
 async function fetchStaticDaily({ request, env }) {
@@ -24,7 +28,7 @@ async function fetchStaticDaily({ request, env }) {
   assetUrl.search = "";
   const response = await env.ASSETS.fetch(new Request(assetUrl.toString(), request));
   if (!response.ok) throw new Error(`Static daily.json returned ${response.status}`);
-  return response.text();
+  return redactSecrets(await response.text());
 }
 
 export async function onRequestGet(context) {
