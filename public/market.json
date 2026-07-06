@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T16:32:31.534Z",
+  "generatedAt": "2026-07-06T00:45:16.222Z",
   "dateLabel": "2026年7月6日 · 星期一",
   "source": "free-market",
   "sourceLabel": "东方财富免费行情",
@@ -252,16 +252,16 @@
   "gold": {
     "name": "COMEX黄金",
     "symbol": "GC00Y",
-    "priceUsdOz": 4187.3,
-    "priceCnyGram": 969.2987119690748,
-    "changePct": 1.4930799621882436,
+    "priceUsdOz": 4191.7,
+    "priceCnyGram": 970.3172476203689,
+    "changePct": 1.599728530915966,
     "trend": [
       4113.3229,
-      4133.8,
+      4182.4,
       4125.7,
-      4156.5,
-      4208.3,
-      4187.3
+      4158.7,
+      4214.1,
+      4191.7
     ],
     "sourceLabel": "东方财富免费行情",
     "note": "COMEX 黄金，人民币/克按 7.20 汇率估算"

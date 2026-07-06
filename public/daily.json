@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-05T16:31:24.328Z",
+  "generatedAt": "2026-07-06T00:43:57.763Z",
   "dateLabel": "2026年7月6日 · 星期一",
-  "issue": 197,
+  "issue": 198,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "mekos2772 / ios-location-spoofer",
-      "summary": "无需越狱即可修改iOS设备GPS位置的独立应用，同时支持Shadowrocket/Surge/Loon/QX/Stash等工具的模块配置。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.3K",
-      "growth": "+1320",
-      "growthLabel": "近7日",
-      "url": "https://github.com/mekos2772/ios-location-spoofer"
-    },
-    {
-      "rank": "02",
       "name": "elder-plinius / T3MP3ST",
-      "summary": "自主化红队测试平台，作为多Agent攻防安全元框架提供完整的自动化红队攻防能力支撑。",
+      "summary": "基于TypeScript开发的自主红队平台，提供多Agent运行的进攻性安全测试元调度能力",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "1.2K",
-      "growth": "+1213",
+      "stars": "1.6K",
+      "growth": "+1646",
       "growthLabel": "近7日",
       "url": "https://github.com/elder-plinius/T3MP3ST"
     },
     {
+      "rank": "02",
+      "name": "mekos2772 / ios-location-spoofer",
+      "summary": "无需越狱即可修改iOS设备GPS定位的独立应用，适配多款主流代理工具模块",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1.3K",
+      "growth": "+1323",
+      "growthLabel": "近7日",
+      "url": "https://github.com/mekos2772/ios-location-spoofer"
+    },
+    {
       "rank": "03",
       "name": "HUANGCHIHHUNGLeo / claude-real-video",
-      "summary": "支持Claude或任意大模型直接解析视频内容，实现场景感知、帧去重加字幕生成，可处理本地文件或在线URL，完全本地运行。",
+      "summary": "支持Claude等大模型直接解析视频内容，兼容本地/URL输入，可完全本地运行",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "895",
-      "growth": "+895",
+      "stars": "955",
+      "growth": "+955",
       "growthLabel": "近7日",
       "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
     },
     {
       "rank": "04",
       "name": "jamesob / local-llm",
-      "summary": "汇总了作者所有本地部署运行大语言模型的相关实践经验与完整操作指南。",
+      "summary": "汇总所有本地部署运行大语言模型的实操经验、配置方案与踩坑指南",
       "language": "Shell",
       "color": "#707873",
-      "stars": "868",
-      "growth": "+868",
+      "stars": "919",
+      "growth": "+919",
       "growthLabel": "近7日",
       "url": "https://github.com/jamesob/local-llm"
     },
     {
       "rank": "05",
-      "name": "xuchonglang / investing-for-beginners",
-      "summary": "小隐寺投资百科官方公开索引，完整覆盖美股、期权与加密货币相关的知识框架体系。",
-      "language": "Other",
+      "name": "ammaarreshi / Generals-Mac-iOS-iPad",
+      "summary": "基于EA官方开源引擎实现《命令与征服：将军 零点行动》原生运行在苹果全平台设备上",
+      "language": "C++",
       "color": "#707873",
-      "stars": "694",
-      "growth": "+694",
+      "stars": "795",
+      "growth": "+795",
       "growthLabel": "近7日",
-      "url": "https://github.com/xuchonglang/investing-for-beginners"
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
     }
   ],
   "globalNews": [
+    {
+      "id": "hn-48797916",
+      "category": "全球科技",
+      "time": "05:03",
+      "title": "OpenPrinter",
+      "summary": "全球科技领域热门讨论，当前热度350，共有98条评论",
+      "url": "https://www.opentools.studio/",
+      "accent": "lime"
+    },
+    {
+      "id": "hn-48799256",
+      "category": "人工智能",
+      "time": "08:04",
+      "title": "Al Vigier：加拿大AI战略不应纳入与Palantir相关的秘密法案",
+      "summary": "人工智能领域热门讨论，当前热度27，共有5条评论",
+      "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
+      "accent": "coral"
+    },
+    {
+      "id": "hn-48799155",
+      "category": "全球科技",
+      "time": "07:49",
+      "title": "低关注度行业动态",
+      "summary": "全球科技领域小众讨论，当前热度34，共有4条评论",
+      "url": "https://iamwillwang.com/notes/has-not-been-viewed-much/",
+      "accent": "mint"
+    },
     {
       "id": "hn-48794446",
       "category": "全球科技",
       "time": "22:14",
       "title": "Organic Maps",
-      "summary": "全球科技领域热门讨论，当前热度250，共有60条相关评论。",
+      "summary": "全球科技领域热门讨论，当前热度790，共有220条评论",
       "url": "https://organicmaps.app/",
-      "accent": "lime"
-    },
-    {
-      "id": "hn-48793454",
-      "category": "全球科技",
-      "time": "19:54",
-      "title": "Introduction to Compilers and Language Design",
-      "summary": "全球科技领域热门讨论，当前热度143，共有17条相关评论。",
-      "url": "https://dthain.github.io/books/compiler/",
-      "accent": "coral"
-    },
-    {
-      "id": "hn-48794302",
-      "category": "全球科技",
-      "time": "21:47",
-      "title": "基于新款es40分支在DEC Alpha设备上运行Windows 2000",
-      "summary": "全球科技领域热门讨论，当前热度30，共有7条相关评论。",
-      "url": "https://raymii.org/s/blog/Run_Windows_2000_for_Dec_Alpha_on_a_new_es40_fork.html",
-      "accent": "mint"
-    },
-    {
-      "id": "hn-48795303",
-      "category": "全球科技",
-      "time": "00:04",
-      "title": "火星农民的困境",
-      "summary": "全球科技领域热门讨论，当前热度6，暂无相关评论。",
-      "url": "https://mceglowski.substack.com/p/the-plight-of-the-martian-farmer",
       "accent": "ink"
     },
     {
-      "id": "hn-48786284",
-      "category": "人工智能",
-      "time": "23:53",
-      "title": "飞机坟场清单与地图",
-      "summary": "人工智能领域热门讨论，当前热度34，共有3条相关评论。",
-      "url": "https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm",
+      "id": "hn-48798153",
+      "category": "全球科技",
+      "time": "05:32",
+      "title": "Show HN：Homegames，我耗时8年开发的开源游戏平台",
+      "summary": "全球科技领域热门讨论，当前热度81，共有27条评论",
+      "url": "https://homegames.io",
       "accent": "lime"
     },
     {
-      "id": "hn-48746771",
+      "id": "hn-48799026",
       "category": "全球科技",
-      "time": "21:49",
-      "title": "萨赫勒地区重新出现中世纪风格防御工事",
-      "summary": "全球科技领域热门讨论，当前热度42，共有28条相关评论。",
-      "url": "https://www.economist.com/middle-east-and-africa/2026/06/25/medieval-style-fortifications-are-back-in-the-sahel",
+      "time": "07:31",
+      "title": "数学中的关联：两种随机类型",
+      "summary": "全球科技领域热门讨论，当前热度13，共有6条评论",
+      "url": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
       "accent": "coral"
     },
     {
-      "id": "hn-48790689",
+      "id": "hn-48796552",
       "category": "全球科技",
-      "time": "10:01",
-      "title": "如果你是一枚按钮，你就只有一项任务",
-      "summary": "全球科技领域热门讨论，当前热度432，共有220条相关评论。",
-      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/",
+      "time": "02:22",
+      "title": "Flipper Zero 的未来开发方向",
+      "summary": "全球科技领域热门讨论，当前热度215，共有83条评论",
+      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
       "accent": "mint"
     },
     {
-      "id": "hn-48791328",
-      "category": "全球科技",
-      "time": "12:46",
-      "title": "Shadcn/UI 现已默认使用 Base UI 替代 Radix",
-      "summary": "全球科技领域热门讨论，当前热度229，共有121条相关评论。",
-      "url": "https://ui.shadcn.com/docs/changelog",
+      "id": "hn-48796817",
+      "category": "人工智能",
+      "time": "02:47",
+      "title": "新型AI辅导工具在达特茅斯课程中实现0.71-1.30标准差效应量[PDF]",
+      "summary": "人工智能领域热门讨论，当前热度121，共有77条评论",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Autonomous Red Teaming",
-    "phonetic": "/ɔːˈtɒnəməs red ˈtiːmɪŋ/",
-    "definition": "无需人工介入即可自动完成攻防测试全流程的自动化红队技术体系。",
-    "example": "企业可使用它定期自动扫描全量业务系统的潜在安全漏洞。"
+    "term": "AI Tutoring Effect Size",
+    "phonetic": "/ˌeɪ ˈaɪ ˈtjuːtərɪŋ ɪˈfekt saɪz/",
+    "definition": "量化AI辅导工具相对传统教学方案带来的学习效果提升幅度的核心指标",
+    "example": "达特茅斯测试中AI家教效果超1倍标准差，学生课程成绩提升显著"
   },
   "interview": {
-    "category": "安全治理",
+    "category": "模型评测",
     "difficulty": "中等",
-    "question": "团队要落地面向内部全业务线的自主红队自动化测试平台，需要兼顾漏洞检出率最大化、业务系统零运行中断、测试行为全程可审计，要完成哪些核心架构权衡？",
+    "question": "团队要开发面向高校专业课场景的AI辅导系统，需搭建一套统一的学习效果评测体系，兼顾评测结果科学性、学生使用体验无干扰、评测成本可控，要完成哪些核心架构权衡？",
     "points": [
-      "自主红队平台的流量管控机制设计能力",
-      "攻防测试与业务稳定性的平衡思路",
-      "安全合规下的全流程审计体系搭建经验"
+      "教育场景AI效果量化的核心指标设计能力",
+      "AB对照实验的无侵入设计思路",
+      "垂直场景AI产品落地的成本管控能力"
     ],
-    "answerLead": "答题时可以从测试边界定义、资源隔离、行为留痕三个核心维度逐层拆解权衡逻辑。",
+    "answerLead": "可从指标分层、实验分流、成本分摊、结果校准四个维度逐层拆解权衡逻辑",
     "answer": [
-      "首先做测试边界分层权衡，给不同优先级业务配置不同的攻击载荷权限，核心业务仅运行非破坏性扫描用例，非核心业务可开放完整红队能力，平衡漏洞覆盖率和业务稳定性。",
-      "其次做资源调度架构权衡，采用流量镜像旁路仿真优先、实机测试后置的调度策略，仅在仿真环境验证无风险后才将测试流量导入真实业务集群，避免误操作导致业务中断。",
-      "第三做权限管控体系权衡，所有自主红队Agent的动作全程落盘留痕，操作日志关联对应业务负责人审批标识，满足等保合规要求的全流程审计标准。",
-      "最后做告警降噪权衡，将红队发现的漏洞与内部现有漏洞管理系统打通，自动去重误报内容，提升安全团队的漏洞修复响应效率。"
+      "指标层权衡：将效果量拆分为知识掌握度、学习留存率、使用满意度三类分层统计，放弃侵入式学生行为打点，直接对接教务系统现有作业、考试数据自动采集",
+      "分流层权衡：采用同班级同知识点随机双盲分流方案，设置AI辅导组、传统教学组、混合组三组对照，既保证统计显著性，又避免学生知晓分组产生的霍桑效应干扰结果",
+      "成本层权衡：复用高校已有的教务系统数据底座对接评测模块，放弃独立搭建全量学生行为埋点体系的高成本方案，将单次评测的算力、人力成本压缩到传统人工评估的30%以内",
+      "校准层权衡：引入多轮交叉验证机制，定期和人工教学评估结果做对齐校准，排除AI自动判分的主观偏差，保证效果量统计的准确率达到95%以上"
     ]
   },
   "generation": {
@@ -161,9 +161,36 @@
     "learningError": null,
     "githubSource": "github-search",
     "newsSource": "hacker-news",
-    "newsError": "GNews returned no articles"
+    "newsError": "GNews returned no articles",
+    "localizationSource": "ark",
+    "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月6日 · 星期一",
+      "word": {
+        "term": "AI Tutoring Effect Size",
+        "definition": "量化AI辅导工具相对传统教学方案带来的学习效果提升幅度的核心指标",
+        "example": "达特茅斯测试中AI家教效果超1倍标准差，学生课程成绩提升显著"
+      },
+      "interview": {
+        "category": "模型评测",
+        "difficulty": "中等",
+        "question": "团队要开发面向高校专业课场景的AI辅导系统，需搭建一套统一的学习效果评测体系，兼顾评测结果科学性、学生使用体验无干扰、评测成本可控，要完成哪些核心架构权衡？",
+        "points": [
+          "教育场景AI效果量化的核心指标设计能力",
+          "AB对照实验的无侵入设计思路",
+          "垂直场景AI产品落地的成本管控能力"
+        ],
+        "answerLead": "可从指标分层、实验分流、成本分摊、结果校准四个维度逐层拆解权衡逻辑",
+        "answer": [
+          "指标层权衡：将效果量拆分为知识掌握度、学习留存率、使用满意度三类分层统计，放弃侵入式学生行为打点，直接对接教务系统现有作业、考试数据自动采集",
+          "分流层权衡：采用同班级同知识点随机双盲分流方案，设置AI辅导组、传统教学组、混合组三组对照，既保证统计显著性，又避免学生知晓分组产生的霍桑效应干扰结果",
+          "成本层权衡：复用高校已有的教务系统数据底座对接评测模块，放弃独立搭建全量学生行为埋点体系的高成本方案，将单次评测的算力、人力成本压缩到传统人工评估的30%以内",
+          "校准层权衡：引入多轮交叉验证机制，定期和人工教学评估结果做对齐校准，排除AI自动判分的主观偏差，保证效果量统计的准确率达到95%以上"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月6日 · 星期一",
       "word": {
