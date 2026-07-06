@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-07-06T00:43:57.763Z",
+  "generatedAt": "2026-07-06T01:01:31.262Z",
   "dateLabel": "2026年7月6日 · 星期一",
-  "issue": 198,
+  "issue": 199,
   "githubRepos": [
     {
       "rank": "01",
       "name": "elder-plinius / T3MP3ST",
-      "summary": "基于TypeScript开发的自主红队平台，提供多Agent运行的进攻性安全测试元调度能力",
+      "summary": "TypeScript编写的自主红队平台，是面向多Agent攻击性安全测试的元调度框架",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "1.6K",
-      "growth": "+1646",
+      "stars": "1.7K",
+      "growth": "+1659",
       "growthLabel": "近7日",
       "url": "https://github.com/elder-plinius/T3MP3ST"
     },
     {
       "rank": "02",
       "name": "mekos2772 / ios-location-spoofer",
-      "summary": "无需越狱即可修改iOS设备GPS定位的独立应用，适配多款主流代理工具模块",
+      "summary": "无需越狱即可修改iOS GPS定位的独立应用，适配Shadowrocket等主流代理工具模块",
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.3K",
@@ -28,33 +28,33 @@
     {
       "rank": "03",
       "name": "HUANGCHIHHUNGLeo / claude-real-video",
-      "summary": "支持Claude等大模型直接解析视频内容，兼容本地/URL输入，可完全本地运行",
+      "summary": "Python实现的开源工具，支持让任意大模型直接解析本地或在线视频，可本地运行",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "955",
-      "growth": "+955",
+      "stars": "962",
+      "growth": "+962",
       "growthLabel": "近7日",
       "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
     },
     {
       "rank": "04",
       "name": "jamesob / local-llm",
-      "summary": "汇总所有本地部署运行大语言模型的实操经验、配置方案与踩坑指南",
+      "summary": "Shell脚本整理的经验集合，汇总了本地部署运行大模型的全量实用技巧",
       "language": "Shell",
       "color": "#707873",
-      "stars": "919",
-      "growth": "+919",
+      "stars": "920",
+      "growth": "+920",
       "growthLabel": "近7日",
       "url": "https://github.com/jamesob/local-llm"
     },
     {
       "rank": "05",
       "name": "ammaarreshi / Generals-Mac-iOS-iPad",
-      "summary": "基于EA官方开源引擎实现《命令与征服：将军 零点行动》原生运行在苹果全平台设备上",
+      "summary": "基于EA开源引擎移植的项目，可让《命令与征服：将军 零点行动》原生运行在苹果全平台设备上",
       "language": "C++",
       "color": "#707873",
-      "stars": "795",
-      "growth": "+795",
+      "stars": "796",
+      "growth": "+796",
       "growthLabel": "近7日",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
     }
@@ -64,8 +64,8 @@
       "id": "hn-48797916",
       "category": "全球科技",
       "time": "05:03",
-      "title": "OpenPrinter",
-      "summary": "全球科技领域热门讨论，当前热度350，共有98条评论",
+      "title": "OpenPrinter 开源打印项目引发开发者关注",
+      "summary": "全球科技领域热门讨论，当前热度374，共101条评论",
       "url": "https://www.opentools.studio/",
       "accent": "lime"
     },
@@ -73,8 +73,8 @@
       "id": "hn-48799256",
       "category": "人工智能",
       "time": "08:04",
-      "title": "Al Vigier：加拿大AI战略不应纳入与Palantir相关的秘密法案",
-      "summary": "人工智能领域热门讨论，当前热度27，共有5条评论",
+      "title": "Al Vigier：加拿大AI战略不应包含秘密的Palantir相关法案",
+      "summary": "人工智能领域热门讨论，当前热度40，共10条评论",
       "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
       "accent": "coral"
     },
@@ -82,8 +82,8 @@
       "id": "hn-48799155",
       "category": "全球科技",
       "time": "07:49",
-      "title": "低关注度行业动态",
-      "summary": "全球科技领域小众讨论，当前热度34，共有4条评论",
+      "title": "低关注度热点内容",
+      "summary": "全球科技领域低讨论度条目，当前热度44，共6条评论",
       "url": "https://iamwillwang.com/notes/has-not-been-viewed-much/",
       "accent": "mint"
     },
@@ -91,8 +91,8 @@
       "id": "hn-48794446",
       "category": "全球科技",
       "time": "22:14",
-      "title": "Organic Maps",
-      "summary": "全球科技领域热门讨论，当前热度790，共有220条评论",
+      "title": "开源地图应用 Organic Maps 获社区关注",
+      "summary": "全球科技领域热门讨论，当前热度793，共220条评论",
       "url": "https://organicmaps.app/",
       "accent": "ink"
     },
@@ -100,60 +100,60 @@
       "id": "hn-48798153",
       "category": "全球科技",
       "time": "05:32",
-      "title": "Show HN：Homegames，我耗时8年开发的开源游戏平台",
-      "summary": "全球科技领域热门讨论，当前热度81，共有27条评论",
+      "title": "Show HN：Homegames，我开发了8年的开源游戏平台",
+      "summary": "全球科技领域热门讨论，当前热度83，共27条评论",
       "url": "https://homegames.io",
       "accent": "lime"
+    },
+    {
+      "id": "hn-48798061",
+      "category": "全球科技",
+      "time": "05:20",
+      "title": "通过Coursera完成计算机科学学位",
+      "summary": "全球科技领域热门讨论，当前热度87，共54条评论",
+      "url": "https://notesbylex.com/completing-a-computer-science-degree-on-coursera",
+      "accent": "coral"
     },
     {
       "id": "hn-48799026",
       "category": "全球科技",
       "time": "07:31",
       "title": "数学中的关联：两种随机类型",
-      "summary": "全球科技领域热门讨论，当前热度13，共有6条评论",
+      "summary": "全球科技领域热门讨论，当前热度13，共9条评论",
       "url": "https://stillthinking.net/posts/connections-in-math-two-kinds-of-random/",
-      "accent": "coral"
+      "accent": "mint"
     },
     {
       "id": "hn-48796552",
       "category": "全球科技",
       "time": "02:22",
-      "title": "Flipper Zero 的未来开发方向",
-      "summary": "全球科技领域热门讨论，当前热度215，共有83条评论",
+      "title": "Flipper Zero 开发的未来",
+      "summary": "全球科技领域热门讨论，当前热度220，共88条评论",
       "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
-      "accent": "mint"
-    },
-    {
-      "id": "hn-48796817",
-      "category": "人工智能",
-      "time": "02:47",
-      "title": "新型AI辅导工具在达特茅斯课程中实现0.71-1.30标准差效应量[PDF]",
-      "summary": "人工智能领域热门讨论，当前热度121，共有77条评论",
-      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "AI Tutoring Effect Size",
-    "phonetic": "/ˌeɪ ˈaɪ ˈtjuːtərɪŋ ɪˈfekt saɪz/",
-    "definition": "量化AI辅导工具相对传统教学方案带来的学习效果提升幅度的核心指标",
-    "example": "达特茅斯测试中AI家教效果超1倍标准差，学生课程成绩提升显著"
+    "term": "Multi-Agent Coordination Framework",
+    "phonetic": "/ˈmʌlti ˈeɪdʒənt kəʊˌɔːdɪˈneɪʃn ˈfreɪmwɜːk/",
+    "definition": "多智能体协同框架，用于统一调度多个AI代理完成复杂任务的基础架构",
+    "example": "自主红队平台基于该框架调度不同Agent完成漏洞扫描到利用的全流程"
   },
   "interview": {
-    "category": "模型评测",
+    "category": "Agent系统",
     "difficulty": "中等",
-    "question": "团队要开发面向高校专业课场景的AI辅导系统，需搭建一套统一的学习效果评测体系，兼顾评测结果科学性、学生使用体验无干扰、评测成本可控，要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向内部安全测试场景的多Agent自主红队协同框架，需要兼顾漏洞覆盖全面性、业务系统无侵入、多Agent调度延迟可控，要完成哪些核心架构权衡？",
     "points": [
-      "教育场景AI效果量化的核心指标设计能力",
-      "AB对照实验的无侵入设计思路",
-      "垂直场景AI产品落地的成本管控能力"
+      "考察多Agent任务拆分与调度的设计能力",
+      "考察Agent操作的安全管控边界设计思路",
+      "考察协同框架的资源开销优化能力"
     ],
-    "answerLead": "可从指标分层、实验分流、成本分摊、结果校准四个维度逐层拆解权衡逻辑",
+    "answerLead": "答题时优先从任务分层、权限隔离、异步调度三个核心维度梳理权衡策略",
     "answer": [
-      "指标层权衡：将效果量拆分为知识掌握度、学习留存率、使用满意度三类分层统计，放弃侵入式学生行为打点，直接对接教务系统现有作业、考试数据自动采集",
-      "分流层权衡：采用同班级同知识点随机双盲分流方案，设置AI辅导组、传统教学组、混合组三组对照，既保证统计显著性，又避免学生知晓分组产生的霍桑效应干扰结果",
-      "成本层权衡：复用高校已有的教务系统数据底座对接评测模块，放弃独立搭建全量学生行为埋点体系的高成本方案，将单次评测的算力、人力成本压缩到传统人工评估的30%以内",
-      "校准层权衡：引入多轮交叉验证机制，定期和人工教学评估结果做对齐校准，排除AI自动判分的主观偏差，保证效果量统计的准确率达到95%以上"
+      "任务层权衡：将红队测试任务拆分为扫描、探测、验证三类独立Agent，在避免单Agent过载的同时最大化漏洞覆盖维度",
+      "权限层权衡：给每个Agent分配最小必要测试权限，所有操作全程留痕，从根源避免越权操作影响业务正常运行",
+      "调度层权衡：采用事件驱动的异步调度机制，减少Agent间不必要的通信开销，将端到端协同延迟控制在预设阈值内",
+      "冗余层权衡：设计异常熔断机制，单个Agent故障不影响整体任务运行，同时避免重复扫描行为浪费集群计算资源"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月6日 · 星期一",
+      "word": {
+        "term": "Multi-Agent Coordination Framework",
+        "definition": "多智能体协同框架，用于统一调度多个AI代理完成复杂任务的基础架构",
+        "example": "自主红队平台基于该框架调度不同Agent完成漏洞扫描到利用的全流程"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "difficulty": "中等",
+        "question": "团队要搭建面向内部安全测试场景的多Agent自主红队协同框架，需要兼顾漏洞覆盖全面性、业务系统无侵入、多Agent调度延迟可控，要完成哪些核心架构权衡？",
+        "points": [
+          "考察多Agent任务拆分与调度的设计能力",
+          "考察Agent操作的安全管控边界设计思路",
+          "考察协同框架的资源开销优化能力"
+        ],
+        "answerLead": "答题时优先从任务分层、权限隔离、异步调度三个核心维度梳理权衡策略",
+        "answer": [
+          "任务层权衡：将红队测试任务拆分为扫描、探测、验证三类独立Agent，在避免单Agent过载的同时最大化漏洞覆盖维度",
+          "权限层权衡：给每个Agent分配最小必要测试权限，所有操作全程留痕，从根源避免越权操作影响业务正常运行",
+          "调度层权衡：采用事件驱动的异步调度机制，减少Agent间不必要的通信开销，将端到端协同延迟控制在预设阈值内",
+          "冗余层权衡：设计异常熔断机制，单个Agent故障不影响整体任务运行，同时避免重复扫描行为浪费集群计算资源"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月6日 · 星期一",
       "word": {
