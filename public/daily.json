@@ -161,7 +161,7 @@
     "learningError": "fetch failed",
     "githubSource": "github-search",
     "newsSource": "hacker-news",
-    "newsError": "gnews-search-zh: no articles | gnews-top-headlines-zh: 429 Too Many Requests: https://gnews.io/api/v4/top-headlines?category=technology&lang=zh&max=8&apikey=d73e582535859048ce05a72ff4fd4efa | gnews-search-en: 429 Too Many Requests: https://gnews.io/api/v4/search?q=AI+OR+technology+OR+semiconductor+OR+open+source+OR+robotics+OR+OpenAI+OR+Nvidia&lang=en&max=8&sortby=publishedAt&in=title%2Cdescription&apikey=d73e582535859048ce05a72ff4fd4efa",
+    "newsError": "gnews-search-zh: no articles | gnews-top-headlines-zh: 429 Too Many Requests: https://gnews.io/api/v4/top-headlines?category=technology&lang=zh&max=8&apikey=[redacted] | gnews-search-en: 429 Too Many Requests: https://gnews.io/api/v4/search?q=AI+OR+technology+OR+semiconductor+OR+open+source+OR+robotics+OR+OpenAI+OR+Nvidia&lang=en&max=8&sortby=publishedAt&in=title%2Cdescription&apikey=[redacted]",
     "localizationSource": "none",
     "localizationError": "fetch failed"
   },

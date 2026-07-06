@@ -224,8 +224,12 @@ const learningFallbacks = [
 
 async function fetchJson(url, options) {
   const response = await fetch(url, options);
-  if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url}`);
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${redactUrl(url)}`);
   return response.json();
+}
+
+function redactUrl(value) {
+  return String(value || "").replace(/([?&]apikey=)[^&\s]+/i, "$1[redacted]");
 }
 
 async function fetchGithub() {
@@ -300,6 +304,7 @@ async function fetchNews() {
         notes.push(`${attempt.source}: no articles`);
     } catch (error) {
         notes.push(`${attempt.source}: ${error.message}`);
+        if (String(error.message).startsWith("429 ")) break;
       }
     }
 
