@@ -251,19 +251,60 @@ async function fetchGithub() {
 async function fetchNews() {
   const apiKey = process.env.GNEWS_API_KEY;
   if (apiKey) {
-    try {
-      const query = encodeURIComponent("人工智能 OR 科技 OR 半导体 OR 开源");
-      const data = await fetchJson(`https://gnews.io/api/v4/search?q=${query}&lang=zh&max=8&sortby=publishedAt&apikey=${apiKey}`);
+    const attempts = [
+      {
+        source: "gnews-search-zh",
+        endpoint: "search",
+        params: {
+          q: "AI OR 人工智能 OR 科技 OR 芯片 OR 半导体 OR 大模型 OR 机器人 OR 开源 OR OpenAI OR 英伟达",
+          lang: "zh",
+          max: "8",
+          sortby: "publishedAt",
+          in: "title,description",
+        },
+      },
+      {
+        source: "gnews-top-headlines-zh",
+        endpoint: "top-headlines",
+        params: {
+          category: "technology",
+          lang: "zh",
+          max: "8",
+        },
+      },
+      {
+        source: "gnews-search-en",
+        endpoint: "search",
+        params: {
+          q: "AI OR technology OR semiconductor OR open source OR robotics OR OpenAI OR Nvidia",
+          lang: "en",
+          max: "8",
+          sortby: "publishedAt",
+          in: "title,description",
+        },
+      },
+    ];
+    const notes = [];
+
+    for (const attempt of attempts) {
+      try {
+        const url = new URL(`https://gnews.io/api/v4/${attempt.endpoint}`);
+        Object.entries({ ...attempt.params, apikey: apiKey }).forEach(([key, value]) => {
+          url.searchParams.set(key, value);
+        });
+        const data = await fetchJson(url.toString());
       if (data.articles?.length) {
-        newsSource = "gnews";
+          newsSource = attempt.source;
         return formatGnewsArticles(data.articles);
       }
-      newsError = "GNews returned no articles";
-      console.warn(`${newsError}; using Hacker News fallback.`);
+        notes.push(`${attempt.source}: no articles`);
     } catch (error) {
-      newsError = error.message;
-      console.warn(`GNews unavailable; using Hacker News fallback: ${newsError}`);
+        notes.push(`${attempt.source}: ${error.message}`);
+      }
     }
+
+    newsError = notes.join(" | ") || "GNews returned no articles";
+    console.warn(`${newsError}; using Hacker News fallback.`);
   } else {
     newsError = "Missing GNEWS_API_KEY";
     console.warn(`${newsError}; using Hacker News fallback.`);
