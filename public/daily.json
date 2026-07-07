@@ -1,171 +1,196 @@
 {
-  "generatedAt": "2026-07-06T17:56:35.647Z",
-  "dateLabel": "2026年7月7日 · 星期二",
-  "issue": 201,
+  "generatedAt": "2026-07-07T17:32:34.198Z",
+  "dateLabel": "2026年7月8日 · 星期三",
+  "issue": 202,
   "githubRepos": [
     {
       "rank": "01",
       "name": "elder-plinius / T3MP3ST",
-      "summary": "自主红队平台，是面向多代理的进攻性安全元测试框架",
+      "summary": "基于TypeScript开发的自主红队平台，是面向进攻性安全场景的多Agent攻防调度元框架。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "2.4K",
-      "growth": "+2445",
+      "stars": "3.1K",
+      "growth": "+3135",
       "growthLabel": "近7日",
       "url": "https://github.com/elder-plinius/T3MP3ST"
     },
     {
       "rank": "02",
-      "name": "mekos2772 / ios-location-spoofer",
-      "summary": "无需越狱即可篡改iOS设备GPS定位的独立应用，附带Shadowrocket、Surge、Loon、QX、Stash等工具的配套模块",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.4K",
-      "growth": "+1421",
-      "growthLabel": "近7日",
-      "url": "https://github.com/mekos2772/ios-location-spoofer"
-    },
-    {
-      "rank": "03",
-      "name": "HUANGCHIHHUNGLeo / claude-real-video",
-      "summary": "支持让Claude或其他任意大语言模型实际解析视频内容，可从URL或本地文件读取视频，输出场景感知、去重帧加字幕的结果，支持本地运行，采用MIT协议",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "1.2K",
-      "growth": "+1206",
-      "growthLabel": "近7日",
-      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
-    },
-    {
-      "rank": "04",
       "name": "ammaarreshi / Generals-Mac-iOS-iPad",
-      "summary": "实现《命令与征服：将军 绝命时刻》在macOS、iPhone和iPad上原生运行，基于EA GPL v3开源引擎GeneralsX开发，采用DXVK/MoltenVK渲染器，适配触屏操作的RTS游戏体验",
+      "summary": "基于C++实现的《命令与征服：将军 绝命时刻》原生移植项目，可在macOS、iOS、iPadOS上原生运行。",
       "language": "C++",
       "color": "#707873",
-      "stars": "1.1K",
-      "growth": "+1078",
+      "stars": "1.3K",
+      "growth": "+1258",
       "growthLabel": "近7日",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
     },
     {
-      "rank": "05",
+      "rank": "03",
+      "name": "synthetic-sciences / openscience",
+      "summary": "基于TypeScript开发的面向科研场景的开源AI工作台，可辅助各类科学研究工作降低工具接入门槛。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "1.2K",
+      "growth": "+1226",
+      "growthLabel": "近7日",
+      "url": "https://github.com/synthetic-sciences/openscience"
+    },
+    {
+      "rank": "04",
       "name": "jamesob / local-llm",
-      "summary": "汇总了所有本地运行大语言模型的相关实用经验与知识",
+      "summary": "基于Shell编写的实操工具集，汇总了所有本地部署运行大语言模型的相关经验与落地方案。",
       "language": "Shell",
       "color": "#707873",
-      "stars": "1K",
-      "growth": "+1037",
+      "stars": "1.1K",
+      "growth": "+1146",
       "growthLabel": "近7日",
       "url": "https://github.com/jamesob/local-llm"
+    },
+    {
+      "rank": "05",
+      "name": "MaximeRivest / riddle",
+      "summary": "用Rust开发的适配reMarkable Paper Pro电子书的手写笔记本，可自动识别手写内容生成流畅电子文本。",
+      "language": "Rust",
+      "color": "#dea584",
+      "stars": "1K",
+      "growth": "+1002",
+      "growthLabel": "近7日",
+      "url": "https://github.com/MaximeRivest/riddle"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48805624",
-      "category": "人工智能",
-      "time": "23:01",
-      "title": "AMD Ryzen AI Halo：售价4000美元的AI开发套件",
-      "summary": "人工智能领域热门讨论，当前热度 129，共有 97 条评论。",
-      "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
+      "id": "hn-48816883",
+      "category": "全球科技",
+      "time": "20:38",
+      "title": "StreetComplete：靠一个个小任务完善OpenStreetMap开源地图",
+      "summary": "全球科技领域热门讨论，当前热度392，共有83条评论。",
+      "url": "https://streetcomplete.app/",
       "accent": "lime"
     },
     {
-      "id": "hn-48804297",
-      "category": "全球科技",
-      "time": "21:28",
-      "title": "铝箔（2021）",
-      "summary": "全球科技领域热门讨论，当前热度 158，共有 65 条评论。",
-      "url": "https://dernocua.github.io/notes/aluminum-foil.html",
+      "id": "hn-48820274",
+      "category": "产品观察",
+      "time": "00:42",
+      "title": "可查询美国政府售价低于10万美元的在售住宅地图服务",
+      "summary": "产品观察领域热门讨论，当前热度46，共有37条评论。",
+      "url": "https://govauctions.app/research/cheapest-homes-in-america",
       "accent": "coral"
     },
     {
-      "id": "hn-48806410",
-      "category": "人工智能",
-      "time": "23:53",
-      "title": "Kani：面向Rust的模型检查工具",
-      "summary": "人工智能领域热门讨论，当前热度 36，共有 1 条评论。",
-      "url": "https://arxiv.org/abs/2607.01504",
+      "id": "hn-48816956",
+      "category": "全球科技",
+      "time": "20:45",
+      "title": "系运动短裤（或任意抽绳）的更优方法[视频]",
+      "summary": "全球科技领域热门讨论，当前热度300，共有119条评论。",
+      "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
       "accent": "mint"
     },
     {
-      "id": "hn-48803364",
+      "id": "hn-48816959",
       "category": "全球科技",
-      "time": "19:47",
-      "title": "Elm 1.0 版本开发之路",
-      "summary": "全球科技领域热门讨论，当前热度 236，共有 99 条评论。",
-      "url": "https://elm-lang.org/news/faster-builds",
+      "time": "20:45",
+      "title": "98%的准确率其实远不够",
+      "summary": "全球科技领域热门讨论，当前热度348，共有245条评论。",
+      "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/",
       "accent": "ink"
     },
     {
-      "id": "hn-48779274",
+      "id": "hn-48819608",
       "category": "全球科技",
-      "time": "04:00",
-      "title": "埃及正在修建新尼罗河工程",
-      "summary": "全球科技领域热门讨论，当前热度 36，共有 2 条评论。",
-      "url": "https://www.theb1m.com/video/egypt-is-building-a-new-nile",
+      "time": "23:58",
+      "title": "30papers.com：Ilya整理的30篇机器学习核心论文，面向初学者友好格式呈现",
+      "summary": "全球科技领域热门讨论，当前热度28，共有6条评论。",
+      "url": "https://30papers.com/",
       "accent": "lime"
     },
     {
-      "id": "hn-48802535",
-      "category": "人工智能",
-      "time": "17:38",
-      "title": "英国全国铁路网络实时地图",
-      "summary": "人工智能领域热门讨论，当前热度 325，共有 123 条评论。",
-      "url": "https://www.map.signalbox.io",
+      "id": "hn-48818963",
+      "category": "全球科技",
+      "time": "23:13",
+      "title": "无仿冒商品的亚马逊体验方案探索",
+      "summary": "全球科技领域热门讨论，当前热度56，共有36条评论。",
+      "url": "https://knockoff.shopping/",
       "accent": "coral"
     },
     {
-      "id": "hn-48803762",
+      "id": "hn-48816612",
       "category": "全球科技",
-      "time": "20:38",
-      "title": "Fable 5 在Vending-Bench基准测试中：可实现带合理抵赖性的异常行为",
-      "summary": "全球科技领域热门讨论，当前热度 120，共有 71 条评论。",
-      "url": "https://andonlabs.com/blog/fable5-vending-bench",
+      "time": "20:08",
+      "title": "欧洲绝大多数企业官网由美国服务商提供托管支撑",
+      "summary": "全球科技领域热门讨论，当前热度205，共有142条评论。",
+      "url": "https://ciphercue.com/blog/european-web-hosting-vendor-share-2026",
       "accent": "mint"
     },
     {
-      "id": "hn-48767211",
+      "id": "hn-48819008",
       "category": "全球科技",
-      "time": "04:51",
-      "title": "Clojure 1.13 新增校验键支持",
-      "summary": "全球科技领域热门讨论，当前热度 123，共有 24 条评论。",
-      "url": "https://clojure.org/news/2026/07/02/clojure-1-13-alpha1",
+      "time": "23:16",
+      "title": "欧盟议会首轮投票通过Chat Control法案",
+      "summary": "全球科技领域热门讨论，当前热度243，共有105条评论。",
+      "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Reranker",
-    "phonetic": "/ re-ranker /",
-    "definition": "对初步检索结果进行二次精排，选出与问题最相关的上下文。",
-    "example": "召回像海选，Reranker 像复赛，决定哪些材料真正交给模型。"
+    "term": "Chunked Prefill",
+    "phonetic": "/tʃʌŋkt ˈpriːfɪl/",
+    "definition": "大模型推理中拆分长输入预填充任务，提升调度灵活性的优化技术。",
+    "example": "可大幅提升长文本推理场景下GPU资源利用率与请求并发吞吐量。"
   },
   "interview": {
-    "question": "为什么 RAG 系统需要 Reranker，它会带来哪些代价？",
-    "points": [
-      "召回与精排",
-      "延迟成本",
-      "效果评测"
-    ],
-    "answer": [
-      "初步检索追求高召回，通常会混入语义相近但无关的文档。",
-      "Reranker 对查询和候选文档进行更精细的相关性判断。",
-      "它会增加计算成本和延迟，需要控制候选数量并设置超时。",
-      "通过端到端答案正确率评估收益，而不只看排序分数。"
-    ],
-    "category": "RAG 与搜索",
+    "category": "推理性能",
     "difficulty": "中等",
-    "answerLead": "参考答题思路："
+    "question": "团队要给面向长文本场景的大模型推理服务接入Chunked Prefill优化，需要兼顾长请求处理时延不劣化、GPU利用率提升30%以上、现有推理框架兼容性，要完成哪些核心架构权衡？",
+    "points": [
+      "考察对大模型预填充阶段资源占用特征的理解",
+      "考察对分块预填充调度逻辑的设计能力",
+      "考察对推理服务SLA保障的落地经验"
+    ],
+    "answerLead": "需要从调度策略、资源隔离、兼容性适配三个维度逐层拆解核心权衡点。",
+    "answer": [
+      "权衡分块粒度的设置：过粗无法提升调度灵活性，过细会引入过多调度开销，匹配GPU算力与典型输入分布选最优阈值",
+      "权衡长短请求的资源隔离规则：避免长请求分块抢占短查询资源导致长尾时延，预留固定算力池优先保障短请求SLA",
+      "权衡KV Cache的分配策略：分块处理后动态复用空闲显存块，避免显存碎片化导致整体利用率反而下降",
+      "权衡上层接口的适配方案：最小化修改原有推理框架核心逻辑，通过插件式接入降低改造与后续升级成本"
+    ]
   },
   "generation": {
-    "learningSource": "fallback",
-    "learningError": "Ark generated repeated learning content: repeated word: Continuous Batching",
+    "learningSource": "ark",
+    "learningError": null,
     "githubSource": "github-search",
     "newsSource": "hacker-news",
     "newsError": "gnews-search-zh: no articles | gnews-top-headlines-zh: 429 Too Many Requests: https://gnews.io/api/v4/top-headlines?category=technology&lang=zh&max=8&apikey=[redacted]",
-    "localizationSource": "ark-localization",
+    "localizationSource": "ark",
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月8日 · 星期三",
+      "word": {
+        "term": "Chunked Prefill",
+        "definition": "大模型推理中拆分长输入预填充任务，提升调度灵活性的优化技术。",
+        "example": "可大幅提升长文本推理场景下GPU资源利用率与请求并发吞吐量。"
+      },
+      "interview": {
+        "category": "推理性能",
+        "difficulty": "中等",
+        "question": "团队要给面向长文本场景的大模型推理服务接入Chunked Prefill优化，需要兼顾长请求处理时延不劣化、GPU利用率提升30%以上、现有推理框架兼容性，要完成哪些核心架构权衡？",
+        "points": [
+          "考察对大模型预填充阶段资源占用特征的理解",
+          "考察对分块预填充调度逻辑的设计能力",
+          "考察对推理服务SLA保障的落地经验"
+        ],
+        "answerLead": "需要从调度策略、资源隔离、兼容性适配三个维度逐层拆解核心权衡点。",
+        "answer": [
+          "权衡分块粒度的设置：过粗无法提升调度灵活性，过细会引入过多调度开销，匹配GPU算力与典型输入分布选最优阈值",
+          "权衡长短请求的资源隔离规则：避免长请求分块抢占短查询资源导致长尾时延，预留固定算力池优先保障短请求SLA",
+          "权衡KV Cache的分配策略：分块处理后动态复用空闲显存块，避免显存碎片化导致整体利用率反而下降",
+          "权衡上层接口的适配方案：最小化修改原有推理框架核心逻辑，通过插件式接入降低改造与后续升级成本"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月7日 · 星期二",
       "word": {
