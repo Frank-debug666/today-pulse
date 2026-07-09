@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-08T16:54:22.032Z",
-  "dateLabel": "2026年7月9日 · 星期四",
-  "issue": 203,
+  "generatedAt": "2026-07-09T16:11:04.838Z",
+  "dateLabel": "2026年7月10日 · 星期五",
+  "issue": 204,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "elder-plinius / T3MP3ST",
-      "summary": "基于多智能体的自主红队攻防测试平台，面向攻击性安全场景提供多代理调度能力。",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "3.8K",
-      "growth": "+3758",
-      "growthLabel": "近7日",
-      "url": "https://github.com/elder-plinius/T3MP3ST"
-    },
-    {
-      "rank": "02",
       "name": "x4gKing / X4G",
-      "summary": "本周增长速度极快的开源项目，目前公开信息暂未披露更多细节。",
+      "summary": "x4gKing / X4G：采用Python开发的本周快速增长开源工具项目，面向开发者提供轻量化能力支持",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.9K",
-      "growth": "+1912",
+      "stars": "3.1K",
+      "growth": "+3117",
       "growthLabel": "近7日",
       "url": "https://github.com/x4gKing/X4G"
     },
     {
-      "rank": "03",
+      "rank": "02",
       "name": "synthetic-sciences / openscience",
-      "summary": "面向科研场景打造的开源AI工作台，为科研人员提供全流程AI辅助实验能力。",
+      "summary": "synthetic-sciences / openscience：采用TypeScript开发，是面向科研场景的开源AI工作台",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "1.7K",
-      "growth": "+1693",
+      "stars": "1.9K",
+      "growth": "+1913",
       "growthLabel": "近7日",
       "url": "https://github.com/synthetic-sciences/openscience"
     },
     {
-      "rank": "04",
-      "name": "ammaarreshi / Generals-Mac-iOS-iPad",
-      "summary": "基于EA官方开源源码实现的《命令与征服：将军-零点行动》原生移植项目，支持苹果全平台运行。",
-      "language": "C++",
+      "rank": "03",
+      "name": "xuchonglang / investing-for-beginners",
+      "summary": "xuchonglang / investing-for-beginners：小隐寺投资百科官方公开索引，覆盖美股、期权与加密货币完整知识框架",
+      "language": "Other",
       "color": "#707873",
-      "stars": "1.3K",
-      "growth": "+1347",
+      "stars": "1.6K",
+      "growth": "+1600",
       "growthLabel": "近7日",
-      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
+      "url": "https://github.com/xuchonglang/investing-for-beginners"
+    },
+    {
+      "rank": "04",
+      "name": "Shpigford / knockoff",
+      "summary": "Shpigford / knockoff：采用JavaScript开发的Chrome扩展，可过滤亚马逊平台伪品牌垃圾商品，帮助用户选购正规老牌商家商品",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1.5K",
+      "growth": "+1510",
+      "growthLabel": "近7日",
+      "url": "https://github.com/Shpigford/knockoff"
     },
     {
       "rank": "05",
-      "name": "Shpigford / knockoff",
-      "summary": "Chrome浏览器扩展工具，可过滤亚马逊平台的伪品牌垃圾商品，帮助用户筛选正规品牌商品。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.3K",
-      "growth": "+1321",
+      "name": "ammaarreshi / Generals-Mac-iOS-iPad",
+      "summary": "ammaarreshi / Generals-Mac-iOS-iPad：基于C++开发，将《命令与征服：将军 绝命时刻》原生移植到macOS、iPhone、iPad平台运行",
+      "language": "C++",
+      "color": "#707873",
+      "stars": "1.4K",
+      "growth": "+1387",
       "growthLabel": "近7日",
-      "url": "https://github.com/Shpigford/knockoff"
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48833116",
-      "category": "开源生态",
-      "time": "23:19",
-      "title": "Chatto 现已正式开源",
-      "summary": "开源生态领域热门讨论，当前热度162，共有30条评论。",
-      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "id": "hn-48845049",
+      "category": "全球科技",
+      "time": "20:48",
+      "title": "18 Words亮相：开发者社区出现新作品",
+      "summary": "Hacker News热门讨论，当前热度421，共175条用户评论",
+      "url": "https://18words.com/",
       "accent": "lime"
     },
     {
-      "id": "hn-48832212",
-      "category": "人工智能",
-      "time": "22:09",
-      "title": "Mistral 发布 Robostral Navigate：业界领先的机器人导航模型",
-      "summary": "人工智能领域热门讨论，当前热度198，共有48条评论。",
-      "url": "https://mistral.ai/news/robostral-navigate/",
+      "id": "hn-48846281",
+      "category": "全球科技",
+      "time": "22:16",
+      "title": "2026年12月底将不再引入闰秒",
+      "summary": "全球科技圈热议话题，当前热度106，共75条行业讨论内容",
+      "url": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
       "accent": "coral"
     },
     {
-      "id": "hn-48829312",
+      "id": "hn-48843923",
       "category": "全球科技",
-      "time": "16:46",
-      "title": "破解优衣库T恤上的混淆Bash脚本",
-      "summary": "全球科技领域热门讨论，当前热度992，共有174条评论。",
-      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "time": "19:03",
+      "title": "欧盟议会正式批准Chat Control 1.0监管法案",
+      "summary": "全球科技领域高热度讨论，当前热度405，共230条相关评论",
+      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
       "accent": "mint"
     },
     {
-      "id": "hn-48833866",
-      "category": "算力芯片",
-      "time": "00:19",
-      "title": "SWE-1.7 性能接近 GPT-5.5 与 Opus 智能水平",
-      "summary": "算力芯片领域热门讨论，当前热度30，共有16条评论。",
-      "url": "https://cognition.com/blog/swe-1-7",
+      "id": "hn-48846995",
+      "category": "全球科技",
+      "time": "22:57",
+      "title": "内部服务TLS证书部署最佳实践",
+      "summary": "技术从业者相关讨论热度32，共19条经验交流内容",
+      "url": "https://tuxnet.dev/posts/tls-for-internal-services/",
       "accent": "ink"
     },
     {
-      "id": "hn-48831565",
-      "category": "全球科技",
-      "time": "21:18",
-      "title": "Cloudflare 推出 Meerkat 全局分布式共识服务",
-      "summary": "全球科技领域热门讨论，当前热度115，共有17条评论。",
-      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "id": "hn-48847562",
+      "category": "产品观察",
+      "time": "23:28",
+      "title": "Launch HN：Context.dev (YC S26) 可从任意网站提取结构化数据的API服务",
+      "summary": "产品观察类热门讨论，当前热度14，共13条相关探讨",
+      "url": "https://www.context.dev",
       "accent": "lime"
     },
     {
-      "id": "hn-48827858",
-      "category": "人工智能",
-      "time": "13:25",
-      "title": "GitLost：研究人员诱导 GitHub AI 代理泄露私有仓库内容",
-      "summary": "人工智能领域热门讨论，当前热度417，共有161条评论。",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "id": "hn-48846293",
+      "category": "开源生态",
+      "time": "22:17",
+      "title": "PostHog 正式全量开源",
+      "summary": "开源生态领域热门话题，当前热度67，共35条开发者评论",
+      "url": "https://github.com/PostHog/posthog-foss",
       "accent": "coral"
     },
     {
-      "id": "hn-48831658",
+      "id": "hn-48845442",
       "category": "全球科技",
       "time": "21:24",
-      "title": "OpenBSD 存在释放后重用漏洞，可本地提权至 root 权限",
-      "summary": "全球科技领域热门讨论，当前热度116，共有51条评论。",
-      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+      "title": "玻璃基建隐患：美军未来战争后勤体系或将崩溃",
+      "summary": "全球科技领域热门讨论，当前热度84，共93条相关观点交流",
+      "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
       "accent": "mint"
     },
     {
-      "id": "hn-48830565",
-      "category": "算力芯片",
-      "time": "19:30",
-      "title": "苹果将扩大与博通的合作，在美国本土生产更多芯片",
-      "summary": "算力芯片领域热门讨论，当前热度215，共有164条评论。",
-      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "id": "hn-48847407",
+      "category": "全球科技",
+      "time": "23:19",
+      "title": "Pi.dev 开箱即用的轻量化定制配置方案",
+      "summary": "相关技术讨论热度22，共8条开发者经验分享",
+      "url": "https://lazypi.org/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "AI Agent Privilege Isolation",
-    "phonetic": "/ˌeɪ aɪ ˈeɪdʒənt ˈprɪvəlɪdʒ ˌaɪsəˈleɪʃn/",
-    "definition": "限制AI代理可访问资源范围的最小权限管控机制，防止越权访问敏感数据。",
-    "example": "给代码AI代理配置仓库访问白名单，避免私有业务代码意外泄露。"
+    "term": "Semantic Data Lineage",
+    "phonetic": "/sɪˈmæntɪk ˈdeɪtə ˈlɪniɪdʒ/",
+    "definition": "面向全链路数据流转的语义化血缘技术，支持跨系统精准数据关联溯源",
+    "example": "数据团队可通过它快速定位数仓字段错误的上游业务来源"
   },
   "interview": {
-    "category": "安全治理",
+    "category": "数据工程",
     "difficulty": "中等",
-    "question": "团队要给企业内部接入的AI代码助手类代理搭建权限隔离体系，兼顾敏感代码零泄露、正常开发体验无感知、权限变更运维成本可控，需要完成哪些核心架构权衡？",
+    "question": "团队要给企业级实时数仓搭建全链路语义血缘追溯系统，需要兼顾字段级溯源准确率100%、实时流转链路解析延迟低于1s、对接现有多源异构数据组件零侵入，需要完成哪些核心架构权衡？",
     "points": [
-      "考察AI代理权限边界设计的核心思路",
-      "考察开发体验与安全管控的平衡能力",
-      "考察权限体系的运维成本优化方法"
+      "对语义血缘和传统字段血缘的差异理解",
+      "实时数仓低延迟链路解析的设计思路",
+      "多源异构组件无侵入对接的适配方案设计"
     ],
-    "answerLead": "可以从权限分层、行为校验、审计集成三个核心维度拆解架构设计的权衡点。",
+    "answerLead": "可从数据采集、语义映射、链路存储、查询调度四个分层维度逐层拆解核心矛盾，平衡各项目标要求",
     "answer": [
-      "首先设计权限最小化边界，默认限制AI代理仅可访问当前编辑文件，避免全局仓库授权，同时预留团队自定义授权通道适配特殊场景。",
-      "引入操作行为前置校验机制，对AI代理发起的跨文件访问请求做风险特征匹配，无风险请求直接放行，高风险请求触发二次人工确认。",
-      "搭建轻量审计日志体系，全量留存AI代理的所有访问行为，无需开发人员额外上报操作，最大程度降低管控对使用体验的侵入性。",
-      "对接企业现有统一身份权限系统，复用已有的部门、项目权限配置，避免重复维护多套权限规则，大幅降低权限变更的运维成本。"
+      "权衡采集层探针植入方案，优先采用SQL解析+组件侧日志读取结合的非侵入模式，避免修改现有计算引擎核心代码",
+      "权衡语义映射层实体关联规则，预定义统一的字段语义标签体系，对齐不同业务域的同名异构字段映射关系，消除溯源歧义",
+      "权衡链路存储层选型，采用图数据库搭配时序数据库混合存储模式，兼顾血缘关联查询效率和全量历史链路存储成本",
+      "权衡调度层流批处理策略，近实时链路采用增量解析模式，离线历史链路采用批量异步补全，保证端到端解析延迟达标"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月10日 · 星期五",
+      "word": {
+        "term": "Semantic Data Lineage",
+        "definition": "面向全链路数据流转的语义化血缘技术，支持跨系统精准数据关联溯源",
+        "example": "数据团队可通过它快速定位数仓字段错误的上游业务来源"
+      },
+      "interview": {
+        "category": "数据工程",
+        "difficulty": "中等",
+        "question": "团队要给企业级实时数仓搭建全链路语义血缘追溯系统，需要兼顾字段级溯源准确率100%、实时流转链路解析延迟低于1s、对接现有多源异构数据组件零侵入，需要完成哪些核心架构权衡？",
+        "points": [
+          "对语义血缘和传统字段血缘的差异理解",
+          "实时数仓低延迟链路解析的设计思路",
+          "多源异构组件无侵入对接的适配方案设计"
+        ],
+        "answerLead": "可从数据采集、语义映射、链路存储、查询调度四个分层维度逐层拆解核心矛盾，平衡各项目标要求",
+        "answer": [
+          "权衡采集层探针植入方案，优先采用SQL解析+组件侧日志读取结合的非侵入模式，避免修改现有计算引擎核心代码",
+          "权衡语义映射层实体关联规则，预定义统一的字段语义标签体系，对齐不同业务域的同名异构字段映射关系，消除溯源歧义",
+          "权衡链路存储层选型，采用图数据库搭配时序数据库混合存储模式，兼顾血缘关联查询效率和全量历史链路存储成本",
+          "权衡调度层流批处理策略，近实时链路采用增量解析模式，离线历史链路采用批量异步补全，保证端到端解析延迟达标"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月9日 · 星期四",
       "word": {
