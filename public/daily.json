@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-09T16:11:04.838Z",
-  "dateLabel": "2026年7月10日 · 星期五",
-  "issue": 204,
+  "generatedAt": "2026-07-10T17:14:07.809Z",
+  "dateLabel": "2026年7月11日 · 星期六",
+  "issue": 205,
   "githubRepos": [
     {
       "rank": "01",
       "name": "x4gKing / X4G",
-      "summary": "x4gKing / X4G：采用Python开发的本周快速增长开源工具项目，面向开发者提供轻量化能力支持",
+      "summary": "使用Python开发的本周高速增长的开源项目",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "3.1K",
-      "growth": "+3117",
+      "stars": "3.8K",
+      "growth": "+3810",
       "growthLabel": "近7日",
       "url": "https://github.com/x4gKing/X4G"
     },
     {
       "rank": "02",
-      "name": "synthetic-sciences / openscience",
-      "summary": "synthetic-sciences / openscience：采用TypeScript开发，是面向科研场景的开源AI工作台",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "1.9K",
-      "growth": "+1913",
+      "name": "withmarbleapp / os-taxonomy",
+      "summary": "使用JavaScript开发的本周高速增长的开源项目",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "2K",
+      "growth": "+1981",
       "growthLabel": "近7日",
-      "url": "https://github.com/synthetic-sciences/openscience"
+      "url": "https://github.com/withmarbleapp/os-taxonomy"
     },
     {
       "rank": "03",
-      "name": "xuchonglang / investing-for-beginners",
-      "summary": "xuchonglang / investing-for-beginners：小隐寺投资百科官方公开索引，覆盖美股、期权与加密货币完整知识框架",
-      "language": "Other",
-      "color": "#707873",
-      "stars": "1.6K",
-      "growth": "+1600",
-      "growthLabel": "近7日",
-      "url": "https://github.com/xuchonglang/investing-for-beginners"
-    },
-    {
-      "rank": "04",
       "name": "Shpigford / knockoff",
-      "summary": "Shpigford / knockoff：采用JavaScript开发的Chrome扩展，可过滤亚马逊平台伪品牌垃圾商品，帮助用户选购正规老牌商家商品",
+      "summary": "Chrome浏览器扩展，可过滤亚马逊平台伪品牌垃圾商品，帮用户选购正规老牌商家的商品",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.5K",
-      "growth": "+1510",
+      "stars": "1.7K",
+      "growth": "+1653",
       "growthLabel": "近7日",
       "url": "https://github.com/Shpigford/knockoff"
     },
     {
-      "rank": "05",
+      "rank": "04",
       "name": "ammaarreshi / Generals-Mac-iOS-iPad",
-      "summary": "ammaarreshi / Generals-Mac-iOS-iPad：基于C++开发，将《命令与征服：将军 绝命时刻》原生移植到macOS、iPhone、iPad平台运行",
+      "summary": "基于EA开源源码实现的《命令与征服：将军-绝命时刻》原生移植项目，支持macOS、iPhone、iPad平台运行，适配触屏操作",
       "language": "C++",
       "color": "#707873",
       "stars": "1.4K",
-      "growth": "+1387",
+      "growth": "+1402",
       "growthLabel": "近7日",
       "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
+    },
+    {
+      "rank": "05",
+      "name": "MaximeRivest / riddle",
+      "summary": "为reMarkable Paper Pro电纸本开发的手写日记本，用户手写输入后设备会用流畅字体生成对应回复内容",
+      "language": "Rust",
+      "color": "#dea584",
+      "stars": "1.3K",
+      "growth": "+1326",
+      "growthLabel": "近7日",
+      "url": "https://github.com/MaximeRivest/riddle"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48845049",
+      "id": "hn-48861717",
       "category": "全球科技",
-      "time": "20:48",
-      "title": "18 Words亮相：开发者社区出现新作品",
-      "summary": "Hacker News热门讨论，当前热度421，共175条用户评论",
-      "url": "https://18words.com/",
+      "time": "23:59",
+      "title": "QuadRF技术可探测无人机，还能穿墙感知WiFi信号",
+      "summary": "全球科技领域热门讨论，当前热度99，共37条相关评论",
+      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
       "accent": "lime"
     },
     {
-      "id": "hn-48846281",
-      "category": "全球科技",
-      "time": "22:16",
-      "title": "2026年12月底将不再引入闰秒",
-      "summary": "全球科技圈热议话题，当前热度106，共75条行业讨论内容",
-      "url": "https://datacenter.iers.org/data/latestVersion/bulletinC.txt",
+      "id": "hn-48862252",
+      "category": "人工智能",
+      "time": "00:37",
+      "title": "蜗牛牙齿超越蜘蛛丝，成为已知自然界强度最高材料",
+      "summary": "AI领域热门讨论，当前热度16，共12条相关评论",
+      "url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
       "accent": "coral"
     },
     {
-      "id": "hn-48843923",
+      "id": "hn-48861319",
       "category": "全球科技",
-      "time": "19:03",
-      "title": "欧盟议会正式批准Chat Control 1.0监管法案",
-      "summary": "全球科技领域高热度讨论，当前热度405，共230条相关评论",
-      "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+      "time": "23:30",
+      "title": "写给闪卡的技术情书",
+      "summary": "全球科技领域热门讨论，当前热度49，共17条相关评论",
+      "url": "https://lesleylai.info/en/flashcards/",
       "accent": "mint"
     },
     {
-      "id": "hn-48846995",
+      "id": "hn-48858737",
       "category": "全球科技",
-      "time": "22:57",
-      "title": "内部服务TLS证书部署最佳实践",
-      "summary": "技术从业者相关讨论热度32，共19条经验交流内容",
-      "url": "https://tuxnet.dev/posts/tls-for-internal-services/",
+      "time": "19:59",
+      "title": "青铜时代晚期文明崩塌事件研究",
+      "summary": "全球科技领域高热度讨论，当前热度211，共121条相关评论",
+      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
       "accent": "ink"
     },
     {
-      "id": "hn-48847562",
-      "category": "产品观察",
-      "time": "23:28",
-      "title": "Launch HN：Context.dev (YC S26) 可从任意网站提取结构化数据的API服务",
-      "summary": "产品观察类热门讨论，当前热度14，共13条相关探讨",
-      "url": "https://www.context.dev",
+      "id": "hn-48803707",
+      "category": "全球科技",
+      "time": "20:32",
+      "title": "埃及沙漠地下发现失落古城，遗迹中包含古老教堂",
+      "summary": "全球科技领域热门讨论，当前热度65，共12条相关评论",
+      "url": "https://www.dailymail.com/sciencetech/article-15956159/Incredible-lost-city-discovered-Egypts-desert.html",
       "accent": "lime"
     },
     {
-      "id": "hn-48846293",
-      "category": "开源生态",
-      "time": "22:17",
-      "title": "PostHog 正式全量开源",
-      "summary": "开源生态领域热门话题，当前热度67，共35条开发者评论",
-      "url": "https://github.com/PostHog/posthog-foss",
+      "id": "hn-48858121",
+      "category": "全球科技",
+      "time": "18:32",
+      "title": "优秀的工具应当是无感知的",
+      "summary": "全球科技领域高热度讨论，当前热度180，共106条相关评论",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
       "accent": "coral"
     },
     {
-      "id": "hn-48845442",
+      "id": "hn-48862365",
       "category": "全球科技",
-      "time": "21:24",
-      "title": "玻璃基建隐患：美军未来战争后勤体系或将崩溃",
-      "summary": "全球科技领域热门讨论，当前热度84，共93条相关观点交流",
-      "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
+      "time": "00:48",
+      "title": "《终结者2》的幕后技术口述史（2017年）",
+      "summary": "全球科技领域相关讨论，当前热度4，暂无用户评论",
+      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
       "accent": "mint"
     },
     {
-      "id": "hn-48847407",
-      "category": "全球科技",
-      "time": "23:19",
-      "title": "Pi.dev 开箱即用的轻量化定制配置方案",
-      "summary": "相关技术讨论热度22，共8条开发者经验分享",
-      "url": "https://lazypi.org/",
+      "id": "hn-48859701",
+      "category": "人工智能",
+      "time": "21:33",
+      "title": "编写代码时以他人可后续维护为核心原则",
+      "summary": "AI领域超高热度讨论，当前热度218，共189条相关评论",
+      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Semantic Data Lineage",
-    "phonetic": "/sɪˈmæntɪk ˈdeɪtə ˈlɪniɪdʒ/",
-    "definition": "面向全链路数据流转的语义化血缘技术，支持跨系统精准数据关联溯源",
-    "example": "数据团队可通过它快速定位数仓字段错误的上游业务来源"
+    "term": "Invisible Tool Design Paradigm",
+    "phonetic": "/ɪnˈvɪzəbl tuːl dɪˈzaɪn ˈpærədaɪm/",
+    "definition": "面向开发者场景的无感知工具设计范式，核心是降低工具侵入性",
+    "example": "好的开发工具不会打断工作流，用户几乎感知不到它的存在"
   },
   "interview": {
-    "category": "数据工程",
+    "category": "AI产品架构",
     "difficulty": "中等",
-    "question": "团队要给企业级实时数仓搭建全链路语义血缘追溯系统，需要兼顾字段级溯源准确率100%、实时流转链路解析延迟低于1s、对接现有多源异构数据组件零侵入，需要完成哪些核心架构权衡？",
+    "question": "团队要面向专业开发者设计代码补全类AI工具，需要兼顾能力覆盖全日常开发场景、全程无感知不打断编码流、新功能迭代无需用户手动配置，需要完成哪些核心架构权衡？",
     "points": [
-      "对语义血缘和传统字段血缘的差异理解",
-      "实时数仓低延迟链路解析的设计思路",
-      "多源异构组件无侵入对接的适配方案设计"
+      "考察对AI开发工具产品架构核心约束的理解",
+      "考察对无感知设计落地路径的认知程度",
+      "考察对产品体验与能力边界的平衡能力"
     ],
-    "answerLead": "可从数据采集、语义映射、链路存储、查询调度四个分层维度逐层拆解核心矛盾，平衡各项目标要求",
+    "answerLead": "从侵入性控制、能力适配、迭代机制三个维度逐层拆解权衡点",
     "answer": [
-      "权衡采集层探针植入方案，优先采用SQL解析+组件侧日志读取结合的非侵入模式，避免修改现有计算引擎核心代码",
-      "权衡语义映射层实体关联规则，预定义统一的字段语义标签体系，对齐不同业务域的同名异构字段映射关系，消除溯源歧义",
-      "权衡链路存储层选型，采用图数据库搭配时序数据库混合存储模式，兼顾血缘关联查询效率和全量历史链路存储成本",
-      "权衡调度层流批处理策略，近实时链路采用增量解析模式，离线历史链路采用批量异步补全，保证端到端解析延迟达标"
+      "权衡事件捕获粒度：既不过度Hook编辑器底层逻辑引发兼容问题，又能完整采集上下文实现精准触发，避免多余弹窗打断编码",
+      "权衡AI能力默认输出策略：默认优先补全低复杂度通用代码片段，高复杂度生成仅在用户主动触发时弹出，避免不必要算力消耗",
+      "权衡配置项暴露程度：99%常用场景配置完全内置默认生效，仅将极小众自定义能力放在二级深层菜单，不对普通用户形成干扰",
+      "权衡功能迭代推送机制：所有增量能力采用静默灰度升级，无需用户手动重启或更新插件，完全不影响用户正在进行的开发任务"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月11日 · 星期六",
+      "word": {
+        "term": "Invisible Tool Design Paradigm",
+        "definition": "面向开发者场景的无感知工具设计范式，核心是降低工具侵入性",
+        "example": "好的开发工具不会打断工作流，用户几乎感知不到它的存在"
+      },
+      "interview": {
+        "category": "AI产品架构",
+        "difficulty": "中等",
+        "question": "团队要面向专业开发者设计代码补全类AI工具，需要兼顾能力覆盖全日常开发场景、全程无感知不打断编码流、新功能迭代无需用户手动配置，需要完成哪些核心架构权衡？",
+        "points": [
+          "考察对AI开发工具产品架构核心约束的理解",
+          "考察对无感知设计落地路径的认知程度",
+          "考察对产品体验与能力边界的平衡能力"
+        ],
+        "answerLead": "从侵入性控制、能力适配、迭代机制三个维度逐层拆解权衡点",
+        "answer": [
+          "权衡事件捕获粒度：既不过度Hook编辑器底层逻辑引发兼容问题，又能完整采集上下文实现精准触发，避免多余弹窗打断编码",
+          "权衡AI能力默认输出策略：默认优先补全低复杂度通用代码片段，高复杂度生成仅在用户主动触发时弹出，避免不必要算力消耗",
+          "权衡配置项暴露程度：99%常用场景配置完全内置默认生效，仅将极小众自定义能力放在二级深层菜单，不对普通用户形成干扰",
+          "权衡功能迭代推送机制：所有增量能力采用静默灰度升级，无需用户手动重启或更新插件，完全不影响用户正在进行的开发任务"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月10日 · 星期五",
       "word": {
