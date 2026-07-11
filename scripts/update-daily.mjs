@@ -268,15 +268,6 @@ async function fetchNews() {
         },
       },
       {
-        source: "gnews-top-headlines-zh",
-        endpoint: "top-headlines",
-        params: {
-          category: "technology",
-          lang: "zh",
-          max: "8",
-        },
-      },
-      {
         source: "gnews-search-en",
         endpoint: "search",
         params: {
@@ -285,6 +276,15 @@ async function fetchNews() {
           max: "8",
           sortby: "publishedAt",
           in: "title,description",
+        },
+      },
+      {
+        source: "gnews-top-headlines-zh",
+        endpoint: "top-headlines",
+        params: {
+          category: "technology",
+          lang: "zh",
+          max: "8",
         },
       },
     ];
@@ -297,12 +297,13 @@ async function fetchNews() {
           url.searchParams.set(key, value);
         });
         const data = await fetchJson(url.toString());
-      if (data.articles?.length) {
+        if (data.articles?.length) {
           newsSource = attempt.source;
-        return formatGnewsArticles(data.articles);
-      }
+          return formatGnewsArticles(data.articles);
+        }
         notes.push(`${attempt.source}: no articles`);
-    } catch (error) {
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+      } catch (error) {
         notes.push(`${attempt.source}: ${error.message}`);
         if (String(error.message).startsWith("429 ")) break;
       }
