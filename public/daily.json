@@ -1,171 +1,196 @@
 {
-  "generatedAt": "2026-07-10T17:14:07.809Z",
+  "generatedAt": "2026-07-11T01:24:23.764Z",
   "dateLabel": "2026年7月11日 · 星期六",
-  "issue": 205,
+  "issue": 206,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "x4gKing / X4G",
-      "summary": "使用Python开发的本周高速增长的开源项目",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "3.8K",
-      "growth": "+3810",
-      "growthLabel": "近7日",
-      "url": "https://github.com/x4gKing/X4G"
-    },
-    {
-      "rank": "02",
       "name": "withmarbleapp / os-taxonomy",
-      "summary": "使用JavaScript开发的本周高速增长的开源项目",
+      "summary": "基于JavaScript开发的开源软件分类体系梳理工具，近期社区星标增长速度极快",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "2K",
-      "growth": "+1981",
+      "stars": "2.1K",
+      "growth": "+2133",
       "growthLabel": "近7日",
       "url": "https://github.com/withmarbleapp/os-taxonomy"
     },
     {
-      "rank": "03",
+      "rank": "02",
       "name": "Shpigford / knockoff",
-      "summary": "Chrome浏览器扩展，可过滤亚马逊平台伪品牌垃圾商品，帮用户选购正规老牌商家的商品",
+      "summary": "基于JavaScript开发的Chrome浏览器插件，可自动过滤亚马逊平台的伪品牌垃圾商品，优先展示正规老牌厂商的在售商品",
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.7K",
-      "growth": "+1653",
+      "growth": "+1704",
       "growthLabel": "近7日",
       "url": "https://github.com/Shpigford/knockoff"
     },
     {
-      "rank": "04",
-      "name": "ammaarreshi / Generals-Mac-iOS-iPad",
-      "summary": "基于EA开源源码实现的《命令与征服：将军-绝命时刻》原生移植项目，支持macOS、iPhone、iPad平台运行，适配触屏操作",
-      "language": "C++",
-      "color": "#707873",
-      "stars": "1.4K",
-      "growth": "+1402",
-      "growthLabel": "近7日",
-      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad"
-    },
-    {
-      "rank": "05",
+      "rank": "03",
       "name": "MaximeRivest / riddle",
-      "summary": "为reMarkable Paper Pro电纸本开发的手写日记本，用户手写输入后设备会用流畅字体生成对应回复内容",
+      "summary": "基于Rust开发的适配reMarkable Paper Pro电纸书的趣味日记应用，支持手写输入后自动生成流畅手写体风格的回复内容",
       "language": "Rust",
       "color": "#dea584",
       "stars": "1.3K",
-      "growth": "+1326",
+      "growth": "+1339",
       "growthLabel": "近7日",
       "url": "https://github.com/MaximeRivest/riddle"
+    },
+    {
+      "rank": "04",
+      "name": "514-labs / dnsglobe",
+      "summary": "基于Rust开发的终端全局DNS传播状态检查工具，可在终端内置的世界地图上直观展示指定DNS记录在全球34个公共解析器的生效情况",
+      "language": "Rust",
+      "color": "#dea584",
+      "stars": "794",
+      "growth": "+794",
+      "growthLabel": "近7日",
+      "url": "https://github.com/514-labs/dnsglobe"
+    },
+    {
+      "rank": "05",
+      "name": "Robbyant / lingbot-world-v2",
+      "summary": "基于Python开发的高自由度AI沙盒工具，可生成无限虚拟世界并支持各类自定义交互逻辑扩展",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "701",
+      "growth": "+701",
+      "growthLabel": "近7日",
+      "url": "https://github.com/Robbyant/lingbot-world-v2"
     }
   ],
   "globalNews": [
     {
-      "id": "hn-48861717",
-      "category": "全球科技",
-      "time": "23:59",
-      "title": "QuadRF技术可探测无人机，还能穿墙感知WiFi信号",
-      "summary": "全球科技领域热门讨论，当前热度99，共37条相关评论",
-      "url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+      "id": "news-2026-07-11-0",
+      "category": "人工智能",
+      "time": "21:21",
+      "title": "Meta正式推出代理型AI编码模型Muse Spark 1.1，开放API直接对标OpenAI与Anthropic",
+      "summary": "OpenAI发布GPT-5.6仅数日后，Meta面向全体开发者开放Muse Spark 1.1公测权限，主打更强编码能力、原生Agent特性与更低调用成本，拉高头部AI实验室争夺开发者生态的竞争烈度",
+      "url": "https://techstartups.com/2026/07/10/meta-launches-muse-spark-1-1-an-agentic-ai-coding-model-with-an-api-to-challenge-openai-and-anthropic/",
       "accent": "lime"
     },
     {
-      "id": "hn-48862252",
+      "id": "news-2026-07-11-1",
       "category": "人工智能",
-      "time": "00:37",
-      "title": "蜗牛牙齿超越蜘蛛丝，成为已知自然界强度最高材料",
-      "summary": "AI领域热门讨论，当前热度16，共12条相关评论",
-      "url": "https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/",
+      "time": "20:07",
+      "title": "外媒曝OpenAI与谷歌向受限中国企业提供AI服务",
+      "summary": "OpenAI与谷歌均证实其向阿里、百度、腾讯的新加坡子公司供应先进AI能力，直接暴露美国对华AI出口管制规则存在明显执行漏洞",
+      "url": "https://thenextweb.com/news/openai-google-ai-china-singapore-export-controls",
       "accent": "coral"
     },
     {
-      "id": "hn-48861319",
-      "category": "全球科技",
-      "time": "23:30",
-      "title": "写给闪卡的技术情书",
-      "summary": "全球科技领域热门讨论，当前热度49，共17条相关评论",
-      "url": "https://lesleylai.info/en/flashcards/",
+      "id": "news-2026-07-11-2",
+      "category": "人工智能",
+      "time": "19:49",
+      "title": "Meta打破多年全开源路线，正式入场付费AI服务市场",
+      "summary": "过去数年Meta一直主打全系列大模型开源策略，本次Muse Spark 1.1上线标志着Meta开启开源+商用的双轨运营模式",
+      "url": "https://www.siliconrepublic.com/machines/meta-enters-pay-to-use-ai-market-with-muse-spark-1-1",
       "accent": "mint"
     },
     {
-      "id": "hn-48858737",
-      "category": "全球科技",
-      "time": "19:59",
-      "title": "青铜时代晚期文明崩塌事件研究",
-      "summary": "全球科技领域高热度讨论，当前热度211，共121条相关评论",
-      "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+      "id": "news-2026-07-11-3",
+      "category": "人工智能",
+      "time": "19:49",
+      "title": "OpenAI发布面向专业人群的AI代理产品ChatGPT Work",
+      "summary": "OpenAI于周四上线全新生产力工具ChatGPT Work，该产品基于同日发布的GPT-5.6打造，深度整合对话、编码能力与文档创作特性，对标Anthropic同类超级应用产品",
+      "url": "https://www.siliconrepublic.com/business/meta-enters-pay-to-use-ai-market-with-muse-spark-1-1",
       "accent": "ink"
     },
     {
-      "id": "hn-48803707",
-      "category": "全球科技",
-      "time": "20:32",
-      "title": "埃及沙漠地下发现失落古城，遗迹中包含古老教堂",
-      "summary": "全球科技领域热门讨论，当前热度65，共12条相关评论",
-      "url": "https://www.dailymail.com/sciencetech/article-15956159/Incredible-lost-city-discovered-Egypts-desert.html",
+      "id": "news-2026-07-11-4",
+      "category": "人工智能",
+      "time": "19:28",
+      "title": "OpenAI上线不足一年宣布关停AI原生浏览器Atlas",
+      "summary": "OpenAI决定停止运营推出不到一年的AI原生浏览器Atlas，后续将把核心能力分别集成到ChatGPT主产品与Chrome官方ChatGPT扩展中，实现网页上下文实时调用",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-unveils-long-awaited-super-app-as-rivalry-with-anthropic-intensifies/articleshow/132310601.cms",
       "accent": "lime"
     },
     {
-      "id": "hn-48858121",
-      "category": "全球科技",
-      "time": "18:32",
-      "title": "优秀的工具应当是无感知的",
-      "summary": "全球科技领域高热度讨论，当前热度180，共106条相关评论",
-      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "id": "news-2026-07-11-5",
+      "category": "人工智能",
+      "time": "19:10",
+      "title": "浏览器生态出现新的产品与技术讨论",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.timesnownews.com/technology-science/openai-retires-atlas-browser-months-after-launch-heres-why-article-155050281",
       "accent": "coral"
     },
     {
-      "id": "hn-48862365",
-      "category": "全球科技",
-      "time": "00:48",
-      "title": "《终结者2》的幕后技术口述史（2017年）",
-      "summary": "全球科技领域相关讨论，当前热度4，暂无用户评论",
-      "url": "https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/",
+      "id": "news-2026-07-11-6",
+      "category": "人工智能",
+      "time": "18:59",
+      "title": "浏览器生态出现新的产品与技术讨论",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://indianexpress.com/shorts/technology/openai-to-shut-down-chatgpt-atlas-browser-heres-why-10780589/",
       "accent": "mint"
     },
     {
-      "id": "hn-48859701",
+      "id": "news-2026-07-11-7",
       "category": "人工智能",
-      "time": "21:33",
-      "title": "编写代码时以他人可后续维护为核心原则",
-      "summary": "AI领域超高热度讨论，当前热度218，共189条相关评论",
-      "url": "https://unstack.io/write-code-like-a-human-will-maintain-it",
+      "time": "18:58",
+      "title": "浏览器生态出现新的产品与技术讨论",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/openai-to-shut-down-chatgpt-atlas-browser-heres-why-10780589/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Invisible Tool Design Paradigm",
-    "phonetic": "/ɪnˈvɪzəbl tuːl dɪˈzaɪn ˈpærədaɪm/",
-    "definition": "面向开发者场景的无感知工具设计范式，核心是降低工具侵入性",
-    "example": "好的开发工具不会打断工作流，用户几乎感知不到它的存在"
+    "term": "Agentic Coding Orchestration",
+    "phonetic": "/ˌeɪˈdʒentɪk ˈkəʊdɪŋ ɔːkɪˈstreɪʃn/",
+    "definition": "面向编码场景的智能代理任务调度体系，自动拆解复杂开发需求串联执行流程",
+    "example": "调用Muse Spark 1.1完成全栈项目开发时，底层逻辑就是该编排体系"
   },
   "interview": {
-    "category": "AI产品架构",
+    "category": "Agent系统",
     "difficulty": "中等",
-    "question": "团队要面向专业开发者设计代码补全类AI工具，需要兼顾能力覆盖全日常开发场景、全程无感知不打断编码流、新功能迭代无需用户手动配置，需要完成哪些核心架构权衡？",
+    "question": "团队要基于Muse Spark 1.1这类原生Agent能力的编码大模型，搭建面向中小开发者的端到端全栈项目自动生成服务，需要兼顾复杂需求的代码交付准确率≥90%、单次生成的调用成本控制在1元以内、全流程生成耗时不超过5分钟，需要完成哪些核心架构权衡？",
     "points": [
-      "考察对AI开发工具产品架构核心约束的理解",
-      "考察对无感知设计落地路径的认知程度",
-      "考察对产品体验与能力边界的平衡能力"
+      "考察对编码Agent任务拆解逻辑的理解",
+      "考察大模型多步调用的成本优化思路",
+      "考察端云协同的编码生成流程设计能力"
     ],
-    "answerLead": "从侵入性控制、能力适配、迭代机制三个维度逐层拆解权衡点",
+    "answerLead": "可以从任务分层、调度裁剪、缓存复用、流程并行四个维度逐步落地架构选型",
     "answer": [
-      "权衡事件捕获粒度：既不过度Hook编辑器底层逻辑引发兼容问题，又能完整采集上下文实现精准触发，避免多余弹窗打断编码",
-      "权衡AI能力默认输出策略：默认优先补全低复杂度通用代码片段，高复杂度生成仅在用户主动触发时弹出，避免不必要算力消耗",
-      "权衡配置项暴露程度：99%常用场景配置完全内置默认生效，仅将极小众自定义能力放在二级深层菜单，不对普通用户形成干扰",
-      "权衡功能迭代推送机制：所有增量能力采用静默灰度升级，无需用户手动重启或更新插件，完全不影响用户正在进行的开发任务"
+      "权衡粗粒度需求拆解的节点数量，平衡拆解精度带来的准确率提升和多轮调用带来的成本、耗时上涨",
+      "权衡大模型原生能力和本地规则引擎的边界划分，将语法校验、依赖匹配等非生成类逻辑下沉到本地，减少大模型不必要调用",
+      "权衡通用代码片段缓存的覆盖粒度，将高频通用项目模板、依赖配置预先存入向量库直接复用，降低重复生成开销",
+      "权衡前后端代码、配置文件、构建脚本的生成并行度，在不破坏依赖逻辑的前提下最大化并行调度，压缩全流程耗时"
     ]
   },
   "generation": {
     "learningSource": "ark",
     "learningError": null,
     "githubSource": "github-search",
-    "newsSource": "hacker-news",
-    "newsError": "gnews-search-zh: no articles | gnews-top-headlines-zh: 429 Too Many Requests: https://gnews.io/api/v4/top-headlines?category=technology&lang=zh&max=8&apikey=[redacted]",
+    "newsSource": "gnews-search-en",
+    "newsError": null,
     "localizationSource": "ark",
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月11日 · 星期六",
+      "word": {
+        "term": "Agentic Coding Orchestration",
+        "definition": "面向编码场景的智能代理任务调度体系，自动拆解复杂开发需求串联执行流程",
+        "example": "调用Muse Spark 1.1完成全栈项目开发时，底层逻辑就是该编排体系"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "difficulty": "中等",
+        "question": "团队要基于Muse Spark 1.1这类原生Agent能力的编码大模型，搭建面向中小开发者的端到端全栈项目自动生成服务，需要兼顾复杂需求的代码交付准确率≥90%、单次生成的调用成本控制在1元以内、全流程生成耗时不超过5分钟，需要完成哪些核心架构权衡？",
+        "points": [
+          "考察对编码Agent任务拆解逻辑的理解",
+          "考察大模型多步调用的成本优化思路",
+          "考察端云协同的编码生成流程设计能力"
+        ],
+        "answerLead": "可以从任务分层、调度裁剪、缓存复用、流程并行四个维度逐步落地架构选型",
+        "answer": [
+          "权衡粗粒度需求拆解的节点数量，平衡拆解精度带来的准确率提升和多轮调用带来的成本、耗时上涨",
+          "权衡大模型原生能力和本地规则引擎的边界划分，将语法校验、依赖匹配等非生成类逻辑下沉到本地，减少大模型不必要调用",
+          "权衡通用代码片段缓存的覆盖粒度，将高频通用项目模板、依赖配置预先存入向量库直接复用，降低重复生成开销",
+          "权衡前后端代码、配置文件、构建脚本的生成并行度，在不破坏依赖逻辑的前提下最大化并行调度，压缩全流程耗时"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月11日 · 星期六",
       "word": {
