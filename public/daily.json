@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-11T01:24:23.764Z",
-  "dateLabel": "2026年7月11日 · 星期六",
-  "issue": 206,
+  "generatedAt": "2026-07-11T17:27:12.914Z",
+  "dateLabel": "2026年7月12日 · 星期日",
+  "issue": 207,
   "githubRepos": [
     {
       "rank": "01",
       "name": "withmarbleapp / os-taxonomy",
-      "summary": "基于JavaScript开发的开源软件分类体系梳理工具，近期社区星标增长速度极快",
+      "summary": "基于JavaScript开发的开源项目分类体系工具，近期热度增长迅猛，可用于规整各类开源资产元数据。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "2.1K",
-      "growth": "+2133",
+      "stars": "2.3K",
+      "growth": "+2335",
       "growthLabel": "近7日",
       "url": "https://github.com/withmarbleapp/os-taxonomy"
     },
     {
       "rank": "02",
       "name": "Shpigford / knockoff",
-      "summary": "基于JavaScript开发的Chrome浏览器插件，可自动过滤亚马逊平台的伪品牌垃圾商品，优先展示正规老牌厂商的在售商品",
+      "summary": "Chrome浏览器插件，自动过滤亚马逊平台上的伪品牌垃圾商品，帮用户筛选正规成熟品牌的在售商品。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.7K",
-      "growth": "+1704",
+      "stars": "1.8K",
+      "growth": "+1751",
       "growthLabel": "近7日",
       "url": "https://github.com/Shpigford/knockoff"
     },
     {
       "rank": "03",
       "name": "MaximeRivest / riddle",
-      "summary": "基于Rust开发的适配reMarkable Paper Pro电纸书的趣味日记应用，支持手写输入后自动生成流畅手写体风格的回复内容",
+      "summary": "基于Rust开发的reMarkable Paper Pro电纸书配套工具，用户用笔书写后设备会生成流畅手写体反馈内容。",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "1.3K",
-      "growth": "+1339",
+      "stars": "1.4K",
+      "growth": "+1389",
       "growthLabel": "近7日",
       "url": "https://github.com/MaximeRivest/riddle"
     },
     {
       "rank": "04",
       "name": "514-labs / dnsglobe",
-      "summary": "基于Rust开发的终端全局DNS传播状态检查工具，可在终端内置的世界地图上直观展示指定DNS记录在全球34个公共解析器的生效情况",
+      "summary": "基于Rust开发的终端TUI工具，可在终端的世界地图上实时展示DNS记录在全球34个公共解析器的传播状态。",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "794",
-      "growth": "+794",
+      "stars": "811",
+      "growth": "+811",
       "growthLabel": "近7日",
       "url": "https://github.com/514-labs/dnsglobe"
     },
     {
       "rank": "05",
-      "name": "Robbyant / lingbot-world-v2",
-      "summary": "基于Python开发的高自由度AI沙盒工具，可生成无限虚拟世界并支持各类自定义交互逻辑扩展",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "701",
-      "growth": "+701",
+      "name": "oso95 / scroll-world",
+      "summary": "基于JavaScript开发的交互工具，可将任意品牌IP转换为支持滚动浏览的沉浸式3D漫游世界。",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "801",
+      "growth": "+801",
       "growthLabel": "近7日",
-      "url": "https://github.com/Robbyant/lingbot-world-v2"
+      "url": "https://github.com/oso95/scroll-world"
     }
   ],
   "globalNews": [
     {
       "id": "news-2026-07-11-0",
       "category": "人工智能",
-      "time": "21:21",
-      "title": "Meta正式推出代理型AI编码模型Muse Spark 1.1，开放API直接对标OpenAI与Anthropic",
-      "summary": "OpenAI发布GPT-5.6仅数日后，Meta面向全体开发者开放Muse Spark 1.1公测权限，主打更强编码能力、原生Agent特性与更低调用成本，拉高头部AI实验室争夺开发者生态的竞争烈度",
-      "url": "https://techstartups.com/2026/07/10/meta-launches-muse-spark-1-1-an-agentic-ai-coding-model-with-an-api-to-challenge-openai-and-anthropic/",
+      "time": "13:01",
+      "title": "苹果起诉OpenAI 指控其联合前高管窃取AI硬件相关商业机密",
+      "summary": "苹果在美国北加州法院发起诉讼，指控OpenAI联合前苹果硬件高管Tang Tan，窃取与未发布产品相关的商业机密，用于发展自身消费级AI硬件产品线。",
+      "url": "https://www.freepressjournal.in/business/apple-sues-openai-over-alleged-trade-secret-theft-linked-to-ai-device-development",
       "accent": "lime"
     },
     {
       "id": "news-2026-07-11-1",
       "category": "人工智能",
-      "time": "20:07",
-      "title": "外媒曝OpenAI与谷歌向受限中国企业提供AI服务",
-      "summary": "OpenAI与谷歌均证实其向阿里、百度、腾讯的新加坡子公司供应先进AI能力，直接暴露美国对华AI出口管制规则存在明显执行漏洞",
-      "url": "https://thenextweb.com/news/openai-google-ai-china-singapore-export-controls",
+      "time": "12:45",
+      "title": "OpenAI与谷歌涉嫌违规向中方实体提供AI模型遭监管调查",
+      "summary": "美监管机构核查发现，OpenAI与谷歌长期向被美方列入黑名单的百度、阿里、腾讯旗下子公司提供先进AI模型，涉嫌违反相关出口管制规定。",
+      "url": "https://www.timesnownews.com/technology-science/openai-google-in-hot-water-over-ai-models-sold-to-blacklisted-chinese-firms-article-155070700",
       "accent": "coral"
     },
     {
       "id": "news-2026-07-11-2",
       "category": "人工智能",
-      "time": "19:49",
-      "title": "Meta打破多年全开源路线，正式入场付费AI服务市场",
-      "summary": "过去数年Meta一直主打全系列大模型开源策略，本次Muse Spark 1.1上线标志着Meta开启开源+商用的双轨运营模式",
-      "url": "https://www.siliconrepublic.com/machines/meta-enters-pay-to-use-ai-market-with-muse-spark-1-1",
+      "time": "12:13",
+      "title": "美国放宽阿联酋AI芯片出口管制 英伟达芯片准入门槛降低",
+      "summary": "美国调整对阿联酋的出口管制政策，获批的阿联酋本土企业以及在当地运营的美国企业，可更便捷获得英伟达AI芯片与军事相关设备的出口许可。",
+      "url": "https://www.lokmattimes.com/business/apple-sues-openai-over-allegedly-stealing-tech-secrets/",
       "accent": "mint"
     },
     {
       "id": "news-2026-07-11-3",
       "category": "人工智能",
-      "time": "19:49",
-      "title": "OpenAI发布面向专业人群的AI代理产品ChatGPT Work",
-      "summary": "OpenAI于周四上线全新生产力工具ChatGPT Work，该产品基于同日发布的GPT-5.6打造，深度整合对话、编码能力与文档创作特性，对标Anthropic同类超级应用产品",
-      "url": "https://www.siliconrepublic.com/business/meta-enters-pay-to-use-ai-market-with-muse-spark-1-1",
+      "time": "12:13",
+      "title": "拆分自英特尔的Altera业绩回暖 AI与机器人成核心增长动力",
+      "summary": "芯片厂商Altera CEO公开表示，受益于AI与机器人场景的芯片需求暴涨，公司重回高速增长通道，后续将推出面向相关场景的专用产品。",
+      "url": "https://www.lokmattimes.com/technology/apple-sues-openai-over-allegedly-stealing-tech-secrets-1/",
       "accent": "ink"
     },
     {
       "id": "news-2026-07-11-4",
       "category": "人工智能",
-      "time": "19:28",
-      "title": "OpenAI上线不足一年宣布关停AI原生浏览器Atlas",
-      "summary": "OpenAI决定停止运营推出不到一年的AI原生浏览器Atlas，后续将把核心能力分别集成到ChatGPT主产品与Chrome官方ChatGPT扩展中，实现网页上下文实时调用",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/openai-unveils-long-awaited-super-app-as-rivalry-with-anthropic-intensifies/articleshow/132310601.cms",
+      "time": "12:07",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.timesnownews.com/technology-science/apple-goes-legal-against-openai-citing-trade-secret-theft-article-155069946",
       "accent": "lime"
     },
     {
       "id": "news-2026-07-11-5",
       "category": "人工智能",
-      "time": "19:10",
-      "title": "浏览器生态出现新的产品与技术讨论",
+      "time": "11:33",
+      "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.timesnownews.com/technology-science/openai-retires-atlas-browser-months-after-launch-heres-why-article-155050281",
+      "url": "https://petapixel.com/2026/07/10/apple-sues-openai-alleging-former-employees-stole-confidential-hardware-trade-secrets/",
       "accent": "coral"
     },
     {
       "id": "news-2026-07-11-6",
       "category": "人工智能",
-      "time": "18:59",
-      "title": "浏览器生态出现新的产品与技术讨论",
+      "time": "11:12",
+      "title": "算力芯片领域出现新的市场与技术动向",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://indianexpress.com/shorts/technology/openai-to-shut-down-chatgpt-atlas-browser-heres-why-10780589/",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-makes-it-easier-to-export-nvidia-ai-chips-and-military-equipment-to-the-uae/articleshow/132323771.cms",
       "accent": "mint"
     },
     {
       "id": "news-2026-07-11-7",
       "category": "人工智能",
-      "time": "18:58",
-      "title": "浏览器生态出现新的产品与技术讨论",
+      "time": "11:12",
+      "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://indianexpress.com/article/technology/tech-news-technology/openai-to-shut-down-chatgpt-atlas-browser-heres-why-10780589/",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/altera-returns-to-growth-as-ai-robotics-fuel-demand-ceo-says/articleshow/132323767.cms",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Agentic Coding Orchestration",
-    "phonetic": "/ˌeɪˈdʒentɪk ˈkəʊdɪŋ ɔːkɪˈstreɪʃn/",
-    "definition": "面向编码场景的智能代理任务调度体系，自动拆解复杂开发需求串联执行流程",
-    "example": "调用Muse Spark 1.1完成全栈项目开发时，底层逻辑就是该编排体系"
+    "term": "AI Inference Cost Attribution",
+    "phonetic": "/ˌeɪ aɪ ˈɪnfərəns kɒst əˌtrɪbjuːʃn/",
+    "definition": "对大模型推理全链路各模块开销做精准量化归因的技术体系。",
+    "example": "可快速定位推理集群中成本超支的具体业务链路，优化资源投入。"
   },
   "interview": {
-    "category": "Agent系统",
+    "category": "成本与可观测性",
     "difficulty": "中等",
-    "question": "团队要基于Muse Spark 1.1这类原生Agent能力的编码大模型，搭建面向中小开发者的端到端全栈项目自动生成服务，需要兼顾复杂需求的代码交付准确率≥90%、单次生成的调用成本控制在1元以内、全流程生成耗时不超过5分钟，需要完成哪些核心架构权衡？",
+    "question": "团队要给大模型推理私有集群搭建全链路细粒度成本归因体系，需要兼顾成本核算误差小于5%、归因统计开销不占用超过2%的GPU资源、新接入推理服务无需改造即可自动适配，需要完成哪些核心架构权衡？",
     "points": [
-      "考察对编码Agent任务拆解逻辑的理解",
-      "考察大模型多步调用的成本优化思路",
-      "考察端云协同的编码生成流程设计能力"
+      "大模型推理全链路开销的拆解逻辑设计",
+      "低侵入性采集方案的选型思路",
+      "多租户场景下资源占用的分摊规则设计"
     ],
-    "answerLead": "可以从任务分层、调度裁剪、缓存复用、流程并行四个维度逐步落地架构选型",
+    "answerLead": "从采集层、计算层、适配层逐层拆解取舍维度，平衡归因精度与额外开销。",
     "answer": [
-      "权衡粗粒度需求拆解的节点数量，平衡拆解精度带来的准确率提升和多轮调用带来的成本、耗时上涨",
-      "权衡大模型原生能力和本地规则引擎的边界划分，将语法校验、依赖匹配等非生成类逻辑下沉到本地，减少大模型不必要调用",
-      "权衡通用代码片段缓存的覆盖粒度，将高频通用项目模板、依赖配置预先存入向量库直接复用，降低重复生成开销",
-      "权衡前后端代码、配置文件、构建脚本的生成并行度，在不破坏依赖逻辑的前提下最大化并行调度，压缩全流程耗时"
+      "采集层优先采用GPU硬件计数器无侵入采集核心算力开销，避免业务侧埋点改造，过滤冗余统计数据控制采集资源占用。",
+      "计算层基于请求维度的显存占用、token生成量、排队时长多维度加权计算成本占比，将核算误差控制在5%以内。",
+      "适配层预留标准化监控数据接入接口，新服务仅需上报基础指标即可自动纳入归因体系，无需额外代码改造。",
+      "管控层设置动态采样机制，低优先级非核心请求采用抽样统计模式，进一步降低全链路统计带来的不必要资源损耗。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月12日 · 星期日",
+      "word": {
+        "term": "AI Inference Cost Attribution",
+        "definition": "对大模型推理全链路各模块开销做精准量化归因的技术体系。",
+        "example": "可快速定位推理集群中成本超支的具体业务链路，优化资源投入。"
+      },
+      "interview": {
+        "category": "成本与可观测性",
+        "difficulty": "中等",
+        "question": "团队要给大模型推理私有集群搭建全链路细粒度成本归因体系，需要兼顾成本核算误差小于5%、归因统计开销不占用超过2%的GPU资源、新接入推理服务无需改造即可自动适配，需要完成哪些核心架构权衡？",
+        "points": [
+          "大模型推理全链路开销的拆解逻辑设计",
+          "低侵入性采集方案的选型思路",
+          "多租户场景下资源占用的分摊规则设计"
+        ],
+        "answerLead": "从采集层、计算层、适配层逐层拆解取舍维度，平衡归因精度与额外开销。",
+        "answer": [
+          "采集层优先采用GPU硬件计数器无侵入采集核心算力开销，避免业务侧埋点改造，过滤冗余统计数据控制采集资源占用。",
+          "计算层基于请求维度的显存占用、token生成量、排队时长多维度加权计算成本占比，将核算误差控制在5%以内。",
+          "适配层预留标准化监控数据接入接口，新服务仅需上报基础指标即可自动纳入归因体系，无需额外代码改造。",
+          "管控层设置动态采样机制，低优先级非核心请求采用抽样统计模式，进一步降低全链路统计带来的不必要资源损耗。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月11日 · 星期六",
       "word": {
@@ -888,31 +913,6 @@
           "服务端执行严格校验，并将校验错误反馈给模型重试。",
           "限制字段范围、长度和枚举值，减少自由输出空间。",
           "为持续失败设置降级逻辑，避免阻塞主流程。"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月14日 · 星期日",
-      "word": {
-        "term": "Agentic Workflow",
-        "definition": "由 AI Agent 自主规划、调用工具、检查结果并持续推进目标的工作流程。",
-        "example": "不是“帮我写一封邮件”，而是“跟进客户，直到确认会议时间”。"
-      },
-      "interview": {
-        "category": "",
-        "difficulty": "",
-        "question": "RAG 系统召回率很高，但最终回答仍不准确，你会如何定位问题？",
-        "points": [
-          "检索结果质量与排序",
-          "上下文组织与长度",
-          "模型指令与答案评估"
-        ],
-        "answerLead": "",
-        "answer": [
-          "建立可复现测试集，拆分检索命中率、重排质量和生成正确率。",
-          "检查召回文档是否真正包含答案，以及关键信息是否被截断或稀释。",
-          "对比无上下文、理想上下文和真实上下文三组生成结果，定位瓶颈。",
-          "再针对瓶颈调整 chunk、reranker、上下文结构或模型指令。"
         ]
       }
     }
