@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-11T17:27:12.914Z",
-  "dateLabel": "2026年7月12日 · 星期日",
-  "issue": 207,
+  "generatedAt": "2026-07-12T17:30:10.578Z",
+  "dateLabel": "2026年7月13日 · 星期一",
+  "issue": 208,
   "githubRepos": [
     {
       "rank": "01",
       "name": "withmarbleapp / os-taxonomy",
-      "summary": "基于JavaScript开发的开源项目分类体系工具，近期热度增长迅猛，可用于规整各类开源资产元数据。",
+      "summary": "开源软件分类体系工具，可用于对海量开源项目做自动标签归类与统一管理。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "2.3K",
-      "growth": "+2335",
+      "stars": "2.6K",
+      "growth": "+2638",
       "growthLabel": "近7日",
       "url": "https://github.com/withmarbleapp/os-taxonomy"
     },
     {
       "rank": "02",
       "name": "Shpigford / knockoff",
-      "summary": "Chrome浏览器插件，自动过滤亚马逊平台上的伪品牌垃圾商品，帮用户筛选正规成熟品牌的在售商品。",
+      "summary": "Chrome浏览器插件，可过滤亚马逊平台上的伪品牌垃圾商品，帮用户筛选正规成熟品牌的商品。",
       "language": "JavaScript",
       "color": "#f1e05a",
       "stars": "1.8K",
-      "growth": "+1751",
+      "growth": "+1805",
       "growthLabel": "近7日",
       "url": "https://github.com/Shpigford/knockoff"
     },
     {
       "rank": "03",
-      "name": "MaximeRivest / riddle",
-      "summary": "基于Rust开发的reMarkable Paper Pro电纸书配套工具，用户用笔书写后设备会生成流畅手写体反馈内容。",
-      "language": "Rust",
-      "color": "#dea584",
-      "stars": "1.4K",
-      "growth": "+1389",
+      "name": "oso95 / scroll-world",
+      "summary": "可将任意品牌内容一键转换为支持滚动浏览的3D互动场景的JavaScript开发工具。",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "1.1K",
+      "growth": "+1105",
       "growthLabel": "近7日",
-      "url": "https://github.com/MaximeRivest/riddle"
+      "url": "https://github.com/oso95/scroll-world"
     },
     {
       "rank": "04",
-      "name": "514-labs / dnsglobe",
-      "summary": "基于Rust开发的终端TUI工具，可在终端的世界地图上实时展示DNS记录在全球34个公共解析器的传播状态。",
-      "language": "Rust",
-      "color": "#dea584",
-      "stars": "811",
-      "growth": "+811",
+      "name": "Robbyant / lingbot-world-v2",
+      "summary": "可生成支持丰富多模态交互能力的无限开放AI世界的Python开发框架。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "902",
+      "growth": "+902",
       "growthLabel": "近7日",
-      "url": "https://github.com/514-labs/dnsglobe"
+      "url": "https://github.com/Robbyant/lingbot-world-v2"
     },
     {
       "rank": "05",
-      "name": "oso95 / scroll-world",
-      "summary": "基于JavaScript开发的交互工具，可将任意品牌IP转换为支持滚动浏览的沉浸式3D漫游世界。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "801",
-      "growth": "+801",
+      "name": "x4gKing / 3x-ui-Upgrade",
+      "summary": "面向3x-ui代理面板的配套升级工具，可快速完成面板版本迭代与功能补丁部署。",
+      "language": "HTML",
+      "color": "#707873",
+      "stars": "859",
+      "growth": "+859",
       "growthLabel": "近7日",
-      "url": "https://github.com/oso95/scroll-world"
+      "url": "https://github.com/x4gKing/3x-ui-Upgrade"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-11-0",
+      "id": "news-2026-07-12-0",
       "category": "人工智能",
-      "time": "13:01",
-      "title": "苹果起诉OpenAI 指控其联合前高管窃取AI硬件相关商业机密",
-      "summary": "苹果在美国北加州法院发起诉讼，指控OpenAI联合前苹果硬件高管Tang Tan，窃取与未发布产品相关的商业机密，用于发展自身消费级AI硬件产品线。",
-      "url": "https://www.freepressjournal.in/business/apple-sues-openai-over-alleged-trade-secret-theft-linked-to-ai-device-development",
+      "time": "13:27",
+      "title": "本周4只公募基金NFO开放认购，关键时间节点一览",
+      "summary": "本周共计4只新公募基金份额开放认购，基金公司通常通过发行新品完善现有产品线，以下是来自ACE MF的详细明细。",
+      "url": "https://economictimes.indiatimes.com/mf/analysis/4-mutual-fund-nfos-will-open-for-subscription-this-week-check-key-dates-and-details/slideshow/132341156.cms",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-11-1",
+      "id": "news-2026-07-12-1",
       "category": "人工智能",
-      "time": "12:45",
-      "title": "OpenAI与谷歌涉嫌违规向中方实体提供AI模型遭监管调查",
-      "summary": "美监管机构核查发现，OpenAI与谷歌长期向被美方列入黑名单的百度、阿里、腾讯旗下子公司提供先进AI模型，涉嫌违反相关出口管制规定。",
-      "url": "https://www.timesnownews.com/technology-science/openai-google-in-hot-water-over-ai-models-sold-to-blacklisted-chinese-firms-article-155070700",
+      "time": "13:05",
+      "title": "OpenAI招聘团队开发面向家庭场景的专属ChatGPT产品",
+      "summary": "OpenAI正在招聘一名产品经理，专为普通家庭、照护者以及老年群体开发定制化AI体验功能。",
+      "url": "https://www.livemint.com/technology/tech-news/openai-is-hiring-to-build-chatgpt-for-families-heres-what-we-know-11783825718218.html",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-11-2",
+      "id": "news-2026-07-12-2",
       "category": "人工智能",
-      "time": "12:13",
-      "title": "美国放宽阿联酋AI芯片出口管制 英伟达芯片准入门槛降低",
-      "summary": "美国调整对阿联酋的出口管制政策，获批的阿联酋本土企业以及在当地运营的美国企业，可更便捷获得英伟达AI芯片与军事相关设备的出口许可。",
-      "url": "https://www.lokmattimes.com/business/apple-sues-openai-over-allegedly-stealing-tech-secrets/",
+      "time": "12:59",
+      "title": "6月共7只公募新基金募资46亿卢比，WhiteOak Capital激进混合基金募资额居首",
+      "summary": "6月全行业共发行7只全部为开放式的新公募基金，合计募资46亿卢比，以下是来自AMFI的详细明细。",
+      "url": "https://economictimes.indiatimes.com/mf/analysis/mutual-fund-nfos-7-schemes-collect-rs-460-crore-in-june-whiteoak-capital-aggressive-hybrid-fund-leads/slideshow/132340880.cms",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-11-3",
+      "id": "news-2026-07-12-3",
       "category": "人工智能",
-      "time": "12:13",
-      "title": "拆分自英特尔的Altera业绩回暖 AI与机器人成核心增长动力",
-      "summary": "芯片厂商Altera CEO公开表示，受益于AI与机器人场景的芯片需求暴涨，公司重回高速增长通道，后续将推出面向相关场景的专用产品。",
-      "url": "https://www.lokmattimes.com/technology/apple-sues-openai-over-allegedly-stealing-tech-secrets-1/",
+      "time": "12:48",
+      "title": "马斯克回应苹果起诉OpenAI窃取商业机密事件，称Altman行骗手段登峰造极",
+      "summary": "针对苹果起诉OpenAI窃取商业机密的相关指控，马斯克在X平台公开发声，明确支持对OpenAI的相关指控。",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-responds-to-apple-accusing-openai-of-stealing-trade-secrets-says-sam-altman-takes-scamming-to-a-whole-new-/articleshow/132340808.cms",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-11-4",
+      "id": "news-2026-07-12-4",
       "category": "人工智能",
-      "time": "12:07",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.timesnownews.com/technology-science/apple-goes-legal-against-openai-citing-trade-secret-theft-article-155069946",
+      "time": "12:42",
+      "title": "苹果正式起诉OpenAI及两名前员工涉嫌窃取商业机密",
+      "summary": "AI产品研发竞速背景下人才与专有技术竞争加剧，苹果与OpenAI此前的合作关系出现明显裂痕。",
+      "url": "https://www.rappler.com/technology/apple-sues-openai-former-employees-trade-secrets-theft/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-11-5",
+      "id": "news-2026-07-12-5",
       "category": "人工智能",
-      "time": "11:33",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://petapixel.com/2026/07/10/apple-sues-openai-alleging-former-employees-stole-confidential-hardware-trade-secrets/",
+      "time": "12:28",
+      "title": "消息称中国拟出台限制政策，Airbnb、英伟达等多家外企或受影响",
+      "summary": "过去一年国内AI实验室对外推广口径清晰：可免费使用开源权重的国产AI模型，性能接近国际第一梯队水平。",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/china-may-have-a-message-for-airbnb-nvidia-and-other-ceos-impressed-with-chinese-models-we-will-soon-ban-you-from/articleshow/132340674.cms",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-11-6",
+      "id": "news-2026-07-12-6",
       "category": "人工智能",
-      "time": "11:12",
-      "title": "算力芯片领域出现新的市场与技术动向",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-makes-it-easier-to-export-nvidia-ai-chips-and-military-equipment-to-the-uae/articleshow/132323771.cms",
+      "time": "09:02",
+      "title": "马斯克指控Altman窃取慈善资产和苹果技术，称SpaceX AI1卫星明年升空时Altman已入狱",
+      "summary": "马斯克公开表示SpaceX的AI1系列卫星将于明年启动部署，同时直言OpenAI CEO萨姆·奥尔特曼届时会面临牢狱之灾。",
+      "url": "https://wccftech.com/elon-musk-accuses-sam-altman-of-stealing-a-charity-and-apples-technology-while-vowing-that-spacexs-ai1-satellites-will-fly-next-year-but-that-altman-will-be-in-jail-by-then/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-11-7",
+      "id": "news-2026-07-12-7",
       "category": "人工智能",
-      "time": "11:12",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/altera-returns-to-growth-as-ai-robotics-fuel-demand-ceo-says/articleshow/132323767.cms",
+      "time": "08:33",
+      "title": "马斯克与Altman口水战升级，称后者偷走苹果全部手机技术还嘲讽其是假释官",
+      "summary": "特斯拉CEO马斯克在X平台公开发帖指责OpenAI CEO奥尔特曼涉嫌诈骗，二人的新一轮争端迅速在社交平台发酵。",
+      "url": "https://www.hindustantimes.com/world-news/us-news/stole-all-of-apple-s-phone-technology-inside-fresh-elon-musk-sam-altman-feud-spacex-ceos-parole-officer-jab-101783815518834.html",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "AI Inference Cost Attribution",
-    "phonetic": "/ˌeɪ aɪ ˈɪnfərəns kɒst əˌtrɪbjuːʃn/",
-    "definition": "对大模型推理全链路各模块开销做精准量化归因的技术体系。",
-    "example": "可快速定位推理集群中成本超支的具体业务链路，优化资源投入。"
+    "term": "Visual Reference Consistency",
+    "phonetic": "/ˈvɪʒuəl ˈrefrəns kənˈsɪstənsi/",
+    "definition": "多模态模型生成内容与输入图像视觉要素的匹配度核心指标。",
+    "example": "电商图文生成场景下用该指标可量化文案与商品图的内容匹配程度。"
   },
   "interview": {
-    "category": "成本与可观测性",
+    "category": "多模态",
     "difficulty": "中等",
-    "question": "团队要给大模型推理私有集群搭建全链路细粒度成本归因体系，需要兼顾成本核算误差小于5%、归因统计开销不占用超过2%的GPU资源、新接入推理服务无需改造即可自动适配，需要完成哪些核心架构权衡？",
+    "question": "团队要给面向电商商品图自动生成详情文案的多模态大模型搭建视觉参考一致性保障体系，需要兼顾生成文案视觉要素匹配准确率≥98%、单张图片处理耗时不超过200ms、商品品类迭代无需重新训练适配，需要完成哪些核心架构权衡？",
     "points": [
-      "大模型推理全链路开销的拆解逻辑设计",
-      "低侵入性采集方案的选型思路",
-      "多租户场景下资源占用的分摊规则设计"
+      "多模态图文对齐校验链路的分层设计能力",
+      "轻量级特征匹配与推理性能的平衡思路",
+      "零样本适配新商品品类的架构设计思路"
     ],
-    "answerLead": "从采集层、计算层、适配层逐层拆解取舍维度，平衡归因精度与额外开销。",
+    "answerLead": "可以从预校验、推理拦截、事后兜底三层链路拆解核心架构权衡方案。",
     "answer": [
-      "采集层优先采用GPU硬件计数器无侵入采集核心算力开销，避免业务侧埋点改造，过滤冗余统计数据控制采集资源占用。",
-      "计算层基于请求维度的显存占用、token生成量、排队时长多维度加权计算成本占比，将核算误差控制在5%以内。",
-      "适配层预留标准化监控数据接入接口，新服务仅需上报基础指标即可自动纳入归因体系，无需额外代码改造。",
-      "管控层设置动态采样机制，低优先级非核心请求采用抽样统计模式，进一步降低全链路统计带来的不必要资源损耗。"
+      "预处理层抽离商品图核心视觉特征向量，和大模型编码侧特征做快速余弦匹配，提前过滤低相似度异常输入，避免无效推理开销。",
+      "推理侧采用双路径生成架构，主路径生成文案的同时并行抽取文案视觉实体关键词，和预存图特征做快速校验，不通过的仅触发局部重写，避免全流程重生成损耗。",
+      "后置层引入轻量品类特征向量检索库，新上线商品品类仅需上传3-5张样图自动生成特征索引，无需微调模型即可完成适配，大幅降低迭代成本。",
+      "全链路做分层算力调度，非核心校验逻辑用CPU运行，把GPU资源全部留给大模型主推理流程，确保整体处理时延控制在指标要求范围内。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月13日 · 星期一",
+      "word": {
+        "term": "Visual Reference Consistency",
+        "definition": "多模态模型生成内容与输入图像视觉要素的匹配度核心指标。",
+        "example": "电商图文生成场景下用该指标可量化文案与商品图的内容匹配程度。"
+      },
+      "interview": {
+        "category": "多模态",
+        "difficulty": "中等",
+        "question": "团队要给面向电商商品图自动生成详情文案的多模态大模型搭建视觉参考一致性保障体系，需要兼顾生成文案视觉要素匹配准确率≥98%、单张图片处理耗时不超过200ms、商品品类迭代无需重新训练适配，需要完成哪些核心架构权衡？",
+        "points": [
+          "多模态图文对齐校验链路的分层设计能力",
+          "轻量级特征匹配与推理性能的平衡思路",
+          "零样本适配新商品品类的架构设计思路"
+        ],
+        "answerLead": "可以从预校验、推理拦截、事后兜底三层链路拆解核心架构权衡方案。",
+        "answer": [
+          "预处理层抽离商品图核心视觉特征向量，和大模型编码侧特征做快速余弦匹配，提前过滤低相似度异常输入，避免无效推理开销。",
+          "推理侧采用双路径生成架构，主路径生成文案的同时并行抽取文案视觉实体关键词，和预存图特征做快速校验，不通过的仅触发局部重写，避免全流程重生成损耗。",
+          "后置层引入轻量品类特征向量检索库，新上线商品品类仅需上传3-5张样图自动生成特征索引，无需微调模型即可完成适配，大幅降低迭代成本。",
+          "全链路做分层算力调度，非核心校验逻辑用CPU运行，把GPU资源全部留给大模型主推理流程，确保整体处理时延控制在指标要求范围内。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月12日 · 星期日",
       "word": {
@@ -888,31 +913,6 @@
           "采用流计算引擎+预计算特征库架构，将数据处理链路延迟压至毫秒级",
           "对预警模型做量化、剪枝压缩，部署在近数据源推理节点降低耗时",
           "配套AI决策溯源模块+人工兜底校验，避免误判引发交易损失"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月14日 · 星期日",
-      "word": {
-        "term": "Structured Output",
-        "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。",
-        "example": "让模型返回合法 JSON，而不是一段需要再次解析的自然语言。"
-      },
-      "interview": {
-        "category": "",
-        "difficulty": "",
-        "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
-        "points": [
-          "Schema 约束",
-          "校验重试",
-          "容错设计"
-        ],
-        "answerLead": "",
-        "answer": [
-          "使用模型提供的结构化输出或 JSON Schema 能力。",
-          "服务端执行严格校验，并将校验错误反馈给模型重试。",
-          "限制字段范围、长度和枚举值，减少自由输出空间。",
-          "为持续失败设置降级逻辑，避免阻塞主流程。"
         ]
       }
     }
