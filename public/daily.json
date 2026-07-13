@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-12T17:30:10.578Z",
-  "dateLabel": "2026年7月13日 · 星期一",
-  "issue": 208,
+  "generatedAt": "2026-07-13T17:26:31.630Z",
+  "dateLabel": "2026年7月14日 · 星期二",
+  "issue": 209,
   "githubRepos": [
     {
       "rank": "01",
       "name": "withmarbleapp / os-taxonomy",
-      "summary": "开源软件分类体系工具，可用于对海量开源项目做自动标签归类与统一管理。",
+      "summary": "开源分类管理工具，可快速梳理海量开源项目的分类归属与基本信息，降低开源资产梳理成本。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "2.6K",
-      "growth": "+2638",
+      "stars": "2.9K",
+      "growth": "+2866",
       "growthLabel": "近7日",
       "url": "https://github.com/withmarbleapp/os-taxonomy"
     },
     {
       "rank": "02",
-      "name": "Shpigford / knockoff",
-      "summary": "Chrome浏览器插件，可过滤亚马逊平台上的伪品牌垃圾商品，帮用户筛选正规成熟品牌的商品。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.8K",
-      "growth": "+1805",
-      "growthLabel": "近7日",
-      "url": "https://github.com/Shpigford/knockoff"
-    },
-    {
-      "rank": "03",
-      "name": "oso95 / scroll-world",
-      "summary": "可将任意品牌内容一键转换为支持滚动浏览的3D互动场景的JavaScript开发工具。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.1K",
-      "growth": "+1105",
-      "growthLabel": "近7日",
-      "url": "https://github.com/oso95/scroll-world"
-    },
-    {
-      "rank": "04",
       "name": "Robbyant / lingbot-world-v2",
-      "summary": "可生成支持丰富多模态交互能力的无限开放AI世界的Python开发框架。",
+      "summary": "可生成支持多样化交互的无限虚拟世界场景，为具身智能AI训练提供高自由度的模拟环境。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "902",
-      "growth": "+902",
+      "stars": "1K",
+      "growth": "+1007",
       "growthLabel": "近7日",
       "url": "https://github.com/Robbyant/lingbot-world-v2"
     },
     {
-      "rank": "05",
+      "rank": "03",
       "name": "x4gKing / 3x-ui-Upgrade",
-      "summary": "面向3x-ui代理面板的配套升级工具，可快速完成面板版本迭代与功能补丁部署。",
+      "summary": "3x-ui面板的轻量升级工具，可快速完成面板版本迭代与功能增强，降低运维操作门槛。",
       "language": "HTML",
       "color": "#707873",
-      "stars": "859",
-      "growth": "+859",
+      "stars": "926",
+      "growth": "+926",
       "growthLabel": "近7日",
       "url": "https://github.com/x4gKing/3x-ui-Upgrade"
+    },
+    {
+      "rank": "04",
+      "name": "vinhhien112 / Three.js-Object-Sculptor-Codex-Plugin",
+      "summary": "Codex插件，能将输入的物体图片直接转换为带动画能力的可直接运行的Three.js模型代码。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "823",
+      "growth": "+823",
+      "growthLabel": "近7日",
+      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin"
+    },
+    {
+      "rank": "05",
+      "name": "Robbyant / lingbot-video",
+      "summary": "面向具身智能场景优化的视频预训练混合专家框架，可大幅提升多模态视频理解的泛化能力。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "750",
+      "growth": "+750",
+      "growthLabel": "近7日",
+      "url": "https://github.com/Robbyant/lingbot-video"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-12-0",
+      "id": "news-2026-07-13-0",
       "category": "人工智能",
-      "time": "13:27",
-      "title": "本周4只公募基金NFO开放认购，关键时间节点一览",
-      "summary": "本周共计4只新公募基金份额开放认购，基金公司通常通过发行新品完善现有产品线，以下是来自ACE MF的详细明细。",
-      "url": "https://economictimes.indiatimes.com/mf/analysis/4-mutual-fund-nfos-will-open-for-subscription-this-week-check-key-dates-and-details/slideshow/132341156.cms",
+      "time": "13:10",
+      "title": "Paytm CEO 解释印度为何不应效仿中美AI发展路径",
+      "summary": "Paytm CEO 维杰·谢卡尔·夏尔马提出印度应打造本土专属AI模型，呼吁发展开源、平价、普惠的AI技术适配本地需求。",
+      "url": "https://www.timesnownews.com/technology-science/paytm-ceo-vijay-shekhar-sharma-explains-why-india-shouldnt-follow-the-us-or-china-in-ai-article-155084616",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-12-1",
+      "id": "news-2026-07-13-1",
       "category": "人工智能",
-      "time": "13:05",
-      "title": "OpenAI招聘团队开发面向家庭场景的专属ChatGPT产品",
-      "summary": "OpenAI正在招聘一名产品经理，专为普通家庭、照护者以及老年群体开发定制化AI体验功能。",
-      "url": "https://www.livemint.com/technology/tech-news/openai-is-hiring-to-build-chatgpt-for-families-heres-what-we-know-11783825718218.html",
+      "time": "12:19",
+      "title": "《索尼克未知边境终极版》NS2实体套装开启预购",
+      "summary": "世嘉韩国宣布，旗下《索尼克未知边境终极版》任天堂Switch 2实体版本的预购通道正式开放。",
+      "url": "https://www.invenglobal.com/articles/23706/sonic-frontiers-definitive-edition-nintendo-switch-2-package-pre-orders-open",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-12-2",
+      "id": "news-2026-07-13-2",
       "category": "人工智能",
-      "time": "12:59",
-      "title": "6月共7只公募新基金募资46亿卢比，WhiteOak Capital激进混合基金募资额居首",
-      "summary": "6月全行业共发行7只全部为开放式的新公募基金，合计募资46亿卢比，以下是来自AMFI的详细明细。",
-      "url": "https://economictimes.indiatimes.com/mf/analysis/mutual-fund-nfos-7-schemes-collect-rs-460-crore-in-june-whiteoak-capital-aggressive-hybrid-fund-leads/slideshow/132340880.cms",
+      "time": "12:19",
+      "title": "全球市值第一的英伟达估值为何低于巧克力制造商好时？",
+      "summary": "这家AI芯片巨头后续的市场走势，核心取决于其盈利水平能否持续超出市场预期。",
+      "url": "https://www.invenglobal.com/lol/articles/23706/sonic-frontiers-definitive-edition-nintendo-switch-2-package-pre-orders-open",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-12-3",
+      "id": "news-2026-07-13-3",
       "category": "人工智能",
-      "time": "12:48",
-      "title": "马斯克回应苹果起诉OpenAI窃取商业机密事件，称Altman行骗手段登峰造极",
-      "summary": "针对苹果起诉OpenAI窃取商业机密的相关指控，马斯克在X平台公开发声，明确支持对OpenAI的相关指控。",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-responds-to-apple-accusing-openai-of-stealing-trade-secrets-says-sam-altman-takes-scamming-to-a-whole-new-/articleshow/132340808.cms",
+      "time": "12:19",
+      "title": "OpenAI找来的全新AI大使是老奶奶群体",
+      "summary": "OpenAI组建了非传统宣传大使团队推广最新语音AI技术，成员全部为普通老年女性。",
+      "url": "https://www.invenglobal.com/valorant/articles/23706/sonic-frontiers-definitive-edition-nintendo-switch-2-package-pre-orders-open",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-12-4",
+      "id": "news-2026-07-13-4",
       "category": "人工智能",
-      "time": "12:42",
-      "title": "苹果正式起诉OpenAI及两名前员工涉嫌窃取商业机密",
-      "summary": "AI产品研发竞速背景下人才与专有技术竞争加剧，苹果与OpenAI此前的合作关系出现明显裂痕。",
-      "url": "https://www.rappler.com/technology/apple-sues-openai-former-employees-trade-secrets-theft/",
+      "time": "12:00",
+      "title": "NHN启动2026 Next AI Network游戏&AI黑客松报名",
+      "summary": "赛事聚焦游戏与AI方向，通关参赛者可直接获得NHN入职激励资格。",
+      "url": "https://www.irishtimes.com/your-money/2026/07/13/why-is-nvidia-the-worlds-most-valuable-company-cheaper-than-chocolate-maker-hershey/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-12-5",
+      "id": "news-2026-07-13-5",
       "category": "人工智能",
-      "time": "12:28",
-      "title": "消息称中国拟出台限制政策，Airbnb、英伟达等多家外企或受影响",
-      "summary": "过去一年国内AI实验室对外推广口径清晰：可免费使用开源权重的国产AI模型，性能接近国际第一梯队水平。",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/china-may-have-a-message-for-airbnb-nvidia-and-other-ceos-impressed-with-chinese-models-we-will-soon-ban-you-from/articleshow/132340674.cms",
+      "time": "09:51",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.marketing-interactive.com/openai-s-newest-ai-ambassador-someone-s-grandma",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-12-6",
+      "id": "news-2026-07-13-6",
       "category": "人工智能",
-      "time": "09:02",
-      "title": "马斯克指控Altman窃取慈善资产和苹果技术，称SpaceX AI1卫星明年升空时Altman已入狱",
-      "summary": "马斯克公开表示SpaceX的AI1系列卫星将于明年启动部署，同时直言OpenAI CEO萨姆·奥尔特曼届时会面临牢狱之灾。",
-      "url": "https://wccftech.com/elon-musk-accuses-sam-altman-of-stealing-a-charity-and-apples-technology-while-vowing-that-spacexs-ai1-satellites-will-fly-next-year-but-that-altman-will-be-in-jail-by-then/",
+      "time": "08:41",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.invenglobal.com/articles/23695/nhn-opens-applications-for-next-ai-network-2026-game-ai-hackathon-with-hiring-incentives",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-12-7",
+      "id": "news-2026-07-13-7",
       "category": "人工智能",
-      "time": "08:33",
-      "title": "马斯克与Altman口水战升级，称后者偷走苹果全部手机技术还嘲讽其是假释官",
-      "summary": "特斯拉CEO马斯克在X平台公开发帖指责OpenAI CEO奥尔特曼涉嫌诈骗，二人的新一轮争端迅速在社交平台发酵。",
-      "url": "https://www.hindustantimes.com/world-news/us-news/stole-all-of-apple-s-phone-technology-inside-fresh-elon-musk-sam-altman-feud-spacex-ceos-parole-officer-jab-101783815518834.html",
+      "time": "08:41",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.invenglobal.com/lol/articles/23695/nhn-opens-applications-for-next-ai-network-2026-game-ai-hackathon-with-hiring-incentives",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Visual Reference Consistency",
-    "phonetic": "/ˈvɪʒuəl ˈrefrəns kənˈsɪstənsi/",
-    "definition": "多模态模型生成内容与输入图像视觉要素的匹配度核心指标。",
-    "example": "电商图文生成场景下用该指标可量化文案与商品图的内容匹配程度。"
+    "term": "Factuality Alignment Evaluation",
+    "phonetic": "/ˌfæktʃuˈæləti əˈlaɪmənt ɪˌvæljuˈeɪʃn/",
+    "definition": "大模型输出事实准确性的对齐评测体系，用于量化模型生成内容的信息可靠度。",
+    "example": "搭建医疗大模型时，用该体系可快速定位错误医疗知识输出的高频场景。"
   },
   "interview": {
-    "category": "多模态",
+    "category": "模型评测",
     "difficulty": "中等",
-    "question": "团队要给面向电商商品图自动生成详情文案的多模态大模型搭建视觉参考一致性保障体系，需要兼顾生成文案视觉要素匹配准确率≥98%、单张图片处理耗时不超过200ms、商品品类迭代无需重新训练适配，需要完成哪些核心架构权衡？",
+    "question": "团队要为面向医疗科普场景的大模型搭建事实对齐评测体系，需要兼顾事实错误检出率≥99%、单次评测耗时低于30分钟、评测集可随医疗知识库更新自动迭代，需要完成哪些核心架构权衡？",
     "points": [
-      "多模态图文对齐校验链路的分层设计能力",
-      "轻量级特征匹配与推理性能的平衡思路",
-      "零样本适配新商品品类的架构设计思路"
+      "事实对齐评测的主流技术路径选型能力",
+      "评测效率与错误覆盖度的权衡设计思路",
+      "动态知识库场景下评测体系的可扩展性设计"
     ],
-    "answerLead": "可以从预校验、推理拦截、事后兜底三层链路拆解核心架构权衡方案。",
+    "answerLead": "可以从评测链路分层设计的角度逐层拆解需求，平衡三个核心指标的冲突。",
     "answer": [
-      "预处理层抽离商品图核心视觉特征向量，和大模型编码侧特征做快速余弦匹配，提前过滤低相似度异常输入，避免无效推理开销。",
-      "推理侧采用双路径生成架构，主路径生成文案的同时并行抽取文案视觉实体关键词，和预存图特征做快速校验，不通过的仅触发局部重写，避免全流程重生成损耗。",
-      "后置层引入轻量品类特征向量检索库，新上线商品品类仅需上传3-5张样图自动生成特征索引，无需微调模型即可完成适配，大幅降低迭代成本。",
-      "全链路做分层算力调度，非核心校验逻辑用CPU运行，把GPU资源全部留给大模型主推理流程，确保整体处理时延控制在指标要求范围内。"
+      "第一层采用轻量级结构化匹配初筛，直接和医疗知识库做字段级比对快速过滤明显错误输出，降低后续全量校验压力。",
+      "第二层接入高准确率的小样本领域专家校验+大模型判别器做难例挖掘，在控制人力成本的前提下保障错误检出率达标。",
+      "搭建评测集自动更新流水线，知识库更新时自动抽取新增知识点生成评测用例，无需人工批量编写维护。",
+      "做评测结果的分层统计聚合，沉淀错误类型标签库，反向输出优化点迭代模型的事实对齐效果。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月14日 · 星期二",
+      "word": {
+        "term": "Factuality Alignment Evaluation",
+        "definition": "大模型输出事实准确性的对齐评测体系，用于量化模型生成内容的信息可靠度。",
+        "example": "搭建医疗大模型时，用该体系可快速定位错误医疗知识输出的高频场景。"
+      },
+      "interview": {
+        "category": "模型评测",
+        "difficulty": "中等",
+        "question": "团队要为面向医疗科普场景的大模型搭建事实对齐评测体系，需要兼顾事实错误检出率≥99%、单次评测耗时低于30分钟、评测集可随医疗知识库更新自动迭代，需要完成哪些核心架构权衡？",
+        "points": [
+          "事实对齐评测的主流技术路径选型能力",
+          "评测效率与错误覆盖度的权衡设计思路",
+          "动态知识库场景下评测体系的可扩展性设计"
+        ],
+        "answerLead": "可以从评测链路分层设计的角度逐层拆解需求，平衡三个核心指标的冲突。",
+        "answer": [
+          "第一层采用轻量级结构化匹配初筛，直接和医疗知识库做字段级比对快速过滤明显错误输出，降低后续全量校验压力。",
+          "第二层接入高准确率的小样本领域专家校验+大模型判别器做难例挖掘，在控制人力成本的前提下保障错误检出率达标。",
+          "搭建评测集自动更新流水线，知识库更新时自动抽取新增知识点生成评测用例，无需人工批量编写维护。",
+          "做评测结果的分层统计聚合，沉淀错误类型标签库，反向输出优化点迭代模型的事实对齐效果。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月13日 · 星期一",
       "word": {
@@ -888,31 +913,6 @@
           "在AI应用需求准入、开发测试、上线运行、下线归档全流程嵌入合规校验节点，前置风险拦截",
           "部署内容审核、数据防泄露、输出溯源三类技术组件，配套低风险场景白名单降低效率损耗",
           "建立动态迭代机制，定期同步最新监管规则与行业风险案例，持续更新治理策略"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月14日 · 星期日",
-      "word": {
-        "term": "AI Misuse",
-        "definition": "指主体未合规管控使用AI，引发运营失误、合规风险的行为",
-        "example": "近期毕马威等多家知名企业因不当使用AI出现纰漏被曝光"
-      },
-      "interview": {
-        "category": "",
-        "difficulty": "",
-        "question": "某机构要搭建AI交易场景的实时风险预警系统，核心工程设计要点有哪些？",
-        "points": [
-          "AI金融落地场景的需求拆解能力",
-          "低延迟实时系统的架构设计能力",
-          "端侧AI推理的性能优化能力"
-        ],
-        "answerLead": "",
-        "answer": [
-          "先明确交易场景的延迟阈值、风险判定规则、合规可解释性硬性要求",
-          "采用流计算引擎+预计算特征库架构，将数据处理链路延迟压至毫秒级",
-          "对预警模型做量化、剪枝压缩，部署在近数据源推理节点降低耗时",
-          "配套AI决策溯源模块+人工兜底校验，避免误判引发交易损失"
         ]
       }
     }
