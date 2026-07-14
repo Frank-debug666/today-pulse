@@ -1,171 +1,196 @@
 {
-  "generatedAt": "2026-07-13T17:26:31.630Z",
-  "dateLabel": "2026年7月14日 · 星期二",
-  "issue": 209,
+  "generatedAt": "2026-07-14T16:42:01.834Z",
+  "dateLabel": "2026年7月15日 · 星期三",
+  "issue": 210,
   "githubRepos": [
     {
       "rank": "01",
       "name": "withmarbleapp / os-taxonomy",
-      "summary": "开源分类管理工具，可快速梳理海量开源项目的分类归属与基本信息，降低开源资产梳理成本。",
+      "summary": "本周热度快速攀升的开源项目。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "2.9K",
-      "growth": "+2866",
+      "stars": "3K",
+      "growth": "+3023",
       "growthLabel": "近7日",
       "url": "https://github.com/withmarbleapp/os-taxonomy"
     },
     {
       "rank": "02",
       "name": "Robbyant / lingbot-world-v2",
-      "summary": "可生成支持多样化交互的无限虚拟世界场景，为具身智能AI训练提供高自由度的模拟环境。",
+      "summary": "支持多元交互的无限世界生成项目。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1K",
-      "growth": "+1007",
+      "stars": "1.1K",
+      "growth": "+1095",
       "growthLabel": "近7日",
       "url": "https://github.com/Robbyant/lingbot-world-v2"
     },
     {
       "rank": "03",
       "name": "x4gKing / 3x-ui-Upgrade",
-      "summary": "3x-ui面板的轻量升级工具，可快速完成面板版本迭代与功能增强，降低运维操作门槛。",
+      "summary": "本周热度快速攀升的开源项目。",
       "language": "HTML",
       "color": "#707873",
-      "stars": "926",
-      "growth": "+926",
+      "stars": "1K",
+      "growth": "+1015",
       "growthLabel": "近7日",
       "url": "https://github.com/x4gKing/3x-ui-Upgrade"
     },
     {
       "rank": "04",
-      "name": "vinhhien112 / Three.js-Object-Sculptor-Codex-Plugin",
-      "summary": "Codex插件，能将输入的物体图片直接转换为带动画能力的可直接运行的Three.js模型代码。",
+      "name": "MDX-Tom / gpt-5.6-instruct",
+      "summary": "面向GPT 5.6系列的Codex CLI破甲提示词与测试包。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "823",
-      "growth": "+823",
+      "stars": "973",
+      "growth": "+973",
       "growthLabel": "近7日",
-      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin"
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct"
     },
     {
       "rank": "05",
-      "name": "Robbyant / lingbot-video",
-      "summary": "面向具身智能场景优化的视频预训练混合专家框架，可大幅提升多模态视频理解的泛化能力。",
+      "name": "vinhhien112 / Three.js-Object-Sculptor-Codex-Plugin",
+      "summary": "可将上传的物体图片转换为纯代码、支持动画的程序化Three.js模型的Codex插件。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "750",
-      "growth": "+750",
+      "stars": "955",
+      "growth": "+955",
       "growthLabel": "近7日",
-      "url": "https://github.com/Robbyant/lingbot-video"
+      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-13-0",
+      "id": "news-2026-07-14-0",
       "category": "人工智能",
-      "time": "13:10",
-      "title": "Paytm CEO 解释印度为何不应效仿中美AI发展路径",
-      "summary": "Paytm CEO 维杰·谢卡尔·夏尔马提出印度应打造本土专属AI模型，呼吁发展开源、平价、普惠的AI技术适配本地需求。",
-      "url": "https://www.timesnownews.com/technology-science/paytm-ceo-vijay-shekhar-sharma-explains-why-india-shouldnt-follow-the-us-or-china-in-ai-article-155084616",
+      "time": "12:38",
+      "title": "OpenAI推出ChatGPT Work，要让它成为你的全新AI同事",
+      "summary": "OpenAI的全新产品ChatGPT Work基于GPT 5.6系列模型打造，目前已经正在面向全球各地的用户推送。",
+      "url": "https://www.hindustantimes.com/technology/openai-wants-chatgpt-to-become-your-new-ai-coworker-with-chatgpt-work-101783941011130.html",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-13-1",
+      "id": "news-2026-07-14-1",
       "category": "人工智能",
-      "time": "12:19",
-      "title": "《索尼克未知边境终极版》NS2实体套装开启预购",
-      "summary": "世嘉韩国宣布，旗下《索尼克未知边境终极版》任天堂Switch 2实体版本的预购通道正式开放。",
-      "url": "https://www.invenglobal.com/articles/23706/sonic-frontiers-definitive-edition-nintendo-switch-2-package-pre-orders-open",
+      "time": "12:28",
+      "title": "据英国金融时报报道，英伟达将亚洲AI芯片客户数量砍半",
+      "summary": "为落实更严格的合规审查、管控涉华相关销售，英伟达旗下亚洲AI芯片客户规模已缩减超半数。",
+      "url": "https://www.thehindubusinessline.com/info-tech/nvidia-halves-asia-ai-chip-customer-list-ft-reports/article71219836.ece",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-13-2",
+      "id": "news-2026-07-14-2",
       "category": "人工智能",
-      "time": "12:19",
-      "title": "全球市值第一的英伟达估值为何低于巧克力制造商好时？",
-      "summary": "这家AI芯片巨头后续的市场走势，核心取决于其盈利水平能否持续超出市场预期。",
-      "url": "https://www.invenglobal.com/lol/articles/23706/sonic-frontiers-definitive-edition-nintendo-switch-2-package-pre-orders-open",
+      "time": "12:04",
+      "title": "OpenAI的最新AI大使居然是普通老奶奶群体",
+      "summary": "OpenAI招募了一群出人意料的大使来推广自家最新的语音AI技术，人选就是普通老年女性群体。",
+      "url": "https://www.marketing-interactive.com/openai-s-newest-ai-ambassador-someone-s-grandma",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-13-3",
+      "id": "news-2026-07-14-3",
       "category": "人工智能",
-      "time": "12:19",
-      "title": "OpenAI找来的全新AI大使是老奶奶群体",
-      "summary": "OpenAI组建了非传统宣传大使团队推广最新语音AI技术，成员全部为普通老年女性。",
-      "url": "https://www.invenglobal.com/valorant/articles/23706/sonic-frontiers-definitive-edition-nintendo-switch-2-package-pre-orders-open",
+      "time": "11:31",
+      "title": "据英国金融时报报道，英伟达将亚洲AI芯片客户数量砍半",
+      "summary": "英伟达搭建了全新的企业白名单机制，只有通过更严苛合规审查的企业才能购买其AI芯片，目前获得授权的亚洲客户数量已经减少一半以上。",
+      "url": "https://www.reuters.com/world/china/nvidia-halves-asia-buyer-list-china-chip-crackdown-ft-reports-2026-07-14/",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-13-4",
+      "id": "news-2026-07-14-4",
       "category": "人工智能",
-      "time": "12:00",
-      "title": "NHN启动2026 Next AI Network游戏&AI黑客松报名",
-      "summary": "赛事聚焦游戏与AI方向，通关参赛者可直接获得NHN入职激励资格。",
-      "url": "https://www.irishtimes.com/your-money/2026/07/13/why-is-nvidia-the-worlds-most-valuable-company-cheaper-than-chocolate-maker-hershey/",
+      "time": "11:22",
+      "title": "深陷苹果相关诉讼之际，OpenAI就败诉的商业机密案向马斯克旗下xAI索赔100万美元",
+      "summary": "在相关商业机密诉讼被驳回后，OpenAI要求埃隆·马斯克旗下的xAI支付超过100万美元的诉讼费用，与此同时这家AI企业还在准备应诉苹果提起的同类诉讼。",
+      "url": "https://www.timesnownews.com/technology-science/amid-apple-lawsuit-openai-wants-1-mn-from-elon-musks-xai-says-trade-secrets-case-had-no-basis-article-155093215",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-13-5",
+      "id": "news-2026-07-14-5",
       "category": "人工智能",
-      "time": "09:51",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.marketing-interactive.com/openai-s-newest-ai-ambassador-someone-s-grandma",
+      "time": "11:00",
+      "title": "受超大规模扩张与AI运维驱动，2035年数据中心机器人市场规模将达1134.3296亿美元",
+      "summary": "据DC Market Insights发布的《2025-2035年数据中心机器人市场增长、份额、机遇与竞争分析》报告显示，受超大规模数据中心建设普及、AI驱动运维落地等因素推动，到2035年全球数据中心机器人市场规模将达到113432.96百万美元。",
+      "url": "https://www.prnewswire.co.uk/news-releases/data-center-robotics-market-to-reach-usd-113-432-96-million-by-2035-amid-hyperscale-expansion-and-ai-driven-operations--dc-market-insights-302824492.html",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-13-6",
+      "id": "news-2026-07-14-6",
       "category": "人工智能",
-      "time": "08:41",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.invenglobal.com/articles/23695/nhn-opens-applications-for-next-ai-network-2026-game-ai-hackathon-with-hiring-incentives",
+      "time": "10:05",
+      "title": "Com2uS平台在「AMPLIFY 2026」上公布AI赋能全球游戏服务发展愿景",
+      "summary": "Com2uS Holdings旗下子公司Com2uS平台于14日正式宣布，将在「AMPLIFY 2026」活动上展示其AI驱动的全球化游戏服务相关发展规划。",
+      "url": "https://www.invenglobal.com/articles/23735/com2us-platform-presents-vision-for-ai-powered-global-game-services-at-amplify-2026",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-13-7",
+      "id": "news-2026-07-14-7",
       "category": "人工智能",
-      "time": "08:41",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.invenglobal.com/lol/articles/23695/nhn-opens-applications-for-next-ai-network-2026-game-ai-hackathon-with-hiring-incentives",
+      "time": "10:05",
+      "title": "Com2uS平台在「AMPLIFY 2026」上公布AI赋能全球游戏服务发展愿景",
+      "summary": "Com2uS Holdings旗下子公司Com2uS平台于14日正式宣布，将在「AMPLIFY 2026」活动上展示其AI驱动的全球化游戏服务相关发展规划。",
+      "url": "https://www.invenglobal.com/lol/articles/23735/com2us-platform-presents-vision-for-ai-powered-global-game-services-at-amplify-2026",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Factuality Alignment Evaluation",
-    "phonetic": "/ˌfæktʃuˈæləti əˈlaɪmənt ɪˌvæljuˈeɪʃn/",
-    "definition": "大模型输出事实准确性的对齐评测体系，用于量化模型生成内容的信息可靠度。",
-    "example": "搭建医疗大模型时，用该体系可快速定位错误医疗知识输出的高频场景。"
+    "term": "Embedding",
+    "phonetic": "/ ɪmˈbedɪŋ /",
+    "definition": "把文本、图片等内容转换为向量，使机器能够计算它们之间的语义相似度。",
+    "example": "搜索“如何退款”时，也能找到标题为“取消订单”的说明。"
   },
   "interview": {
-    "category": "模型评测",
-    "difficulty": "中等",
-    "question": "团队要为面向医疗科普场景的大模型搭建事实对齐评测体系，需要兼顾事实错误检出率≥99%、单次评测耗时低于30分钟、评测集可随医疗知识库更新自动迭代，需要完成哪些核心架构权衡？",
+    "question": "向量检索效果不好时，你会从哪些方面优化？",
     "points": [
-      "事实对齐评测的主流技术路径选型能力",
-      "评测效率与错误覆盖度的权衡设计思路",
-      "动态知识库场景下评测体系的可扩展性设计"
+      "切分策略",
+      "检索与重排",
+      "离线评测"
     ],
-    "answerLead": "可以从评测链路分层设计的角度逐层拆解需求，平衡三个核心指标的冲突。",
     "answer": [
-      "第一层采用轻量级结构化匹配初筛，直接和医疗知识库做字段级比对快速过滤明显错误输出，降低后续全量校验压力。",
-      "第二层接入高准确率的小样本领域专家校验+大模型判别器做难例挖掘，在控制人力成本的前提下保障错误检出率达标。",
-      "搭建评测集自动更新流水线，知识库更新时自动抽取新增知识点生成评测用例，无需人工批量编写维护。",
-      "做评测结果的分层统计聚合，沉淀错误类型标签库，反向输出优化点迭代模型的事实对齐效果。"
-    ]
+      "检查文档切分粒度、元数据和向量模型是否匹配业务语言。",
+      "建立包含正确答案的测试查询集，测量 Recall@K 和 MRR。",
+      "结合关键词检索与向量检索，并加入 reranker 重排。",
+      "分析失败样本，分别处理召回不足和排序错误。"
+    ],
+    "category": "RAG 与搜索",
+    "difficulty": "中等",
+    "answerLead": "参考答题思路："
   },
   "generation": {
-    "learningSource": "ark",
-    "learningError": null,
+    "learningSource": "fallback",
+    "learningError": "Expected ':' after property name in JSON at position 1348 (line 1 column 1349)",
     "githubSource": "github-search",
     "newsSource": "gnews-search-en",
     "newsError": null,
-    "localizationSource": "ark",
+    "localizationSource": "ark-localization",
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月15日 · 星期三",
+      "word": {
+        "term": "Embedding",
+        "definition": "把文本、图片等内容转换为向量，使机器能够计算它们之间的语义相似度。",
+        "example": "搜索“如何退款”时，也能找到标题为“取消订单”的说明。"
+      },
+      "interview": {
+        "category": "RAG 与搜索",
+        "difficulty": "中等",
+        "question": "向量检索效果不好时，你会从哪些方面优化？",
+        "points": [
+          "切分策略",
+          "检索与重排",
+          "离线评测"
+        ],
+        "answerLead": "参考答题思路：",
+        "answer": [
+          "检查文档切分粒度、元数据和向量模型是否匹配业务语言。",
+          "建立包含正确答案的测试查询集，测量 Recall@K 和 MRR。",
+          "结合关键词检索与向量检索，并加入 reranker 重排。",
+          "分析失败样本，分别处理召回不足和排序错误。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月14日 · 星期二",
       "word": {
@@ -888,31 +913,6 @@
           "构建覆盖多语种、不同认知水平用户的提问测试集，统计不同分组的回答准确率差异，排查歧视性输出",
           "模拟低配硬件的低资源使用场景，测试模型内存占用、运行速度，保障欠发达地区可正常访问",
           "上线后持续采集用户反馈做动态迭代评测，定期更新测试集补全新气候事件相关样本"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月15日 · 星期一",
-      "word": {
-        "term": "AI Compliance",
-        "definition": "AI应用全生命周期需满足监管、行业规范及内部规则的合规管理体系",
-        "example": "毕马威等企业因未落实AI合规要求，误用AI引发业务合规风险"
-      },
-      "interview": {
-        "category": "安全治理",
-        "difficulty": "中等",
-        "question": "某跨国专业服务机构要搭建覆盖全业务线的生成式AI安全治理体系，需完成哪些核心架构权衡与落地设计？",
-        "points": [
-          "AI全生命周期风险识别能力",
-          "合规要求与业务效率的权衡思路",
-          "多场景分级管控的落地设计能力"
-        ],
-        "answerLead": "答题需围绕风险分层、流程嵌入、技术管控、动态迭代四个维度拆解，平衡安全与业务可用性",
-        "answer": [
-          "梳理全业务线AI使用场景，按数据敏感级、输出影响度划分风险层级，匹配差异化管控规则",
-          "在AI应用需求准入、开发测试、上线运行、下线归档全流程嵌入合规校验节点，前置风险拦截",
-          "部署内容审核、数据防泄露、输出溯源三类技术组件，配套低风险场景白名单降低效率损耗",
-          "建立动态迭代机制，定期同步最新监管规则与行业风险案例，持续更新治理策略"
         ]
       }
     }
