@@ -1,171 +1,196 @@
 {
-  "generatedAt": "2026-07-14T16:42:01.834Z",
-  "dateLabel": "2026年7月15日 · 星期三",
-  "issue": 210,
+  "generatedAt": "2026-07-15T17:42:57.728Z",
+  "dateLabel": "2026年7月16日 · 星期四",
+  "issue": 211,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "withmarbleapp / os-taxonomy",
-      "summary": "本周热度快速攀升的开源项目。",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "3K",
-      "growth": "+3023",
-      "growthLabel": "近7日",
-      "url": "https://github.com/withmarbleapp/os-taxonomy"
-    },
-    {
-      "rank": "02",
-      "name": "Robbyant / lingbot-world-v2",
-      "summary": "支持多元交互的无限世界生成项目。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "1.1K",
-      "growth": "+1095",
-      "growthLabel": "近7日",
-      "url": "https://github.com/Robbyant/lingbot-world-v2"
-    },
-    {
-      "rank": "03",
-      "name": "x4gKing / 3x-ui-Upgrade",
-      "summary": "本周热度快速攀升的开源项目。",
-      "language": "HTML",
-      "color": "#707873",
-      "stars": "1K",
-      "growth": "+1015",
-      "growthLabel": "近7日",
-      "url": "https://github.com/x4gKing/3x-ui-Upgrade"
-    },
-    {
-      "rank": "04",
       "name": "MDX-Tom / gpt-5.6-instruct",
-      "summary": "面向GPT 5.6系列的Codex CLI破甲提示词与测试包。",
+      "summary": "面向GPT-5.6系列的Codex CLI破甲提示词集合与测试包，用于大模型输出边界的安全验证。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "973",
-      "growth": "+973",
+      "stars": "1.3K",
+      "growth": "+1291",
       "growthLabel": "近7日",
       "url": "https://github.com/MDX-Tom/gpt-5.6-instruct"
     },
     {
-      "rank": "05",
+      "rank": "02",
       "name": "vinhhien112 / Three.js-Object-Sculptor-Codex-Plugin",
-      "summary": "可将上传的物体图片转换为纯代码、支持动画的程序化Three.js模型的Codex插件。",
+      "summary": "一款Codex插件，可将上传的物体参考图直接转化为带动画能力的纯代码实现Three.js模型。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "955",
-      "growth": "+955",
+      "stars": "995",
+      "growth": "+995",
       "growthLabel": "近7日",
       "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin"
+    },
+    {
+      "rank": "03",
+      "name": "littledivy / mimic",
+      "summary": "可以拦截任意运行中的应用进程，直接在Python代码中像调用本地库一样调用该应用的能力。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "975",
+      "growth": "+975",
+      "growthLabel": "近7日",
+      "url": "https://github.com/littledivy/mimic"
+    },
+    {
+      "rank": "04",
+      "name": "mereyabdenbekuly-ctrl / clodex-ide",
+      "summary": "一款本地优先、零信任的Agent原生IDE，面向可验证的自主软件开发场景设计。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "810",
+      "growth": "+810",
+      "growthLabel": "近7日",
+      "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide"
+    },
+    {
+      "rank": "05",
+      "name": "AlephAITech / WorkBuddyGuide",
+      "summary": "开源的WorkBuddy实战蓝皮书，覆盖教程、真实工作流、多智能体实践等全场景落地指南。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "776",
+      "growth": "+776",
+      "growthLabel": "近7日",
+      "url": "https://github.com/AlephAITech/WorkBuddyGuide"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-14-0",
+      "id": "news-2026-07-15-0",
       "category": "人工智能",
-      "time": "12:38",
-      "title": "OpenAI推出ChatGPT Work，要让它成为你的全新AI同事",
-      "summary": "OpenAI的全新产品ChatGPT Work基于GPT 5.6系列模型打造，目前已经正在面向全球各地的用户推送。",
-      "url": "https://www.hindustantimes.com/technology/openai-wants-chatgpt-to-become-your-new-ai-coworker-with-chatgpt-work-101783941011130.html",
+      "time": "13:35",
+      "title": "OpenAI首款无屏移动智能音箱曝光，定位AI原生家庭陪伴终端",
+      "summary": "OpenAI正式切入消费级硬件赛道，联合前苹果核心团队（包括Jony Ive）打造可移动无屏智能音箱，主打拟人化交互能力，支持智能家居控制、信息查询等功能，试图打造AI时代的新型家用计算入口，目前正面临苹果的相关法务纠纷。",
+      "url": "https://www.republicworld.com/tech/openai-is-building-a-screen-free-smart-speaker-that-talks-listens-and-moves-like-a-living-thing-2026-07-15-132340",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-14-1",
+      "id": "news-2026-07-15-1",
       "category": "人工智能",
-      "time": "12:28",
-      "title": "据英国金融时报报道，英伟达将亚洲AI芯片客户数量砍半",
-      "summary": "为落实更严格的合规审查、管控涉华相关销售，英伟达旗下亚洲AI芯片客户规模已缩减超半数。",
-      "url": "https://www.thehindubusinessline.com/info-tech/nvidia-halves-asia-ai-chip-customer-list-ft-reports/article71219836.ece",
+      "time": "13:26",
+      "title": "英伟达已正式向中国客户交付H200高性能AI芯片",
+      "summary": "美国官方证实英伟达已启动H200 AI芯片的对华发货，此前已有约10家中国企业获得美国商务部采购许可，阿里、腾讯、字节跳动、中兴旗下子公司均在获批名单中。",
+      "url": "https://www.cnbctv18.com/technology/openais-first-device-will-be-movable-screenless-speaker-built-as-ai-companion-19945849.htm",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-14-2",
+      "id": "news-2026-07-15-2",
       "category": "人工智能",
-      "time": "12:04",
-      "title": "OpenAI的最新AI大使居然是普通老奶奶群体",
-      "summary": "OpenAI招募了一群出人意料的大使来推广自家最新的语音AI技术，人选就是普通老年女性群体。",
-      "url": "https://www.marketing-interactive.com/openai-s-newest-ai-ambassador-someone-s-grandma",
+      "time": "13:24",
+      "title": "Sam Altman称GPT-5.6 Sol成本与Token效率优于Claude Fable 5",
+      "summary": "OpenAI CEO Sam Altman公开表示，最新推出的GPT-5.6 Sol在单位Token生成成本、推理效率上均优于Anthropic的Claude Fable 5，两者的实测差距与定价差异引发行业广泛讨论。",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-official-says-nvidia-has-begun-shipping-powerful-h200-ai-chips-to-china/articleshow/132407056.cms",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-14-3",
+      "id": "news-2026-07-15-3",
       "category": "人工智能",
-      "time": "11:31",
-      "title": "据英国金融时报报道，英伟达将亚洲AI芯片客户数量砍半",
-      "summary": "英伟达搭建了全新的企业白名单机制，只有通过更严苛合规审查的企业才能购买其AI芯片，目前获得授权的亚洲客户数量已经减少一半以上。",
-      "url": "https://www.reuters.com/world/china/nvidia-halves-asia-buyer-list-china-chip-crackdown-ft-reports-2026-07-14/",
+      "time": "13:07",
+      "title": "OpenAI正式否认苹果商业机密窃取指控",
+      "summary": "7月10日苹果对OpenAI提起40页诉讼，指控其拉拢前苹果员工盗用知识产权，OpenAI公开回应称没有任何有效证据支撑苹果的相关主张。",
+      "url": "https://www.timesnownews.com/technology-science/sam-altman-says-gpt-5-6-sol-is-cheaper-and-efficient-than-claude-fable-how-much-both-cost-article-155102964",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-14-4",
+      "id": "news-2026-07-15-4",
       "category": "人工智能",
-      "time": "11:22",
-      "title": "深陷苹果相关诉讼之际，OpenAI就败诉的商业机密案向马斯克旗下xAI索赔100万美元",
-      "summary": "在相关商业机密诉讼被驳回后，OpenAI要求埃隆·马斯克旗下的xAI支付超过100万美元的诉讼费用，与此同时这家AI企业还在准备应诉苹果提起的同类诉讼。",
-      "url": "https://www.timesnownews.com/technology-science/amid-apple-lawsuit-openai-wants-1-mn-from-elon-musks-xai-says-trade-secrets-case-had-no-basis-article-155093215",
+      "time": "13:00",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/07/15/openais-first-device-will-be-movable-screenless-speaker-built-as-ai-companion",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-14-5",
+      "id": "news-2026-07-15-5",
       "category": "人工智能",
-      "time": "11:00",
-      "title": "受超大规模扩张与AI运维驱动，2035年数据中心机器人市场规模将达1134.3296亿美元",
-      "summary": "据DC Market Insights发布的《2025-2035年数据中心机器人市场增长、份额、机遇与竞争分析》报告显示，受超大规模数据中心建设普及、AI驱动运维落地等因素推动，到2035年全球数据中心机器人市场规模将达到113432.96百万美元。",
-      "url": "https://www.prnewswire.co.uk/news-releases/data-center-robotics-market-to-reach-usd-113-432-96-million-by-2035-amid-hyperscale-expansion-and-ai-driven-operations--dc-market-insights-302824492.html",
+      "time": "12:48",
+      "title": "算力芯片领域出现新的市场与技术动向",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.rappler.com/technology/us-official-nvidia-shipping-h200-ai-chips-china/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-14-6",
+      "id": "news-2026-07-15-6",
       "category": "人工智能",
-      "time": "10:05",
-      "title": "Com2uS平台在「AMPLIFY 2026」上公布AI赋能全球游戏服务发展愿景",
-      "summary": "Com2uS Holdings旗下子公司Com2uS平台于14日正式宣布，将在「AMPLIFY 2026」活动上展示其AI驱动的全球化游戏服务相关发展规划。",
-      "url": "https://www.invenglobal.com/articles/23735/com2us-platform-presents-vision-for-ai-powered-global-game-services-at-amplify-2026",
+      "time": "12:46",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.businesstoday.in/technology/news/story/openai-rejects-apples-trade-secret-theft-claims-says-no-evidence-supports-lawsuit-542988-2026-07-15",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-14-7",
+      "id": "news-2026-07-15-7",
       "category": "人工智能",
-      "time": "10:05",
-      "title": "Com2uS平台在「AMPLIFY 2026」上公布AI赋能全球游戏服务发展愿景",
-      "summary": "Com2uS Holdings旗下子公司Com2uS平台于14日正式宣布，将在「AMPLIFY 2026」活动上展示其AI驱动的全球化游戏服务相关发展规划。",
-      "url": "https://www.invenglobal.com/lol/articles/23735/com2us-platform-presents-vision-for-ai-powered-global-game-services-at-amplify-2026",
+      "time": "12:11",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.livemint.com/technology/tech-news/openais-first-ai-device-may-know-your-emails-control-your-home-and-talk-like-a-human-11784086487376.html",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Embedding",
-    "phonetic": "/ ɪmˈbedɪŋ /",
-    "definition": "把文本、图片等内容转换为向量，使机器能够计算它们之间的语义相似度。",
-    "example": "搜索“如何退款”时，也能找到标题为“取消订单”的说明。"
+    "term": "AI Companion Runtime Sandbox",
+    "phonetic": "/ˌeɪ aɪ ˈkʌmpniən ˈrʌntaɪm ˈsændbɒks/",
+    "definition": "为AI陪伴智能设备设计的运行时隔离环境，管控其对用户隐私、家居外设的访问权限",
+    "example": "可避免无屏AI音箱未经授权私自读取用户邮件、操控智能门锁的风险"
   },
   "interview": {
-    "question": "向量检索效果不好时，你会从哪些方面优化？",
-    "points": [
-      "切分策略",
-      "检索与重排",
-      "离线评测"
-    ],
-    "answer": [
-      "检查文档切分粒度、元数据和向量模型是否匹配业务语言。",
-      "建立包含正确答案的测试查询集，测量 Recall@K 和 MRR。",
-      "结合关键词检索与向量检索，并加入 reranker 重排。",
-      "分析失败样本，分别处理召回不足和排序错误。"
-    ],
-    "category": "RAG 与搜索",
+    "category": "安全治理",
     "difficulty": "中等",
-    "answerLead": "参考答题思路："
+    "question": "团队正在开发类似OpenAI无屏AI陪伴音箱的消费级智能硬件，需要搭建端侧的运行时权限管控体系，同时满足用户全量隐私数据零泄露、智能家居设备误操控率低于0.01%、普通用户无感知无需复杂配置，需要完成哪些核心架构权衡？",
+    "points": [
+      "AI陪伴设备的权限最小化边界定义能力",
+      "端侧轻量沙箱的性能开销与隔离强度平衡",
+      "无交互场景下的隐式用户授权机制设计"
+    ],
+    "answerLead": "需要从隔离强度、体验损耗、异常兜底三个维度逐层拆解权衡思路",
+    "answer": [
+      "首先做权限颗粒度分层拆解，将邮件读取、门锁操控等高风险能力单独抽离，默认关闭仅支持用户单次临时授权，低风险的音乐播放、天气查询能力默认放行，尽可能缩小攻击面",
+      "选用端侧轻量进程级沙箱而非全虚拟化方案，将AI大模型推理进程与设备硬件控制、用户数据访问进程完全隔离，沙箱自身内存占用控制在100MB以内，不影响设备交互响应速度",
+      "设计隐式授权机制，通过用户语音指令置信度、历史操作习惯自动判断是否放行低风险操作，高风险操作必须触发用户二次语音确认，避免打断正常交互流程",
+      "搭建全链路操作日志的端侧加密存证体系，所有权限调用全程留痕出现异常可快速溯源，同时所有日志默认不上传云端，从根源避免批量隐私泄露风险"
+    ]
   },
   "generation": {
-    "learningSource": "fallback",
-    "learningError": "Expected ':' after property name in JSON at position 1348 (line 1 column 1349)",
+    "learningSource": "ark",
+    "learningError": null,
     "githubSource": "github-search",
     "newsSource": "gnews-search-en",
     "newsError": null,
-    "localizationSource": "ark-localization",
+    "localizationSource": "ark",
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月16日 · 星期四",
+      "word": {
+        "term": "AI Companion Runtime Sandbox",
+        "definition": "为AI陪伴智能设备设计的运行时隔离环境，管控其对用户隐私、家居外设的访问权限",
+        "example": "可避免无屏AI音箱未经授权私自读取用户邮件、操控智能门锁的风险"
+      },
+      "interview": {
+        "category": "安全治理",
+        "difficulty": "中等",
+        "question": "团队正在开发类似OpenAI无屏AI陪伴音箱的消费级智能硬件，需要搭建端侧的运行时权限管控体系，同时满足用户全量隐私数据零泄露、智能家居设备误操控率低于0.01%、普通用户无感知无需复杂配置，需要完成哪些核心架构权衡？",
+        "points": [
+          "AI陪伴设备的权限最小化边界定义能力",
+          "端侧轻量沙箱的性能开销与隔离强度平衡",
+          "无交互场景下的隐式用户授权机制设计"
+        ],
+        "answerLead": "需要从隔离强度、体验损耗、异常兜底三个维度逐层拆解权衡思路",
+        "answer": [
+          "首先做权限颗粒度分层拆解，将邮件读取、门锁操控等高风险能力单独抽离，默认关闭仅支持用户单次临时授权，低风险的音乐播放、天气查询能力默认放行，尽可能缩小攻击面",
+          "选用端侧轻量进程级沙箱而非全虚拟化方案，将AI大模型推理进程与设备硬件控制、用户数据访问进程完全隔离，沙箱自身内存占用控制在100MB以内，不影响设备交互响应速度",
+          "设计隐式授权机制，通过用户语音指令置信度、历史操作习惯自动判断是否放行低风险操作，高风险操作必须触发用户二次语音确认，避免打断正常交互流程",
+          "搭建全链路操作日志的端侧加密存证体系，所有权限调用全程留痕出现异常可快速溯源，同时所有日志默认不上传云端，从根源避免批量隐私泄露风险"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月15日 · 星期三",
       "word": {
@@ -888,31 +913,6 @@
           "设计统一输入输出抽象协议，同时预留扩展字段兼容不同Agent的自定义参数",
           "内置路由策略模块，支持按任务复杂度、成本阈值自动匹配对应能力等级的Agent",
           "增加全链路可观测性埋点，记录Agent调用的耗时、成功率、输出质量方便迭代优化"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月15日 · 星期一",
-      "word": {
-        "term": "Hallucination Rate",
-        "definition": "大模型生成的不符合事实的错误内容占比，是大模型核心评测指标之一",
-        "example": "毕马威等企业误用AI踩坑，大多是未将幻觉率纳入上线必测环节"
-      },
-      "interview": {
-        "category": "模型评测",
-        "difficulty": "中等",
-        "question": "某气候公益团队计划用开源大模型搭建全球灾害预警科普问答系统，需兼顾不同收入水平地区用户的使用公平性，你会如何设计整套落地评测方案？",
-        "points": [
-          "垂直领域大模型基础评测维度的设计能力",
-          "AI公平性在公益类场景下的落地评测方法",
-          "低资源受限环境下的轻量化评测落地思路"
-        ],
-        "answerLead": "锚定业务核心目标分层设计基础能力、公平性、场景适配三类评测链路",
-        "answer": [
-          "先搭建气候领域专业评测数据集，测试幻觉率、事实准确率、响应时延核心指标，筛选合格开源模型",
-          "构建覆盖多语种、不同认知水平用户的提问测试集，统计不同分组的回答准确率差异，排查歧视性输出",
-          "模拟低配硬件的低资源使用场景，测试模型内存占用、运行速度，保障欠发达地区可正常访问",
-          "上线后持续采集用户反馈做动态迭代评测，定期更新测试集补全新气候事件相关样本"
         ]
       }
     }
