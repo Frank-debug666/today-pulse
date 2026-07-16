@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-15T17:42:57.728Z",
-  "dateLabel": "2026年7月16日 · 星期四",
-  "issue": 211,
+  "generatedAt": "2026-07-16T16:46:49.957Z",
+  "dateLabel": "2026年7月17日 · 星期五",
+  "issue": 212,
   "githubRepos": [
     {
       "rank": "01",
+      "name": "xai-org / grok-build",
+      "summary": "基于Rust开发的SpaceXAI编码代理封装与TUI工具，支持全屏交互、鼠标操作且可灵活扩展。",
+      "language": "Rust",
+      "color": "#dea584",
+      "stars": "11K",
+      "growth": "+10958",
+      "growthLabel": "近7日",
+      "url": "https://github.com/xai-org/grok-build"
+    },
+    {
+      "rank": "02",
+      "name": "Fei-Away / Codex-Dream-Skin",
+      "summary": "面向Codex系列硬件的自定义美化皮肤工具。",
+      "language": "PowerShell",
+      "color": "#707873",
+      "stars": "5K",
+      "growth": "+5015",
+      "growthLabel": "近7日",
+      "url": "https://github.com/Fei-Away/Codex-Dream-Skin"
+    },
+    {
+      "rank": "03",
       "name": "MDX-Tom / gpt-5.6-instruct",
-      "summary": "面向GPT-5.6系列的Codex CLI破甲提示词集合与测试包，用于大模型输出边界的安全验证。",
+      "summary": "面向gpt-5.6系列的Codex CLI破甲提示词与测试包，支持相关能力验证。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.3K",
-      "growth": "+1291",
+      "stars": "1.6K",
+      "growth": "+1613",
       "growthLabel": "近7日",
       "url": "https://github.com/MDX-Tom/gpt-5.6-instruct"
     },
     {
-      "rank": "02",
-      "name": "vinhhien112 / Three.js-Object-Sculptor-Codex-Plugin",
-      "summary": "一款Codex插件，可将上传的物体参考图直接转化为带动画能力的纯代码实现Three.js模型。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "995",
-      "growth": "+995",
-      "growthLabel": "近7日",
-      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin"
-    },
-    {
-      "rank": "03",
+      "rank": "04",
       "name": "littledivy / mimic",
-      "summary": "可以拦截任意运行中的应用进程，直接在Python代码中像调用本地库一样调用该应用的能力。",
+      "summary": "可拦截任意应用调用，随后直接通过Python像调用本地库一样调用该应用的工具。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "975",
-      "growth": "+975",
+      "stars": "1.1K",
+      "growth": "+1083",
       "growthLabel": "近7日",
       "url": "https://github.com/littledivy/mimic"
     },
     {
-      "rank": "04",
-      "name": "mereyabdenbekuly-ctrl / clodex-ide",
-      "summary": "一款本地优先、零信任的Agent原生IDE，面向可验证的自主软件开发场景设计。",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "810",
-      "growth": "+810",
-      "growthLabel": "近7日",
-      "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide"
-    },
-    {
       "rank": "05",
       "name": "AlephAITech / WorkBuddyGuide",
-      "summary": "开源的WorkBuddy实战蓝皮书，覆盖教程、真实工作流、多智能体实践等全场景落地指南。",
+      "summary": "开源WorkBuddy实战蓝皮书，覆盖教程、真实工作流、技能配置、多智能体实践等全场景内容。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "776",
-      "growth": "+776",
+      "stars": "973",
+      "growth": "+973",
       "growthLabel": "近7日",
       "url": "https://github.com/AlephAITech/WorkBuddyGuide"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-15-0",
+      "id": "news-2026-07-16-0",
       "category": "人工智能",
-      "time": "13:35",
-      "title": "OpenAI首款无屏移动智能音箱曝光，定位AI原生家庭陪伴终端",
-      "summary": "OpenAI正式切入消费级硬件赛道，联合前苹果核心团队（包括Jony Ive）打造可移动无屏智能音箱，主打拟人化交互能力，支持智能家居控制、信息查询等功能，试图打造AI时代的新型家用计算入口，目前正面临苹果的相关法务纠纷。",
-      "url": "https://www.republicworld.com/tech/openai-is-building-a-screen-free-smart-speaker-that-talks-listens-and-moves-like-a-living-thing-2026-07-15-132340",
+      "time": "12:44",
+      "title": "前OpenAI CTO创办的Thinking Machine Labs推出首款AI模型Inkling",
+      "summary": "由前OpenAI CTO Mira Murati创立的AI初创公司Thinking Machine Labs正式发布首款自研AI模型Inkling，官方表示这是完全从零训练的开源权重模型，支持深度自定义。",
+      "url": "https://www.indiatoday.in/technology/news/story/thinking-machine-labs-founded-by-ex-openai-exec-launches-first-ai-model-inkling-2948932-2026-07-16",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-15-1",
+      "id": "news-2026-07-16-1",
       "category": "人工智能",
-      "time": "13:26",
-      "title": "英伟达已正式向中国客户交付H200高性能AI芯片",
-      "summary": "美国官方证实英伟达已启动H200 AI芯片的对华发货，此前已有约10家中国企业获得美国商务部采购许可，阿里、腾讯、字节跳动、中兴旗下子公司均在获批名单中。",
-      "url": "https://www.cnbctv18.com/technology/openais-first-device-will-be-movable-screenless-speaker-built-as-ai-companion-19945849.htm",
+      "time": "12:40",
+      "title": "中国将在WAIC上阐述全球AI治理愿景 华为将亮相先进AI计算集群",
+      "summary": "中国国家主席习近平将在上海举办的世界人工智能大会上提出面向全球的AI治理愿景，华为将首发其最新先进AI计算集群，集中展示国内AI技术进展。",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/chinas-xi-jinping-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/articleshow/132429615.cms",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-15-2",
+      "id": "news-2026-07-16-2",
       "category": "人工智能",
-      "time": "13:24",
-      "title": "Sam Altman称GPT-5.6 Sol成本与Token效率优于Claude Fable 5",
-      "summary": "OpenAI CEO Sam Altman公开表示，最新推出的GPT-5.6 Sol在单位Token生成成本、推理效率上均优于Anthropic的Claude Fable 5，两者的实测差距与定价差异引发行业广泛讨论。",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/us-official-says-nvidia-has-begun-shipping-powerful-h200-ai-chips-to-china/articleshow/132407056.cms",
+      "time": "12:33",
+      "title": "英伟达拓展与丰田的AI合作 落地智慧城市与智能工厂场景",
+      "summary": "将AI能力从数据中心延伸、直接集成到终端设备与工业机器中，是今年全行业的核心发展方向。",
+      "url": "https://www.japantimes.co.jp/business/2026/07/16/companies/nvidia-toyota-ai-partnership/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-15-3",
+      "id": "news-2026-07-16-3",
       "category": "人工智能",
-      "time": "13:07",
-      "title": "OpenAI正式否认苹果商业机密窃取指控",
-      "summary": "7月10日苹果对OpenAI提起40页诉讼，指控其拉拢前苹果员工盗用知识产权，OpenAI公开回应称没有任何有效证据支撑苹果的相关主张。",
-      "url": "https://www.timesnownews.com/technology-science/sam-altman-says-gpt-5-6-sol-is-cheaper-and-efficient-than-claude-fable-how-much-both-cost-article-155102964",
+      "time": "12:00",
+      "title": "OpenAI正式推出首款硬件Codex Micro 用于管理AI编码代理",
+      "summary": "OpenAI首款硬件产品正式面世，这款售价230美元的Codex Micro与外设厂商Work Louder联合打造，配备专属控制按键与快捷键，帮助开发者高效管理AI编码代理。",
+      "url": "https://www.timesnownews.com/technology-science/amid-apple-hardware-claims-openai-unveils-codex-micro-keyboard-for-ai-coding-agents-article-155109058",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-15-4",
+      "id": "news-2026-07-16-4",
       "category": "人工智能",
-      "time": "13:00",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/07/15/openais-first-device-will-be-movable-screenless-speaker-built-as-ai-companion",
+      "time": "11:50",
+      "title": "日本机器人与制造龙头依托英伟达Cosmos推进物理AI落地",
+      "summary": "日本头部机器人与制造企业正在基于英伟达Cosmos平台技术，共同探索物理AI领域的前沿落地方向。",
+      "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/globenewswire/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier/2385552",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-15-5",
+      "id": "news-2026-07-16-5",
       "category": "人工智能",
-      "time": "12:48",
-      "title": "算力芯片领域出现新的市场与技术动向",
+      "time": "11:48",
+      "title": "Linux 磁盘加密密钥处理变化引发安全讨论",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.rappler.com/technology/us-official-nvidia-shipping-h200-ai-chips-china/",
+      "url": "https://www.indiatoday.in/technology/news/story/openai-launches-glowing-codex-keyboard-to-manage-ai-coding-agents-2948910-2026-07-16",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-15-6",
+      "id": "news-2026-07-16-6",
       "category": "人工智能",
-      "time": "12:46",
+      "time": "11:47",
       "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.businesstoday.in/technology/news/story/openai-rejects-apples-trade-secret-theft-claims-says-no-evidence-supports-lawsuit-542988-2026-07-15",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-enters-hardware-with-codex-micro-10788753/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-15-7",
+      "id": "news-2026-07-16-7",
       "category": "人工智能",
-      "time": "12:11",
+      "time": "11:41",
       "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.livemint.com/technology/tech-news/openais-first-ai-device-may-know-your-emails-control-your-home-and-talk-like-a-human-11784086487376.html",
+      "url": "https://www.devdiscourse.com/article/technology/3951010-chinas-grand-vision-for-ai-governance-a-new-world-stage",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "AI Companion Runtime Sandbox",
-    "phonetic": "/ˌeɪ aɪ ˈkʌmpniən ˈrʌntaɪm ˈsændbɒks/",
-    "definition": "为AI陪伴智能设备设计的运行时隔离环境，管控其对用户隐私、家居外设的访问权限",
-    "example": "可避免无屏AI音箱未经授权私自读取用户邮件、操控智能门锁的风险"
+    "term": "Prefill-Decode Overlap",
+    "phonetic": "/ˈpriːfɪl dɪˈkəʊd ˈəʊvəlæp/",
+    "definition": "大模型推理中重叠执行Prefill与Decode阶段请求的调度优化技术，降低端到端延迟",
+    "example": "该技术可在几乎不提升硬件开销的前提下，将推理整体吞吐提升30%以上"
   },
   "interview": {
-    "category": "安全治理",
+    "category": "推理性能",
     "difficulty": "中等",
-    "question": "团队正在开发类似OpenAI无屏AI陪伴音箱的消费级智能硬件，需要搭建端侧的运行时权限管控体系，同时满足用户全量隐私数据零泄露、智能家居设备误操控率低于0.01%、普通用户无感知无需复杂配置，需要完成哪些核心架构权衡？",
+    "question": "团队要给同时承载大量短生成请求和少量超长上下文请求的大模型在线推理服务接入Prefill-Decode Overlap优化，需要兼顾整体吞吐提升40%以上、长请求端到端延迟不高于优化前的1.2倍、兼容现有主流vLLM推理框架无需大规模改造，需要完成哪些核心架构权衡？",
     "points": [
-      "AI陪伴设备的权限最小化边界定义能力",
-      "端侧轻量沙箱的性能开销与隔离强度平衡",
-      "无交互场景下的隐式用户授权机制设计"
+      "考察对大模型推理两阶段资源冲突的理解能力",
+      "考察对重叠调度逻辑的边界约束设计能力",
+      "考察对存量推理框架改造的成本评估能力"
     ],
-    "answerLead": "需要从隔离强度、体验损耗、异常兜底三个维度逐层拆解权衡思路",
+    "answerLead": "可从资源分配、调度规则、缓存设计、框架适配四个核心维度逐层拆解权衡逻辑",
     "answer": [
-      "首先做权限颗粒度分层拆解，将邮件读取、门锁操控等高风险能力单独抽离，默认关闭仅支持用户单次临时授权，低风险的音乐播放、天气查询能力默认放行，尽可能缩小攻击面",
-      "选用端侧轻量进程级沙箱而非全虚拟化方案，将AI大模型推理进程与设备硬件控制、用户数据访问进程完全隔离，沙箱自身内存占用控制在100MB以内，不影响设备交互响应速度",
-      "设计隐式授权机制，通过用户语音指令置信度、历史操作习惯自动判断是否放行低风险操作，高风险操作必须触发用户二次语音确认，避免打断正常交互流程",
-      "搭建全链路操作日志的端侧加密存证体系，所有权限调用全程留痕出现异常可快速溯源，同时所有日志默认不上传云端，从根源避免批量隐私泄露风险"
+      "首先权衡GPU计算资源的切片粒度，为长请求的Prefill阶段预留独立算力切片，避免抢占短Decode请求的核心算力",
+      "其次权衡两类请求的调度优先级规则，设置长请求Prefill的最大可抢占阈值，避免过度重叠导致短请求超时占比上升",
+      "然后权衡KV缓存的分片策略，为重叠调度场景设计独立的KV缓存池，避免跨阶段缓存冲突引发的异常",
+      "最后权衡框架适配的改造成本，优先通过vLLM的自定义调度器插件实现逻辑复用，避免底层算子全量重写"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月17日 · 星期五",
+      "word": {
+        "term": "Prefill-Decode Overlap",
+        "definition": "大模型推理中重叠执行Prefill与Decode阶段请求的调度优化技术，降低端到端延迟",
+        "example": "该技术可在几乎不提升硬件开销的前提下，将推理整体吞吐提升30%以上"
+      },
+      "interview": {
+        "category": "推理性能",
+        "difficulty": "中等",
+        "question": "团队要给同时承载大量短生成请求和少量超长上下文请求的大模型在线推理服务接入Prefill-Decode Overlap优化，需要兼顾整体吞吐提升40%以上、长请求端到端延迟不高于优化前的1.2倍、兼容现有主流vLLM推理框架无需大规模改造，需要完成哪些核心架构权衡？",
+        "points": [
+          "考察对大模型推理两阶段资源冲突的理解能力",
+          "考察对重叠调度逻辑的边界约束设计能力",
+          "考察对存量推理框架改造的成本评估能力"
+        ],
+        "answerLead": "可从资源分配、调度规则、缓存设计、框架适配四个核心维度逐层拆解权衡逻辑",
+        "answer": [
+          "首先权衡GPU计算资源的切片粒度，为长请求的Prefill阶段预留独立算力切片，避免抢占短Decode请求的核心算力",
+          "其次权衡两类请求的调度优先级规则，设置长请求Prefill的最大可抢占阈值，避免过度重叠导致短请求超时占比上升",
+          "然后权衡KV缓存的分片策略，为重叠调度场景设计独立的KV缓存池，避免跨阶段缓存冲突引发的异常",
+          "最后权衡框架适配的改造成本，优先通过vLLM的自定义调度器插件实现逻辑复用，避免底层算子全量重写"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月16日 · 星期四",
       "word": {
@@ -888,31 +913,6 @@
           "设计统一任务路由层，自动识别任务复杂度分发到对应模型，同时增加缓存层复用历史生成结果减少重复调用。",
           "搭建效果校验闭环，用基准代码测试集对齐分层架构和全量用大模型的产出质量，确保功能无损失。",
           "建立多维度成本可观测看板，统计不同任务的单Token成本、耗时、准确率，持续优化分层策略进一步压缩冗余开销。"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月15日 · 星期一",
-      "word": {
-        "term": "Agent Harness",
-        "definition": "AI代理通用调度层，可统一对接多源代理服务实现能力组合复用",
-        "example": "Omnigent是典型Agent Harness项目，可无缝切换不同大模型驱动的代理服务"
-      },
-      "interview": {
-        "category": "Agent系统",
-        "difficulty": "中等",
-        "question": "搭建多Agent协同系统时，引入统一元调度层需要做哪些核心架构权衡？",
-        "points": [
-          "考察对多Agent系统常见集成痛点的理解程度",
-          "考察对元调度层核心能力边界的设计思路",
-          "考察不同场景下Agent组合方案的成本与性能权衡能力"
-        ],
-        "answerLead": "先梳理多Agent集成的核心痛点，再逐层拆解架构设计的权衡维度",
-        "answer": [
-          "明确元调度层的能力边界，避免过度封装丧失底层Agent的原生特性",
-          "设计统一输入输出抽象协议，同时预留扩展字段兼容不同Agent的自定义参数",
-          "内置路由策略模块，支持按任务复杂度、成本阈值自动匹配对应能力等级的Agent",
-          "增加全链路可观测性埋点，记录Agent调用的耗时、成功率、输出质量方便迭代优化"
         ]
       }
     }
