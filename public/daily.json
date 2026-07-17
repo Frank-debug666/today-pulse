@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-16T16:46:49.957Z",
-  "dateLabel": "2026年7月17日 · 星期五",
-  "issue": 212,
+  "generatedAt": "2026-07-17T17:34:58.493Z",
+  "dateLabel": "2026年7月18日 · 星期六",
+  "issue": 213,
   "githubRepos": [
     {
       "rank": "01",
       "name": "xai-org / grok-build",
-      "summary": "基于Rust开发的SpaceXAI编码代理封装与TUI工具，支持全屏交互、鼠标操作且可灵活扩展。",
+      "summary": "采用Rust开发，是xAI官方开源的编码代理脚手架与交互式终端工具，支持全窗口操作、鼠标交互与能力扩展。",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "11K",
-      "growth": "+10958",
+      "stars": "15.8K",
+      "growth": "+15795",
       "growthLabel": "近7日",
       "url": "https://github.com/xai-org/grok-build"
     },
     {
       "rank": "02",
       "name": "Fei-Away / Codex-Dream-Skin",
-      "summary": "面向Codex系列硬件的自定义美化皮肤工具。",
-      "language": "PowerShell",
-      "color": "#707873",
-      "stars": "5K",
-      "growth": "+5015",
+      "summary": "基于JavaScript开发的Codex IDE自定义皮肤美化插件，支持用户自由调整编码界面视觉风格。",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "8.6K",
+      "growth": "+8569",
       "growthLabel": "近7日",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin"
     },
     {
       "rank": "03",
       "name": "MDX-Tom / gpt-5.6-instruct",
-      "summary": "面向gpt-5.6系列的Codex CLI破甲提示词与测试包，支持相关能力验证。",
+      "summary": "面向gpt-5.6系列模型开发的Codex CLI破甲提示词与配套测试集工具包，用于验证模型能力边界。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.6K",
-      "growth": "+1613",
+      "stars": "1.9K",
+      "growth": "+1860",
       "growthLabel": "近7日",
       "url": "https://github.com/MDX-Tom/gpt-5.6-instruct"
     },
     {
       "rank": "04",
-      "name": "littledivy / mimic",
-      "summary": "可拦截任意应用调用，随后直接通过Python像调用本地库一样调用该应用的工具。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "1.1K",
-      "growth": "+1083",
+      "name": "pixel-point / aval",
+      "summary": "基于TypeScript实现的网页端交互式视频全新开源格式，内置状态机、支持精确帧切换与透明通道压缩。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "1.2K",
+      "growth": "+1152",
       "growthLabel": "近7日",
-      "url": "https://github.com/littledivy/mimic"
+      "url": "https://github.com/pixel-point/aval"
     },
     {
       "rank": "05",
-      "name": "AlephAITech / WorkBuddyGuide",
-      "summary": "开源WorkBuddy实战蓝皮书，覆盖教程、真实工作流、技能配置、多智能体实践等全场景内容。",
+      "name": "littledivy / mimic",
+      "summary": "基于Python开发的工具，可拦截任意第三方应用的运行调用，直接将其封装为Python库供代码调用。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "973",
-      "growth": "+973",
+      "stars": "1.1K",
+      "growth": "+1138",
       "growthLabel": "近7日",
-      "url": "https://github.com/AlephAITech/WorkBuddyGuide"
+      "url": "https://github.com/littledivy/mimic"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-16-0",
+      "id": "news-2026-07-17-0",
       "category": "人工智能",
-      "time": "12:44",
-      "title": "前OpenAI CTO创办的Thinking Machine Labs推出首款AI模型Inkling",
-      "summary": "由前OpenAI CTO Mira Murati创立的AI初创公司Thinking Machine Labs正式发布首款自研AI模型Inkling，官方表示这是完全从零训练的开源权重模型，支持深度自定义。",
-      "url": "https://www.indiatoday.in/technology/news/story/thinking-machine-labs-founded-by-ex-openai-exec-launches-first-ai-model-inkling-2948932-2026-07-16",
+      "time": "13:26",
+      "title": "习近平提出构建全球AI治理新秩序，中国将作为核心引领者挑战美国现有主导地位",
+      "summary": "7月17日上海讯，中国国家主席习近平在国内顶级科技会议世界人工智能大会上表态，将推动开源技术普及，主导构建全新的全球AI治理体系，对冲美国在AI领域的既有影响力。",
+      "url": "https://www.straitstimes.com/asia/xi-pitches-china-as-leader-of-new-global-ai-order-challenging-us-dominance",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-16-1",
+      "id": "news-2026-07-17-1",
       "category": "人工智能",
-      "time": "12:40",
-      "title": "中国将在WAIC上阐述全球AI治理愿景 华为将亮相先进AI计算集群",
-      "summary": "中国国家主席习近平将在上海举办的世界人工智能大会上提出面向全球的AI治理愿景，华为将首发其最新先进AI计算集群，集中展示国内AI技术进展。",
-      "url": "https://economictimes.indiatimes.com/news/international/world-news/chinas-xi-jinping-to-outline-ai-diplomacy-vision-at-key-shanghai-forum/articleshow/132429615.cms",
+      "time": "13:25",
+      "title": "什么是Kimi K3？国产大模型性能反超Claude Fable 5与GPT-5.6",
+      "summary": "国内AI企业月之暗面正式推出Kimi K3大模型，这款开放权重产品在多项基准测试中超越OpenAI GPT-5.6、Anthropic Claude Fable 5等海外头部模型，定价优势显著。",
+      "url": "https://www.financialexpress.com/life/technology-what-is-kimi-k3-chinas-new-ai-model-takes-on-claude-fable-5-and-gpt-5-6-4294344/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-16-2",
+      "id": "news-2026-07-17-2",
       "category": "人工智能",
-      "time": "12:33",
-      "title": "英伟达拓展与丰田的AI合作 落地智慧城市与智能工厂场景",
-      "summary": "将AI能力从数据中心延伸、直接集成到终端设备与工业机器中，是今年全行业的核心发展方向。",
-      "url": "https://www.japantimes.co.jp/business/2026/07/16/companies/nvidia-toyota-ai-partnership/",
+      "time": "13:23",
+      "title": "xAI全量开放Groq Build编码代理源代码，回应此前数据隐私争议",
+      "summary": "继数据隐私相关争议事件后，埃隆·马斯克旗下xAI宣布全量开源其编码代理产品Groq Build的全部代码，号召社区共同迭代构建高可靠、高健壮的开发脚手架体系。",
+      "url": "https://economictimes.indiatimes.com/tech/technology/elon-musk-announces-x-will-open-source-its-entire-code-base-what-does-he-mean/articleshow/132453234.cms",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-16-3",
+      "id": "news-2026-07-17-3",
       "category": "人工智能",
-      "time": "12:00",
-      "title": "OpenAI正式推出首款硬件Codex Micro 用于管理AI编码代理",
-      "summary": "OpenAI首款硬件产品正式面世，这款售价230美元的Codex Micro与外设厂商Work Louder联合打造，配备专属控制按键与快捷键，帮助开发者高效管理AI编码代理。",
-      "url": "https://www.timesnownews.com/technology-science/amid-apple-hardware-claims-openai-unveils-codex-micro-keyboard-for-ai-coding-agents-article-155109058",
+      "time": "13:23",
+      "title": "核心旗舰模型Gemini 3.5 Pro大幅延期，谷歌在全球AI竞赛中掉队",
+      "summary": "当前OpenAI与Anthropic稳居全球第一梯队，曾经的AI领域领跑者谷歌遭遇重大进展延迟，原计划推出的旗舰级大模型Gemini 3.5 Pro上线时间大幅延后，行业竞争力下滑。",
+      "url": "https://www.timesnownews.com/technology-science/google-falls-behind-in-ai-race-as-flagship-gemini-3-5-pro-model-faces-major-delay-article-155114765",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-16-4",
+      "id": "news-2026-07-17-4",
       "category": "人工智能",
-      "time": "11:50",
-      "title": "日本机器人与制造龙头依托英伟达Cosmos推进物理AI落地",
-      "summary": "日本头部机器人与制造企业正在基于英伟达Cosmos平台技术，共同探索物理AI领域的前沿落地方向。",
-      "url": "https://www.manilatimes.net/2026/07/16/tmt-newswire/globenewswire/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier/2385552",
+      "time": "13:13",
+      "title": "深伪检测初创企业Neural Defend斩获a16z纽约科技周最高奖项，评委阵容包含OpenAI、亚马逊技术专家",
+      "summary": "7月17日印度新德里讯，针对当前AI生成深伪内容冲击金融、政务、互联网平台数字信任的行业痛点，印度AI安全初创公司Neural Defend近期在a16z纽约科技周活动中拿下最高荣誉，获得全球科技行业巨头的广泛认可。",
+      "url": "https://www.tribuneindia.com/news/business/deepfake-security-startup-neural-defend-wins-top-honours-at-a16z-new-york-tech-week-judges-from-openai-amazon/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-16-5",
+      "id": "news-2026-07-17-5",
       "category": "人工智能",
-      "time": "11:48",
-      "title": "Linux 磁盘加密密钥处理变化引发安全讨论",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.indiatoday.in/technology/news/story/openai-launches-glowing-codex-keyboard-to-manage-ai-coding-agents-2948910-2026-07-16",
+      "time": "13:04",
+      "title": "习近平阐述全球AI新秩序核心愿景",
+      "summary": "中国国家主席习近平明确提出全球AI治理全新愿景，倡导开源技术普惠，支持发展中国家共享AI发展红利，打破现有不均衡的AI产业格局。",
+      "url": "https://www.devdiscourse.com/article/technology/3951689-xi-jinpings-vision-for-a-new-global-ai-order",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-16-6",
+      "id": "news-2026-07-17-6",
       "category": "人工智能",
-      "time": "11:47",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-enters-hardware-with-codex-micro-10788753/",
+      "time": "13:02",
+      "title": "Kimi K3成为国内首个参数规模达2.8万亿的开放权重大模型",
+      "summary": "月之暗面官方强调，Kimi K3是国内首个达到2.8万亿参数规模的开放权重大模型，并非完全开源产品，面向开发者提供低成本调用授权。",
+      "url": "https://www.thehindu.com/sci-tech/technology/what-is-kimi-k3-chinas-first-open-ai-model-to-reach-28-trillion-parameters/article71232767.ece",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-16-7",
+      "id": "news-2026-07-17-7",
       "category": "人工智能",
-      "time": "11:41",
-      "title": "人工智能领域出现新的产品与治理议题",
-      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.devdiscourse.com/article/technology/3951010-chinas-grand-vision-for-ai-governance-a-new-world-stage",
+      "time": "12:14",
+      "title": "中国正式牵头全球AI治理规则制定，开源技术定位为公共普惠资源",
+      "summary": "习近平在世界人工智能大会主旨演讲中明确，中国将成为全球AI治理的核心引领者，把开源AI技术定义为全人类共享的公共产品，向发展中国家提供技术扶持。",
+      "url": "https://www.devdiscourse.com/article/technology/3951654-china-takes-the-helm-xis-vision-for-global-ai-leadership",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Prefill-Decode Overlap",
-    "phonetic": "/ˈpriːfɪl dɪˈkəʊd ˈəʊvəlæp/",
-    "definition": "大模型推理中重叠执行Prefill与Decode阶段请求的调度优化技术，降低端到端延迟",
-    "example": "该技术可在几乎不提升硬件开销的前提下，将推理整体吞吐提升30%以上"
+    "term": "Coding Agent Harness",
+    "phonetic": "/ˈkəʊdɪŋ ˈeɪdʒənt ˈhɑːnɪs/",
+    "definition": "编码代理全流程运行管控脚手架，保障生成代码的执行安全性与可靠性。",
+    "example": "xAI开源的Grok Build就是典型的Coding Agent Harness，支持社区共建迭代。"
   },
   "interview": {
-    "category": "推理性能",
+    "category": "Agent系统",
     "difficulty": "中等",
-    "question": "团队要给同时承载大量短生成请求和少量超长上下文请求的大模型在线推理服务接入Prefill-Decode Overlap优化，需要兼顾整体吞吐提升40%以上、长请求端到端延迟不高于优化前的1.2倍、兼容现有主流vLLM推理框架无需大规模改造，需要完成哪些核心架构权衡？",
+    "question": "团队要基于xAI刚开源的Grok Build编码代理脚手架，搭建面向普通开发者的低门槛全栈项目自动生成服务，需要兼顾生成代码可运行率≥92%、单次调用资源成本低于0.8元、支持用户自定义私有代码库接入不泄露敏感资产，需要完成哪些核心架构权衡？",
     "points": [
-      "考察对大模型推理两阶段资源冲突的理解能力",
-      "考察对重叠调度逻辑的边界约束设计能力",
-      "考察对存量推理框架改造的成本评估能力"
+      "对编码代理Harness核心架构组件的理解能力",
+      "编码场景下效果与成本平衡的设计思路",
+      "私有代码接入的权限隔离方案设计经验"
     ],
-    "answerLead": "可从资源分配、调度规则、缓存设计、框架适配四个核心维度逐层拆解权衡逻辑",
+    "answerLead": "可以从运行层、调度层、接入层三个维度逐层拆解需求，完成定向权衡设计。",
     "answer": [
-      "首先权衡GPU计算资源的切片粒度，为长请求的Prefill阶段预留独立算力切片，避免抢占短Decode请求的核心算力",
-      "其次权衡两类请求的调度优先级规则，设置长请求Prefill的最大可抢占阈值，避免过度重叠导致短请求超时占比上升",
-      "然后权衡KV缓存的分片策略，为重叠调度场景设计独立的KV缓存池，避免跨阶段缓存冲突引发的异常",
-      "最后权衡框架适配的改造成本，优先通过vLLM的自定义调度器插件实现逻辑复用，避免底层算子全量重写"
+      "代码沙箱隔离层权衡：选择轻量容器级沙箱替代裸机执行，牺牲15%的启动速度换取代码执行安全性与资源复用率，避免恶意生成代码破坏环境。",
+      "大模型调用链路权衡：采用「小模型初筛+大模型生成核心逻辑」的两级调度策略，在保证生成准确率的前提下降低70%的高算力大模型调用占比，控制单请求成本。",
+      "私有代码接入层权衡：采用本地向量库离线嵌入+不回传原始敏感代码的联邦检索方案，牺牲少量检索召回率，保证私有代码资产完全不流出用户侧。",
+      "结果校验层权衡：内置分层快速校验规则，优先用静态检查替代全量动态执行用例校验，在保证可运行率指标达标的前提下降低校验环节的算力开销。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月18日 · 星期六",
+      "word": {
+        "term": "Coding Agent Harness",
+        "definition": "编码代理全流程运行管控脚手架，保障生成代码的执行安全性与可靠性。",
+        "example": "xAI开源的Grok Build就是典型的Coding Agent Harness，支持社区共建迭代。"
+      },
+      "interview": {
+        "category": "Agent系统",
+        "difficulty": "中等",
+        "question": "团队要基于xAI刚开源的Grok Build编码代理脚手架，搭建面向普通开发者的低门槛全栈项目自动生成服务，需要兼顾生成代码可运行率≥92%、单次调用资源成本低于0.8元、支持用户自定义私有代码库接入不泄露敏感资产，需要完成哪些核心架构权衡？",
+        "points": [
+          "对编码代理Harness核心架构组件的理解能力",
+          "编码场景下效果与成本平衡的设计思路",
+          "私有代码接入的权限隔离方案设计经验"
+        ],
+        "answerLead": "可以从运行层、调度层、接入层三个维度逐层拆解需求，完成定向权衡设计。",
+        "answer": [
+          "代码沙箱隔离层权衡：选择轻量容器级沙箱替代裸机执行，牺牲15%的启动速度换取代码执行安全性与资源复用率，避免恶意生成代码破坏环境。",
+          "大模型调用链路权衡：采用「小模型初筛+大模型生成核心逻辑」的两级调度策略，在保证生成准确率的前提下降低70%的高算力大模型调用占比，控制单请求成本。",
+          "私有代码接入层权衡：采用本地向量库离线嵌入+不回传原始敏感代码的联邦检索方案，牺牲少量检索召回率，保证私有代码资产完全不流出用户侧。",
+          "结果校验层权衡：内置分层快速校验规则，优先用静态检查替代全量动态执行用例校验，在保证可运行率指标达标的前提下降低校验环节的算力开销。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月17日 · 星期五",
       "word": {
@@ -888,31 +913,6 @@
           "设计可插拔的适配层，针对不同后端单独开发轻量适配器，避免侵入原有代理逻辑",
           "内置调度路由模块，支持按任务类型、成本阈值自动选择合适的代理组合，实现能力互补",
           "补充统一的可观测埋点、错误重试机制，保障多代理协同运行的稳定性"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月16日 · 星期二",
-      "word": {
-        "term": "Spaced Repetition",
-        "definition": "间隔重复，按遗忘曲线安排复习节奏的高效记忆强化方法。",
-        "example": "用该机制可避免长期依赖AI写代码导致的实操技能退化。"
-      },
-      "interview": {
-        "category": "成本与可观测性",
-        "difficulty": "中等",
-        "question": "AI编码工具落地时，如何通过大小模型分层调度的架构设计，在不降低产出质量的前提下显著降低推理成本？",
-        "points": [
-          "大模型与小模型的能力边界划分思路",
-          "分层调度架构的主流设计模式",
-          "分层方案的效果对齐与成本核算方法"
-        ],
-        "answerLead": "答题时先明确大小模型的职责边界，再逐层拆解架构设计要点和落地校验逻辑。",
-        "answer": [
-          "首先做能力分层：将深度逻辑推理类的代码审计、架构设计任务交给高成本大模型，机械性的代码补全、简单实现任务交给低成本小模型。",
-          "设计统一任务路由层，自动识别任务复杂度分发到对应模型，同时增加缓存层复用历史生成结果减少重复调用。",
-          "搭建效果校验闭环，用基准代码测试集对齐分层架构和全量用大模型的产出质量，确保功能无损失。",
-          "建立多维度成本可观测看板，统计不同任务的单Token成本、耗时、准确率，持续优化分层策略进一步压缩冗余开销。"
         ]
       }
     }
