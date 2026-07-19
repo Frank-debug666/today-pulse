@@ -1,171 +1,196 @@
 {
-  "generatedAt": "2026-07-18T17:27:18.700Z",
-  "dateLabel": "2026年7月19日 · 星期日",
-  "issue": 214,
+  "generatedAt": "2026-07-19T17:29:21.870Z",
+  "dateLabel": "2026年7月20日 · 星期一",
+  "issue": 215,
   "githubRepos": [
     {
       "rank": "01",
       "name": "xai-org / grok-build",
-      "summary": "基于Rust开发的SpaceX AI编码代理全交互式终端脚手架，支持全屏操作、鼠标交互与功能扩展。",
+      "summary": "这是SpaceXAI推出的编码代理工具集与TUI界面，支持全屏操作、鼠标交互且可扩展。",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "18.3K",
-      "growth": "+18349",
+      "stars": "19.9K",
+      "growth": "+19871",
       "growthLabel": "近7日",
       "url": "https://github.com/xai-org/grok-build"
     },
     {
       "rank": "02",
       "name": "Fei-Away / Codex-Dream-Skin",
-      "summary": "基于JavaScript开发的Codex AI助手自定义皮肤美化插件，支持用户自由调整界面样式。",
+      "summary": "Codex Dream Skin是面向Codex的美化皮肤定制项目。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "9.7K",
-      "growth": "+9682",
+      "stars": "10.2K",
+      "growth": "+10247",
       "growthLabel": "近7日",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin"
     },
     {
       "rank": "03",
       "name": "CluvexStudio / Aether",
-      "summary": "基于Rust开发的高性能分布式AI推理调度框架，本周实现了大量功能迭代快速增长。",
+      "summary": "本周热度快速攀升的开源项目。",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "1.2K",
-      "growth": "+1232",
+      "stars": "1.3K",
+      "growth": "+1299",
       "growthLabel": "近7日",
       "url": "https://github.com/CluvexStudio/Aether"
     },
     {
       "rank": "04",
       "name": "pixel-point / aval",
-      "summary": "基于TypeScript实现的网页端交互式视频开源格式，内置状态机支持精确帧切换与透明通道渲染。",
+      "summary": "面向网页端交互式视频的全新开源格式，内置状态机，支持帧级精准转场和打包Alpha透明通道。",
       "language": "TypeScript",
       "color": "#3178c6",
       "stars": "1.2K",
-      "growth": "+1200",
+      "growth": "+1235",
       "growthLabel": "近7日",
       "url": "https://github.com/pixel-point/aval"
     },
     {
       "rank": "05",
       "name": "littledivy / mimic",
-      "summary": "基于Python开发的应用拦截工具，可将任意第三方非Python应用封装为Python库直接调用。",
+      "summary": "可拦截任意应用程序，之后就能像调用Python库一样直接调用该应用的功能。",
       "language": "Python",
       "color": "#3572a5",
       "stars": "1.2K",
-      "growth": "+1159",
+      "growth": "+1201",
       "growthLabel": "近7日",
       "url": "https://github.com/littledivy/mimic"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-18-0",
+      "id": "news-2026-07-19-0",
       "category": "人工智能",
-      "time": "13:04",
-      "title": "AI板块抛售潮下苹果反超英伟达成全球市值最高企业",
-      "summary": "受AI相关资产新一轮抛压影响，周五苹果市值正式超过英伟达，登顶全球市值最高的上市公司。",
-      "url": "https://www.nation.com.pk/18-Jul-2026/apple-overtakes-nvidia-world-s-valuable-company-amid-ai-selloff",
+      "time": "12:38",
+      "title": "Kimi K3对决GPT 5.6 Sol与Fable 5：中国新AI如何挑战OpenAI和Anthropic",
+      "summary": "月之暗面的Kimi K3凭借亮眼的基准测试成绩向OpenAI和Anthropic发起挑战，本文将对比这款中国最新AI模型与GPT-5.6 Sol、Fable 5的实际表现。",
+      "url": "https://www.timesnownews.com/technology-science/kimi-k3-vs-gpt-5-6-sol-vs-fable-5-how-chinas-new-ai-takes-on-openai-and-anthropic-article-155131848",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-18-1",
+      "id": "news-2026-07-19-1",
       "category": "人工智能",
-      "time": "13:00",
-      "title": "国内大模型厂商月之暗面发布新品，引发科技板块波动",
-      "summary": "当前国产AI大模型定价普遍远低于OpenAI与Anthropic的同类产品，本次新品发布进一步带动相关板块行情震荡。",
-      "url": "https://www.straitstimes.com/asia/east-asia/chinas-moonshot-unveils-ai-model-fuelling-tech-rout",
+      "time": "12:21",
+      "title": "2026世界杯决赛西班牙对阵阿根廷谁能夺冠？AI给出明确预测",
+      "summary": "随着西班牙和阿根廷备战2026年世界杯决赛，谷歌Gemini、OpenAI ChatGPT、Anthropic Claude等AI模型均预测西班牙为夺冠热门。",
+      "url": "https://www.financialexpress.com/sports/who-will-win-spain-vs-argentina-fifa-world-cup-2026-final-ai-predicts-a-clear-favourite/4296074/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-18-2",
+      "id": "news-2026-07-19-2",
       "category": "人工智能",
-      "time": "12:53",
-      "title": "谷歌旗舰Gemini 3.5 Pro大幅延期，AI竞赛中掉队",
-      "summary": "全球科技巨头当前在AI赛道竞争激烈，OpenAI和Anthropic处于第一梯队，曾握有技术优势的谷歌核心AI模型Gemini 3.5 Pro出现落地延期问题。",
-      "url": "https://www.timesnownews.com/technology-science/google-falls-behind-in-ai-race-as-flagship-gemini-3-5-pro-model-faces-major-delay-article-155114765",
+      "time": "11:44",
+      "title": "印度裔技术高管Uday Ruddarraju升任OpenAI计算CTO，一年前刚从马斯克旗下xAI离职",
+      "summary": "OpenAI正式任命Uday Ruddarraju为计算团队新任CTO，距他从埃隆·马斯克的xAI离职刚好过去一年，他的目标是打造全球规模最大的AI算力集群。",
+      "url": "https://www.financialexpress.com/world-news/nri/meet-uday-ruddarraju-openai-promotes-indian-origin-techie-to-compute-cto-a-year-after-he-quit-musks-xai/4296054/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-18-3",
+      "id": "news-2026-07-19-3",
       "category": "人工智能",
-      "time": "12:39",
-      "title": "干洗店常用普通工业许可如今被用来审批AI算力电站",
-      "summary": "美国得克萨斯州阿比林当地居民原本经营小型牧场，直到隔壁神秘项目扬起的尘土覆盖住所，才发现该项目是借常规工业许可落地的AI算力中心。",
-      "url": "https://abc17news.com/stacker-ai/2026/07/17/this-permit-common-for-dry-cleaners-is-now-being-used-to-build-ai-power-plants/",
+      "time": "10:00",
+      "title": "中国将开源Kimi K3，完全没有美国式的技术管控顾虑",
+      "summary": "华盛顿方面将相关AI技术像原子弹一样严格管控，而北京方面则将本国企业研发的大模型视作可广泛应用的核能类技术资源。",
+      "url": "https://www.afr.com/technology/china-s-making-kimi-k3-open-source-without-any-american-style-fretting-20260719-p60gix",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-18-4",
+      "id": "news-2026-07-19-4",
       "category": "人工智能",
-      "time": "12:27",
-      "title": "针对OpenAI、Anthropic指控中企AI“蒸馏”侵权，知名投资人Chamath公开表态",
-      "summary": "顶级风投大佬Chamath Palihapitiya针对美国头部AI实验室发起的知识产权争议公开发声，直指美方企业自身也存在同类技术复用行为。",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/after-anthropic-and-openai-accuse-chinese-ai-companies-of-distillation-billionaire-chamath-palihapitiya-says-cannot-complain-when-you-yourself-have-/articleshow/132473850.cms",
+      "time": "08:00",
+      "title": "Motley Fool：现在投资英伟达为时未晚",
+      "summary": "半导体巨头英伟达（纳斯达克股票代码：NVDA）的强势上涨行情是否已经结束？其股价近期虽有小幅回调，但目前仍有充足理由支撑投资者布局英伟达。",
+      "url": "https://www.spokesman.com/stories/2026/jul/19/motley-fool-not-too-late-to-invest-in-nvidia/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-18-5",
-      "category": "人工智能",
-      "time": "11:34",
-      "title": "智能手机、笔记本等消费电子售价持续走高的核心原因浮出水面",
-      "summary": "ChatGPT、Gemini、Claude等AI服务背后的算力集群对存储芯片需求暴涨，上游供给紧张推高存储成本，最终传导到消费电子终端。",
-      "url": "https://www.hindustantimes.com/cities/mumbai-news/why-smartphones-and-laptops-are-getting-costly-101784317174045.html",
+      "id": "news-2026-07-19-5",
+      "category": "全球科技",
+      "time": "04:45",
+      "title": "第154届英国高尔夫公开赛：皇家伯克戴尔球场第四轮开球时间、分组及焦点组名单",
+      "summary": "提供美国本土优质即时新闻资讯，覆盖本地天气、预警通知、优惠活动、赛事动态等各类内容。",
+      "url": "https://www.newsbreak.com/nbc-news-510074/4778322909629-the-154th-open-championship-round-4-tee-times-groupings-and-featured-groups-at-royal-birkdale",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-18-6",
+      "id": "news-2026-07-19-6",
       "category": "人工智能",
-      "time": "11:17",
-      "title": "苹果市值正式反超英伟达登顶全球第一",
-      "summary": "投资者将注意力转向AI变现、服务生态增长等长期方向，推动苹果市值超越英伟达成为全球最高企业。",
-      "url": "https://www.thehindubusinessline.com/info-tech/apple-overtakes-nvidia-to-become-worlds-most-valuable-company/article71236979.ece",
+      "time": "02:00",
+      "title": "这款开源应用完美实现AirDrop功能，还支持跨Windows、Mac、Android、iOS和Linux平台使用",
+      "summary": "这款开源的AirDrop替代工具省去了我日常文件传输流程中所有不必要的繁琐步骤。",
+      "url": "https://www.xda-developers.com/open-source-airdrop-alternative-for-windows-mac-android-ios-linux/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-18-7",
+      "id": "news-2026-07-19-7",
       "category": "人工智能",
-      "time": "10:52",
-      "title": "国产Kimi K3大模型能力对标ChatGPT、Claude，超出美国科技行业预期",
-      "summary": "北京AI创业公司月之暗面推出的最新Kimi K3模型能力已追平Anthropic Claude和OpenAI旗下的旗舰版本，引发全球科技行业广泛关注。",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-ai-model-takes-us-tech-industry-by-surprise-with-abilities-rivalling-claude-chatgpt/articleshow/132472800.cms",
+      "time": "01:20",
+      "title": "如果OpenAI沦为「AI泡沫中的雷曼兄弟」，微软、英伟达、甲骨文和亚马逊会遭遇什么？",
+      "summary": "业内人士Ed Zitron指出当前AI热潮主要由OpenAI驱动，他警示称一旦OpenAI破产崩盘，很可能引发整个行业下行，尽管各家科技巨头都已投入巨额资金，但相关风险隐忧始终存在。",
+      "url": "https://www.livemint.com/companies/news/if-openai-becomes-lehman-brothers-of-ai-bubble-what-happens-to-microsoft-nvidia-oracle-and-amazon-11784293301559.html",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Distillation Fidelity Evaluation",
-    "phonetic": "/ˌdɪstɪˈleɪʃn fɪˈdeləti ɪˌvæljuˈeɪʃn/",
-    "definition": "衡量大模型蒸馏后输出与原教师模型输出一致性的评测体系",
-    "example": "可验证学生模型是否完整继承教师模型的核心能力与知识分布"
+    "term": "Structured Output",
+    "phonetic": "/ structured output /",
+    "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。",
+    "example": "让模型返回合法 JSON，而不是一段需要再次解析的自然语言。"
   },
   "interview": {
-    "category": "模型评测",
-    "difficulty": "中等",
-    "question": "团队需要搭建面向开源大模型的蒸馏保真度自动化评测体系，要求兼顾蒸馏前后核心能力对齐率≥97%、单次全量评测耗时低于1小时、评测集可自动适配不同参数规模的教师/学生模型，需要完成哪些核心架构权衡？",
+    "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
     "points": [
-      "蒸馏对齐度多维度指标的合理设计能力",
-      "自动化评测流水线的效率优化思路",
-      "跨规模模型的评测兼容性设计思路"
+      "Schema 约束",
+      "校验重试",
+      "容错设计"
     ],
-    "answerLead": "可以从指标分层、流水线调度、泛化评测集设计三个维度拆解权衡方案",
     "answer": [
-      "首先做指标分层权衡：舍弃全量输出逐字匹配的高开销方案，拆解为事实一致性、推理路径对齐、长上下文理解三个核心维度加权统计，在降低计算量的同时保证核心能力对齐率达标。",
-      "其次做评测资源调度权衡：将全量评测集拆分为冷热两个子集，常规迭代仅运行小体量热子集快速出结果，全量校验时才触发冷子集调度，把单次平均耗时控制在1小时以内。",
-      "然后做评测集泛化性权衡：设计动态样本生成模块，根据不同教师模型的能力范围自动生成适配的评测样本，无需人工标注即可适配不同参数规模的模型。",
-      "最后做结果置信度权衡：引入小样本人工校验环节，对自动化评测的低置信度样本二次核验，避免出现评测结果偏差过大的问题。"
-    ]
+      "使用模型提供的结构化输出或 JSON Schema 能力。",
+      "服务端执行严格校验，并将校验错误反馈给模型重试。",
+      "限制字段范围、长度和枚举值，减少自由输出空间。",
+      "为持续失败设置降级逻辑，避免阻塞主流程。"
+    ],
+    "category": "AI 产品架构",
+    "difficulty": "中等",
+    "answerLead": "参考答题思路："
   },
   "generation": {
-    "learningSource": "ark",
-    "learningError": null,
+    "learningSource": "fallback",
+    "learningError": "Expected ':' after property name in JSON at position 721 (line 7 column 29)",
     "githubSource": "github-search",
     "newsSource": "gnews-search-en",
     "newsError": null,
-    "localizationSource": "ark",
+    "localizationSource": "ark-localization",
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月20日 · 星期一",
+      "word": {
+        "term": "Structured Output",
+        "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。",
+        "example": "让模型返回合法 JSON，而不是一段需要再次解析的自然语言。"
+      },
+      "interview": {
+        "category": "AI 产品架构",
+        "difficulty": "中等",
+        "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
+        "points": [
+          "Schema 约束",
+          "校验重试",
+          "容错设计"
+        ],
+        "answerLead": "参考答题思路：",
+        "answer": [
+          "使用模型提供的结构化输出或 JSON Schema 能力。",
+          "服务端执行严格校验，并将校验错误反馈给模型重试。",
+          "限制字段范围、长度和枚举值，减少自由输出空间。",
+          "为持续失败设置降级逻辑，避免阻塞主流程。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月19日 · 星期日",
       "word": {
@@ -888,31 +913,6 @@
           "设计统一的测试结果上报中心，对用例执行结果做哈希去重，对冲突结果触发二次校验Agent复核",
           "引入全局状态总线同步所有Agent的执行进度，避免跨Agent的操作冲突",
           "增加全局调度的优先级队列，优先分配高优测试任务给空闲Agent，提升集群执行效率"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月18日 · 星期四",
-      "word": {
-        "term": "Supply Chain Attack",
-        "definition": "侵入软件上游开发分发环节，污染资源进而危害下游使用者的恶意攻击行为。",
-        "example": "本次AUR社区曝出的atomic-lockfile漏洞就是典型的Linux生态供应链攻击事件。"
-      },
-      "interview": {
-        "category": "模型评测",
-        "difficulty": "中等",
-        "question": "当前开源大模型榜单众多，如果你要搭建面向中文开发者的中立开源权重模型评测体系，需要完成哪些核心架构权衡？",
-        "points": [
-          "评测维度的中文场景化适配能力设计",
-          "评测结果的抗作弊、防过拟合刷分机制设计",
-          "不同硬件基准下的性能与效果对齐规则设计"
-        ],
-        "answerLead": "搭建中立大模型评测体系需要在公平性、实用性、可扩展性三个核心目标间找到动态平衡。",
-        "answer": [
-          "放弃照搬海外榜单的全英文评测集，补充大量中文原生场景任务，覆盖代码、文案创作等国内开发者高频使用场景。",
-          "设计多轮反作弊校验机制，剔除模型在公开评测集上的过拟合刷分情况，引入动态更新的私有测试集避免题库泄露。",
-          "统一不同硬件环境下的性能统计口径，将推理速度、显存占用等工程指标和效果得分加权计算，避免唯效果论。",
-          "开放评测流程的全链路可溯源能力，允许第三方提交复现申请，公开所有评测代码和数据集确保透明可查。"
         ]
       }
     }
