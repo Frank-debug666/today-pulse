@@ -1,171 +1,196 @@
 {
-  "generatedAt": "2026-07-19T17:29:21.870Z",
-  "dateLabel": "2026年7月20日 · 星期一",
-  "issue": 215,
+  "generatedAt": "2026-07-20T18:25:47.090Z",
+  "dateLabel": "2026年7月21日 · 星期二",
+  "issue": 216,
   "githubRepos": [
     {
       "rank": "01",
       "name": "xai-org / grok-build",
-      "summary": "这是SpaceXAI推出的编码代理工具集与TUI界面，支持全屏操作、鼠标交互且可扩展。",
+      "summary": "xAI开源的编码代理运行时框架与TUI交互终端，支持全屏操作、鼠标交互与功能扩展，基于Rust开发",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "19.9K",
-      "growth": "+19871",
+      "stars": "20.7K",
+      "growth": "+20710",
       "growthLabel": "近7日",
       "url": "https://github.com/xai-org/grok-build"
     },
     {
       "rank": "02",
       "name": "Fei-Away / Codex-Dream-Skin",
-      "summary": "Codex Dream Skin是面向Codex的美化皮肤定制项目。",
+      "summary": "基于JavaScript开发的Codex大模型界面美化皮肤插件，可自定义大模型交互页展示样式",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "10.2K",
-      "growth": "+10247",
+      "stars": "11K",
+      "growth": "+11044",
       "growthLabel": "近7日",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin"
     },
     {
       "rank": "03",
       "name": "CluvexStudio / Aether",
-      "summary": "本周热度快速攀升的开源项目。",
+      "summary": "本周热度快速攀升的Rust语言开源底层通用开发框架，面向高性能服务场景设计",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "1.3K",
-      "growth": "+1299",
+      "stars": "1.4K",
+      "growth": "+1381",
       "growthLabel": "近7日",
       "url": "https://github.com/CluvexStudio/Aether"
     },
     {
       "rank": "04",
-      "name": "pixel-point / aval",
-      "summary": "面向网页端交互式视频的全新开源格式，内置状态机，支持帧级精准转场和打包Alpha透明通道。",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "1.2K",
-      "growth": "+1235",
-      "growthLabel": "近7日",
-      "url": "https://github.com/pixel-point/aval"
-    },
-    {
-      "rank": "05",
-      "name": "littledivy / mimic",
-      "summary": "可拦截任意应用程序，之后就能像调用Python库一样直接调用该应用的功能。",
-      "language": "Python",
-      "color": "#3572a5",
+      "name": "tandpfun / wardrobe",
+      "summary": "基于JavaScript开发的个人衣物智能管理工具，通过GPT图像能力自动提取整理用户上传的衣物信息",
+      "language": "JavaScript",
+      "color": "#f1e05a",
       "stars": "1.2K",
       "growth": "+1201",
       "growthLabel": "近7日",
-      "url": "https://github.com/littledivy/mimic"
+      "url": "https://github.com/tandpfun/wardrobe"
+    },
+    {
+      "rank": "05",
+      "name": "nethical6 / conversation-steganography",
+      "summary": "基于Go开发的隐写工具，可调用大模型将私密信息隐藏在看起来完全正常的日常对话中",
+      "language": "Go",
+      "color": "#00add8",
+      "stars": "866",
+      "growth": "+866",
+      "growthLabel": "近7日",
+      "url": "https://github.com/nethical6/conversation-steganography"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-19-0",
+      "id": "news-2026-07-20-0",
       "category": "人工智能",
-      "time": "12:38",
-      "title": "Kimi K3对决GPT 5.6 Sol与Fable 5：中国新AI如何挑战OpenAI和Anthropic",
-      "summary": "月之暗面的Kimi K3凭借亮眼的基准测试成绩向OpenAI和Anthropic发起挑战，本文将对比这款中国最新AI模型与GPT-5.6 Sol、Fable 5的实际表现。",
-      "url": "https://www.timesnownews.com/technology-science/kimi-k3-vs-gpt-5-6-sol-vs-fable-5-how-chinas-new-ai-takes-on-openai-and-anthropic-article-155131848",
+      "time": "14:25",
+      "title": "Qwerty Thoughts CTO Prateek Gupta：Agentic AI将以超乎预期的速度改变所有企业岗位",
+      "summary": "相关观点覆盖OpenAI ChatGPT、Google AI等主流生成式AI技术的落地演进趋势",
+      "url": "https://www.europesays.com/3142210/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-19-1",
+      "id": "news-2026-07-20-1",
       "category": "人工智能",
-      "time": "12:21",
-      "title": "2026世界杯决赛西班牙对阵阿根廷谁能夺冠？AI给出明确预测",
-      "summary": "随着西班牙和阿根廷备战2026年世界杯决赛，谷歌Gemini、OpenAI ChatGPT、Anthropic Claude等AI模型均预测西班牙为夺冠热门。",
-      "url": "https://www.financialexpress.com/sports/who-will-win-spain-vs-argentina-fifa-world-cup-2026-final-ai-predicts-a-clear-favourite/4296074/",
+      "time": "14:06",
+      "title": "Matrix Robotics于2026世界人工智能大会展示MATRIX-3机器人",
+      "summary": "2026 WAIC在上海举办，厂商同步发布WAVE物理世界基础模型升级版本，正式启动全球合作伙伴计划",
+      "url": "https://www.manilatimes.net/2026/07/20/tmt-newswire/media-outreach-newswire/matrix-robotics-showcases-matrix-3-at-waic-2026-announces-wave-physical-world-foundation-model-upgrade-and-launches-global-partner-program/2387287",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-19-2",
+      "id": "news-2026-07-20-2",
       "category": "人工智能",
-      "time": "11:44",
-      "title": "印度裔技术高管Uday Ruddarraju升任OpenAI计算CTO，一年前刚从马斯克旗下xAI离职",
-      "summary": "OpenAI正式任命Uday Ruddarraju为计算团队新任CTO，距他从埃隆·马斯克的xAI离职刚好过去一年，他的目标是打造全球规模最大的AI算力集群。",
-      "url": "https://www.financialexpress.com/world-news/nri/meet-uday-ruddarraju-openai-promotes-indian-origin-techie-to-compute-cto-a-year-after-he-quit-musks-xai/4296054/",
+      "time": "13:51",
+      "title": "Kimi K3上线后访问量破纪录，月之暗面暂停新用户注册",
+      "summary": "这款新发布的大模型需求远超预期，GPU算力负载已达上限，官方称其性能可与OpenAI同类产品对标",
+      "url": "https://www.indiatoday.in/technology/news/story/kimi-k3-breaks-the-internet-moonshot-ai-halts-signups-as-gpus-hit-the-limit-2951752-2026-07-20",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-19-3",
+      "id": "news-2026-07-20-3",
       "category": "人工智能",
-      "time": "10:00",
-      "title": "中国将开源Kimi K3，完全没有美国式的技术管控顾虑",
-      "summary": "华盛顿方面将相关AI技术像原子弹一样严格管控，而北京方面则将本国企业研发的大模型视作可广泛应用的核能类技术资源。",
-      "url": "https://www.afr.com/technology/china-s-making-kimi-k3-open-source-without-any-american-style-fretting-20260719-p60gix",
+      "time": "13:50",
+      "title": "实测表现证明Kimi K3标志着中国在大模型赛道已取得领先地位",
+      "summary": "月之暗面推出的这款开源大模型综合性能全面超越多款海外前沿闭源大模型",
+      "url": "https://www.naturalnews.com/2026-07-20-kimi-k3-proved-china-won-ai-race.html",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-19-4",
-      "category": "人工智能",
-      "time": "08:00",
-      "title": "Motley Fool：现在投资英伟达为时未晚",
-      "summary": "半导体巨头英伟达（纳斯达克股票代码：NVDA）的强势上涨行情是否已经结束？其股价近期虽有小幅回调，但目前仍有充足理由支撑投资者布局英伟达。",
-      "url": "https://www.spokesman.com/stories/2026/jul/19/motley-fool-not-too-late-to-invest-in-nvidia/",
+      "id": "news-2026-07-20-4",
+      "category": "开源生态",
+      "time": "13:49",
+      "title": "GNOME Calendar开发者公开指责Linux Mint为「恶意下游」",
+      "summary": "因双方在协同开发方向上存在分歧引发争议，开源软件生态并非始终处于和睦状态",
+      "url": "https://www.xda-developers.com/a-gnome-calendar-developer-calls-linux-mint-a-hostile-downstream-for-shipping-old-versions/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-19-5",
-      "category": "全球科技",
-      "time": "04:45",
-      "title": "第154届英国高尔夫公开赛：皇家伯克戴尔球场第四轮开球时间、分组及焦点组名单",
-      "summary": "提供美国本土优质即时新闻资讯，覆盖本地天气、预警通知、优惠活动、赛事动态等各类内容。",
-      "url": "https://www.newsbreak.com/nbc-news-510074/4778322909629-the-154th-open-championship-round-4-tee-times-groupings-and-featured-groups-at-royal-birkdale",
+      "id": "news-2026-07-20-5",
+      "category": "人工智能",
+      "time": "13:31",
+      "title": "世嘉首家北京官方线下门店正式开业",
+      "summary": "「SEGA STORE BEIJING」是世嘉全球第三家永久官方线下门店，面向玩家提供周边衍生品与线下体验服务",
+      "url": "https://www.invenglobal.com/articles/23952/sega-opens-first-official-store-in-beijing-sega-store-beijing",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-19-6",
+      "id": "news-2026-07-20-6",
       "category": "人工智能",
-      "time": "02:00",
-      "title": "这款开源应用完美实现AirDrop功能，还支持跨Windows、Mac、Android、iOS和Linux平台使用",
-      "summary": "这款开源的AirDrop替代工具省去了我日常文件传输流程中所有不必要的繁琐步骤。",
-      "url": "https://www.xda-developers.com/open-source-airdrop-alternative-for-windows-mac-android-ios-linux/",
+      "time": "13:31",
+      "title": "人工智能热点：海外技术社区出现新的高热讨论",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.invenglobal.com/lol/articles/23952/sega-opens-first-official-store-in-beijing-sega-store-beijing",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-19-7",
+      "id": "news-2026-07-20-7",
       "category": "人工智能",
-      "time": "01:20",
-      "title": "如果OpenAI沦为「AI泡沫中的雷曼兄弟」，微软、英伟达、甲骨文和亚马逊会遭遇什么？",
-      "summary": "业内人士Ed Zitron指出当前AI热潮主要由OpenAI驱动，他警示称一旦OpenAI破产崩盘，很可能引发整个行业下行，尽管各家科技巨头都已投入巨额资金，但相关风险隐忧始终存在。",
-      "url": "https://www.livemint.com/companies/news/if-openai-becomes-lehman-brothers-of-ai-bubble-what-happens-to-microsoft-nvidia-oracle-and-amazon-11784293301559.html",
+      "time": "13:31",
+      "title": "人工智能热点：海外技术社区出现新的高热讨论",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.invenglobal.com/articles/23952/sega-official-store-opens-in-beijing-grand-opening-of-sega-store-beijing",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Structured Output",
-    "phonetic": "/ structured output /",
-    "definition": "要求模型严格按照预定义结构输出内容，便于程序稳定解析和执行。",
-    "example": "让模型返回合法 JSON，而不是一段需要再次解析的自然语言。"
+    "term": "Conversation Steganography",
+    "phonetic": "/ˌkɒnvəˈseɪʃn ˌsteɡəˈnɒɡrəfi/",
+    "definition": "基于大模型将私密信息隐藏在普通对话中的新型隐写技术",
+    "example": "可在不引起第三方怀疑的前提下完成涉密信息的隐蔽传输"
   },
   "interview": {
-    "question": "大模型输出的 JSON 经常无法解析，应该如何提升可靠性？",
-    "points": [
-      "Schema 约束",
-      "校验重试",
-      "容错设计"
-    ],
-    "answer": [
-      "使用模型提供的结构化输出或 JSON Schema 能力。",
-      "服务端执行严格校验，并将校验错误反馈给模型重试。",
-      "限制字段范围、长度和枚举值，减少自由输出空间。",
-      "为持续失败设置降级逻辑，避免阻塞主流程。"
-    ],
-    "category": "AI 产品架构",
+    "category": "安全治理",
     "difficulty": "中等",
-    "answerLead": "参考答题思路："
+    "question": "团队要上线面向C端的大模型社交聊天产品，需要防范大模型驱动的对话隐写泄密风险，同时满足正常用户聊天无感知、隐写信息检出率≥99%、端到端消息审核延迟低于50ms，需要完成哪些核心架构权衡？",
+    "points": [
+      "对大模型新型隐写常见实现路径的认知程度",
+      "高吞吐低延迟实时内容审核系统的架构设计能力",
+      "安全防护策略与普通用户体验之间的平衡设计能力"
+    ],
+    "answerLead": "可以从隐写特征分层提取、多级审核流水线、白名单容错机制三个维度逐层拆解权衡",
+    "answer": [
+      "首先区分语义级大模型隐写和传统文本隐写的特征差异，筛选低开销的轻量化统计特征向量作为初筛依据，避免全量调用大模型推理带来的延迟超标",
+      "搭建边端规则初筛+云端小模型二次校验的分层审核架构，99%普通流量走轻量规则引擎快速放行，高风险流量送入小模型做深度校验，平衡延迟和检出率要求",
+      "针对正常用户的个性化对话特征建立专属白名单库，对连续多轮完全符合用户日常表达习惯的对话降低审核权重，大幅降低误判概率避免打扰正常用户",
+      "定期采集最新出现的大模型隐写样本迭代特征库，无需全量重构审核流程即可快速适配新出现的隐写攻击手段，长期维持高检出率"
+    ]
   },
   "generation": {
-    "learningSource": "fallback",
-    "learningError": "Expected ':' after property name in JSON at position 721 (line 7 column 29)",
+    "learningSource": "ark",
+    "learningError": null,
     "githubSource": "github-search",
     "newsSource": "gnews-search-en",
     "newsError": null,
-    "localizationSource": "ark-localization",
+    "localizationSource": "ark",
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月21日 · 星期二",
+      "word": {
+        "term": "Conversation Steganography",
+        "definition": "基于大模型将私密信息隐藏在普通对话中的新型隐写技术",
+        "example": "可在不引起第三方怀疑的前提下完成涉密信息的隐蔽传输"
+      },
+      "interview": {
+        "category": "安全治理",
+        "difficulty": "中等",
+        "question": "团队要上线面向C端的大模型社交聊天产品，需要防范大模型驱动的对话隐写泄密风险，同时满足正常用户聊天无感知、隐写信息检出率≥99%、端到端消息审核延迟低于50ms，需要完成哪些核心架构权衡？",
+        "points": [
+          "对大模型新型隐写常见实现路径的认知程度",
+          "高吞吐低延迟实时内容审核系统的架构设计能力",
+          "安全防护策略与普通用户体验之间的平衡设计能力"
+        ],
+        "answerLead": "可以从隐写特征分层提取、多级审核流水线、白名单容错机制三个维度逐层拆解权衡",
+        "answer": [
+          "首先区分语义级大模型隐写和传统文本隐写的特征差异，筛选低开销的轻量化统计特征向量作为初筛依据，避免全量调用大模型推理带来的延迟超标",
+          "搭建边端规则初筛+云端小模型二次校验的分层审核架构，99%普通流量走轻量规则引擎快速放行，高风险流量送入小模型做深度校验，平衡延迟和检出率要求",
+          "针对正常用户的个性化对话特征建立专属白名单库，对连续多轮完全符合用户日常表达习惯的对话降低审核权重，大幅降低误判概率避免打扰正常用户",
+          "定期采集最新出现的大模型隐写样本迭代特征库，无需全量重构审核流程即可快速适配新出现的隐写攻击手段，长期维持高检出率"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月20日 · 星期一",
       "word": {
@@ -888,31 +913,6 @@
           "在Agent调度层做权衡：简单任务用轻量本地Agent直连，复杂任务才触发多Agent协作链路，减少不必要资源消耗",
           "在状态管理层做权衡：高频交互临时状态存内存缓存降时延，仅需持久化的业务状态落库存储，平衡可用性与存储成本",
           "在可观测层做权衡：仅对核心业务链路的Agent调用做全链路埋点审计，非核心链路仅做异常告警，降低额外开销"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月19日 · 星期五",
-      "word": {
-        "term": "Agent Orchestration",
-        "definition": "多智能体的任务调度、资源分配与流程协同的核心管控机制",
-        "example": "用该机制可让测试、编码、审核多个Agent自动配合完成完整开发流程"
-      },
-      "interview": {
-        "category": "Agent系统",
-        "difficulty": "中等",
-        "question": "如果要搭建面向App自动化测试的多Agent集群，你会从哪些维度做架构权衡，避免测试用例冗余、结果冲突的问题？",
-        "points": [
-          "多Agent任务分片的边界划分能力",
-          "测试结果的去重与冲突校验机制设计",
-          "Agent集群的资源调度与状态同步方案"
-        ],
-        "answerLead": "可以从任务拆分、冲突校验、状态同步、兜底机制四个核心维度逐层推导架构设计",
-        "answer": [
-          "先按测试场景维度做任务分片，明确每个Agent的测试覆盖边界，避免重复测试同一场景",
-          "设计统一的测试结果上报中心，对用例执行结果做哈希去重，对冲突结果触发二次校验Agent复核",
-          "引入全局状态总线同步所有Agent的执行进度，避免跨Agent的操作冲突",
-          "增加全局调度的优先级队列，优先分配高优测试任务给空闲Agent，提升集群执行效率"
         ]
       }
     }
