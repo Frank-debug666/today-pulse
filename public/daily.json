@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-20T18:25:47.090Z",
-  "dateLabel": "2026年7月21日 · 星期二",
-  "issue": 216,
+  "generatedAt": "2026-07-21T16:52:22.955Z",
+  "dateLabel": "2026年7月22日 · 星期三",
+  "issue": 217,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "xai-org / grok-build",
-      "summary": "xAI开源的编码代理运行时框架与TUI交互终端，支持全屏操作、鼠标交互与功能扩展，基于Rust开发",
-      "language": "Rust",
-      "color": "#dea584",
-      "stars": "20.7K",
-      "growth": "+20710",
-      "growthLabel": "近7日",
-      "url": "https://github.com/xai-org/grok-build"
-    },
-    {
-      "rank": "02",
       "name": "Fei-Away / Codex-Dream-Skin",
-      "summary": "基于JavaScript开发的Codex大模型界面美化皮肤插件，可自定义大模型交互页展示样式",
+      "summary": "基于JavaScript开发的AI驱动前端界面皮肤自动生成工具，可快速生成各类定制化应用主题。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "11K",
-      "growth": "+11044",
+      "stars": "11.5K",
+      "growth": "+11480",
       "growthLabel": "近7日",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin"
     },
     {
-      "rank": "03",
-      "name": "CluvexStudio / Aether",
-      "summary": "本周热度快速攀升的Rust语言开源底层通用开发框架，面向高性能服务场景设计",
-      "language": "Rust",
-      "color": "#dea584",
+      "rank": "02",
+      "name": "hoainho / img2threejs",
+      "summary": "Python实现的轻量图生3D工具，可将参考图物体转化为纯代码、带质量校验、支持动画的Three.js模型，Token效率极高。",
+      "language": "Python",
+      "color": "#3572a5",
       "stars": "1.4K",
-      "growth": "+1381",
+      "growth": "+1363",
       "growthLabel": "近7日",
-      "url": "https://github.com/CluvexStudio/Aether"
+      "url": "https://github.com/hoainho/img2threejs"
     },
     {
-      "rank": "04",
+      "rank": "03",
       "name": "tandpfun / wardrobe",
-      "summary": "基于JavaScript开发的个人衣物智能管理工具，通过GPT图像能力自动提取整理用户上传的衣物信息",
+      "summary": "基于GPT图像理解能力开发的个人衣物自动提取分类工具，帮用户快速搭建数字化个人衣橱。",
       "language": "JavaScript",
       "color": "#f1e05a",
-      "stars": "1.2K",
-      "growth": "+1201",
+      "stars": "1.3K",
+      "growth": "+1263",
       "growthLabel": "近7日",
       "url": "https://github.com/tandpfun/wardrobe"
     },
     {
-      "rank": "05",
-      "name": "nethical6 / conversation-steganography",
-      "summary": "基于Go开发的隐写工具，可调用大模型将私密信息隐藏在看起来完全正常的日常对话中",
-      "language": "Go",
-      "color": "#00add8",
-      "stars": "866",
-      "growth": "+866",
+      "rank": "04",
+      "name": "lopopolo / harness-engineering",
+      "summary": "面向测试工程领域的开源知识库合集，包含实战指南与智能代理上下文生成相关的全套资料。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "1.2K",
+      "growth": "+1226",
       "growthLabel": "近7日",
-      "url": "https://github.com/nethical6/conversation-steganography"
+      "url": "https://github.com/lopopolo/harness-engineering"
+    },
+    {
+      "rank": "05",
+      "name": "pablostanley / yoinks",
+      "summary": "TypeScript开发的终端命令行视频下载工具，无弹窗无广告，直接在终端内完成任意网络视频的拉取。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "942",
+      "growth": "+942",
+      "growthLabel": "近7日",
+      "url": "https://github.com/pablostanley/yoinks"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-20-0",
+      "id": "news-2026-07-21-0",
       "category": "人工智能",
-      "time": "14:25",
-      "title": "Qwerty Thoughts CTO Prateek Gupta：Agentic AI将以超乎预期的速度改变所有企业岗位",
-      "summary": "相关观点覆盖OpenAI ChatGPT、Google AI等主流生成式AI技术的落地演进趋势",
-      "url": "https://www.europesays.com/3142210/",
+      "time": "11:49",
+      "title": "晨星披露6只被低估的巨头市值股票名单，英伟达位列其中",
+      "summary": "此前三年持续领跑市场的巨型市值股票在2026年上半年跑输大市，科技板块仍是整体市场收益的最大贡献来源，不过多家头部科技公司标的近期表现疲软。",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/nvidia-among-6-megacaps-that-morningstar-says-are-undervalued-see-full-list/slideshow/132527479.cms",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-20-1",
+      "id": "news-2026-07-21-1",
       "category": "人工智能",
-      "time": "14:06",
-      "title": "Matrix Robotics于2026世界人工智能大会展示MATRIX-3机器人",
-      "summary": "2026 WAIC在上海举办，厂商同步发布WAVE物理世界基础模型升级版本，正式启动全球合作伙伴计划",
-      "url": "https://www.manilatimes.net/2026/07/20/tmt-newswire/media-outreach-newswire/matrix-robotics-showcases-matrix-3-at-waic-2026-announces-wave-physical-world-foundation-model-upgrade-and-launches-global-partner-program/2387287",
+      "time": "11:47",
+      "title": "作家与出版商对Anthropic达成15亿美元历史性版权和解",
+      "summary": "这笔15亿美元的和解是行业重要转折点，内容方正式对AI企业未经授权使用版权书籍训练模型的行为发起合规挑战。",
+      "url": "https://www.timesnownews.com/lifestyle/books/authors-and-publishers-win-historic-1-5-billion-copyright-settlement-against-anthropic-article-155143535",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-20-2",
+      "id": "news-2026-07-21-2",
       "category": "人工智能",
-      "time": "13:51",
-      "title": "Kimi K3上线后访问量破纪录，月之暗面暂停新用户注册",
-      "summary": "这款新发布的大模型需求远超预期，GPU算力负载已达上限，官方称其性能可与OpenAI同类产品对标",
-      "url": "https://www.indiatoday.in/technology/news/story/kimi-k3-breaks-the-internet-moonshot-ai-halts-signups-as-gpus-hit-the-limit-2951752-2026-07-20",
+      "time": "11:39",
+      "title": "三星电子正式成立机器人业务部门，全力推进人形机器人落地",
+      "summary": "新部门命名为RX（Robotics eXperience），将统筹公司中长期机器人战略制定、核心技术研发与商业化落地执行。",
+      "url": "https://www.thehindubusinessline.com/info-tech/samsung-electronics-launches-robotics-division-to-drive-humanoid-robot-push/article71247914.ece",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-20-3",
+      "id": "news-2026-07-21-3",
       "category": "人工智能",
-      "time": "13:50",
-      "title": "实测表现证明Kimi K3标志着中国在大模型赛道已取得领先地位",
-      "summary": "月之暗面推出的这款开源大模型综合性能全面超越多款海外前沿闭源大模型",
-      "url": "https://www.naturalnews.com/2026-07-20-kimi-k3-proved-china-won-ai-race.html",
+      "time": "10:54",
+      "title": "上海世界人工智能大会集中展出国产AI与机器人前沿成果",
+      "summary": "国内头部科技企业在WAIC展会上展出数百款尖端产品，覆盖先进机器人、人工智能系统等多个前沿领域，展现中美科技竞争下的中国技术进展。",
+      "url": "https://economictimes.indiatimes.com/tech/technology/samsung-electronics-creates-robotics-division-ex-hyundai-executive-to-head-strategy/articleshow/132526845.cms",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-20-4",
-      "category": "开源生态",
-      "time": "13:49",
-      "title": "GNOME Calendar开发者公开指责Linux Mint为「恶意下游」",
-      "summary": "因双方在协同开发方向上存在分歧引发争议，开源软件生态并非始终处于和睦状态",
-      "url": "https://www.xda-developers.com/a-gnome-calendar-developer-calls-linux-mint-a-hostile-downstream-for-shipping-old-versions/",
+      "id": "news-2026-07-21-4",
+      "category": "人工智能",
+      "time": "09:30",
+      "title": "AMD推出下一代AI算力旗舰Helios机架，挑战英伟达机架级垄断",
+      "summary": "Helios AI机架内置72颗MI455X GPU、256核第6代EPYC CPU与31TB HBM4显存，整机售价500-550万美元，面向前沿大模型训练场景。",
+      "url": "https://www.sfgate.com/news/world/article/shanghai-science-forum-photos-show-china-s-ai-and-22353219.php",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-20-5",
+      "id": "news-2026-07-21-5",
       "category": "人工智能",
-      "time": "13:31",
-      "title": "世嘉首家北京官方线下门店正式开业",
-      "summary": "「SEGA STORE BEIJING」是世嘉全球第三家永久官方线下门店，面向玩家提供周边衍生品与线下体验服务",
-      "url": "https://www.invenglobal.com/articles/23952/sega-opens-first-official-store-in-beijing-sega-store-beijing",
+      "time": "09:30",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://wtop.com/world/2026/07/shanghai-science-forum-photos-show-chinas-ai-and-robotics-advances-in-rivalry-with-us/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-20-6",
+      "id": "news-2026-07-21-6",
       "category": "人工智能",
-      "time": "13:31",
-      "title": "人工智能热点：海外技术社区出现新的高热讨论",
+      "time": "09:22",
+      "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.invenglobal.com/lol/articles/23952/sega-opens-first-official-store-in-beijing-sega-store-beijing",
+      "url": "https://apnews.com/photo-gallery/china-ai-tech-us-robots-conference-photos-0f3f6e69f1c1e2b8b077d8d8af7efd52",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-20-7",
+      "id": "news-2026-07-21-7",
       "category": "人工智能",
-      "time": "13:31",
-      "title": "人工智能热点：海外技术社区出现新的高热讨论",
+      "time": "06:45",
+      "title": "算力芯片领域出现新的市场与技术动向",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://www.invenglobal.com/articles/23952/sega-official-store-opens-in-beijing-grand-opening-of-sega-store-beijing",
+      "url": "https://wccftech.com/amd-helios-ai-rack-mi455x-6th-gen-epyc-challenging-nvidia/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Conversation Steganography",
-    "phonetic": "/ˌkɒnvəˈseɪʃn ˌsteɡəˈnɒɡrəfi/",
-    "definition": "基于大模型将私密信息隐藏在普通对话中的新型隐写技术",
-    "example": "可在不引起第三方怀疑的前提下完成涉密信息的隐蔽传输"
+    "term": "Synthetic Data Curation Pipeline",
+    "phonetic": "/sɪnˈθetɪk ˈdeɪtə kjuəˈreɪʃn ˈpaɪplaɪn/",
+    "definition": "自动化生成、清洗、筛选高质量合成大模型训练数据的工程流水线",
+    "example": "搭建该流水线可快速产出场景适配的训练数据，大幅降低人工采集成本"
   },
   "interview": {
-    "category": "安全治理",
+    "category": "数据工程",
     "difficulty": "中等",
-    "question": "团队要上线面向C端的大模型社交聊天产品，需要防范大模型驱动的对话隐写泄密风险，同时满足正常用户聊天无感知、隐写信息检出率≥99%、端到端消息审核延迟低于50ms，需要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向垂直行业大模型的合成训练数据自动化治理流水线，要求兼顾合成数据与真实行业数据分布对齐度≥96%、全流程10万条数据处理耗时低于2小时、流水线可快速适配不同垂直场景无需大规模重构，需要完成哪些核心架构权衡？",
     "points": [
-      "对大模型新型隐写常见实现路径的认知程度",
-      "高吞吐低延迟实时内容审核系统的架构设计能力",
-      "安全防护策略与普通用户体验之间的平衡设计能力"
+      "考察大模型合成训练数据全链路工程的核心流程认知",
+      "考察数据分布对齐要求与处理效率之间的平衡设计能力",
+      "考察通用流水线架构的多场景适配性设计思路"
     ],
-    "answerLead": "可以从隐写特征分层提取、多级审核流水线、白名单容错机制三个维度逐层拆解权衡",
+    "answerLead": "可以从链路拆分、资源调度、扩展兼容三个核心维度逐层展开权衡设计",
     "answer": [
-      "首先区分语义级大模型隐写和传统文本隐写的特征差异，筛选低开销的轻量化统计特征向量作为初筛依据，避免全量调用大模型推理带来的延迟超标",
-      "搭建边端规则初筛+云端小模型二次校验的分层审核架构，99%普通流量走轻量规则引擎快速放行，高风险流量送入小模型做深度校验，平衡延迟和检出率要求",
-      "针对正常用户的个性化对话特征建立专属白名单库，对连续多轮完全符合用户日常表达习惯的对话降低审核权重，大幅降低误判概率避免打扰正常用户",
-      "定期采集最新出现的大模型隐写样本迭代特征库，无需全量重构审核流程即可快速适配新出现的隐写攻击手段，长期维持高检出率"
+      "在数据生成环节权衡合成多样性与领域贴合度，接入小样本行业种子数据做条件约束，过滤低质量离群样本，保障分布对齐度达标",
+      "在处理链路权衡并行度与资源开销，采用分布式批处理架构拆分清洗、标注、校验全流程，把整体处理耗时压缩到要求阈值内",
+      "在扩展层权衡通用能力与场景定制化成本，抽象出通用组件插件接口，不同垂直场景仅需替换少量领域规则插件即可完成适配",
+      "在监控层权衡校验精度与性能损耗，采用轻量分布差异预校验加抽样全量校验的组合方案，在不拖慢整体效率的前提下保证最终输出数据质量"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月22日 · 星期三",
+      "word": {
+        "term": "Synthetic Data Curation Pipeline",
+        "definition": "自动化生成、清洗、筛选高质量合成大模型训练数据的工程流水线",
+        "example": "搭建该流水线可快速产出场景适配的训练数据，大幅降低人工采集成本"
+      },
+      "interview": {
+        "category": "数据工程",
+        "difficulty": "中等",
+        "question": "团队要搭建面向垂直行业大模型的合成训练数据自动化治理流水线，要求兼顾合成数据与真实行业数据分布对齐度≥96%、全流程10万条数据处理耗时低于2小时、流水线可快速适配不同垂直场景无需大规模重构，需要完成哪些核心架构权衡？",
+        "points": [
+          "考察大模型合成训练数据全链路工程的核心流程认知",
+          "考察数据分布对齐要求与处理效率之间的平衡设计能力",
+          "考察通用流水线架构的多场景适配性设计思路"
+        ],
+        "answerLead": "可以从链路拆分、资源调度、扩展兼容三个核心维度逐层展开权衡设计",
+        "answer": [
+          "在数据生成环节权衡合成多样性与领域贴合度，接入小样本行业种子数据做条件约束，过滤低质量离群样本，保障分布对齐度达标",
+          "在处理链路权衡并行度与资源开销，采用分布式批处理架构拆分清洗、标注、校验全流程，把整体处理耗时压缩到要求阈值内",
+          "在扩展层权衡通用能力与场景定制化成本，抽象出通用组件插件接口，不同垂直场景仅需替换少量领域规则插件即可完成适配",
+          "在监控层权衡校验精度与性能损耗，采用轻量分布差异预校验加抽样全量校验的组合方案，在不拖慢整体效率的前提下保证最终输出数据质量"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月21日 · 星期二",
       "word": {
@@ -888,31 +913,6 @@
           "用连续批处理策略替代原有静态批处理，动态接纳新请求填充空闲算力，避免队列阻塞浪费资源",
           "针对业务场景做KV缓存的适配量化压缩，在可接受的效果损失阈值内降低单请求显存占用上限",
           "叠加高频公共前缀KV复用策略，同时设置请求优先级管控，保证高优先级请求首包延迟符合体验要求"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月25日 · 星期四",
-      "word": {
-        "term": "Agent Orchestration",
-        "definition": "多智能体系统中调度协调不同Agent协作完成任务的核心机制",
-        "example": "用该机制可让测试、编码、审核多个Agent自动配合完成完整开发流程"
-      },
-      "interview": {
-        "category": "Agent系统",
-        "difficulty": "中等",
-        "question": "设计面向企业内部场景的多Agent协作系统时，你会从哪些维度做架构权衡，平衡系统可用性、响应速度与落地成本？",
-        "points": [
-          "考察对多Agent系统核心架构组件的熟悉程度",
-          "考察业务场景下的资源分配与优先级判断能力",
-          "考察工程落地中的成本与体验平衡意识"
-        ],
-        "answerLead": "答题时可以从场景核心约束出发，逐层拆解不同维度的取舍逻辑",
-        "answer": [
-          "先梳理企业内部场景的核心基线约束，明确数据合规要求、最大允许响应时延、月度算力预算阈值",
-          "在Agent调度层做权衡：简单任务用轻量本地Agent直连，复杂任务才触发多Agent协作链路，减少不必要资源消耗",
-          "在状态管理层做权衡：高频交互临时状态存内存缓存降时延，仅需持久化的业务状态落库存储，平衡可用性与存储成本",
-          "在可观测层做权衡：仅对核心业务链路的Agent调用做全链路埋点审计，非核心链路仅做异常告警，降低额外开销"
         ]
       }
     }
