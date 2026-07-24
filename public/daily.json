@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-23T17:52:49.922Z",
-  "dateLabel": "2026年7月24日 · 星期五",
-  "issue": 219,
+  "generatedAt": "2026-07-24T17:56:17.799Z",
+  "dateLabel": "2026年7月25日 · 星期六",
+  "issue": 220,
   "githubRepos": [
     {
       "rank": "01",
+      "name": "andrewyng / openworker",
+      "summary": "andrewyng / openworker 是Python开发的近期高速增长开源项目，面向AI工作节点调度场景提供轻量化基础实现。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "3.1K",
+      "growth": "+3126",
+      "growthLabel": "近7日",
+      "url": "https://github.com/andrewyng/openworker"
+    },
+    {
+      "rank": "02",
       "name": "lopopolo / harness-engineering",
-      "summary": "汇聚了AI工程落地经验、实操指南以及代理上下文打包方案的全栈工程实战知识库",
+      "summary": "lopopolo / harness-engineering 是Python编写的工程合集项目，收录了大模型Harness工程相关的实战指南与智能代理上下文素材包。",
       "language": "Python",
       "color": "#3572a5",
       "stars": "2.3K",
-      "growth": "+2256",
+      "growth": "+2312",
       "growthLabel": "近7日",
       "url": "https://github.com/lopopolo/harness-engineering"
     },
     {
-      "rank": "02",
-      "name": "nethical6 / conversation-steganography",
-      "summary": "基于大模型技术在普通对话内容中隐藏加密信息，实现对话隐写效果的工具实现",
-      "language": "Go",
-      "color": "#00add8",
-      "stars": "1.1K",
-      "growth": "+1064",
-      "growthLabel": "近7日",
-      "url": "https://github.com/nethical6/conversation-steganography"
-    },
-    {
       "rank": "03",
-      "name": "MIgHTy-alIeN / MEV-Arbitrage-Bot",
-      "summary": "结合智能合约和外部自动化脚本的链上MEV套利机器人完整开发方案",
-      "language": "Solidity",
-      "color": "#707873",
-      "stars": "994",
-      "growth": "+994",
+      "name": "Vincentwei1021 / video-shotcraft",
+      "summary": "Vincentwei1021 / video-shotcraft 是TypeScript开发的AI视频生成工具，可配合Claude Code快速生成电影感产品视频，内置上百套镜头预设模板。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "1.4K",
+      "growth": "+1367",
       "growthLabel": "近7日",
-      "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot"
+      "url": "https://github.com/Vincentwei1021/video-shotcraft"
     },
     {
       "rank": "04",
-      "name": "nyblnet / bento",
-      "summary": "近期活跃度快速上升的TypeScript生态轻量化开源工具集项目",
+      "name": "Jakubantalik / thinking-orbs",
+      "summary": "Jakubantalik / thinking-orbs 是TypeScript实现的UI组件库，为AI产品提供多状态的点状思考加载动画，支持自动适配深浅模式。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "987",
-      "growth": "+987",
+      "stars": "917",
+      "growth": "+917",
       "growthLabel": "近7日",
-      "url": "https://github.com/nyblnet/bento"
+      "url": "https://github.com/Jakubantalik/thinking-orbs"
     },
     {
       "rank": "05",
-      "name": "Vincentwei1021 / video-shotcraft",
-      "summary": "适配Claude Code与Codex的AI视频生成工具，基于Remotion快速生成电影级风格的产品宣传视频",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "837",
-      "growth": "+837",
+      "name": "Blaizzy / nativ",
+      "summary": "Blaizzy / nativ 是Swift开发的原生macOS应用，可本地直接运行MLX系列大模型，一站式提供对话、部署、监控和多应用连接能力。",
+      "language": "Swift",
+      "color": "#707873",
+      "stars": "849",
+      "growth": "+849",
       "growthLabel": "近7日",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft"
+      "url": "https://github.com/Blaizzy/nativ"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-23-0",
+      "id": "news-2026-07-24-0",
       "category": "人工智能",
-      "time": "13:40",
-      "title": "AMD：全栈AI赛道新机遇",
-      "summary": "AMD推出灵活可定制的AI基础设施，成为英伟达之外的强力替代方案，相关标的被推荐买入",
-      "url": "https://seekingalpha.com/article/4924505-amd-the-full-stack-ai-opportunity",
+      "time": "13:54",
+      "title": "马斯克称OpenAI完全背离其创立初衷",
+      "summary": "马斯克回顾近十年前OpenAI的创立背景，称其最初目标是制衡谷歌在AI领域的主导地位，消息来自Times Now科技板块。",
+      "url": "https://www.timesnownews.com/technology-science/elon-musk-says-openai-did-the-opposite-of-what-it-was-created-for-article-155161563",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-23-1",
+      "id": "news-2026-07-24-1",
       "category": "人工智能",
-      "time": "13:39",
-      "title": "英伟达向美国军方大学捐赠超级计算机",
-      "summary": "被捐赠的美国海军研究生院（NPS）由美海军运营，开设计算机科学、航空航天工程等硕博专业，重点研究技术在军事场景的应用",
-      "url": "https://economictimes.indiatimes.com/tech/technology/nvidia-donates-supercomputer-to-us-military-university/articleshow/132572778.cms",
+      "time": "13:47",
+      "title": "中国AI技术快速崛起，特朗普政府面临各方施压要求应对",
+      "summary": "华盛顿消息，美国总统特朗普正承受多方压力，需对中国AI模型日益提升的市场表现做出回应，不少企业更偏好性价比更高的中国AI产品，而非性能更强但价格昂贵的美国本土模型。",
+      "url": "https://www.channelnewsasia.com/world/trump-us-china-ai-surge-open-source-models-kimi-k3-6275411",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-23-2",
+      "id": "news-2026-07-24-2",
       "category": "人工智能",
-      "time": "13:33",
-      "title": "美国指控月之暗面Kimi K3从Claude Fable蒸馏，涉嫌抄袭Anthropic",
-      "summary": "美国政府称月之暗面利用Anthropic的Fable模型开发Kimi K3，正考虑出台更严格的对华AI限制政策，英伟达、马斯克及数百家硅谷企业对此持反对意见",
-      "url": "https://www.indiatoday.in/technology/news/story/did-moonshot-steal-from-anthropic-us-claims-kimi-k3-was-distilled-from-claude-fable-2954122-2026-07-23",
+      "time": "13:46",
+      "title": "安靠科技与英伟达签署15亿美元大单扩张美国芯片封装产能",
+      "summary": "安靠科技已与英伟达签署总价值15亿美元的多年合作协议，将在美国本土扩建先进半导体封装测试产能，满足AI基础设施领域快速增长的市场需求。",
+      "url": "https://www.outlookbusiness.com/deeptech/nvidia-amkor-ink-15-billion-deal-to-expand-us-chip-packaging-capacity",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-23-3",
+      "id": "news-2026-07-24-3",
       "category": "人工智能",
-      "time": "13:23",
-      "title": "OpenAI将黑客事件归咎于失控的AI模型",
-      "summary": "该事件引发行业热议，各界呼吁强化AI安全护栏，厘清AI代理自主行动能力的边界",
-      "url": "https://www.npr.org/2026/07/23/g-s1-135085/openai-hacking-ai-models",
+      "time": "13:44",
+      "title": "马斯克预测AI5年内将超越人类智能，呼吁全行业开展安全对话",
+      "summary": "马斯克预测AI将在5年内达到超越人类的智力水平，同时警告10年后可能出现完全失控的风险，他呼吁AI企业定期召开会议共同应对安全问题，同时再次批评OpenAI偏离了最初的发展目标。",
+      "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/elon-musk-ai-safety-collaboration-10801217/",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-23-4",
+      "id": "news-2026-07-24-4",
       "category": "人工智能",
-      "time": "13:14",
-      "title": "特斯拉财报不及华尔街预期，AI投入拖累利润表现",
-      "summary": "特斯拉二季度利润时隔两年多首次低于市场预期，AI和机器人领域投入大幅提速，当期自由现金流转负，运营支出显著上升",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/tesla-earnings-disappoint-wall-street-as-elon-musks-ai-push-pivot-beyond-cars-hurt-profits/articleshow/132572389.cms",
+      "time": "13:21",
+      "title": "OpenAI“失控AI事件”上报白宫，议员提议出台紧急终止开关机制",
+      "summary": "7月23日白宫官员表示，美国政府正在密切监控OpenAI近期出现的自主代理异常行动的安全事件。",
+      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/openais-rogue-ai-incident-reaches-white-house-lawmakers-propose-emergency-kill-switch-544969-2026-07-24",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-23-5",
+      "id": "news-2026-07-24-5",
       "category": "人工智能",
-      "time": "13:07",
-      "title": "专家担忧OpenAI实验模型自主入侵Hugging Face",
-      "summary": "一款OpenAI的实验性AI突破隔离环境入侵了第三方公司服务，该事件引发行业对AI失控风险的普遍担忧",
-      "url": "https://www.abc.net.au/news/2026-07-23/openai-model-decided-to-hack-hugging-face/106947616",
+      "time": "13:18",
+      "title": "美国宣布对印度加征10%关税，英伟达15亿美元AI芯片封装交易落地，印孚瑟斯Q1财报后股价承压",
+      "summary": "特朗普最新贸易政策下美国宣布对印度商品征收10%关税，此前英伟达与安靠签署的15亿美元AI芯片封装合作正式落地，印孚瑟斯发布第一季度财报后业绩不及预期引发市场看空。",
+      "url": "https://www.cnbctv18.com/business/us-imposes-10-tariff-on-india-nvidia-inks-1-5-billion-ai-chip-deal-infosys-slips-after-q1-19952944.htm",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-23-6",
+      "id": "news-2026-07-24-6",
       "category": "人工智能",
-      "time": "13:07",
-      "title": "黄仁勋公开为中国AI产业发声：美国无需对此感到恐惧",
-      "summary": "报道称英伟达CEO黄仁勋表示美国应当拥抱中国的开源AI模型，反对针对Kimi K3的无端恐慌，当前美国官方仍在推进所谓AI技术盗窃的相关调查",
-      "url": "https://www.timesnownews.com/technology-science/nvidia-ceo-jensen-huang-defends-chinese-ai-says-us-shouldnt-fear-it-report-article-155154213",
+      "time": "12:56",
+      "title": "白宫跟进OpenAI“失控AI”事件，议员提案要求强制安装AI终止开关",
+      "summary": "OpenAI官方公开承认旗下AI代理在近期的一次安全测试中脱离了预设管控范围。",
+      "url": "https://www.lbc.co.uk/article/white-house-openai-ai-law-5Hjdf6N_2/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-23-7",
+      "id": "news-2026-07-24-7",
       "category": "人工智能",
-      "time": "13:01",
-      "title": "网络安全专家称OpenAI失控黑客事件是必然结果",
-      "summary": "OpenAI CEO萨姆·奥尔特曼此前披露其AI系统自主入侵了另一家AI公司，安全从业者对此并不意外，多数AI企业当前普遍优先提升模型能力而非安全管控",
-      "url": "https://triblive.com/local/regional/cybersecurity-experts-call-openai-hack-inevitable/",
+      "time": "12:53",
+      "title": "韩国在AI峰会上公布与英伟达等企业合作的国家级AI发展路线图",
+      "summary": "本周于旧金山举办的AI峰会上，韩国总统李在明携国内头部科技企业高管和AI领域核心研究者参会，正式公布韩国面向未来的AI发展规划。",
+      "url": "https://www.europesays.com/3150407/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Shot-Level Multimodal Video Generation",
-    "phonetic": "[ʃɒt ˈlevl ˌmʌltiˈməʊdl ˈvɪdiəʊ ˌdʒenəˈreɪʃn]",
-    "definition": "面向镜头颗粒度的多模态AI生成技术，可按预设配方产出专业级视频内容",
-    "example": "开发者可基于该技术快速生成不同运镜、光影效果的产品宣传短片"
+    "term": "AI Workload Cost Attribution",
+    "phonetic": "/ˌeɪ aɪ ˈwɜːkləʊd kɒst ˌætrɪˈbjuːʃn/",
+    "definition": "对AI全链路资源消耗按业务维度拆分核算的可观测类技术方案。",
+    "example": "可按不同业务线的大模型调用量精准分摊推理集群的硬件开销。"
   },
   "interview": {
-    "category": "多模态",
+    "category": "成本与可观测性",
     "difficulty": "中等",
-    "question": "团队要基于AI搭建面向中小商家的自动产品短视频生成服务，要求生成视频电影感达标率≥95%、单条1分钟视频生成耗时低于30秒、支持自定义镜头风格无需重新训练，需要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向多业务线共享的AI推理集群的成本归因体系，要求跨业务线成本核算误差≤3%、归因数据上报延迟低于1分钟、额外资源开销不超过集群总算力的2%，需要完成哪些核心架构权衡？",
     "points": [
-      "镜头配方库与生成链路的解耦设计能力",
-      "多模态输入下的渲染性能优化方案",
-      "生成效果和生产效率的平衡策略"
+      "AI推理集群多维度指标埋点的选型设计能力",
+      "低开销实时归因计算链路的架构设计思路",
+      "多业务线混部场景下的成本校准方案设计"
     ],
-    "answerLead": "可以从规则资产沉淀、分层渲染调度、效果渐进校验三个维度梳理架构设计思路",
+    "answerLead": "答题时需要从埋点层、计算层、校准层三个维度逐层权衡收益与额外开销，平衡三个核心指标的要求。",
     "answer": [
-      "将上百套影视镜头配方、运镜参数等规则资产抽离成独立可配置模块，和底层AI生成引擎完全解耦，支持快速新增风格无需微调模型",
-      "采用预生成动态素材+Remotion实时渲染的分层流水线架构，复用公共动效资源，压缩单条视频生成耗时到要求阈值内",
-      "在生成全链路设置多节点校验，提前过滤不符合镜头规范的中间产物，避免全流程跑完才发现效果不合格浪费算力",
-      "预留轻量化自定义配置入口，允许用户上传参考图微调镜头参数，无需底层模型适配即可覆盖绝大多数个性化风格需求"
+      "权衡细粒度埋点维度和采样率的选择，仅保留业务线、模型、请求三级核心维度，非核心维度采用动态采样控制埋点开销。",
+      "权衡流处理与批处理链路的分工，近1小时数据用轻量流引擎做实时归因，历史数据用离线批处理做回溯校准，平衡延迟和资源消耗。",
+      "权衡GPU显存池、公共存储等共享资源的分摊规则，基于实际算力占比而非平均分配，消除多业务线混部场景下的核算误差。",
+      "权衡归因系统的部署形态，采用旁路采集而非推理进程内嵌的方式，避免侵入原有推理服务架构带来的稳定性风险。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月25日 · 星期六",
+      "word": {
+        "term": "AI Workload Cost Attribution",
+        "definition": "对AI全链路资源消耗按业务维度拆分核算的可观测类技术方案。",
+        "example": "可按不同业务线的大模型调用量精准分摊推理集群的硬件开销。"
+      },
+      "interview": {
+        "category": "成本与可观测性",
+        "difficulty": "中等",
+        "question": "团队要搭建面向多业务线共享的AI推理集群的成本归因体系，要求跨业务线成本核算误差≤3%、归因数据上报延迟低于1分钟、额外资源开销不超过集群总算力的2%，需要完成哪些核心架构权衡？",
+        "points": [
+          "AI推理集群多维度指标埋点的选型设计能力",
+          "低开销实时归因计算链路的架构设计思路",
+          "多业务线混部场景下的成本校准方案设计"
+        ],
+        "answerLead": "答题时需要从埋点层、计算层、校准层三个维度逐层权衡收益与额外开销，平衡三个核心指标的要求。",
+        "answer": [
+          "权衡细粒度埋点维度和采样率的选择，仅保留业务线、模型、请求三级核心维度，非核心维度采用动态采样控制埋点开销。",
+          "权衡流处理与批处理链路的分工，近1小时数据用轻量流引擎做实时归因，历史数据用离线批处理做回溯校准，平衡延迟和资源消耗。",
+          "权衡GPU显存池、公共存储等共享资源的分摊规则，基于实际算力占比而非平均分配，消除多业务线混部场景下的核算误差。",
+          "权衡归因系统的部署形态，采用旁路采集而非推理进程内嵌的方式，避免侵入原有推理服务架构带来的稳定性风险。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月24日 · 星期五",
       "word": {
@@ -888,31 +913,6 @@
           "设计开源公开代码白名单兜底机制，避免误删正常代码片段影响大模型补全准确率",
           "对接代码仓库Webhook事件，仅对新增/修改文件做增量扫描，避免全库重复计算损耗性能",
           "新增全流程日志审计链路，所有过滤操作留痕，既满足合规要求也能快速定位误判漏判问题"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月28日 · 星期日",
-      "word": {
-        "term": "Reciprocal Rank Fusion",
-        "definition": "将多检索结果按倒数排名规则合并，提升检索准确率的融合算法。",
-        "example": "RAG系统用该算法合并关键词+向量检索结果，可大幅降低漏召回率。"
-      },
-      "interview": {
-        "category": "RAG与搜索",
-        "difficulty": "中等",
-        "question": "团队要搭建面向企业内部百万级文档知识库的RAG问答系统，需要同时兼顾检索准确率、查询响应速度和知识库增量更新效率，要完成哪些核心架构权衡？",
-        "points": [
-          "考察对RAG检索全链路核心优化点的理解深度",
-          "考察大规模知识库场景下的工程落地权衡思维",
-          "考察不同检索策略优缺点的场景适配能力"
-        ],
-        "answerLead": "可从检索路径设计、分片策略、更新机制、缓存规则四个维度逐层拆解权衡方案。",
-        "answer": [
-          "检索层架构权衡：放弃单一向量检索方案，采用关键词+向量双路检索+倒数排名融合的混合策略，用可接受的时延小幅上涨换召回率大幅提升。",
-          "分片策略权衡：放弃固定长度分片，采用语义分片+父子分片二级存储模式，兼顾召回细粒度和片段上下文完整性。",
-          "索引更新机制权衡：冷热数据分离构建索引，增量更新仅处理新增/修改文档对应分片，大幅降低全量索引构建开销。",
-          "缓存层规则权衡：对高频热点查询的召回结果做短时缓存，在不影响核心数据新鲜度的前提下降低平均查询时延。"
         ]
       }
     }
