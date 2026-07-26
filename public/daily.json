@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-25T17:27:19.628Z",
-  "dateLabel": "2026年7月26日 · 星期日",
-  "issue": 221,
+  "generatedAt": "2026-07-26T17:29:43.672Z",
+  "dateLabel": "2026年7月27日 · 星期一",
+  "issue": 222,
   "githubRepos": [
     {
       "rank": "01",
       "name": "andrewyng / openworker",
-      "summary": "吴恩达团队旗下Python开发的开源项目，本周热度快速攀升，面向分布式AI任务调度场景",
+      "summary": "吴恩达团队相关推出的Python开源项目，面向分布式AI Worker任务调度场景，本周热度上涨极快。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "4.5K",
-      "growth": "+4506",
+      "stars": "6.3K",
+      "growth": "+6324",
       "growthLabel": "近7日",
       "url": "https://github.com/andrewyng/openworker"
     },
     {
       "rank": "02",
-      "name": "Vincentwei1021 / video-shotcraft",
-      "summary": "基于TypeScript开发的AI视频生成工具，依托Claude Code和Remotion快速生成电影感产品短视频，内置上百种镜头预设模板",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "1.7K",
-      "growth": "+1687",
+      "name": "slvDev / esp32-ai",
+      "summary": "基于Python开发的ESP32端侧AI轻量部署工具链，帮助开发者快速在物联网设备上跑通小模型。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "1.2K",
+      "growth": "+1246",
       "growthLabel": "近7日",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft"
+      "url": "https://github.com/slvDev/esp32-ai"
     },
     {
       "rank": "03",
       "name": "Jakubantalik / thinking-orbs",
-      "summary": "TypeScript实现的AI代理UI专用动态思考加载指示器，自带6种交互状态和2种尺寸，自动适配明暗主题",
+      "summary": "TypeScript开发的AI/智能体UI专用点状思考球加载组件，提供6种状态2种尺寸，自动适配明暗主题。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "973",
-      "growth": "+973",
+      "stars": "1.1K",
+      "growth": "+1075",
       "growthLabel": "近7日",
       "url": "https://github.com/Jakubantalik/thinking-orbs"
     },
     {
       "rank": "04",
-      "name": "Blaizzy / nativ",
-      "summary": "Swift开发的原生macOS本地AI客户端，可一站式完成MLX大模型的部署、调用、监控和多应用连接",
-      "language": "Swift",
-      "color": "#707873",
-      "stars": "882",
-      "growth": "+882",
+      "name": "powerycy / goutoujunshi",
+      "summary": "Python开发的恋爱决策辅助工具，先共情用户情绪再结合多领域知识库给出可落地的关系经营策略，支持多元关系场景。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "933",
+      "growth": "+933",
       "growthLabel": "近7日",
-      "url": "https://github.com/Blaizzy/nativ"
+      "url": "https://github.com/powerycy/goutoujunshi"
     },
     {
       "rank": "05",
-      "name": "powerycy / goutoujunshi",
-      "summary": "Python实现的AI恋爱顾问工具，优先识别用户情绪，结合多领域专业知识库给出可落地的关系处理建议",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "867",
-      "growth": "+867",
+      "name": "Blaizzy / nativ",
+      "summary": "Swift开发的macOS原生本地AI客户端，可一站式完成MLX系列大模型的聊天调用、服务部署、状态监控和跨应用连接。",
+      "language": "Swift",
+      "color": "#707873",
+      "stars": "897",
+      "growth": "+897",
       "growthLabel": "近7日",
-      "url": "https://github.com/powerycy/goutoujunshi"
+      "url": "https://github.com/Blaizzy/nativ"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-25-0",
+      "id": "news-2026-07-26-0",
       "category": "人工智能",
-      "time": "13:26",
-      "title": "SK集团与英伟达扩展AI工厂、下一代内存领域战略合作",
-      "summary": "总规模超5000亿美元的AI合作覆盖SK电讯最高2GW算力规模的AI工厂，以及SK海力士的长期AI内存供应合作",
-      "url": "https://www.manilatimes.net/2026/07/25/tmt-newswire/globenewswire/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory/2391374",
+      "time": "13:20",
+      "title": "马斯克预测2036年金钱将失去重要性",
+      "summary": "埃隆·马斯克表示AI与机器人技术的进步将在2036年实现商品极大丰富，大幅削弱货币的价值意义，未来经济核心挑战将转向通缩。",
+      "url": "https://www.newsbytesapp.com/news/business/elon-musk-predicts-ai-will-make-money-irrelevant-by-2036/story",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-25-1",
+      "id": "news-2026-07-26-1",
       "category": "人工智能",
-      "time": "13:26",
-      "title": "NAVER、英伟达与布鲁克菲尔德联合扩建韩国国家AI工厂基础设施",
-      "summary": "计划将NAVER初始的多租户英伟达DSX AI工厂在2028年前扩容至200MW算力，为韩美下一代AI创新企业提供算力支撑",
-      "url": "https://www.manilatimes.net/2026/07/25/tmt-newswire/globenewswire/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout/2391373",
+      "time": "12:55",
+      "title": "英伟达黄仁勋称AI泡沫短期内不会破裂：这次不一样",
+      "summary": "英伟达CEO黄仁勋近期公开表态，认为当前AI产业热潮不会快速结束，全行业持续的算力投入由真实落地需求驱动，不存在快速泡沫破裂的基础。",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-on-why-he-doesnt-see-an-ai-bubble-bursting-anytime-soon-says-this-time-its-different/articleshow/132636522.cms",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-25-2",
+      "id": "news-2026-07-26-2",
       "category": "人工智能",
-      "time": "13:15",
-      "title": "现代汽车集团会长郑义宣在旧金山AI峰会发布实体AI愿景",
-      "summary": "现代汽车集团公开实体AI愿景落地路线图，以及和全球科技企业的协同合作策略",
-      "url": "https://www.manilatimes.net/2026/07/25/tmt-newswire/pr-newswire/hyundai-motor-group-executive-chair-euisun-chung-announces-physical-ai-vision-at-san-francisco-ai-summit/2391372",
+      "time": "12:53",
+      "title": "开源AI支持领袖全名单公布：马斯克、奥特曼等联名呼吁美国放宽AI监管",
+      "summary": "继纳德拉、山姆·奥特曼、埃隆·马斯克公开支持英伟达开源AI推广路线后，全名单曝光，一众科技领袖与头部企业呼吁美国立法者避免出台严苛AI管制政策，支持开放AI创新。",
+      "url": "https://www.timesnownews.com/technology-science/full-list-of-leaders-supporting-open-source-ai-elon-musk-sam-altman-and-others-join-us-appeal-article-155179991",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-25-3",
+      "id": "news-2026-07-26-3",
       "category": "人工智能",
-      "time": "13:09",
-      "title": "OpenAI诉ANI案解读：将深刻影响信息产业未来走向",
-      "summary": "分析德里高等法院本次判决对AI训练版权规则的界定，以及后续对整个信息行业发展的长期影响",
-      "url": "https://www.thehindu.com/sci-tech/technology/openai-vs-ani-case-what-it-means-for-the-future-of-information/article71265247.ece",
+      "time": "12:32",
+      "title": "高性价比开源智能模型走红，中国AI产品加速渗透美国市场",
+      "summary": "中国AI大模型正获得越来越多美国用户与企业的采用，相关产品在性能比肩国际主流方案的前提下定价远低于竞品，大量海外企业正在切换到中国AI方案。",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cheaper-open-and-intelligent-chinese-ai-models-gain-ground-as-they-make-inroads-in-the-us/articleshow/132636291.cms",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-25-4",
+      "id": "news-2026-07-26-4",
       "category": "人工智能",
-      "time": "13:08",
-      "title": "马斯克、扎克伯格、纳德拉等科技巨头集体表态全力支持开源权重AI模型",
-      "summary": "多位全球科技行业领军人物共同呼吁美国政府出台政策扶持开源AI模型发展路线",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60683802/elon-musk-mark-zuckerberg-satya-nadella-show-overwhelming-support-for-open-weight-ai-models-as-openai-anthropic-stay-silent",
+      "time": "12:32",
+      "title": "硅谷内部针对封锁中国AI技术出现严重意见分裂",
+      "summary": "争议源于中国在开源大模型领域的快速进展，近期Z.ai、Moonshot AI等中国AI初创公司发布的多款开源模型表现突出，引发行业关于是否要对华设置AI准入壁垒的激烈争论。",
+      "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/silicon-valley-splits-over-closing-the-borders-to-chinese-ai-10803988/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-25-5",
+      "id": "news-2026-07-26-5",
       "category": "人工智能",
-      "time": "13:00",
-      "title": "跳出晶圆制造范畴：Semicon 2.0或成印度最重要的AI产业政策",
-      "summary": "13万亿卢比半导体专项不会立刻让印度造出下一个英伟达，但可补足AI设计人才、先进封装能力和供应链韧性短板",
-      "url": "https://www.moneycontrol.com/artificial-intelligence/beyond-fabs-why-semicon-2-0-could-become-india-s-most-important-ai-policy-article-13983282.html",
+      "time": "12:30",
+      "title": "Sona Comstar公布2.0战略，计划投入60亿卢比布局新赛道",
+      "summary": "印度汽车零部件厂商Sona Comstar正式发布2.0发展愿景，计划投入60亿卢比升级制造能力，全面转向电动车、机器人与实体AI赛道开辟新增长曲线。",
+      "url": "https://www.thehindubusinessline.com/companies/sona-comstar-unveils-20-vision-with-600-crore-investment-push/article71263934.ece",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-25-6",
+      "id": "news-2026-07-26-6",
       "category": "人工智能",
-      "time": "13:00",
-      "title": "英伟达敲定SK海力士内存供应协议，纳入5000亿美元AI合作框架",
-      "summary": "英伟达正在积极锁定高带宽内存这一GPU核心组件的供给，保障旗下AI算力产品的出货能力",
-      "url": "https://www.cnbc.com/2026/07/25/nvidia-locks-down-memory-from-sk-hynix-as-part-of-500-billion-ai-deal.html",
+      "time": "12:13",
+      "title": "高性价比开源智能模型走红，中国AI产品加速渗透美国市场",
+      "summary": "DeepSeek、Moonshot AI、Z.ai等中国AI初创公司推出的大模型凭借高性价比与高效能表现，获得大量美国企业高管的青睐，正在大规模进入美国商用市场。",
+      "url": "https://www.ajc.com/news/2026/07/cheaper-open-and-intelligent-chinese-ai-models-gain-ground-as-they-make-inroads-in-the-us/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-25-7",
+      "id": "news-2026-07-26-7",
       "category": "人工智能",
-      "time": "12:40",
-      "title": "英伟达CEO黄仁勋公开支持开源权重AI，称开放是美国科技领导力的核心",
-      "summary": "黄仁勋表示开源权重模型能够进一步激发行业创新，是美国长期保持全球科技领先地位的关键路径",
-      "url": "https://www.thehindubusinessline.com/info-tech/nvidia-ceo-jensen-huang-backs-open-weight-ai-says-openness-key-to-american-leadership/article71265196.ece",
+      "time": "11:53",
+      "title": "7月26日AI周报：法院认可AI版权、OpenAI推出Presence、谷歌发布Cyber-Shield",
+      "summary": "本周全球AI领域进展密集，包括OpenAI上线Presence与ChatGPT健康功能、谷歌Gemini加码网络安全防护、印度德里法院作出AI版权里程碑判决、马斯克将Grok接入特斯拉车载系统等。",
+      "url": "https://www.financialexpress.com/life/technology-court-backs-ais-copy-right-openai-unveils-presence-googles-cyber-shield-weekly-ai-wrap-july-26-4302715/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Spatial-Temporal KV Cache Sharing",
-    "phonetic": "/ˈspeɪʃl ˈtempərəl keɪ viː kæʃ ˈʃeərɪŋ/",
-    "definition": "大模型推理场景下跨请求复用KV缓存，大幅降显存占用、提升并发吞吐的优化技术",
-    "example": "RAG服务部署时用该技术可让同等显存承载3倍以上的长文档查询并发量"
+    "term": "RAG Retrieval Coverage Evaluation",
+    "phonetic": "/ræɡ rɪˈtriːvl ˈkʌvərɪdʒ ɪˌvæljuˈeɪʃn/",
+    "definition": "量化评估RAG系统召回相关文档覆盖比例的专项评测方案",
+    "example": "可用于校验RAG系统在长尾查询场景下的召回漏检率水平。"
   },
   "interview": {
-    "category": "推理性能",
+    "category": "RAG与搜索",
     "difficulty": "中等",
-    "question": "团队要给面向长尾长文档查询的大模型RAG在线推理服务接入时空KV缓存共享优化，要求核心场景吞吐提升200%以上、查询召回准确率零损失、兼容vLLM现有调度逻辑无需大幅重构，需要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向国内开源大模型的RAG检索覆盖度自动化评测体系，要求评测结果和人工标注的相关度≥95%、单次全量评测耗时低于40分钟、可快速适配不同垂直行业的知识库无需重新全量标注，需要完成哪些核心架构权衡？",
     "points": [
-      "对KV缓存生成和复用底层逻辑的理解深度",
-      "RAG场景下公共文档查询特征的利用能力",
-      "推理框架改造边界与兼容性的评估能力"
+      "评测集低成本构建与业务分布对齐策略",
+      "覆盖度指标自动校验逻辑的误差控制方案",
+      "多类型RAG架构的通用兼容适配设计"
     ],
-    "answerLead": "可以从缓存分层设计、语义一致性校验、调度逻辑适配三个核心维度展开权衡分析",
+    "answerLead": "可以从评测数据集构建、指标自动化校验、多场景兼容等维度逐层拆解设计方案。",
     "answer": [
-      "设计冷热分层KV缓存池架构，高频公共文档对应的KV缓存持久驻留显存，新请求仅生成私有Query部分的KV，消除重复计算开销",
-      "引入轻量语义哈希校验机制，确保所有复用的KV缓存和当前查询上下文完全匹配，从底层杜绝错配导致的召回准确率损失",
-      "在vLLM调度层新增缓存命中前置判断分支，不改动核心算子内核代码，完全兼容现有连续批处理调度逻辑",
-      "设置动态显存水位阈值，当显存占用超过85%时自动淘汰低频KV缓存，避免挤占新请求的显存资源影响服务稳定性"
+      "采用小样本人工标注+大模型生成的混合模式构建评测查询集，保证查询分布和目标业务场景对齐，大幅降低全量标注成本。",
+      "设计分层的召回覆盖度计算逻辑，结合多路召回结果的交集并集统计自动剔除噪声样本，保证评测结果和人工标注的相关度达标。",
+      "抽象出标准化的RAG平台接入层，通过统一API对接不同向量库、检索引擎，实现评测框架无需核心改造即可适配不同业务场景。",
+      "引入增量评测机制，仅针对新增知识库文档生成对应查询样例，大幅压缩全量评测耗时，满足40分钟以内的性能要求。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月27日 · 星期一",
+      "word": {
+        "term": "RAG Retrieval Coverage Evaluation",
+        "definition": "量化评估RAG系统召回相关文档覆盖比例的专项评测方案",
+        "example": "可用于校验RAG系统在长尾查询场景下的召回漏检率水平。"
+      },
+      "interview": {
+        "category": "RAG与搜索",
+        "difficulty": "中等",
+        "question": "团队要搭建面向国内开源大模型的RAG检索覆盖度自动化评测体系，要求评测结果和人工标注的相关度≥95%、单次全量评测耗时低于40分钟、可快速适配不同垂直行业的知识库无需重新全量标注，需要完成哪些核心架构权衡？",
+        "points": [
+          "评测集低成本构建与业务分布对齐策略",
+          "覆盖度指标自动校验逻辑的误差控制方案",
+          "多类型RAG架构的通用兼容适配设计"
+        ],
+        "answerLead": "可以从评测数据集构建、指标自动化校验、多场景兼容等维度逐层拆解设计方案。",
+        "answer": [
+          "采用小样本人工标注+大模型生成的混合模式构建评测查询集，保证查询分布和目标业务场景对齐，大幅降低全量标注成本。",
+          "设计分层的召回覆盖度计算逻辑，结合多路召回结果的交集并集统计自动剔除噪声样本，保证评测结果和人工标注的相关度达标。",
+          "抽象出标准化的RAG平台接入层，通过统一API对接不同向量库、检索引擎，实现评测框架无需核心改造即可适配不同业务场景。",
+          "引入增量评测机制，仅针对新增知识库文档生成对应查询样例，大幅压缩全量评测耗时，满足40分钟以内的性能要求。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月26日 · 星期日",
       "word": {
@@ -888,31 +913,6 @@
           "分级设置标记冗余度，普通场景用低冗余轻量标记降低性能开销，高敏感场景添加校验位避免常规格式化操作擦除标记。",
           "旁路部署标记校验溯源服务，不占用大模型推理计算资源，同时对接内部代码提交网关实现全链路自动溯源。",
           "配套标记灰度验证机制，对比嵌入标记前后大模型的生成准确率、响应延迟差异，确保无业务侧感知的负面影响。"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年6月30日 · 星期二",
-      "word": {
-        "term": "Applicant Tracking System",
-        "definition": "企业自动化招聘流程的申请人跟踪系统，覆盖简历筛选到面试全环节",
-        "example": "开源ATS可自动完成简历初筛，大幅降低HR人工审核工作量"
-      },
-      "interview": {
-        "category": "AI产品架构",
-        "difficulty": "中等",
-        "question": "团队要基于HackerRank开源ATS二次开发，接入大模型简历评分能力，需要兼顾评分公平性、数据隐私合规、系统集成兼容性，要完成哪些核心架构权衡？",
-        "points": [
-          "考察开源招聘系统二次开发的架构设计能力",
-          "考察大模型接入现有业务系统的利弊权衡能力",
-          "考察B端招聘场景下的合规性设计意识"
-        ],
-        "answerLead": "答题时可以从系统分层解耦、能力模块化的思路出发，梳理不同需求的优先级边界",
-        "answer": [
-          "将大模型评分模块做微服务化隔离，不修改原有ATS核心逻辑，方便后续快速替换不同大模型后端",
-          "数据层做敏感字段脱敏处理，简历身份证、手机号等隐私信息不传入大模型，仅保留岗位匹配所需特征字段",
-          "评分逻辑层加入人工干预校验阈值，对临界区间的简历自动推送HR复核，避免大模型偏见导致的评分不公",
-          "接口层兼容主流HR系统标准API，保留原有ATS原生同步回调逻辑，降低对接现有招聘流程的改造成本"
         ]
       }
     }
