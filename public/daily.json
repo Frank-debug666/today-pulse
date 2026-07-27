@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-07-26T17:29:43.672Z",
-  "dateLabel": "2026年7月27日 · 星期一",
-  "issue": 222,
+  "generatedAt": "2026-07-27T17:59:40.023Z",
+  "dateLabel": "2026年7月28日 · 星期二",
+  "issue": 223,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "andrewyng / openworker",
-      "summary": "吴恩达团队相关推出的Python开源项目，面向分布式AI Worker任务调度场景，本周热度上涨极快。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "6.3K",
-      "growth": "+6324",
-      "growthLabel": "近7日",
-      "url": "https://github.com/andrewyng/openworker"
-    },
-    {
-      "rank": "02",
       "name": "slvDev / esp32-ai",
-      "summary": "基于Python开发的ESP32端侧AI轻量部署工具链，帮助开发者快速在物联网设备上跑通小模型。",
+      "summary": "面向ESP32硬件的轻量端侧AI应用快速落地工具集，可快速在嵌入式设备上部署AI能力。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.2K",
-      "growth": "+1246",
+      "stars": "1.7K",
+      "growth": "+1678",
       "growthLabel": "近7日",
       "url": "https://github.com/slvDev/esp32-ai"
     },
     {
-      "rank": "03",
-      "name": "Jakubantalik / thinking-orbs",
-      "summary": "TypeScript开发的AI/智能体UI专用点状思考球加载组件，提供6种状态2种尺寸，自动适配明暗主题。",
+      "rank": "02",
+      "name": "vercel-labs / scriptc",
+      "summary": "Vercel实验室推出的TypeScript转原生机器码编译器，可大幅提升TS代码运行效率。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "1.1K",
-      "growth": "+1075",
+      "stars": "1.5K",
+      "growth": "+1523",
+      "growthLabel": "近7日",
+      "url": "https://github.com/vercel-labs/scriptc"
+    },
+    {
+      "rank": "03",
+      "name": "Jakubantalik / thinking-orbs",
+      "summary": "专为AI和Agent交互界面设计的圆点思考状态加载动画组件，支持6种状态、2种尺寸和自动明暗适配。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "1.2K",
+      "growth": "+1153",
       "growthLabel": "近7日",
       "url": "https://github.com/Jakubantalik/thinking-orbs"
     },
     {
       "rank": "04",
-      "name": "powerycy / goutoujunshi",
-      "summary": "Python开发的恋爱决策辅助工具，先共情用户情绪再结合多领域知识库给出可落地的关系经营策略，支持多元关系场景。",
-      "language": "Python",
-      "color": "#3572a5",
-      "stars": "933",
-      "growth": "+933",
+      "name": "mshumer / Claude-of-Duty",
+      "summary": "可通过单条提示词生成《使命召唤》级画质的Three.js第一人称射击游戏Demo。",
+      "language": "JavaScript",
+      "color": "#f1e05a",
+      "stars": "954",
+      "growth": "+954",
       "growthLabel": "近7日",
-      "url": "https://github.com/powerycy/goutoujunshi"
+      "url": "https://github.com/mshumer/Claude-of-Duty"
     },
     {
       "rank": "05",
-      "name": "Blaizzy / nativ",
-      "summary": "Swift开发的macOS原生本地AI客户端，可一站式完成MLX系列大模型的聊天调用、服务部署、状态监控和跨应用连接。",
-      "language": "Swift",
-      "color": "#707873",
-      "stars": "897",
-      "growth": "+897",
+      "name": "mikiarlo3 / ai-copywriter",
+      "summary": "融合真实营销方法论与人设语气的高拟人度AI文案写作工具，输出内容更贴近真人创作风格。",
+      "language": "Python",
+      "color": "#3572a5",
+      "stars": "925",
+      "growth": "+925",
       "growthLabel": "近7日",
-      "url": "https://github.com/Blaizzy/nativ"
+      "url": "https://github.com/mikiarlo3/ai-copywriter"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-07-26-0",
+      "id": "news-2026-07-27-0",
       "category": "人工智能",
-      "time": "13:20",
-      "title": "马斯克预测2036年金钱将失去重要性",
-      "summary": "埃隆·马斯克表示AI与机器人技术的进步将在2036年实现商品极大丰富，大幅削弱货币的价值意义，未来经济核心挑战将转向通缩。",
-      "url": "https://www.newsbytesapp.com/news/business/elon-musk-predicts-ai-will-make-money-irrelevant-by-2036/story",
+      "time": "13:58",
+      "title": "OpenAI GPT-5因生物安全隐患被列为高风险AI模型",
+      "summary": "OpenAI员工持续测试该模型，结果发现存在异常响应问题，即便部署了安全防护措施部分安全隐患仍未消除。",
+      "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/openais-gpt-5-was-labelled-a-high-risk-ai-model-over-biohazard-concerns-545353-2026-07-27",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-26-1",
+      "id": "news-2026-07-27-1",
       "category": "人工智能",
-      "time": "12:55",
-      "title": "英伟达黄仁勋称AI泡沫短期内不会破裂：这次不一样",
-      "summary": "英伟达CEO黄仁勋近期公开表态，认为当前AI产业热潮不会快速结束，全行业持续的算力投入由真实落地需求驱动，不存在快速泡沫破裂的基础。",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/nvidia-ceo-jensen-huang-on-why-he-doesnt-see-an-ai-bubble-bursting-anytime-soon-says-this-time-its-different/articleshow/132636522.cms",
+      "time": "13:30",
+      "title": "奥特曼：AI不会带来每周4小时工作制，人类竞争天性不允许",
+      "summary": "OpenAI CEO表示，生产力提升后人们的竞争意愿会同步增强，反而会倾向于投入更多时间工作。",
+      "url": "https://www.businessinsider.com/sam-altman-ai-4-hour-workweeks-people-competitive-2026-7",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-26-2",
+      "id": "news-2026-07-27-2",
       "category": "人工智能",
-      "time": "12:53",
-      "title": "开源AI支持领袖全名单公布：马斯克、奥特曼等联名呼吁美国放宽AI监管",
-      "summary": "继纳德拉、山姆·奥特曼、埃隆·马斯克公开支持英伟达开源AI推广路线后，全名单曝光，一众科技领袖与头部企业呼吁美国立法者避免出台严苛AI管制政策，支持开放AI创新。",
-      "url": "https://www.timesnownews.com/technology-science/full-list-of-leaders-supporting-open-source-ai-elon-musk-sam-altman-and-others-join-us-appeal-article-155179991",
+      "time": "13:23",
+      "title": "英伟达拟为OpenAI俄亥俄州AI数据中心项目提供2500亿美元资金托底",
+      "summary": "据华尔街日报报道，英伟达正洽谈为OpenAI的超大规模AI数据中心项目提供约2500亿美元的资金支持。",
+      "url": "https://www.outlookbusiness.com/corporate/nvidia-eyes-250-billion-financial-backing-for-openais-ai-data-centre-plan",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-26-3",
+      "id": "news-2026-07-27-3",
       "category": "人工智能",
-      "time": "12:32",
-      "title": "高性价比开源智能模型走红，中国AI产品加速渗透美国市场",
-      "summary": "中国AI大模型正获得越来越多美国用户与企业的采用，相关产品在性能比肩国际主流方案的前提下定价远低于竞品，大量海外企业正在切换到中国AI方案。",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/cheaper-open-and-intelligent-chinese-ai-models-gain-ground-as-they-make-inroads-in-the-us/articleshow/132636291.cms",
+      "time": "13:05",
+      "title": "太空AI数据中心如何运行？前NASA机器人主管详解方案",
+      "summary": "核心逻辑是在太空采集太阳能、直接向外太空辐射散热，最终仅将处理后的数据传回地球。",
+      "url": "https://www.zdnet.com/article/how-would-ai-data-centers-in-space-even-work-a-former-nasa-robotics-chief-explains/",
       "accent": "ink"
     },
     {
-      "id": "news-2026-07-26-4",
+      "id": "news-2026-07-27-4",
       "category": "人工智能",
-      "time": "12:32",
-      "title": "硅谷内部针对封锁中国AI技术出现严重意见分裂",
-      "summary": "争议源于中国在开源大模型领域的快速进展，近期Z.ai、Moonshot AI等中国AI初创公司发布的多款开源模型表现突出，引发行业关于是否要对华设置AI准入壁垒的激烈争论。",
-      "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/silicon-valley-splits-over-closing-the-borders-to-chinese-ai-10803988/",
+      "time": "12:41",
+      "title": "获英伟达12.9亿美元投资计划，韩国Naver股价大涨10%",
+      "summary": "此前Naver已宣布计划投入最高100亿美元扩建自身AI数据中心集群。",
+      "url": "https://www.straitstimes.com/business/south-koreas-naver-jumps-10-per-cent-on-nvidias-1-29-billion-investment-plan",
       "accent": "lime"
     },
     {
-      "id": "news-2026-07-26-5",
-      "category": "人工智能",
-      "time": "12:30",
-      "title": "Sona Comstar公布2.0战略，计划投入60亿卢比布局新赛道",
-      "summary": "印度汽车零部件厂商Sona Comstar正式发布2.0发展愿景，计划投入60亿卢比升级制造能力，全面转向电动车、机器人与实体AI赛道开辟新增长曲线。",
-      "url": "https://www.thehindubusinessline.com/companies/sona-comstar-unveils-20-vision-with-600-crore-investment-push/article71263934.ece",
+      "id": "news-2026-07-27-5",
+      "category": "算力芯片",
+      "time": "12:27",
+      "title": "《绯红沙漠》登顶Steam 2026年新IP营收榜",
+      "summary": "Pearl Abyss旗下开放世界冒险新作《绯红沙漠》成为2026年上线的全新IP中Steam营收最高的游戏产品。",
+      "url": "https://www.invenglobal.com/valorant/articles/24160/pearl-abyss-crimson-desert-ranks-no-1-in-steam-revenue-among-2026-new-ips",
       "accent": "coral"
     },
     {
-      "id": "news-2026-07-26-6",
-      "category": "人工智能",
-      "time": "12:13",
-      "title": "高性价比开源智能模型走红，中国AI产品加速渗透美国市场",
-      "summary": "DeepSeek、Moonshot AI、Z.ai等中国AI初创公司推出的大模型凭借高性价比与高效能表现，获得大量美国企业高管的青睐，正在大规模进入美国商用市场。",
-      "url": "https://www.ajc.com/news/2026/07/cheaper-open-and-intelligent-chinese-ai-models-gain-ground-as-they-make-inroads-in-the-us/",
+      "id": "news-2026-07-27-6",
+      "category": "算力芯片",
+      "time": "12:27",
+      "title": "算力芯片热点：海外技术社区出现新的高热讨论",
+      "summary": "算力芯片方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.invenglobal.com/articles/24160/pearl-abyss-crimson-desert-ranks-no-1-in-steam-revenue-among-2026-new-ips",
       "accent": "mint"
     },
     {
-      "id": "news-2026-07-26-7",
-      "category": "人工智能",
-      "time": "11:53",
-      "title": "7月26日AI周报：法院认可AI版权、OpenAI推出Presence、谷歌发布Cyber-Shield",
-      "summary": "本周全球AI领域进展密集，包括OpenAI上线Presence与ChatGPT健康功能、谷歌Gemini加码网络安全防护、印度德里法院作出AI版权里程碑判决、马斯克将Grok接入特斯拉车载系统等。",
-      "url": "https://www.financialexpress.com/life/technology-court-backs-ais-copy-right-openai-unveils-presence-googles-cyber-shield-weekly-ai-wrap-july-26-4302715/",
+      "id": "news-2026-07-27-7",
+      "category": "算力芯片",
+      "time": "12:27",
+      "title": "算力芯片热点：海外技术社区出现新的高热讨论",
+      "summary": "算力芯片方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.invenglobal.com/lol/articles/24160/pearl-abyss-crimson-desert-ranks-no-1-in-steam-revenue-among-2026-new-ips",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "RAG Retrieval Coverage Evaluation",
-    "phonetic": "/ræɡ rɪˈtriːvl ˈkʌvərɪdʒ ɪˌvæljuˈeɪʃn/",
-    "definition": "量化评估RAG系统召回相关文档覆盖比例的专项评测方案",
-    "example": "可用于校验RAG系统在长尾查询场景下的召回漏检率水平。"
+    "term": "Frontier Model Bio-risk Evaluation",
+    "phonetic": "/ˈfrʌntɪə ˈmɒdl ˈbaɪəʊ rɪsk ɪˌvæljuˈeɪʃn/",
+    "definition": "面向前沿大模型的生物安全风险自动化评估体系，识别高危违规输出。",
+    "example": "可快速检出大模型输出的高危生化实验操作指导类违规内容。"
   },
   "interview": {
-    "category": "RAG与搜索",
+    "category": "安全治理",
     "difficulty": "中等",
-    "question": "团队要搭建面向国内开源大模型的RAG检索覆盖度自动化评测体系，要求评测结果和人工标注的相关度≥95%、单次全量评测耗时低于40分钟、可快速适配不同垂直行业的知识库无需重新全量标注，需要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向GPT-5级别的前沿大模型的生物风险自动化评测体系，要求高风险响应检出率100%、单轮全量评测耗时低于2小时、可覆盖全品类生物安全相关场景无需频繁人工标注，需要完成哪些核心架构权衡？",
     "points": [
-      "评测集低成本构建与业务分布对齐策略",
-      "覆盖度指标自动校验逻辑的误差控制方案",
-      "多类型RAG架构的通用兼容适配设计"
+      "前沿大模型生物风险边界的定义与分层采样策略设计",
+      "高风险响应漏判与误判率的平衡机制设计",
+      "自动化评测流程的执行效率优化方案"
     ],
-    "answerLead": "可以从评测数据集构建、指标自动化校验、多场景兼容等维度逐层拆解设计方案。",
+    "answerLead": "答题时优先从风险分层、多模校验、并行调度三个维度梳理核心权衡逻辑。",
     "answer": [
-      "采用小样本人工标注+大模型生成的混合模式构建评测查询集，保证查询分布和目标业务场景对齐，大幅降低全量标注成本。",
-      "设计分层的召回覆盖度计算逻辑，结合多路召回结果的交集并集统计自动剔除噪声样本，保证评测结果和人工标注的相关度达标。",
-      "抽象出标准化的RAG平台接入层，通过统一API对接不同向量库、检索引擎，实现评测框架无需核心改造即可适配不同业务场景。",
-      "引入增量评测机制，仅针对新增知识库文档生成对应查询样例，大幅压缩全量评测耗时，满足40分钟以内的性能要求。"
+      "首先对生物风险场景做等级分层，仅对最高危的生化武器、高危病原制作等场景做100%全样本校验，中低危场景采用分层采样降低评测体量。",
+      "引入多模型交叉校验机制，用多个经过定向微调的小模型做初筛，初筛标记为可疑的样本再送入复核环节，在保证检出率100%的前提下把误判率控制在合理区间。",
+      "将全量评测任务拆分为多组独立并行的评测单元，通过分布式请求调度同时发起批量评测请求，把单轮全量评测耗时压缩到2小时以内。",
+      "搭建持续迭代的负样本库，把新发现的高风险样本自动加入评测集，无需人工全量标注即可覆盖新增生物安全场景。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年7月28日 · 星期二",
+      "word": {
+        "term": "Frontier Model Bio-risk Evaluation",
+        "definition": "面向前沿大模型的生物安全风险自动化评估体系，识别高危违规输出。",
+        "example": "可快速检出大模型输出的高危生化实验操作指导类违规内容。"
+      },
+      "interview": {
+        "category": "安全治理",
+        "difficulty": "中等",
+        "question": "团队要搭建面向GPT-5级别的前沿大模型的生物风险自动化评测体系，要求高风险响应检出率100%、单轮全量评测耗时低于2小时、可覆盖全品类生物安全相关场景无需频繁人工标注，需要完成哪些核心架构权衡？",
+        "points": [
+          "前沿大模型生物风险边界的定义与分层采样策略设计",
+          "高风险响应漏判与误判率的平衡机制设计",
+          "自动化评测流程的执行效率优化方案"
+        ],
+        "answerLead": "答题时优先从风险分层、多模校验、并行调度三个维度梳理核心权衡逻辑。",
+        "answer": [
+          "首先对生物风险场景做等级分层，仅对最高危的生化武器、高危病原制作等场景做100%全样本校验，中低危场景采用分层采样降低评测体量。",
+          "引入多模型交叉校验机制，用多个经过定向微调的小模型做初筛，初筛标记为可疑的样本再送入复核环节，在保证检出率100%的前提下把误判率控制在合理区间。",
+          "将全量评测任务拆分为多组独立并行的评测单元，通过分布式请求调度同时发起批量评测请求，把单轮全量评测耗时压缩到2小时以内。",
+          "搭建持续迭代的负样本库，把新发现的高风险样本自动加入评测集，无需人工全量标注即可覆盖新增生物安全场景。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年7月27日 · 星期一",
       "word": {
@@ -888,31 +913,6 @@
           "运行层权衡：通过统一容器镜像固化所有依赖环境，牺牲部分单机运行速度换取不同硬件、不同推理后端下的结果100%可复现。",
           "样本层权衡：提前缓存所有候选prompt与基准大模型的标准输出，避免重复生成基础对照结果，可将整体评测耗时降低60%以上。",
           "扩展层权衡：预留标准插件化接口兼容不同开源推测解码算法的快速接入，后续新增待测方案无需修改核心评测流程。"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年7月1日 · 星期三",
-      "word": {
-        "term": "Steganographic Watermarking",
-        "definition": "隐写水印，将标识信息隐藏在载体中、不影响原始使用效果的标记技术。",
-        "example": "大厂商用该技术标记Claude Code输出，可溯源违规生成内容的来源。"
-      },
-      "interview": {
-        "category": "安全治理",
-        "difficulty": "中等",
-        "question": "团队要给内部大模型编码输出添加隐写式溯源标记，需要兼顾生成质量零损失、标记不可擦除、溯源准确率100%，要完成哪些核心架构权衡？",
-        "points": [
-          "对隐写水印技术选型的场景适配能力",
-          "大模型生成性能与安全要求的平衡设计能力",
-          "企业级内容溯源场景的全链路落地经验"
-        ],
-        "answerLead": "你可以从隐写标记的嵌入位置、强度校验、旁路部署三个维度展开分层权衡。",
-        "answer": [
-          "优先选择在生成代码的注释空白位、非功能性字符位嵌入隐写标记，完全不影响代码编译运行逻辑，避免侵入业务内容。",
-          "分级设置标记冗余度，普通场景用低冗余轻量标记降低性能开销，高敏感场景添加校验位避免常规格式化操作擦除标记。",
-          "旁路部署标记校验溯源服务，不占用大模型推理计算资源，同时对接内部代码提交网关实现全链路自动溯源。",
-          "配套标记灰度验证机制，对比嵌入标记前后大模型的生成准确率、响应延迟差异，确保无业务侧感知的负面影响。"
         ]
       }
     }
