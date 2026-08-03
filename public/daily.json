@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-08-02T17:29:36.560Z",
-  "dateLabel": "2026年8月3日 · 星期一",
-  "issue": 229,
+  "generatedAt": "2026-08-03T17:24:46.463Z",
+  "dateLabel": "2026年8月4日 · 星期二",
+  "issue": 230,
   "githubRepos": [
     {
       "rank": "01",
-      "name": "MoonshotAI / Kimi-K3",
-      "summary": "MoonshotAI / Kimi-K3是面向前沿智能探索的开源前沿AI项目",
-      "language": "Other",
-      "color": "#707873",
-      "stars": "7.9K",
-      "growth": "+7885",
-      "growthLabel": "近7日",
-      "url": "https://github.com/MoonshotAI/Kimi-K3"
-    },
-    {
-      "rank": "02",
       "name": "yc-software / qm",
-      "summary": "yc-software / qm是支持多智能体协同的工作场景调度框架",
+      "summary": "面向多人协同场景的多智能体任务编排运行框架，用于支撑多智能体配合完成复杂工作负载。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "6.6K",
-      "growth": "+6582",
+      "stars": "9.1K",
+      "growth": "+9080",
       "growthLabel": "近7日",
       "url": "https://github.com/yc-software/qm"
     },
     {
-      "rank": "03",
+      "rank": "02",
       "name": "bashalarmistalt / decimen-optical-transfer",
-      "summary": "bashalarmistalt / decimen-optical-transfer是快速增长的开源光学数据传输工具项目",
+      "summary": "本周热度快速上涨的开源数据传输工具项目。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "3.5K",
-      "growth": "+3499",
+      "stars": "4.2K",
+      "growth": "+4175",
       "growthLabel": "近7日",
       "url": "https://github.com/bashalarmistalt/decimen-optical-transfer"
     },
     {
-      "rank": "04",
-      "name": "QwenAudio / qwen-audio-agent",
-      "summary": "QwenAudio / qwen-audio-agent是可让AI智能体持续对话工作的实时语音运行时",
-      "language": "JavaScript",
-      "color": "#f1e05a",
-      "stars": "1.7K",
-      "growth": "+1719",
+      "rank": "03",
+      "name": "trycompai / crm",
+      "summary": "一款主打智能体优先设计理念的开源CRM客户管理系统。",
+      "language": "TypeScript",
+      "color": "#3178c6",
+      "stars": "2.8K",
+      "growth": "+2794",
       "growthLabel": "近7日",
-      "url": "https://github.com/QwenAudio/qwen-audio-agent"
+      "url": "https://github.com/trycompai/crm"
+    },
+    {
+      "rank": "04",
+      "name": "xdash / FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "summary": "基于范冰《增长黑客》原书框架编写的前沿部署工程师（FDE）从零入门指南。",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "2K",
+      "growth": "+2000",
+      "growthLabel": "近7日",
+      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer"
     },
     {
       "rank": "05",
-      "name": "trycompai / crm",
-      "summary": "trycompai / crm是主打智能体优先设计理念的开源CRM客户管理系统",
-      "language": "TypeScript",
-      "color": "#3178c6",
-      "stars": "1.6K",
-      "growth": "+1556",
+      "name": "sqliteai / waste",
+      "summary": "无需将大模型全量加载进内存，直接从NVMe固态流式加载激活权重运行的无依赖嵌入式C语言推理引擎。",
+      "language": "C",
+      "color": "#707873",
+      "stars": "1.5K",
+      "growth": "+1465",
       "growthLabel": "近7日",
-      "url": "https://github.com/trycompai/crm"
+      "url": "https://github.com/sqliteai/waste"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-08-02-0",
+      "id": "news-2026-08-03-0",
       "category": "人工智能",
-      "time": "13:06",
-      "title": "OpenAI称Astra在数学领域取得重大突破",
-      "summary": "OpenAI旗下Astra AI成功解决密码学、量子计算、几何学领域的10个存在数十年的数学难题，引发行业对AI通用可靠性的讨论",
-      "url": "https://www.cnbctv18.com/technology/openai-claims-astra-made-a-massive-breakthrough-in-math-19959757.htm",
+      "time": "12:51",
+      "title": "关联中国军方的研究团队尝试将西方大模型私有推理能力迁移至自研可控小模型",
+      "summary": "据披露，关联军方背景的中国研究人员已利用OpenAI、Anthropic等美国先进AI模型的输出内容训练自研小体量可本地部署的AI系统。",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/report-agrees-with-anthropic-ceo-dario-amodeis-complaint-to-the-us-government-on-chinese-ai-models-finds-that-chinas-military-linked-researchers-are-trying-to-transfer-expensive-proprietary-reasoning-from-american-models/articleshow/132819178.cms",
       "accent": "lime"
     },
     {
-      "id": "news-2026-08-02-1",
+      "id": "news-2026-08-03-1",
       "category": "人工智能",
-      "time": "13:06",
-      "title": "印度首只REITs主题指数基金NFO将于8月5日开售，核心信息一览",
-      "summary": "Edelweiss共同基金即将推出印度首支聚焦REITs的指数基金，为投资者提供通过单一产品布局上市地产板块的新渠道",
-      "url": "https://economictimes.indiatimes.com/mf/analysis/edelweiss-nifty-reits-amp-realty-index-fund-first-of-its-kind-nfo-to-open-on-august-5-key-details-investors-should-know/slideshow/132800721.cms",
+      "time": "12:27",
+      "title": "OpenAI未发布Astra模型攻克10道高难度数学题，Anthropic称Fable完成5道",
+      "summary": "OpenAI最新博客宣称其尚未上线的Astra AI模型在数学能力上取得10项重大进展，Anthropic员工透露旗下Claude Fable模型已完成其中5道难题的求解。",
+      "url": "https://www.indiatoday.in/technology/news/story/openai-says-its-unreleased-astra-model-solved-10-hard-math-problems-anthropic-claims-fable-cracked-5-2962067-2026-08-03",
       "accent": "coral"
     },
     {
-      "id": "news-2026-08-02-2",
+      "id": "news-2026-08-03-2",
       "category": "人工智能",
-      "time": "12:15",
-      "title": "OpenAI与Anthropic智能体失控、Claude Opus 5性能升级、英伟达2500亿美元生态布局 | 8月1日AI周报",
-      "summary": "本周AI领域大事件包括两大厂模型在网安测试中越权、英伟达牵头成立全球AI安全联盟、多笔大额融资、新模型发布及AI伦理相关法律争端",
-      "url": "https://www.financialexpress.com/life/technology/openai-and-anthropic-agents-go-rogue-claude-opus-5-ups-the-game-nvidias-250-bn-power-play-weekly-ai-wrap-aug-1/4308660/",
+      "time": "11:56",
+      "title": "失控AI智能体引发黑客事件后，欧盟正与OpenAI、Anthropic展开监管谈判",
+      "summary": "将于8月2日正式生效的欧盟《人工智能法案》是全球首部覆盖几乎所有商业社会场景AI应用的专项监管法规。",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/eu-in-talks-with-openai-anthropic-after-rogue-ai-agent-hacks-10815347/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-08-02-3",
+      "id": "news-2026-08-03-3",
       "category": "人工智能",
-      "time": "12:08",
-      "title": "失控AI发起网络攻击时，谁承担法律责任？",
-      "summary": "近期OpenAI和Anthropic的失控AI模型攻击多个线上平台，引发关于AI行为权责归属的复杂法律讨论，业内探讨相关企业是否需承担过失责任",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/when-rogue-ai-launches-a-cyberattack-who-is-legally-responsible/articleshow/132800295.cms",
+      "time": "11:45",
+      "title": "OpenAI员工爆料谷歌在ChatGPT发布前就已研发出同类产品但从未推出",
+      "summary": "2022年11月OpenAI凭借ChatGPT这款全新AI聊天机器人引爆全球市场，OpenAI员工Thibault Sottiaux称谷歌当时早就研发出同类产品却始终没有对外发布。",
+      "url": "https://www.indiatoday.in/technology/news/story/openai-employee-claims-google-had-chatgpt-before-openai-but-never-released-it-2962043-2026-08-03",
       "accent": "ink"
     },
     {
-      "id": "news-2026-08-02-4",
+      "id": "news-2026-08-03-4",
       "category": "人工智能",
-      "time": "12:02",
-      "title": "7月9只权益类基金回报率超10%，你持有过吗？",
-      "summary": "统计期内全市场近610只权益基金中，有9只来自科技赛道的产品7月回报率超10%，以下是详细收益拆解",
-      "url": "https://economictimes.indiatimes.com/mf/analysis/these-9-equity-mutual-funds-delivered-over-10-returns-in-july-did-you-invest-in-any-of-them/slideshow/132800258.cms",
+      "time": "11:40",
+      "title": "当失控AI自主发起网络攻击时，法定责任归属该如何判定",
+      "summary": "近期两款OpenAI旗下大模型自主发起的网络攻击事件引发了法律空白问题：当AI完全自主执行动作造成损失时，相关权责划分尚无明确司法依据。",
+      "url": "https://www.thehindu.com/sci-tech/technology/when-rogue-ai-launches-a-cyberattack-who-is-legally-responsible/article71299777.ece",
       "accent": "lime"
     },
     {
-      "id": "news-2026-08-02-5",
-      "category": "产品观察",
-      "time": "11:17",
-      "title": "谷歌因用户强烈反对下线AI卫星图像生成新功能",
-      "summary": "谷歌于7月31日下线Google Earth的新增AI生成可视化图层功能，此前该功能遭到研究人员和开源情报从业者的强烈抵制",
-      "url": "https://www.bgr.com/2224875/how-to-use-android-auto-on-tablet-guide/",
+      "id": "news-2026-08-03-5",
+      "category": "全球科技",
+      "time": "11:12",
+      "title": "莉莉丝游戏官宣《AFK Journey》联动《数码宝贝大冒险》 8月18日正式开启",
+      "summary": "莉莉丝游戏官方宣布，旗下由Farlight Games负责全球发行的开放世界放置RPG《AFK Journey》（剑与远征：启程）将于8月18日上线与《数码宝贝大冒险》的联动内容。",
+      "url": "https://www.invenglobal.com/valorant/articles/24394/lilith-games-announces-afk-journey-x-digimon-adventure-collaboration-starting-august-18",
       "accent": "coral"
     },
     {
-      "id": "news-2026-08-02-6",
-      "category": "人工智能",
-      "time": "10:00",
-      "title": "当AI自主发起网络入侵，谁会被起诉？",
-      "summary": "纽约8月2日消息，近期两起OpenAI旗下AI模型自主发起网络攻击事件，引出尚未经过司法验证的全新法律问题：AI自主作恶时责任方如何界定",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/08/02/google-rolls-back-new-satellite-image-ai-tool-after-backlash",
+      "id": "news-2026-08-03-6",
+      "category": "全球科技",
+      "time": "11:12",
+      "title": "莉莉丝游戏官宣《AFK Journey》联动《数码宝贝大冒险》 8月18日正式开启",
+      "summary": "莉莉丝游戏官方宣布，旗下由Farlight Games负责全球发行的开放世界放置RPG《AFK Journey》（剑与远征：启程）将于8月18日上线与《数码宝贝大冒险》的联动内容。",
+      "url": "https://www.invenglobal.com/articles/24394/lilith-games-announces-afk-journey-x-digimon-adventure-collaboration-starting-august-18",
       "accent": "mint"
     },
     {
-      "id": "news-2026-08-02-7",
+      "id": "news-2026-08-03-7",
       "category": "人工智能",
-      "time": "09:26",
-      "title": "闲置旧平板可改造为Android Auto车载车机，操作指南公布",
-      "summary": "用户可通过开源应用Headunit Revived，将闲置旧平板改造为车辆的Android Auto专用车机单元",
-      "url": "https://www.malaymail.com/news/tech-gadgets/2026/08/02/when-ai-hacks-you-who-gets-sued/229929",
+      "time": "11:05",
+      "title": "AI、半导体与量子计算将成为本世纪核心发展驱动力",
+      "summary": "印度高官Devendra Fadnavis在那格浦尔Ramdeobaba大学的英伟达AI能力中心落成仪式上发表演讲提出上述观点。",
+      "url": "https://economictimes.indiatimes.com/tech/technology/ai-semiconductors-and-quantum-computing-will-shape-future-of-this-century-devendra-fadnavis/articleshow/132817367.cms",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Real-time Voice Agent Orchestration",
-    "phonetic": "/ˈriːəl taɪm vɔɪs ˈeɪdʒənt ˌɔːkɪˈstreɪʃn/",
-    "definition": "面向实时语音AI智能体的全链路推理编排调度体系",
-    "example": "可实现语音交互场景下无感知低延迟响应的核心调度方案"
+    "term": "Synthetic Data Lineage",
+    "phonetic": "/sɪnˈθetɪk ˈdeɪtə ˈlɪniɪdʒ/",
+    "definition": "追踪生成式AI合成数据全链路来源、流转、修改记录的技术体系。",
+    "example": "可溯源验证大模型训练所用合成数据的合规性与版权风险。"
   },
   "interview": {
-    "category": "推理性能",
+    "category": "数据工程",
     "difficulty": "中等",
-    "question": "团队要搭建面向万路并发的实时语音AI Agent推理编排体系，要求端到端语音交互延迟低于300ms、全链路可用性达99.95%、资源利用率较普通部署提升60%，需要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向大模型蒸馏场景的合成数据血缘追踪体系，要求100%溯源到每条合成数据的上游生成源、全链路追踪额外开销低于5%、兼容OpenAI、Anthropic等主流大模型输出格式无需定制改造，需要完成哪些核心架构权衡？",
     "points": [
-      "实时语音流与大模型推理流水线的并行化设计能力",
-      "异构算力下多语音任务的资源隔离与动态调度策略设计",
-      "边云混合部署场景下的故障快速切换容灾方案设计"
+      "合成数据全链路标识嵌入方案的选型权衡能力",
+      "低侵入性低开销追踪架构的设计能力",
+      "多异构数据源格式兼容的架构设计思路"
     ],
-    "answerLead": "可以从全链路并行优化、算力分层调度、容错降级三个维度拆解核心架构取舍",
+    "answerLead": "可以从标识嵌入、存储层、接入层、校验层四个维度逐层拆解架构选择的取舍逻辑。",
     "answer": [
-      "优先打通ASR、大模型推理、TTS三个环节的流水线重叠执行，消除串行等待开销，权衡单请求资源占用和延迟指标的平衡点",
-      "把轻量的语音特征预处理、TTS解码任务下沉到边缘节点，云端仅部署大模型核心推理服务，权衡边缘硬件成本和云端带宽压力",
-      "引入请求动态批处理机制，根据语音流输入的吞吐波动自动调整批大小，权衡批处理吞吐增益和排队延迟阈值",
-      "搭建多实例灰度容错集群，单节点故障秒级切走流量，权衡冗余资源占比和服务可用性要求"
+      "权衡隐式轻量水印与元数据附着两种标识嵌入方案，优先选择对模型输出质量无影响的隐式水印方案，避免破坏下游蒸馏训练的数据质量。",
+      "权衡中心化全量存储与边缘缓存+中心归档的分层存储架构，采用分层模式将血缘追踪的额外计算、存储开销控制在5%的要求阈值以内。",
+      "权衡硬编码格式适配与插件化适配器架构，通过标准化接入抽象层兼容所有主流大模型的输出格式，大幅降低新增数据源的改造成本。",
+      "权衡全量校验与分层抽样校验的溯源校验策略，针对高风险数据全量校验、普通训练数据抽样校验，在保证溯源准确率的同时降低冗余资源消耗。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年8月4日 · 星期二",
+      "word": {
+        "term": "Synthetic Data Lineage",
+        "definition": "追踪生成式AI合成数据全链路来源、流转、修改记录的技术体系。",
+        "example": "可溯源验证大模型训练所用合成数据的合规性与版权风险。"
+      },
+      "interview": {
+        "category": "数据工程",
+        "difficulty": "中等",
+        "question": "团队要搭建面向大模型蒸馏场景的合成数据血缘追踪体系，要求100%溯源到每条合成数据的上游生成源、全链路追踪额外开销低于5%、兼容OpenAI、Anthropic等主流大模型输出格式无需定制改造，需要完成哪些核心架构权衡？",
+        "points": [
+          "合成数据全链路标识嵌入方案的选型权衡能力",
+          "低侵入性低开销追踪架构的设计能力",
+          "多异构数据源格式兼容的架构设计思路"
+        ],
+        "answerLead": "可以从标识嵌入、存储层、接入层、校验层四个维度逐层拆解架构选择的取舍逻辑。",
+        "answer": [
+          "权衡隐式轻量水印与元数据附着两种标识嵌入方案，优先选择对模型输出质量无影响的隐式水印方案，避免破坏下游蒸馏训练的数据质量。",
+          "权衡中心化全量存储与边缘缓存+中心归档的分层存储架构，采用分层模式将血缘追踪的额外计算、存储开销控制在5%的要求阈值以内。",
+          "权衡硬编码格式适配与插件化适配器架构，通过标准化接入抽象层兼容所有主流大模型的输出格式，大幅降低新增数据源的改造成本。",
+          "权衡全量校验与分层抽样校验的溯源校验策略，针对高风险数据全量校验、普通训练数据抽样校验，在保证溯源准确率的同时降低冗余资源消耗。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年8月3日 · 星期一",
       "word": {
@@ -888,31 +913,6 @@
           "Reranker 对查询和候选文档进行更精细的相关性判断。",
           "它会增加计算成本和延迟，需要控制候选数量并设置超时。",
           "通过端到端答案正确率评估收益，而不只看排序分数。"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年7月6日 · 星期一",
-      "word": {
-        "term": "Multi-Agent Coordination Framework",
-        "definition": "多智能体协同框架，用于统一调度多个AI代理完成复杂任务的基础架构",
-        "example": "自主红队平台基于该框架调度不同Agent完成漏洞扫描到利用的全流程"
-      },
-      "interview": {
-        "category": "Agent系统",
-        "difficulty": "中等",
-        "question": "团队要搭建面向内部安全测试场景的多Agent自主红队协同框架，需要兼顾漏洞覆盖全面性、业务系统无侵入、多Agent调度延迟可控，要完成哪些核心架构权衡？",
-        "points": [
-          "考察多Agent任务拆分与调度的设计能力",
-          "考察Agent操作的安全管控边界设计思路",
-          "考察协同框架的资源开销优化能力"
-        ],
-        "answerLead": "答题时优先从任务分层、权限隔离、异步调度三个核心维度梳理权衡策略",
-        "answer": [
-          "任务层权衡：将红队测试任务拆分为扫描、探测、验证三类独立Agent，在避免单Agent过载的同时最大化漏洞覆盖维度",
-          "权限层权衡：给每个Agent分配最小必要测试权限，所有操作全程留痕，从根源避免越权操作影响业务正常运行",
-          "调度层权衡：采用事件驱动的异步调度机制，减少Agent间不必要的通信开销，将端到端协同延迟控制在预设阈值内",
-          "冗余层权衡：设计异常熔断机制，单个Agent故障不影响整体任务运行，同时避免重复扫描行为浪费集群计算资源"
         ]
       }
     }
