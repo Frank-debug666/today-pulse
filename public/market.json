@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-03T17:25:57.975Z",
-  "dateLabel": "2026年8月4日 · 星期二",
+  "generatedAt": "2026-08-04T17:11:19.129Z",
+  "dateLabel": "2026年8月5日 · 星期三",
   "source": "free-market",
   "sourceLabel": "东方财富免费行情",
   "marketTemperature": {
-    "score": 72,
-    "label": "偏热",
-    "summary": "主要指数平均涨跌 -0.58%，强势板块平均涨幅 4.84%，市场温度处于“偏热”。",
+    "score": 100,
+    "label": "过热",
+    "summary": "主要指数平均涨跌 2.15%，强势板块平均涨幅 7.86%，市场温度处于“过热”。",
     "drivers": [
-      "指数均值 -0.58%",
-      "热门板块均值 +4.84%",
+      "指数均值 +2.15%",
+      "热门板块均值 +7.86%",
       "8 个板块涨幅超过 3%"
     ]
   },
@@ -17,10 +17,9 @@
     {
       "id": "sh",
       "name": "上证指数",
-      "price": 3809.66,
-      "changePct": -0.59,
+      "price": 3822.28,
+      "changePct": 0.33,
       "trend": [
-        4106.25,
         4110.81,
         4120.28,
         4027.26,
@@ -49,18 +48,18 @@
         3828.47,
         3804.69,
         3832.26,
-        3809.66
+        3809.66,
+        3822.28
       ],
-      "latestDate": "2026-08-03",
+      "latestDate": "2026-08-04",
       "note": "东方财富"
     },
     {
       "id": "sz",
       "name": "深证成指",
-      "price": 13448.29,
-      "changePct": -0.96,
+      "price": 13885.71,
+      "changePct": 3.25,
       "trend": [
-        15854.2,
         16051.32,
         16344.08,
         15782.22,
@@ -89,18 +88,18 @@
         13658.44,
         13285.8,
         13578.93,
-        13448.29
+        13448.29,
+        13885.71
       ],
-      "latestDate": "2026-08-03",
+      "latestDate": "2026-08-04",
       "note": "东方财富"
     },
     {
       "id": "cyb",
       "name": "创业板指",
-      "price": 3302.55,
-      "changePct": -1.24,
+      "price": 3488.97,
+      "changePct": 5.64,
       "trend": [
-        4192.19,
         4251.42,
         4371.99,
         4194.21,
@@ -129,18 +128,18 @@
         3378.7,
         3244.62,
         3343.96,
-        3302.55
+        3302.55,
+        3488.97
       ],
-      "latestDate": "2026-08-03",
+      "latestDate": "2026-08-04",
       "note": "东方财富"
     },
     {
       "id": "hsi",
       "name": "恒生指数",
-      "price": 26009.4,
-      "changePct": 0.48,
+      "price": 25852.92,
+      "changePct": -0.6,
       "trend": [
-        23768.52,
         23336.28,
         23412.18,
         23076.91,
@@ -169,99 +168,100 @@
         25807.92,
         25858.88,
         25884.43,
-        26009.4
+        26009.4,
+        25852.92
       ],
-      "latestDate": "2026-08-03",
+      "latestDate": "2026-08-04",
       "note": "东方财富"
     }
   ],
   "sectors": [
     {
       "rank": 1,
-      "code": "BK1318",
-      "name": "光伏主材",
-      "price": 11210.44,
-      "changePct": 6.12,
-      "heat": 93,
+      "code": "BK1295",
+      "name": "其他数字媒体",
+      "price": 924.24,
+      "changePct": 8.77,
+      "heat": 100,
       "capitalFlow": "资金轮动"
     },
     {
       "rank": 2,
-      "code": "BK1516",
-      "name": "其他种植业",
-      "price": 878.24,
-      "changePct": 4.83,
-      "heat": 84,
-      "capitalFlow": "资金轮动"
+      "code": "BK1600",
+      "name": "医疗研发外包",
+      "price": 7352.92,
+      "changePct": 8.06,
+      "heat": 100,
+      "capitalFlow": "主力流入"
     },
     {
       "rank": 3,
-      "code": "BK1466",
-      "name": "管材",
-      "price": 1797.58,
-      "changePct": 4.54,
-      "heat": 82,
-      "capitalFlow": "资金轮动"
+      "code": "BK1340",
+      "name": "印制电路板",
+      "price": 9767.68,
+      "changePct": 7.56,
+      "heat": 100,
+      "capitalFlow": "主力流入"
     },
     {
       "rank": 4,
-      "code": "BK1522",
-      "name": "其他运输设备",
-      "price": 1842.06,
-      "changePct": 4.37,
-      "heat": 81,
-      "capitalFlow": "资金轮动"
+      "code": "BK1327",
+      "name": "分立器件",
+      "price": 14028.15,
+      "changePct": 7.47,
+      "heat": 100,
+      "capitalFlow": "主力流入"
     },
     {
       "rank": 5,
-      "code": "BK1314",
-      "name": "风电整机",
-      "price": 1565.34,
-      "changePct": 4.32,
-      "heat": 82,
-      "capitalFlow": "资金轮动"
+      "code": "BK1591",
+      "name": "通信网络设备及器件",
+      "price": 12847.11,
+      "changePct": 7.44,
+      "heat": 100,
+      "capitalFlow": "主力流入"
     },
     {
       "rank": 6,
-      "code": "BK1323",
-      "name": "综合电力设备商",
-      "price": 1245.18,
-      "changePct": 4.22,
-      "heat": 81,
-      "capitalFlow": "资金轮动"
+      "code": "BK1325",
+      "name": "半导体材料",
+      "price": 11314.29,
+      "changePct": 7.31,
+      "heat": 100,
+      "capitalFlow": "主力流入"
     },
     {
       "rank": 7,
-      "code": "BK1312",
-      "name": "线缆部件及其他",
-      "price": 3554.55,
-      "changePct": 4.21,
-      "heat": 82,
-      "capitalFlow": "资金轮动"
+      "code": "BK0459",
+      "name": "元件",
+      "price": 48408.48,
+      "changePct": 7.13,
+      "heat": 100,
+      "capitalFlow": "主力流入"
     },
     {
       "rank": 8,
-      "code": "BK1319",
-      "name": "硅料硅片",
-      "price": 1794.35,
-      "changePct": 4.13,
-      "heat": 80,
+      "code": "BK1567",
+      "name": "其他专业服务",
+      "price": 1036.21,
+      "changePct": 7.04,
+      "heat": 97,
       "capitalFlow": "资金轮动"
     }
   ],
   "gold": {
     "name": "COMEX黄金",
     "symbol": "GC00Y",
-    "priceUsdOz": 4090.1,
-    "priceCnyGram": 946.7983334904862,
-    "changePct": -0.41149257365473807,
+    "priceUsdOz": 4154.4,
+    "priceCnyGram": 961.6828431218981,
+    "changePct": 1.5621562156215532,
     "trend": [
-      4094.679,
-      4074,
-      4107,
-      4098.55,
-      4145.5,
-      4090.1
+      4078.2285,
+      4098.2,
+      4090.5,
+      4122.45,
+      4154.9,
+      4154.4
     ],
     "sourceLabel": "东方财富免费行情",
     "note": "COMEX 黄金，人民币/克按 7.20 汇率估算"

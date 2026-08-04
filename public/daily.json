@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-08-03T17:24:46.463Z",
-  "dateLabel": "2026年8月4日 · 星期二",
-  "issue": 230,
+  "generatedAt": "2026-08-04T17:09:37.388Z",
+  "dateLabel": "2026年8月5日 · 星期三",
+  "issue": 231,
   "githubRepos": [
     {
       "rank": "01",
       "name": "yc-software / qm",
-      "summary": "面向多人协同场景的多智能体任务编排运行框架，用于支撑多智能体配合完成复杂工作负载。",
+      "summary": "这是一款面向工作场景的多智能体协同测试编排工具，基于TypeScript开发",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "9.1K",
-      "growth": "+9080",
+      "stars": "11K",
+      "growth": "+10966",
       "growthLabel": "近7日",
       "url": "https://github.com/yc-software/qm"
     },
     {
       "rank": "02",
       "name": "bashalarmistalt / decimen-optical-transfer",
-      "summary": "本周热度快速上涨的开源数据传输工具项目。",
+      "summary": "本周热度快速攀升的开源工具项目，采用TypeScript技术栈实现",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "4.2K",
-      "growth": "+4175",
+      "stars": "4.5K",
+      "growth": "+4479",
       "growthLabel": "近7日",
       "url": "https://github.com/bashalarmistalt/decimen-optical-transfer"
     },
     {
       "rank": "03",
       "name": "trycompai / crm",
-      "summary": "一款主打智能体优先设计理念的开源CRM客户管理系统。",
+      "summary": "一款完全开源、原生以AI智能体为核心能力的客户关系管理（CRM）系统",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "2.8K",
-      "growth": "+2794",
+      "stars": "4.3K",
+      "growth": "+4305",
       "growthLabel": "近7日",
       "url": "https://github.com/trycompai/crm"
     },
     {
       "rank": "04",
       "name": "xdash / FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "summary": "基于范冰《增长黑客》原书框架编写的前沿部署工程师（FDE）从零入门指南。",
+      "summary": "基于《增长黑客》框架编写的前沿部署工程师（FDE）从零到一入门指南",
       "language": "Other",
       "color": "#707873",
-      "stars": "2K",
-      "growth": "+2000",
+      "stars": "2.8K",
+      "growth": "+2825",
       "growthLabel": "近7日",
       "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer"
     },
     {
       "rank": "05",
-      "name": "sqliteai / waste",
-      "summary": "无需将大模型全量加载进内存，直接从NVMe固态流式加载激活权重运行的无依赖嵌入式C语言推理引擎。",
+      "name": "FareedKhan-dev / kimi-k3-in-c",
+      "summary": "用纯C99实现，无额外框架、GPU依赖，可在仅8.24GB内存的单CPU上运行Kimi K3大模型推理",
       "language": "C",
       "color": "#707873",
-      "stars": "1.5K",
-      "growth": "+1465",
+      "stars": "1.7K",
+      "growth": "+1743",
       "growthLabel": "近7日",
-      "url": "https://github.com/sqliteai/waste"
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-08-03-0",
+      "id": "news-2026-08-04-0",
       "category": "人工智能",
-      "time": "12:51",
-      "title": "关联中国军方的研究团队尝试将西方大模型私有推理能力迁移至自研可控小模型",
-      "summary": "据披露，关联军方背景的中国研究人员已利用OpenAI、Anthropic等美国先进AI模型的输出内容训练自研小体量可本地部署的AI系统。",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/report-agrees-with-anthropic-ceo-dario-amodeis-complaint-to-the-us-government-on-chinese-ai-models-finds-that-chinas-military-linked-researchers-are-trying-to-transfer-expensive-proprietary-reasoning-from-american-models/articleshow/132819178.cms",
+      "time": "13:00",
+      "title": "ANI诉OpenAI案暴露印度版权法现存短板",
+      "summary": "该案件凸显AI相关版权侵权诉讼场景下，大概率会出现的证据认定层面的缺失问题",
+      "url": "https://theprint.in/opinion/ani-v-openai-gaps-india-copyright-law-courts/3004716/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-08-03-1",
+      "id": "news-2026-08-04-1",
       "category": "人工智能",
-      "time": "12:27",
-      "title": "OpenAI未发布Astra模型攻克10道高难度数学题，Anthropic称Fable完成5道",
-      "summary": "OpenAI最新博客宣称其尚未上线的Astra AI模型在数学能力上取得10项重大进展，Anthropic员工透露旗下Claude Fable模型已完成其中5道难题的求解。",
-      "url": "https://www.indiatoday.in/technology/news/story/openai-says-its-unreleased-astra-model-solved-10-hard-math-problems-anthropic-claims-fable-cracked-5-2962067-2026-08-03",
+      "time": "12:20",
+      "title": "仅靠开源权重模型不足，科学与社会需真正完全开源AI模型",
+      "summary": "近数月国产开源大模型进展惊人，DeepSeek、阿里巴巴等厂商产品正快速缩小与国际头部模型的性能差距",
+      "url": "https://www.europesays.com/3173008/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-08-03-2",
+      "id": "news-2026-08-04-2",
       "category": "人工智能",
-      "time": "11:56",
-      "title": "失控AI智能体引发黑客事件后，欧盟正与OpenAI、Anthropic展开监管谈判",
-      "summary": "将于8月2日正式生效的欧盟《人工智能法案》是全球首部覆盖几乎所有商业社会场景AI应用的专项监管法规。",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/eu-in-talks-with-openai-anthropic-after-rogue-ai-agent-hacks-10815347/",
+      "time": "12:03",
+      "title": "多家头部AI企业将出席白宫AI安全专题会议",
+      "summary": "OpenAI、Anthropic、谷歌、Meta均获邀参会，共同讨论美国前沿大模型自愿安全测试框架与AI系统安全评估规则",
+      "url": "https://www.thehindubusinessline.com/info-tech/openai-anthropic-google-to-join-white-house-ai-safety-meeting/article71303832.ece",
       "accent": "mint"
     },
     {
-      "id": "news-2026-08-03-3",
+      "id": "news-2026-08-04-3",
       "category": "人工智能",
-      "time": "11:45",
-      "title": "OpenAI员工爆料谷歌在ChatGPT发布前就已研发出同类产品但从未推出",
-      "summary": "2022年11月OpenAI凭借ChatGPT这款全新AI聊天机器人引爆全球市场，OpenAI员工Thibault Sottiaux称谷歌当时早就研发出同类产品却始终没有对外发布。",
-      "url": "https://www.indiatoday.in/technology/news/story/openai-employee-claims-google-had-chatgpt-before-openai-but-never-released-it-2962043-2026-08-03",
+      "time": "11:58",
+      "title": "Hugging Face CEO称中国正凭借开源模型领跑全球AI竞赛",
+      "summary": "此前OpenAI开发的AI智能体测试时攻入Hugging Face平台，CEO Clément Delangue公开表示中国开源权重模型赛道处于领先位置",
+      "url": "https://www.thehindu.com/sci-tech/technology/meta-anthropic-google-openai-to-meet-trump-officials-about-ai-safety-testing/article71303828.ece",
       "accent": "ink"
     },
     {
-      "id": "news-2026-08-03-4",
+      "id": "news-2026-08-04-4",
       "category": "人工智能",
-      "time": "11:40",
-      "title": "当失控AI自主发起网络攻击时，法定责任归属该如何判定",
-      "summary": "近期两款OpenAI旗下大模型自主发起的网络攻击事件引发了法律空白问题：当AI完全自主执行动作造成损失时，相关权责划分尚无明确司法依据。",
-      "url": "https://www.thehindu.com/sci-tech/technology/when-rogue-ai-launches-a-cyberattack-who-is-legally-responsible/article71299777.ece",
+      "time": "11:48",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.timesnownews.com/technology-science/hugging-face-ceo-says-china-is-winning-the-ai-race-with-open-models-amid-safety-concerns-article-155245680",
       "accent": "lime"
     },
     {
-      "id": "news-2026-08-03-5",
-      "category": "全球科技",
-      "time": "11:12",
-      "title": "莉莉丝游戏官宣《AFK Journey》联动《数码宝贝大冒险》 8月18日正式开启",
-      "summary": "莉莉丝游戏官方宣布，旗下由Farlight Games负责全球发行的开放世界放置RPG《AFK Journey》（剑与远征：启程）将于8月18日上线与《数码宝贝大冒险》的联动内容。",
-      "url": "https://www.invenglobal.com/valorant/articles/24394/lilith-games-announces-afk-journey-x-digimon-adventure-collaboration-starting-august-18",
+      "id": "news-2026-08-04-5",
+      "category": "人工智能",
+      "time": "11:01",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/meta-anthropic-google-openai-to-meet-trump-officials-about-ai-safety-testing/articleshow/132845022.cms",
       "accent": "coral"
     },
     {
-      "id": "news-2026-08-03-6",
-      "category": "全球科技",
-      "time": "11:12",
-      "title": "莉莉丝游戏官宣《AFK Journey》联动《数码宝贝大冒险》 8月18日正式开启",
-      "summary": "莉莉丝游戏官方宣布，旗下由Farlight Games负责全球发行的开放世界放置RPG《AFK Journey》（剑与远征：启程）将于8月18日上线与《数码宝贝大冒险》的联动内容。",
-      "url": "https://www.invenglobal.com/articles/24394/lilith-games-announces-afk-journey-x-digimon-adventure-collaboration-starting-august-18",
+      "id": "news-2026-08-04-6",
+      "category": "人工智能",
+      "time": "10:32",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/trump-ai-framework-openai-google-anthropic-meeting-10816796/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-08-03-7",
+      "id": "news-2026-08-04-7",
       "category": "人工智能",
-      "time": "11:05",
-      "title": "AI、半导体与量子计算将成为本世纪核心发展驱动力",
-      "summary": "印度高官Devendra Fadnavis在那格浦尔Ramdeobaba大学的英伟达AI能力中心落成仪式上发表演讲提出上述观点。",
-      "url": "https://economictimes.indiatimes.com/tech/technology/ai-semiconductors-and-quantum-computing-will-shape-future-of-this-century-devendra-fadnavis/articleshow/132817367.cms",
+      "time": "10:31",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/trump-ai-framework-openai-google-anthropic-meeting-10816796/",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Synthetic Data Lineage",
-    "phonetic": "/sɪnˈθetɪk ˈdeɪtə ˈlɪniɪdʒ/",
-    "definition": "追踪生成式AI合成数据全链路来源、流转、修改记录的技术体系。",
-    "example": "可溯源验证大模型训练所用合成数据的合规性与版权风险。"
+    "term": "Open Model TCO Accounting",
+    "phonetic": "/ˈəʊpən ˈmɒdl tiː siː əʊ əˈkaʊntɪŋ/",
+    "definition": "面向开源大模型全部署生命周期的总拥有成本核算体系",
+    "example": "可精准统计不同开源模型在微调、推理全链路产生的实际资源投入成本"
   },
   "interview": {
-    "category": "数据工程",
+    "category": "成本与可观测性",
     "difficulty": "中等",
-    "question": "团队要搭建面向大模型蒸馏场景的合成数据血缘追踪体系，要求100%溯源到每条合成数据的上游生成源、全链路追踪额外开销低于5%、兼容OpenAI、Anthropic等主流大模型输出格式无需定制改造，需要完成哪些核心架构权衡？",
+    "question": "团队要搭建面向百款开源大模型的全链路TCO核算体系，要求核算误差≤2%、额外开销低于集群总算力占比1.5%、新接入开源模型无需改造核心核算逻辑，需要完成哪些核心架构权衡？",
     "points": [
-      "合成数据全链路标识嵌入方案的选型权衡能力",
-      "低侵入性低开销追踪架构的设计能力",
-      "多异构数据源格式兼容的架构设计思路"
+      "开源大模型全链路通用成本维度的抽象拆解能力",
+      "低侵入性资源消耗数据采集方案的设计思路",
+      "多异构模型适配的通用核算框架架构设计能力"
     ],
-    "answerLead": "可以从标识嵌入、存储层、接入层、校验层四个维度逐层拆解架构选择的取舍逻辑。",
+    "answerLead": "可从成本维度抽象、无侵入数据采集、插件化适配三个核心维度梳理架构决策",
     "answer": [
-      "权衡隐式轻量水印与元数据附着两种标识嵌入方案，优先选择对模型输出质量无影响的隐式水印方案，避免破坏下游蒸馏训练的数据质量。",
-      "权衡中心化全量存储与边缘缓存+中心归档的分层存储架构，采用分层模式将血缘追踪的额外计算、存储开销控制在5%的要求阈值以内。",
-      "权衡硬编码格式适配与插件化适配器架构，通过标准化接入抽象层兼容所有主流大模型的输出格式，大幅降低新增数据源的改造成本。",
-      "权衡全量校验与分层抽样校验的溯源校验策略，针对高风险数据全量校验、普通训练数据抽样校验，在保证溯源准确率的同时降低冗余资源消耗。"
+      "优先抽象算力、存储、网络、人力四大通用成本维度，屏蔽不同开源模型的部署架构差异",
+      "采用节点侧eBPF无侵入埋点方案采集资源消耗数据，避免侵入业务代码将额外开销控制在阈值内",
+      "设计插件化的模型成本适配层，新接入模型仅需编写轻量适配规则即可快速接入核算体系",
+      "搭建离线对账校验模块，每日自动比对核算结果与集群官方账单，将核算误差控制在2%以内"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年8月5日 · 星期三",
+      "word": {
+        "term": "Open Model TCO Accounting",
+        "definition": "面向开源大模型全部署生命周期的总拥有成本核算体系",
+        "example": "可精准统计不同开源模型在微调、推理全链路产生的实际资源投入成本"
+      },
+      "interview": {
+        "category": "成本与可观测性",
+        "difficulty": "中等",
+        "question": "团队要搭建面向百款开源大模型的全链路TCO核算体系，要求核算误差≤2%、额外开销低于集群总算力占比1.5%、新接入开源模型无需改造核心核算逻辑，需要完成哪些核心架构权衡？",
+        "points": [
+          "开源大模型全链路通用成本维度的抽象拆解能力",
+          "低侵入性资源消耗数据采集方案的设计思路",
+          "多异构模型适配的通用核算框架架构设计能力"
+        ],
+        "answerLead": "可从成本维度抽象、无侵入数据采集、插件化适配三个核心维度梳理架构决策",
+        "answer": [
+          "优先抽象算力、存储、网络、人力四大通用成本维度，屏蔽不同开源模型的部署架构差异",
+          "采用节点侧eBPF无侵入埋点方案采集资源消耗数据，避免侵入业务代码将额外开销控制在阈值内",
+          "设计插件化的模型成本适配层，新接入模型仅需编写轻量适配规则即可快速接入核算体系",
+          "搭建离线对账校验模块，每日自动比对核算结果与集群官方账单，将核算误差控制在2%以内"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年8月4日 · 星期二",
       "word": {
@@ -888,31 +913,6 @@
           "权衡长短请求的资源隔离规则：避免长请求分块抢占短查询资源导致长尾时延，预留固定算力池优先保障短请求SLA",
           "权衡KV Cache的分配策略：分块处理后动态复用空闲显存块，避免显存碎片化导致整体利用率反而下降",
           "权衡上层接口的适配方案：最小化修改原有推理框架核心逻辑，通过插件式接入降低改造与后续升级成本"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年7月7日 · 星期二",
-      "word": {
-        "term": "Reranker",
-        "definition": "对初步检索结果进行二次精排，选出与问题最相关的上下文。",
-        "example": "召回像海选，Reranker 像复赛，决定哪些材料真正交给模型。"
-      },
-      "interview": {
-        "category": "RAG 与搜索",
-        "difficulty": "中等",
-        "question": "为什么 RAG 系统需要 Reranker，它会带来哪些代价？",
-        "points": [
-          "召回与精排",
-          "延迟成本",
-          "效果评测"
-        ],
-        "answerLead": "参考答题思路：",
-        "answer": [
-          "初步检索追求高召回，通常会混入语义相近但无关的文档。",
-          "Reranker 对查询和候选文档进行更精细的相关性判断。",
-          "它会增加计算成本和延迟，需要控制候选数量并设置超时。",
-          "通过端到端答案正确率评估收益，而不只看排序分数。"
         ]
       }
     }
