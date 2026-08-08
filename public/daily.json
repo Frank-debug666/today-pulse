@@ -1,159 +1,159 @@
 {
-  "generatedAt": "2026-08-07T16:13:05.475Z",
-  "dateLabel": "2026年8月8日 · 星期六",
-  "issue": 234,
+  "generatedAt": "2026-08-08T16:58:53.938Z",
+  "dateLabel": "2026年8月9日 · 星期日",
+  "issue": 235,
   "githubRepos": [
     {
       "rank": "01",
       "name": "firecrawl / anydoc",
-      "summary": "Rust编写的文档转换工具，可将Word、PDF等十余种格式文件转换为干净的Markdown，提供Python和Node.js绑定",
+      "summary": "Rust开发的文档转换工具，支持Word、PDF等多格式批量导出为干净的Markdown，提供Node.js和Python绑定。",
       "language": "Rust",
       "color": "#dea584",
-      "stars": "10.4K",
-      "growth": "+10436",
+      "stars": "11.9K",
+      "growth": "+11944",
       "growthLabel": "近7日",
       "url": "https://github.com/firecrawl/anydoc"
     },
     {
       "rank": "02",
-      "name": "FareedKhan-dev / kimi-k3-in-c",
-      "summary": "纯C99实现的Kimi K3大模型推理程序，无任何第三方依赖，仅靠8.24GB内存的单CPU就能运行2.78万亿参数模型",
-      "language": "C",
-      "color": "#707873",
-      "stars": "3.1K",
-      "growth": "+3100",
-      "growthLabel": "近7日",
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c"
-    },
-    {
-      "rank": "03",
-      "name": "imsai-sh / zhuzhiliao",
-      "summary": "传统玩具竹知了的Web模拟版本，单文件零依赖，采用真实采样音效，优先适配移动端体验",
-      "language": "HTML",
-      "color": "#707873",
-      "stars": "2.4K",
-      "growth": "+2418",
-      "growthLabel": "近7日",
-      "url": "https://github.com/imsai-sh/zhuzhiliao"
-    },
-    {
-      "rank": "04",
       "name": "thebuggeddev / anatomy",
-      "summary": "基于Three.js和GPT-5.6 Sol打造的交互式3D人体解剖探索工具",
+      "summary": "基于Three.js和GPT构建的交互式3D人体解剖浏览器。",
       "language": "TypeScript",
       "color": "#3178c6",
-      "stars": "1.9K",
-      "growth": "+1947",
+      "stars": "2K",
+      "growth": "+2020",
       "growthLabel": "近7日",
       "url": "https://github.com/thebuggeddev/anatomy"
     },
     {
-      "rank": "05",
+      "rank": "03",
       "name": "KKKKhazix / human-writing",
-      "summary": "开箱即用的中文AI文本润色工具，可让AI生成的中文内容具备普通人的表达习惯，读起来更像真人书写",
+      "summary": "开箱即用的中文AI文本人性化改写工具，让AI生成内容读起来像真人表达。",
       "language": "Python",
       "color": "#3572a5",
-      "stars": "1.9K",
-      "growth": "+1851",
+      "stars": "2K",
+      "growth": "+1974",
       "growthLabel": "近7日",
       "url": "https://github.com/KKKKhazix/human-writing"
+    },
+    {
+      "rank": "04",
+      "name": "ZzzLc0405 / photo-abstract-editorial",
+      "summary": "本周快速增长的开源项目集合汇总。",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "1.7K",
+      "growth": "+1685",
+      "growthLabel": "近7日",
+      "url": "https://github.com/ZzzLc0405/photo-abstract-editorial"
+    },
+    {
+      "rank": "05",
+      "name": "Binaryify / open-kimi-ppt-skill",
+      "summary": "非官方Kimi演示文稿生成扩展，支持AI Agent生成可编辑的PPT文件并附带本地浏览器编辑器。",
+      "language": "Other",
+      "color": "#707873",
+      "stars": "1.6K",
+      "growth": "+1587",
+      "growthLabel": "近7日",
+      "url": "https://github.com/Binaryify/open-kimi-ppt-skill"
     }
   ],
   "globalNews": [
     {
-      "id": "news-2026-08-07-0",
+      "id": "news-2026-08-08-0",
       "category": "人工智能",
-      "time": "12:07",
-      "title": "消息称阿里计划对下一代开源大模型Qwen的重度商用用户收取营收分成",
-      "summary": "据两位知情人士透露，阿里正计划对备受市场期待的通义千问开源新版本的大型商用用户，按营收比例收取分成，国内大模型厂商正逐步收敛开源模型商业化路径",
-      "url": "https://www.thehindu.com/sci-tech/technology/alibaba-plans-to-charge-big-users-of-its-next-open-source-ai-model-sources-say/article71316175.ece",
+      "time": "12:58",
+      "title": "苹果与OpenAI围绕硬件项目的法律争端持续升级",
+      "summary": "当前OpenAI估值达8520亿美元正推进IPO进程，同时与Anthropic处于激烈竞争阶段，双方围绕OpenAI秘密硬件项目的法律冲突本周进一步升级。",
+      "url": "https://economictimes.indiatimes.com/tech/technology/apple-and-openai-escalate-legal-battle-over-devices/articleshow/133046522.cms",
       "accent": "lime"
     },
     {
-      "id": "news-2026-08-07-1",
+      "id": "news-2026-08-08-1",
       "category": "人工智能",
-      "time": "12:00",
-      "title": "科幻大师阿西莫夫早在上世纪就警示AI风险，其理念能否帮我们规避反乌托邦未来？",
-      "summary": "作者探讨阿西莫夫机器人三定律的现代适配方案，提出了适配当下产业环境的新版AI三定律构想",
-      "url": "https://www.theguardian.com/technology/commentisfree/2026/aug/07/science-fiction-warned-us-about-an-ai-powered-dystopian-future-does-it-also-hold-the-remedy",
+      "time": "11:00",
+      "title": "OpenAI发现新模型Astra存在高危网络安全风险，暂停开发收紧管控",
+      "summary": "初步测试显示即将推出的新模型Astra具备临界级网络攻击能力，OpenAI已暂停相关开发工作，将其转入隔离测试环境强化安全防护。",
+      "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/openai-astra-ai-model-critical-cybersecurity-capabilities-10823307/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-08-07-2",
+      "id": "news-2026-08-08-2",
       "category": "人工智能",
-      "time": "11:42",
-      "title": "AI初创Sarvam被寄予厚望成为印度的OpenAI，后续发展至关重要",
-      "summary": "Sarvam AI正试图打造对标OpenAI、Anthropic的印度本土AI标杆，庞大的国内市场同时是它面临的最大机遇与挑战",
-      "url": "https://www.livemint.com/newsletters/tech-talk/sarvam-is-india-s-ai-moment-what-comes-next-counts-11786073502518.html",
+      "time": "10:59",
+      "title": "OpenAI首款硬件产品外形曝光，定位AI计算机售价超300美元",
+      "summary": "据彭博社报道，OpenAI首款实体硬件为AI驱动的专用计算机，外形呈甜甜圈造型，售价高于300美元。",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-astra-ai-model-critical-cybersecurity-capabilities-10823307/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-08-07-3",
+      "id": "news-2026-08-08-3",
       "category": "人工智能",
-      "time": "11:21",
-      "title": "OpenAI面向免费用户推送GPT-5.6 Luna，支持无限制文本对话",
-      "summary": "在中国AI产业高速竞争的背景下，OpenAI宣布ChatGPT默认升级为GPT-5.6 Luna模型，免费用户可无限制文本对话，同步优化推理能力",
-      "url": "https://www.straitstimes.com/business/companies-markets/alibaba-plans-to-charge-big-users-of-its-next-open-source-ai-model-sources-say",
+      "time": "08:36",
+      "title": "亚马逊出资支持德州私有天然气电厂，为AI算力提供能源",
+      "summary": "亚马逊确认将投资美国德州一座大型私有天然气电厂，该电厂投产后可能成为美国碳排放最高的单一设施，专门为AI运算提供电力支持。",
+      "url": "https://www.ukrinform.net/rubric-society/4152076-openais-first-hardware-device-can-be-doughnutshaped-bloomberg.html",
       "accent": "ink"
     },
     {
-      "id": "news-2026-08-07-4",
+      "id": "news-2026-08-08-4",
       "category": "人工智能",
-      "time": "11:18",
-      "title": "Cloudflare推出业界首个面向企业真实工作流的开源AI工作空间Cloudflare OS",
-      "summary": "全球领先的连接云服务商Cloudflare宣布推出开源AI工作空间Cloudflare OS，可基于其覆盖全球的边缘节点网络运行",
-      "url": "https://www.thehindubusinessline.com/info-tech/alibaba-plans-to-charge-big-users-of-its-next-open-source-ai-model-sources-say/article71316083.ece",
+      "time": "07:06",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.cp24.com/news/world/2026/08/07/amazon-behind-massive-private-gas-plant-for-new-data-centres/",
       "accent": "lime"
     },
     {
-      "id": "news-2026-08-07-5",
+      "id": "news-2026-08-08-5",
       "category": "人工智能",
-      "time": "11:17",
-      "title": "报告称OpenAI首款AI硬件为300美元级甜甜圈造型智能音箱",
-      "summary": "据外媒报道，OpenAI正在研发首款AI硬件产品，为搭载摄像头和多传感器的甜甜圈造型智能音箱，售价区间在300-400美元",
-      "url": "https://www.timesnownews.com/technology-science/amid-chinas-ai-boom-openai-rolls-out-gpt-5-6-luna-for-free-users-with-unlimited-text-chats-article-155351668",
+      "time": "07:06",
+      "title": "人工智能领域出现新的产品与治理议题",
+      "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
+      "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/08/07/amazon-behind-massive-private-gas-plant-for-new-data-centres/",
       "accent": "coral"
     },
     {
-      "id": "news-2026-08-07-6",
+      "id": "news-2026-08-08-6",
       "category": "人工智能",
-      "time": "11:12",
+      "time": "05:27",
       "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://itwire.com/business-it-news/data/cloudflare-os-is-the-first-ai-workspace-built-around-how-companies-actually-work",
+      "url": "https://www.macrumors.com/2026/08/07/openai-astra-model-hacking-concerns/",
       "accent": "mint"
     },
     {
-      "id": "news-2026-08-07-7",
+      "id": "news-2026-08-08-7",
       "category": "人工智能",
-      "time": "11:01",
+      "time": "04:44",
       "title": "人工智能领域出现新的产品与治理议题",
       "summary": "人工智能方向的海外技术讨论正在升温，适合关注其产品、工程或安全影响。",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/openais-first-ai-device-may-be-a-300-doughnut-shaped-smart-speaker-report-10821705/",
+      "url": "https://www.manilatimes.net/2026/08/08/world/apple-and-openai-escalate-legal-battle-over-devices/2401256",
       "accent": "ink"
     }
   ],
   "word": {
-    "term": "Open Source Model Usage Tiering",
-    "phonetic": "/ ˈəʊpən ˈsɔːs ˈmɒdl ˈjuːsɪdʒ ˈtaɪərɪŋ /",
-    "definition": "开源大模型面向不同体量用户的分级计费营收架构",
-    "example": "阿里最新推出的Qwen大模型针对大B商用用户的营收分成规则"
+    "term": "Frontier Model Cyber Capability Containment",
+    "phonetic": "/ˈfrʌntɪə ˈmɒdl ˈsaɪbə kəˌpəˈbɪləti kənˈteɪnmənt/",
+    "definition": "对前沿大模型具备的高危网络攻击能力进行隔离管控的安全机制。",
+    "example": "OpenAI暂停Astra开发就是落地该管控机制的典型案例。"
   },
   "interview": {
-    "category": "AI产品架构",
-    "difficulty": "中等",
-    "question": "团队要为自研的亿级用户量级开源大模型搭建商用分级营收架构，要求大B用户营收分成漏判率为0、普通个人用户完全无感知、新增商用分层规则无需修改核心模型分发逻辑，需要完成哪些核心架构权衡？",
+    "category": "安全治理",
+    "difficulty": "高级",
+    "question": "团队要搭建面向Astra这类前沿大模型的高危网络攻击能力隔离管控体系，要求100%拦截模型自主发起的未授权网络扫描/攻击行为、管控额外推理开销低于3%、新接入前沿模型无需重构核心管控链路，需要完成哪些核心架构权衡？",
     "points": [
-      "开源大模型多用户群体的场景分层设计能力",
-      "非侵入式商用行为识别的架构设计思路",
-      "开源生态兼容性与商业变现的平衡能力"
+      "前沿模型高危网络行为的特征识别精度与推理开销的平衡",
+      "管控链路的通用兼容性与定制化适配成本的平衡",
+      "高风险行为拦截的覆盖率与正常网络调用放行率的平衡"
     ],
-    "answerLead": "答题可围绕非侵入式识别、分层解耦、生态友好三个核心维度展开权衡，兼顾商业化与社区活力",
+    "answerLead": "可以从特征前置匹配、分层管控、插件化适配三个维度逐层拆解架构设计的核心取舍。",
     "answer": [
-      "设计非隐私采集的匿名用户标识体系，在模型分发镜像中埋入轻量标识，区分个人非商用、中小开发者、大B商用三类用户",
-      "搭建旁路式商用行为审计流水线，通过调用规模、集群部署特征等多维度交叉校验，不侵入用户推理链路实现分成漏判率为0",
-      "将商用计费分层逻辑抽离为独立可插拔组件，所有分层规则通过配置中心下发，新增规则无需修改核心模型分发代码",
-      "设置开源生态友好的豁免白名单机制，针对高校科研、公益项目等场景自动豁免计费，平衡变现需求与开源社区活跃度"
+      "优先在模型推理前嵌入轻量特征过滤层，对含扫描、爆破等高危关键词的输出请求先做初筛，把90%以上的低风险请求直接放行，控制整体开销占比。",
+      "把网络调用钩子从模型内核解耦，统一在操作系统网络栈层做规则拦截，无需感知模型内部实现逻辑，保证新模型接入无需改造核心管控链路。",
+      "构建分层沙箱隔离测试环境，所有未验证过的模型网络能力先在沙箱内执行，执行结果回传做二次校验，确保100%拦截真实攻击行为。",
+      "搭建动态规则更新中心，基于新捕获的高危行为样本自动迭代拦截规则，无需重启管控服务即可快速覆盖新型攻击模式。"
     ]
   },
   "generation": {
@@ -166,6 +166,31 @@
     "localizationError": null
   },
   "learningHistory": [
+    {
+      "dateLabel": "2026年8月9日 · 星期日",
+      "word": {
+        "term": "Frontier Model Cyber Capability Containment",
+        "definition": "对前沿大模型具备的高危网络攻击能力进行隔离管控的安全机制。",
+        "example": "OpenAI暂停Astra开发就是落地该管控机制的典型案例。"
+      },
+      "interview": {
+        "category": "安全治理",
+        "difficulty": "高级",
+        "question": "团队要搭建面向Astra这类前沿大模型的高危网络攻击能力隔离管控体系，要求100%拦截模型自主发起的未授权网络扫描/攻击行为、管控额外推理开销低于3%、新接入前沿模型无需重构核心管控链路，需要完成哪些核心架构权衡？",
+        "points": [
+          "前沿模型高危网络行为的特征识别精度与推理开销的平衡",
+          "管控链路的通用兼容性与定制化适配成本的平衡",
+          "高风险行为拦截的覆盖率与正常网络调用放行率的平衡"
+        ],
+        "answerLead": "可以从特征前置匹配、分层管控、插件化适配三个维度逐层拆解架构设计的核心取舍。",
+        "answer": [
+          "优先在模型推理前嵌入轻量特征过滤层，对含扫描、爆破等高危关键词的输出请求先做初筛，把90%以上的低风险请求直接放行，控制整体开销占比。",
+          "把网络调用钩子从模型内核解耦，统一在操作系统网络栈层做规则拦截，无需感知模型内部实现逻辑，保证新模型接入无需改造核心管控链路。",
+          "构建分层沙箱隔离测试环境，所有未验证过的模型网络能力先在沙箱内执行，执行结果回传做二次校验，确保100%拦截真实攻击行为。",
+          "搭建动态规则更新中心，基于新捕获的高危行为样本自动迭代拦截规则，无需重启管控服务即可快速覆盖新型攻击模式。"
+        ]
+      }
+    },
     {
       "dateLabel": "2026年8月8日 · 星期六",
       "word": {
@@ -888,31 +913,6 @@
           "权衡大模型原生能力和本地规则引擎的边界划分，将语法校验、依赖匹配等非生成类逻辑下沉到本地，减少大模型不必要调用",
           "权衡通用代码片段缓存的覆盖粒度，将高频通用项目模板、依赖配置预先存入向量库直接复用，降低重复生成开销",
           "权衡前后端代码、配置文件、构建脚本的生成并行度，在不破坏依赖逻辑的前提下最大化并行调度，压缩全流程耗时"
-        ]
-      }
-    },
-    {
-      "dateLabel": "2026年7月11日 · 星期六",
-      "word": {
-        "term": "Invisible Tool Design Paradigm",
-        "definition": "面向开发者场景的无感知工具设计范式，核心是降低工具侵入性",
-        "example": "好的开发工具不会打断工作流，用户几乎感知不到它的存在"
-      },
-      "interview": {
-        "category": "AI产品架构",
-        "difficulty": "中等",
-        "question": "团队要面向专业开发者设计代码补全类AI工具，需要兼顾能力覆盖全日常开发场景、全程无感知不打断编码流、新功能迭代无需用户手动配置，需要完成哪些核心架构权衡？",
-        "points": [
-          "考察对AI开发工具产品架构核心约束的理解",
-          "考察对无感知设计落地路径的认知程度",
-          "考察对产品体验与能力边界的平衡能力"
-        ],
-        "answerLead": "从侵入性控制、能力适配、迭代机制三个维度逐层拆解权衡点",
-        "answer": [
-          "权衡事件捕获粒度：既不过度Hook编辑器底层逻辑引发兼容问题，又能完整采集上下文实现精准触发，避免多余弹窗打断编码",
-          "权衡AI能力默认输出策略：默认优先补全低复杂度通用代码片段，高复杂度生成仅在用户主动触发时弹出，避免不必要算力消耗",
-          "权衡配置项暴露程度：99%常用场景配置完全内置默认生效，仅将极小众自定义能力放在二级深层菜单，不对普通用户形成干扰",
-          "权衡功能迭代推送机制：所有增量能力采用静默灰度升级，无需用户手动重启或更新插件，完全不影响用户正在进行的开发任务"
         ]
       }
     }
